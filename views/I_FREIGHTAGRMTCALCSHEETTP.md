@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTAGRMTCALCSHEETTP
 description: Freightagrmtcalcsheettp
+semantic_en: "freight agreement calculation sheet transactional proxy — transportation calculation sheets linked to agreement items."
+semantic_vi: "bảng tính toán hợp đồng vận chuyển - máy chủ proxy giao dịch — bảng tính toán vận chuyển được liên kết với các mặt hàng hợp đồng."
+keywords:
+  - bảng tính toán
+  - hợp đồng vận chuyển
+  - phí vận chuyển
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

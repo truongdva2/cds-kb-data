@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSUPPLIERITEMTP
 description: Fldlogssupplieritemtp
+semantic_en: "field logistics supplier item transactional view — supplier items with purchase documents and supply process."
+semantic_vi: "view giao dịch mục nhà cung cấp logistics — mục nhà cung cấp với tài liệu mua hàng."
+keywords:
+  - logistics
+  - nhà cung cấp
+  - mục hàng
 app_component: CA-FL-SRV
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALAREAHIERARCHYT
 description: Functionalareahierarchyt
+semantic_en: "functional area hierarchy text — language-specific descriptions and names for functional area hierarchy nodes"
+semantic_vi: "văn bản phân cấp lĩnh vực chức năng — tên và mô tả cụ thể theo ngôn ngữ cho các nút phân cấp"
+keywords:
+  - mô tả
+  - phân cấp
+  - ngôn ngữ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

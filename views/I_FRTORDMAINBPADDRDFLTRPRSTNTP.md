@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDMAINBPADDRDFLTRPRSTNTP
 description: Frtordmainbpaddrdfltrprstntp
+semantic_en: "freight order main business partner address default representation transposition — stores primary contact details and address information for main business partners at the order level."
+semantic_vi: "địa chỉ đối tác kinh doanh chính lệnh vận tải mặc định — lưu giữ thông tin liên hệ chính và địa chỉ cho đối tác chính ở cấp lệnh vận tải."
+keywords:
+  - địa chỉ đối tác chính mặc định
+  - thông tin liên hệ lệnh vận tải
+  - số điện thoại email
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

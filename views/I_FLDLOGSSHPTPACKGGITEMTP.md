@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTPACKGGITEMTP
 description: Fldlogsshptpackggitemtp
+semantic_en: "field logistics shipment packaging item — delivery document packaging items with weight and volume."
+semantic_vi: "mục đóng gói lô hàng logistics — mục đóng gói tài liệu giao hàng với trọng lượng và khối lượng."
+keywords:
+  - logistics
+  - đóng gói
+  - mục hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

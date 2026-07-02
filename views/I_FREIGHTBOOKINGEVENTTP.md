@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGEVENTTP
 description: Freightbookingeventtp
+semantic_en: "freight booking event transactional proxy — transportation order events with actual and estimated timestamps, event codes, and location references."
+semantic_vi: "sự kiện đặt hàng vận chuyển - máy chủ proxy giao dịch — sự kiện đơn hàng vận chuyển với dấu thời gian thực tế và ước tính, mã sự kiện và tham chiếu vị trí."
+keywords:
+  - sự kiện vận chuyển
+  - đặt hàng
+  - dấu thời gian
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

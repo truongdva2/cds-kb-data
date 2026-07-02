@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDCHRGCALCBASETP
 description: Frtordchrgcalcbasetp
+semantic_en: "freight order charge calculation base transposition — records the foundational scale and data source quantities for determining transportation order charges."
+semantic_vi: "cơ sở tính toán cước phí lệnh vận tải — ghi lại khối lượng tiêu chuẩn và nguồn dữ liệu để tính toán cước phí lệnh vận tải."
+keywords:
+  - tính cước phí lệnh vận tải
+  - khối lượng tính toán
+  - dữ liệu nguồn cước phí
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

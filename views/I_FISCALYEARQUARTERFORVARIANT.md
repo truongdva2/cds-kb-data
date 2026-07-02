@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARQUARTERFORVARIANT
 description: Fiscalyearquarterforvariant
+semantic_en: "fiscal year quarter calendar variant — quarterly periods with start/end dates and next quarter details."
+semantic_vi: "quý tài chính theo biến thể lịch — các kỳ quý với ngày bắt đầu/kết thúc và chi tiết quý tiếp theo."
+keywords:
+  - quý tài chính
+  - biến thể
+  - lịch tài chính
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

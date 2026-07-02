@@ -1,6 +1,12 @@
 ---
 name: I_FRTUNITSTOPLOCADADRPNTP
 description: Frtunitstoplocadadrpntp
+semantic_en: "transportation order stop location address additional representation — supplementary address details for freight stops including street, city, postal code"
+semantic_vi: "địa chỉ bổ sung tại điểm dừng vận chuyển — thông tin địa chỉ chi tiết như tên đường, thành phố, mã bưu chính"
+keywords:
+  - địa chỉ
+  - điểm dừng
+  - vận chuyển
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

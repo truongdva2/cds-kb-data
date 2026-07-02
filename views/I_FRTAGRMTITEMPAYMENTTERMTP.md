@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTITEMPAYMENTTERMTP
 description: Frtagrmtitempaymenttermtp
+semantic_en: "freight agreement payment terms transactional proxy — payment term assignments linked to agreement items."
+semantic_vi: "điều khoản thanh toán hợp đồng vận chuyển - máy chủ proxy giao dịch — phân công điều khoản thanh toán được liên kết với các mặt hàng hợp đồng."
+keywords:
+  - điều khoản thanh toán
+  - hợp đồng vận chuyển
+  - thanh toán
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

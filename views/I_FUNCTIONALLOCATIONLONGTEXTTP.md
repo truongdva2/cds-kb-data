@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALLOCATIONLONGTEXTTP
 description: Functionallocationlongtexttp
+semantic_en: "functional location long text — extended text documentation in multiple languages for functional location objects"
+semantic_vi: "văn bản dài của địa điểm chức năng — tài liệu văn bản mở rộng bằng nhiều ngôn ngữ"
+keywords:
+  - văn bản dài
+  - tài liệu
+  - địa điểm
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

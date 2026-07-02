@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSDELIVSTGEASSGMTTP
 description: Fldlogsdelivstgeassgmttp
+semantic_en: "field logistics shipment voyage stage assignment — stage routing and vehicle tracking for voyages."
+semantic_vi: "phân công giai đoạn chuyến du lịch giao hàng logistics — định tuyến giai đoạn và theo dõi xe."
+keywords:
+  - logistics
+  - chuyến hàng
+  - giai đoạn
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

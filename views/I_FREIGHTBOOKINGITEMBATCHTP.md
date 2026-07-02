@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGITEMBATCHTP
 description: Freightbookingitembatchtp
+semantic_en: "freight booking item batch transactional proxy — batch and manufacturing information for transportation order items with expiration tracking."
+semantic_vi: "lô mặt hàng đặt hàng vận chuyển - máy chủ proxy giao dịch — thông tin lô và sản xuất cho các mặt hàng đơn hàng vận chuyển với theo dõi hết hạn."
+keywords:
+  - lô hàng
+  - ngày sản xuất
+  - hết hạn
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

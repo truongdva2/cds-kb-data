@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSDELIVERYITEMTP
 description: Fldlogsdeliveryitemtp
+semantic_en: "field logistics delivery item transactional view — delivery document items with handling unit and packaging."
+semantic_vi: "view giao dịch mục giao hàng logistics — mục tài liệu giao hàng với đơn vị xử lý và đóng gói."
+keywords:
+  - logistics
+  - giao hàng
+  - mục hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FXEXPOSUREVERSION
 description: Fxexposureversion
+semantic_en: "foreign exchange exposure version — versioned FX exposure records tracking currency risk by company, cost center, profit center, and other dimensions"
+semantic_vi: "phiên bản phơi lộ ngoại tệ — bản ghi phơi lộ ngoại tệ theo dõi rủi ro tiền tệ theo công ty, trung tâm chi phí"
+keywords:
+  - ngoại tệ
+  - phơi lộ
+  - rủi ro
 app_component: FIN-FSCM-TRM-TM-2CL
 software_component: SAPSCORE
 release_state: released

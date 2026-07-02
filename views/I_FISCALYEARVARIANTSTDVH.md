@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARVARIANTSTDVH
 description: Fiscalyearvariantstdvh
+semantic_en: "fiscal year variant value help — standard list of fiscal year variants."
+semantic_vi: "trợ giúp giá trị biến thể năm tài chính — danh sách tiêu chuẩn biến thể năm tài chính."
+keywords:
+  - biến thể năm
+  - danh sách
+  - trợ giúp giá trị
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

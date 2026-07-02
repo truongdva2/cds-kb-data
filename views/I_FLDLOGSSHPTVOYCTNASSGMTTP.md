@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTVOYCTNASSGMTTP
 description: Fldlogsshptvoyctnassgmttp
+semantic_en: "field logistics shipment voyage container assignment — container-to-voyage linkage with weight and status."
+semantic_vi: "phân công container chuyến lô hàng logistics — liên kết container sang chuyến với trọng lượng."
+keywords:
+  - logistics
+  - container
+  - chuyến hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

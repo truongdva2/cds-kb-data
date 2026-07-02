@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARWEEKFORVARIANT
 description: Fiscalyearweekforvariant
+semantic_en: "fiscal year week by variant — weekly periods with variant association and next-week reference."
+semantic_vi: "tuần tài chính theo biến thể — các kỳ tuần với liên kết biến thể và tham chiếu tuần tiếp theo."
+keywords:
+  - tuần tài chính
+  - biến thể
+  - lịch tuần
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

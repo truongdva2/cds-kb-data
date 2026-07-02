@@ -1,6 +1,12 @@
 ---
 name: I_GHGDTAQLTYCHARACTERISTIC
 description: Ghgdtaqltycharacteristic
+semantic_en: "greenhouse gas data quality characteristic codelist — domain values defining quality assessment criteria for GHG emissions data"
+semantic_vi: "danh sách mã đặc tính chất lượng dữ liệu khí nhà kính — các giá trị miền định nghĩa tiêu chí đánh giá chất lượng dữ liệu"
+keywords:
+  - chất lượng dữ liệu
+  - khí nhà kính
+  - tiêu chí
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCPRCGELMNT
 description: Frtcostallocprcgelmnt
+semantic_en: "freight cost allocation pricing element — header-level pricing conditions applied to freight cost allocation with condition type and rate calculations."
+semantic_vi: "phần tử định giá phân bổ chi phí vận tải — các điều kiện định giá cấp chứng từ áp dụng cho phân bổ chi phí vận tải với loại điều kiện và tính toán tỷ lệ."
+keywords:
+  - phần tử định giá phân bổ
+  - điều kiện giá cả
+  - tính toán cước phí
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

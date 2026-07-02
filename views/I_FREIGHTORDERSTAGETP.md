@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERSTAGETP
 description: Freightorderstagetp
+semantic_en: "freight order stage transactional proxy — transportation legs with mode, carrier, invoicing details, and scac codes for freight orders."
+semantic_vi: "giai đoạn đơn hàng vận chuyển - máy chủ proxy giao dịch — các chặng vận chuyển với chế độ, nhà cung cấp, chi tiết hóa đơn và mã scac cho các đơn hàng vận chuyển."
+keywords:
+  - giai đoạn vận chuyển
+  - chế độ vận chuyển
+  - nhà cung cấp
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

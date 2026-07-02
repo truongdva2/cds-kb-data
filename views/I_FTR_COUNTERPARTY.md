@@ -1,6 +1,12 @@
 ---
 name: I_FTR_COUNTERPARTY
 description: Ftr Counterparty
+semantic_en: "counterparty — business partner master data with authorization and data control settings"
+semantic_vi: "bên đối tác — dữ liệu chính của đối tác kinh doanh với thiết lập quyền hạn và kiểm soát dữ liệu"
+keywords:
+  - đối tác
+  - kinh doanh
+  - quyền hạn
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

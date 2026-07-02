@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCDOCTP
 description: Frtcostallocdoctp
+semantic_en: "freight cost allocation document transposition — settlement document transposed for freight cost allocation with settlement type and application status."
+semantic_vi: "chứng từ phân bổ chi phí vận tải chuyển vị — chứng từ giải quyết chuyển vị cho phân bổ chi phí vận tải với loại giải quyết và trạng thái ứng dụng."
+keywords:
+  - chứng từ phân bổ chi phí chuyển vị
+  - giải quyết vận tải
+  - tài liệu vận tải
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

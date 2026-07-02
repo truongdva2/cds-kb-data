@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGCHRGITMEXCHRATETP
 description: Frtbkgchrgitmexchratetp
+semantic_en: "freight booking charge item exchange rate transposition — manages currency exchange rates applied at the charge item level with source and target currency pairing."
+semantic_vi: "tỷ giá hối đoái mục cước phí vận đơn — quản lý tỷ giá hối đoái áp dụng ở cấp mục cước phí với cặp tiền tệ nguồn và tiền tệ đích."
+keywords:
+  - tỷ giá hối đoái mục cước phí
+  - chuyển đổi tiền tệ
+  - loại tỷ giá hối đoái
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

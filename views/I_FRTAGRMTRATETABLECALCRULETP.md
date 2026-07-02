@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTRATETABLECALCRULETP
 description: Frtagrmtratetablecalcruletp
+semantic_en: "freight agreement rate table calculation rule transactional proxy — rate table calculation rules with bases, units, and price per quantity metrics."
+semantic_vi: "quy tắc tính toán bảng tỷ giá hợp đồng vận chuyển - máy chủ proxy giao dịch — quy tắc tính toán bảng tỷ giá với cơ sở, đơn vị và chỉ số giá trên số lượng."
+keywords:
+  - quy tắc tính toán
+  - bảng tỷ giá
+  - giá trên số lượng
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGBPADDRADDLRPRSTNTP
 description: Frtbkgbpaddraddlrprstntp
+semantic_en: "freight booking business partner address additional representation transposition — maps alternative address formats for transportation order business partners across multiple representation codes."
+semantic_vi: "địa chỉ đối tác kinh doanh vận đơn bổ sung — lưu giữ các dạng địa chỉ thay thế cho đối tác trong lệnh vận tải hàng không."
+keywords:
+  - địa chỉ đối tác vận tải
+  - đại diện địa chỉ bổ sung
+  - thông tin liên hệ vận tải
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

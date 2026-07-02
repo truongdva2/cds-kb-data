@@ -1,6 +1,12 @@
 ---
 name: I_FUNDPERIODICITY
 description: Fundperiodicity
+semantic_en: "fund frequency — codelist defining periodicity types for fund allocations and disbursement cycles"
+semantic_vi: "tần suất quỹ — danh sách mã định nghĩa loại khoảng thời gian cho phân bổ và chu kỳ giải ngân quỹ"
+keywords:
+  - tần suất
+  - quỹ
+  - khoảng thời gian
 app_component: PSM-FM-MD
 software_component: SAPSCORE
 release_state: released

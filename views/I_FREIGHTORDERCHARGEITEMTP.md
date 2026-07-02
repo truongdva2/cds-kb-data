@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERCHARGEITEMTP
 description: Freightorderchargeitemtp
+semantic_en: "freight order charge item transactional proxy — individual charge line items with calculation levels, currency conversions, and posting status."
+semantic_vi: "mặt hàng phí đơn hàng vận chuyển - máy chủ proxy giao dịch — các dòng phí riêng lẻ với mức tính toán, chuyển đổi tiền tệ và trạng thái ghi chép."
+keywords:
+  - mặt hàng phí
+  - đơn hàng vận chuyển
+  - tính toán phí
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

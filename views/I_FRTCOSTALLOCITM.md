@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCITM
 description: Frtcostallocitm
+semantic_en: "freight cost allocation document item — settlement line items with quantity, net pricing, and cost allocation details for freight expenses."
+semantic_vi: "mục chứng từ phân bổ chi phí vận tải — các mục dòng giải quyết với khối lượng, giá cả ròng và chi tiết phân bổ chi phí cho các chi phí vận tải."
+keywords:
+  - mục phân bổ chi phí vận tải
+  - giá cả ròng vận tải
+  - khối lượng vận tải
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

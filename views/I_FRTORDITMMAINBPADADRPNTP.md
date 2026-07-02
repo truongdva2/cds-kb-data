@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDITMMAINBPADADRPNTP
 description: Frtorditmmainbpadadrpntp
+semantic_en: "freight order item main business partner address additional representation transposition — stores alternative address representations for main business partners at the order item level."
+semantic_vi: "địa chỉ đối tác kinh doanh chính mục lệnh vận tải bổ sung — lưu giữ các dạng địa chỉ thay thế cho đối tác chính ở cấp mục lệnh vận tải."
+keywords:
+  - địa chỉ đối tác mục lệnh vận tải
+  - đại diện địa chỉ bổ sung
+  - mục hàng vận tải
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARPERIODTEXT
 description: Fiscalyearperiodtext
+semantic_en: "fiscal period text master data — language, variant, year, period, and period name text."
+semantic_vi: "dữ liệu văn bản kỳ tài chính — ngôn ngữ, biến thể, năm, kỳ và tên kỳ."
+keywords:
+  - kỳ tài chính
+  - văn bản
+  - biến thể
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

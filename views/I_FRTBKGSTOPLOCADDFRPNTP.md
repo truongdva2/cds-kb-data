@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGSTOPLOCADDFRPNTP
 description: Frtbkgstoplocaddfrpntp
+semantic_en: "freight booking stop location address default representation transposition — provides primary address information for transportation stops within freight booking orders."
+semantic_vi: "địa chỉ điểm dừng vận đơn mặc định — cung cấp thông tin địa chỉ chính cho các điểm dừng trong lệnh vận tải hàng không."
+keywords:
+  - địa chỉ điểm dừng mặc định
+  - thông tin vị trí dừng
+  - lệnh vận tải hàng không
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

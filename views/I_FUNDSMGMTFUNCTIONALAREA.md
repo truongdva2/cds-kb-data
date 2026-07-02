@@ -1,6 +1,12 @@
 ---
 name: I_FUNDSMGMTFUNCTIONALAREA
 description: Fundsmgmtfunctionalarea
+semantic_en: "functional area authorization group — fund management authorization and validity controls for functional areas with subdivision tracking"
+semantic_vi: "nhóm quyền hạn lĩnh vực chức năng — điều khiển quyền hạn quản lý quỹ và giá trị cho các lĩnh vực chức năng"
+keywords:
+  - quyền hạn
+  - lĩnh vực
+  - quỹ
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

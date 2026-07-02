@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALAREAHIERARCHY
 description: Functionalareahierarchy
+semantic_en: "functional area hierarchy — organizational hierarchy structure for functional areas with validity dates and version control"
+semantic_vi: "phân cấp lĩnh vực chức năng — cấu trúc phân cấp tổ chức cho các lĩnh vực chức năng với kiểm soát phiên bản"
+keywords:
+  - phân cấp
+  - lĩnh vực
+  - tổ chức
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

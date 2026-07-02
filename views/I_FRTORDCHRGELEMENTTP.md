@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDCHRGELEMENTTP
 description: Frtordchrgelementtp
+semantic_en: "freight order charge element transposition — represents individual charge items in freight orders with rate references, calculation bases and currency conversions."
+semantic_vi: "phần tử cước phí lệnh vận tải — biểu diễn các mục cước phí riêng lẻ trong lệnh vận tải với tham chiếu tỷ lệ, cơ sở tính toán và chuyển đổi tiền tệ."
+keywords:
+  - mục cước phí lệnh vận tải
+  - tỷ lệ cước phí
+  - chuyển đổi tiền tệ
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

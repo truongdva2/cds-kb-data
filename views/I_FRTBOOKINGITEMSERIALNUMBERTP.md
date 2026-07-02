@@ -1,6 +1,12 @@
 ---
 name: I_FRTBOOKINGITEMSERIALNUMBERTP
 description: FRTBOOKINGITEMSerial NumberTP
+semantic_en: "freight booking item serial number transposition — tracks serial number assignments for individual items within freight booking orders."
+semantic_vi: "số seri mục vận đơn — theo dõi gán số seri cho từng mục hàng trong lệnh vận tải hàng không."
+keywords:
+  - số seri mục vận tải
+  - theo dõi mục hàng
+  - lệnh vận tải hàng không
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

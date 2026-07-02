@@ -1,6 +1,12 @@
 ---
 name: I_FSCLYRFORFINMGMTAREASTDVH
 description: Fsclyrforfinmgmtareastdvh
+semantic_en: "fiscal year for financial management area — assigns fiscal year configurations to financial management areas including period dates"
+semantic_vi: "năm tài chính cho khu vực quản lý tài chính — cấu hình năm tài chính, biến thể, ngày bắt đầu và kết thúc"
+keywords:
+  - năm tài chính
+  - quản lý tài chính
+  - khu vực
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

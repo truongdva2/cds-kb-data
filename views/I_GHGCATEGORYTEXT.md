@@ -1,6 +1,12 @@
 ---
 name: I_GHGCATEGORYTEXT
 description: Ghgcategorytext
+semantic_en: "greenhouse gas category text — multilingual descriptions for greenhouse gas emissions categories and scopes"
+semantic_vi: "văn bản danh mục khí nhà kính — mô tả đa ngôn ngữ cho danh mục phát thải khí nhà kính"
+keywords:
+  - khí nhà kính
+  - danh mục
+  - ngôn ngữ
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

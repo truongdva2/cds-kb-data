@@ -1,6 +1,12 @@
 ---
 name: I_FUNCLOCATIONSTRUCTURETEXT
 description: Funclocationstructuretext
+semantic_en: "functional location structure text — language-dependent labels and descriptions for functional location structures"
+semantic_vi: "văn bản cấu trúc địa điểm chức năng — các nhãn và mô tả phụ thuộc ngôn ngữ cho cấu trúc địa điểm"
+keywords:
+  - mô tả
+  - cấu trúc
+  - ngôn ngữ
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

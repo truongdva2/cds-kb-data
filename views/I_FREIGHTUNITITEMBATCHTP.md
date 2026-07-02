@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTUNITITEMBATCHTP
 description: Freightunititembatchtp
+semantic_en: "freight unit item batch transactional proxy — batch and manufacturing information for transportation unit items with expiration tracking."
+semantic_vi: "lô mặt hàng đơn vị vận chuyển - máy chủ proxy giao dịch — thông tin lô và sản xuất cho các mặt hàng đơn vị vận chuyển với theo dõi hết hạn."
+keywords:
+  - lô hàng
+  - ngày sản xuất
+  - hết hạn
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

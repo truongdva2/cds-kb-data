@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSPROCESSSHIPMENTITEMTP
 description: Fldlogsprocessshipmentitemtp
+semantic_en: "field logistics received shipment item — return quantities, status, and criticality for processed items."
+semantic_vi: "mục lô hàng nhận được logistics — số lượng trả lại, trạng thái, độ tới hạn của mục."
+keywords:
+  - logistics
+  - lô hàng nhận
+  - trạng thái
 app_component: CA-FL-RET
 software_component: SAPSCORE
 release_state: released

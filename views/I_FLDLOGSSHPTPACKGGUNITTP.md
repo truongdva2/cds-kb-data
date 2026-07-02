@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTPACKGGUNITTP
 description: Fldlogsshptpackggunittp
+semantic_en: "field logistics shipment packaging unit — packaging units with container and transport status."
+semantic_vi: "đơn vị đóng gói lô hàng logistics — đơn vị đóng gói với container và trạng thái vận chuyển."
+keywords:
+  - logistics
+  - đóng gói
+  - đơn vị
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

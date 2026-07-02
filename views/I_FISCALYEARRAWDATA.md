@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARRAWDATA
 description: Fiscalyearrawdata
+semantic_en: "fiscal year raw master data — variant and year identification only."
+semantic_vi: "dữ liệu thô tài chính — chỉ định danh biến thể và năm."
+keywords:
+  - năm tài chính
+  - dữ liệu thô
+  - biến thể
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

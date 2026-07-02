@@ -1,6 +1,12 @@
 ---
 name: I_FORMOFADDRESS
 description: Formofaddress
+semantic_en: "form of address — enumeration of formal address titles and honorifics for business partners."
+semantic_vi: "hình thức xưng hô — liệt kê các danh xưng chính thức và xưng hô cho đối tác kinh doanh."
+keywords:
+  - hình thức xưng hô
+  - tiêu đề
+  - danh xưng
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

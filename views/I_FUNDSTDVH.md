@@ -1,6 +1,12 @@
 ---
 name: I_FUNDSTDVH
 description: Fundstdvh
+semantic_en: "fund — standard value help for fund master data including name, authorization, validity dates, and periodicity"
+semantic_vi: "quỹ — trợ giúp giá trị chuẩn cho dữ liệu chính quỹ bao gồm tên, quyền hạn, ngày giá trị có hiệu lực"
+keywords:
+  - quỹ
+  - tên
+  - quyền hạn
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

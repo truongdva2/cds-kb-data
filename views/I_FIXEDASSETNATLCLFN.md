@@ -1,6 +1,11 @@
 ---
 name: I_FIXEDASSETNATLCLFN
 description: Fixed AssetNATLCLFN
+semantic_en: "fixed asset national classification codes — asset classification by country."
+semantic_vi: "mã phân loại quốc gia tài sản cố định — phân loại tài sản theo quốc gia."
+keywords:
+  - tài sản cố định
+  - phân loại quốc gia
 app_component: FI-LOC-AA
 software_component: SAPSCORE
 release_state: released

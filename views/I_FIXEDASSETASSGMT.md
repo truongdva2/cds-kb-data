@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDASSETASSGMT
 description: Fixed AssetASSGMT
+semantic_en: "fixed asset time-dependent assignments — asset location, cost center, plant, and activity type over time."
+semantic_vi: "phân công tài sản cố định theo thời gian — vị trí tài sản, trung tâm chi phí, nhà máy theo thời gian."
+keywords:
+  - tài sản cố định
+  - vị trí
+  - trung tâm chi phí
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

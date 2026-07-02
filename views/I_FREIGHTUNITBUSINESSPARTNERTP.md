@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTUNITBUSINESSPARTNERTP
 description: FREIGHTUNITBusiness PartnerTP
+semantic_en: "freight unit business partner transactional proxy — business partners participating in transportation units with function and address details."
+semantic_vi: "đối tác kinh doanh đơn vị vận chuyển - máy chủ proxy giao dịch — các đối tác kinh doanh tham gia các đơn vị vận chuyển với chi tiết chức năng và địa chỉ."
+keywords:
+  - đối tác kinh doanh
+  - đơn vị vận chuyển
+  - địa chỉ
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

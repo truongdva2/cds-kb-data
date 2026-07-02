@@ -1,6 +1,12 @@
 ---
 name: I_FUNDTYPETEXT
 description: Fundtypetext
+semantic_en: "fund type text — language-specific descriptions for fund type codelists"
+semantic_vi: "văn bản loại quỹ — mô tả cụ thể theo ngôn ngữ cho danh sách mã loại quỹ"
+keywords:
+  - mô tả
+  - loại quỹ
+  - ngôn ngữ
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTVOYPACKGGASSGMTTP
 description: Fldlogsshptvoypackggassgmttp
+semantic_en: "field logistics shipment voyage packaging assignment — packaging-to-voyage linkage with weight."
+semantic_vi: "phân công đóng gói chuyến lô hàng logistics — liên kết đóng gói sang chuyến với trọng lượng."
+keywords:
+  - logistics
+  - đóng gói
+  - chuyến hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

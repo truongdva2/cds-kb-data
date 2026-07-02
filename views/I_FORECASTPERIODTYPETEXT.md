@@ -1,6 +1,12 @@
 ---
 name: I_FORECASTPERIODTYPETEXT
 description: Forecastperiodtypetext
+semantic_en: "forecast period type text — multilingual labels and descriptions for forecasting period categories."
+semantic_vi: "văn bản loại kỳ dự báo — nhãn và mô tả đa ngôn ngữ cho các thể loại kỳ dự báo."
+keywords:
+  - dự báo
+  - mô tả kỳ hạn
+  - nội dung văn bản
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

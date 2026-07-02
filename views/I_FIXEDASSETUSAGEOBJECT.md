@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDASSETUSAGEOBJECT
 description: Fixed AssetUSAGEOBJECT
+semantic_en: "fixed asset usage object master — unit, lifecycle status, and audit trail for asset utilization objects."
+semantic_vi: "đối tượng sử dụng tài sản cố định chính — đơn vị, trạng thái vòng đời và kiểm tra sử dụng."
+keywords:
+  - tài sản cố định
+  - sử dụng
+  - đơn vị
 app_component: FI-AA-2CL
 software_component: SAPSCORE
 release_state: released

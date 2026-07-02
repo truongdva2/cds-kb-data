@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDBPADDRADDLRPRSTNTP
 description: Frtordbpaddraddlrprstntp
+semantic_en: "freight order business partner address additional representation transposition — stores alternative address formats for transportation order business partners."
+semantic_vi: "địa chỉ đối tác kinh doanh lệnh vận tải bổ sung — lưu giữ các dạng địa chỉ thay thế cho đối tác trong lệnh vận tải."
+keywords:
+  - địa chỉ đối tác lệnh vận tải
+  - đại diện địa chỉ bổ sung
+  - thông tin liên hệ vận tải
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

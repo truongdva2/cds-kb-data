@@ -1,6 +1,12 @@
 ---
 name: I_GDSMVTTYPEBYINVTRYTRANSCODE
 description: Gdsmvttypebyinvtrytranscode
+semantic_en: "goods movement type for transaction — mapping between goods movement types and inventory transaction codes for logistics tracking"
+semantic_vi: "loại chuyển động hàng hóa theo mã giao dịch — ánh xạ giữa loại chuyển động hàng hóa và mã giao dịch hàng tồn kho"
+keywords:
+  - chuyển động hàng hóa
+  - giao dịch hàng tồn kho
+  - ánh xạ
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

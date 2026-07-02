@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALAREAHIERNODE
 description: Functionalareahiernode
+semantic_en: "functional area hierarchy node — parent-child relationships and sequence within functional area hierarchy including node type and assignment"
+semantic_vi: "nút phân cấp lĩnh vực chức năng — quan hệ cha-con và thứ tự trong phân cấp bao gồm loại nút và phân công"
+keywords:
+  - nút
+  - phân cấp
+  - quan hệ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

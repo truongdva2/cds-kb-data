@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTSTGEASSGMTCTNTP
 description: Fldlogsshptstgeassgmtctntp
+semantic_en: "field logistics shipment stage assignment for container — container voyage routing with status."
+semantic_vi: "phân công giai đoạn lô hàng cho container — định tuyến chuyến container với trạng thái."
+keywords:
+  - logistics
+  - container
+  - giai đoạn
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

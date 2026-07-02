@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSVOYHNDLGUNITASSGMTTP
 description: Fldlogsvoyhndlgunitassgmttp
+semantic_en: "voyage assignment criticality — tracking handling unit allocations across shipment voyages with source and destination staging information."
+semantic_vi: "tính chất quan trọng của phân công chuyến hàng — theo dõi phân bổ đơn vị xử lý hàng trên các chuyến hàng với thông tin giai đoạn nguồn và đích."
+keywords:
+  - phân công chuyến hàng
+  - đơn vị xử lý
+  - tính chất quan trọng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

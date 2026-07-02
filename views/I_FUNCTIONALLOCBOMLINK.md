@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALLOCBOMLINK
 description: Functionallocbomlink
+semantic_en: "link between functional location and bill of material — mapping relationships associating functional locations with BOM variants and categories"
+semantic_vi: "liên kết giữa địa điểm chức năng và bảng vật liệu — mối quan hệ liên kết các địa điểm với các biến thể BOM"
+keywords:
+  - liên kết
+  - BOM
+  - địa điểm
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

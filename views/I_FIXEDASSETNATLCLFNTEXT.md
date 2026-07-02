@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDASSETNATLCLFNTEXT
 description: Fixed AssetNATLCLFNTEXT
+semantic_en: "national classification code translations — language-specific descriptions for asset classifications."
+semantic_vi: "bản dịch mã phân loại quốc gia — mô tả phân loại tài sản theo ngôn ngữ."
+keywords:
+  - phân loại quốc gia
+  - mô tả
+  - ngôn ngữ
 app_component: FI-LOC-AA
 software_component: SAPSCORE
 release_state: released

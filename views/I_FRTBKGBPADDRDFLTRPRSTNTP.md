@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGBPADDRDFLTRPRSTNTP
 description: Frtbkgbpaddrdfltrprstntp
+semantic_en: "freight booking business partner address default representation transposition — stores primary contact details and address information for transportation order business partners."
+semantic_vi: "địa chỉ đối tác kinh doanh vận đơn mặc định — lưu giữ thông tin liên hệ chính và địa chỉ đầy đủ cho các đối tác trong lệnh vận tải hàng không."
+keywords:
+  - địa chỉ đối tác mặc định
+  - thông tin liên hệ vận tải
+  - số điện thoại fax email
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

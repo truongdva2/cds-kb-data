@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTUNITTP
 description: Freightunittp
+semantic_en: "freight unit transactional proxy — master transportation units with shipper, consignee, responsible person, and lifecycle status."
+semantic_vi: "đơn vị vận chuyển - máy chủ proxy giao dịch — các đơn vị vận chuyển chính với người gửi, người nhận hàng, người chịu trách nhiệm và trạng thái vòng đời."
+keywords:
+  - đơn vị vận chuyển
+  - người gửi hàng
+  - người nhận
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

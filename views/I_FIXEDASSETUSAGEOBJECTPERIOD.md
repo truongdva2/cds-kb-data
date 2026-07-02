@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDASSETUSAGEOBJECTPERIOD
 description: Fixed AssetUSAGEOBJECTPERIOD
+semantic_en: "fixed asset usage by period — planned quantities per period in production units."
+semantic_vi: "sử dụng tài sản cố định theo kỳ — số lượng dự kiến trên kỳ theo đơn vị sản xuất."
+keywords:
+  - tài sản cố định
+  - kỳ
+  - số lượng dự kiến
 app_component: FI-AA-2CL
 software_component: SAPSCORE
 release_state: released

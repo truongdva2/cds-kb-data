@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTSTGEASSGPACKGGTP
 description: Fldlogsshptstgeassgpackggtp
+semantic_en: "field logistics shipment stage assignment for packaging — packaging routing with voyage stages."
+semantic_vi: "phân công giai đoạn lô hàng cho đóng gói — định tuyến đóng gói với giai đoạn chuyến."
+keywords:
+  - logistics
+  - đóng gói
+  - giai đoạn
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

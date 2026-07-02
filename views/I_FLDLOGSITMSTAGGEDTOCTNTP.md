@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSITMSTAGGEDTOCTNTP
 description: Fldlogsitmstaggedtoctntp
+semantic_en: "field logistics items tagged to container transactional view — item-to-container linkage with quantities."
+semantic_vi: "view giao dịch mục được gắn thẻ vào container logistics — liên kết mục container với số lượng."
+keywords:
+  - logistics
+  - container
+  - mục hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGITEMCOMMODITYCODETP
 description: Frtbkgitemcommoditycodetp
+semantic_en: "freight booking item commodity code transposition — assigns standardized commodity codes to transportation order items using specified numbering schemes."
+semantic_vi: "mã mặt hàng hóa đơn vận đơn — gán mã mặt hàng hóa chuẩn cho các mục hàng trong lệnh vận tải sử dụng hệ thống mã hóa chỉ định."
+keywords:
+  - mã mặt hàng hóa vận tải
+  - mã hóa mặt hàng
+  - hóa đơn vận đơn
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

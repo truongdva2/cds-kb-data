@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTRATETABLERATETP
 description: Frtagrmtratetableratetp
+semantic_en: "freight agreement rate table rate transactional proxy — rate table entries with multiple calculation base mappings for tiered rate structures."
+semantic_vi: "tỷ giá bảng tỷ giá hợp đồng vận chuyển - máy chủ proxy giao dịch — các mục nhập bảng tỷ giá với bản đồ cơ sở tính toán multiple cho các cấu trúc tỷ giá theo cấp."
+keywords:
+  - bảng tỷ giá
+  - cơ sở tính toán
+  - tỷ giá
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

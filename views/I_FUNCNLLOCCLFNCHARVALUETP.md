@@ -1,6 +1,12 @@
 ---
 name: I_FUNCNLLOCCLFNCHARVALUETP
 description: Funcnllocclfncharvaluetp
+semantic_en: "functional location classification class character value — assigned characteristic values for classified functional locations including interval and numeric ranges"
+semantic_vi: "giá trị đặc tính phân loại của địa điểm chức năng — các giá trị đặc tính được gán bao gồm khoảng và phạm vi số"
+keywords:
+  - phân loại
+  - đặc tính
+  - giá trị
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

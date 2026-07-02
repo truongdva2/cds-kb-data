@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTAGREEMENTTP
 description: Freightagreementtp
+semantic_en: "freight agreement transactional proxy — master transportation agreements with validity dates, document currency, and agreement classification."
+semantic_vi: "hợp đồng vận chuyển - máy chủ proxy giao dịch — hợp đồng vận chuyển chính với ngày hiệu lực, tiền tệ tài liệu và phân loại hợp đồng."
+keywords:
+  - hợp đồng vận chuyển
+  - thỏa thuận vận tải
+  - quản lý hợp đồng
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

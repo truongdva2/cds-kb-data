@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGITMMAINBPADDFRPNTP
 description: Frtbkgitmmainbpaddfrpntp
+semantic_en: "freight booking item main business partner address default representation transposition — provides primary contact and address information for main business partners at the order item level."
+semantic_vi: "địa chỉ đối tác kinh doanh chính mục vận đơn mặc định — cung cấp thông tin liên hệ chính và địa chỉ cho đối tác chính ở cấp mục vận tải."
+keywords:
+  - địa chỉ đối tác mục vận đơn mặc định
+  - thông tin liên hệ chính
+  - mục hàng vận tải
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

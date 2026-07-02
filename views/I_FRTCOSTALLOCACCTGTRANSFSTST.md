@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCACCTGTRANSFSTST
 description: Frtcostallocacctgtransfstst
+semantic_en: "freight cost allocation accounting transfer status text — language-dependent descriptions of accounting settlement transfer states for freight cost allocation."
+semantic_vi: "văn bản trạng thái chuyển hóa đơn kế toán phân bổ chi phí vận tải — mô tả phụ thuộc ngôn ngữ cho các trạng thái chuyển giao hóa đơn kế toán."
+keywords:
+  - trạng thái chuyển hóa đơn văn bản
+  - mô tả ngôn ngữ
+  - phân bổ chi phí vận tải
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

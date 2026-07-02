@@ -1,6 +1,12 @@
 ---
 name: I_FUNDTEXT
 description: Fundtext
+semantic_en: "fund text — multilingual names and descriptions for funds in financial management areas"
+semantic_vi: "văn bản quỹ — tên và mô tả đa ngôn ngữ cho quỹ trong các lĩnh vực quản lý tài chính"
+keywords:
+  - mô tả
+  - quỹ
+  - ngôn ngữ
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSUPPLIERITEM
 description: Fldlogssupplieritem
+semantic_en: "field logistics supplier item — supplier-sourced items with plant, purchase orders, and inspection codes."
+semantic_vi: "mục nhà cung cấp logistics — mục được cung cấp bởi nhà cung cấp với nhà máy, đơn mua hàng."
+keywords:
+  - logistics
+  - nhà cung cấp
+  - mục hàng
 app_component: CA-FL-SRV
 software_component: SAPSCORE
 release_state: released

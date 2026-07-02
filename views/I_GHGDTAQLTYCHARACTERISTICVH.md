@@ -1,6 +1,12 @@
 ---
 name: I_GHGDTAQLTYCHARACTERISTICVH
 description: Ghgdtaqltycharacteristicvh
+semantic_en: "greenhouse gas data quality characteristic value help — lookup for GHG data quality assessment characteristics"
+semantic_vi: "trợ giúp giá trị đặc tính chất lượng dữ liệu khí nhà kính — tra cứu đặc tính đánh giá chất lượng dữ liệu khí nhà kính"
+keywords:
+  - chất lượng dữ liệu
+  - khí nhà kính
+  - tra cứu
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

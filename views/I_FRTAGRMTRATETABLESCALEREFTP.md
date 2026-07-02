@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTRATETABLESCALEREFTP
 description: Frtagrmtratetablescalereftp
+semantic_en: "freight agreement rate table scale reference transactional proxy — scaling references with dimension indices, calculation bases, and weight break classifications."
+semantic_vi: "tham chiếu thang đo bảng tỷ giá hợp đồng vận chuyển - máy chủ proxy giao dịch — tham chiếu thang đo với chỉ số chiều, cơ sở tính toán và phân loại ngắt trọng lượng."
+keywords:
+  - thang đo
+  - bảng tỷ giá
+  - trọng lượng
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERSTOPTP
 description: Freightorderstoptp
+semantic_en: "freight order stop transactional proxy — scheduled stops with location codes, appointment windows, and carrier confirmation times for transportation orders."
+semantic_vi: "điểm dừng đơn hàng vận chuyển - máy chủ proxy giao dịch — các điểm dừng được lên lịch với mã vị trí, cửa sổ hẹn giờ và thời gian xác nhận nhà cung cấp cho các đơn hàng vận chuyển."
+keywords:
+  - điểm dừng vận chuyển
+  - vị trí giao hàng
+  - lịch trình
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGSTOPTP
 description: Freightbookingstoptp
+semantic_en: "freight booking stop transactional proxy — scheduled stops with location codes, appointment windows, and carrier confirmation times for transportation orders."
+semantic_vi: "điểm dừng đặt hàng vận chuyển - máy chủ proxy giao dịch — các điểm dừng được lên lịch với mã vị trí, cửa sổ hẹn giờ và thời gian xác nhận nhà cung cấp cho các đơn hàng vận chuyển."
+keywords:
+  - điểm dừng vận chuyển
+  - vị trí giao hàng
+  - lịch trình
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

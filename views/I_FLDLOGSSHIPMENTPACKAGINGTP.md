@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHIPMENTPACKAGINGTP
 description: Fldlogsshipmentpackagingtp
+semantic_en: "field logistics shipment packaging — packaging containers with equipment details and criticality."
+semantic_vi: "đóng gói lô hàng logistics — container đóng gói với chi tiết thiết bị và độ tới hạn."
+keywords:
+  - logistics
+  - đóng gói lô hàng
+  - thiết bị
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

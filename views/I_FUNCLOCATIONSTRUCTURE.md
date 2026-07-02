@@ -1,6 +1,12 @@
 ---
 name: I_FUNCLOCATIONSTRUCTURE
 description: Funclocationstructure
+semantic_en: "functional location structure — hierarchical master data defining the numbering scheme and levels for technical object locations"
+semantic_vi: "cấu trúc địa điểm chức năng — dữ liệu chính xác định sơ đồ đánh số và cấp độ cho các vị trí đối tượng kỹ thuật"
+keywords:
+  - cấu trúc
+  - địa điểm chức năng
+  - phân cấp
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

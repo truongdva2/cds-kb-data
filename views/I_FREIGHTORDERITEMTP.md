@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERITEMTP
 description: Freightorderitemtp
+semantic_en: "freight order item transactional proxy — transportation order items with shipper details, item hierarchy, main cargo identification, and destination tracking."
+semantic_vi: "mặt hàng đơn hàng vận chuyển - máy chủ proxy giao dịch — các mặt hàng đơn hàng vận chuyển với chi tiết người gửi, cấp độ mặt hàng, xác định hàng chính và theo dõi đích đến."
+keywords:
+  - mặt hàng vận chuyển
+  - người gửi hàng
+  - đích đến
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

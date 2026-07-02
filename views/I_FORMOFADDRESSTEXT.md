@@ -1,6 +1,12 @@
 ---
 name: I_FORMOFADDRESSTEXT
 description: Formofaddresstext
+semantic_en: "form of address text — multilingual names and descriptions for formal address titles."
+semantic_vi: "văn bản hình thức xưng hô — tên gọi và mô tả đa ngôn ngữ cho các danh xưng chính thức."
+keywords:
+  - xưng hô chính thức
+  - đa ngôn ngữ
+  - tiêu đề
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

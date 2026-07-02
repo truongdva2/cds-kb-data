@@ -1,6 +1,12 @@
 ---
 name: I_FUNCNLLOCWARRANTYASSGMTTP
 description: Funcnllocwarrantyassgmttp
+semantic_en: "functional location warranty assignment — warranty types and periods for functional locations including inheritance from superior objects"
+semantic_vi: "phân công bảo hành cho địa điểm chức năng — các loại bảo hành và kỳ hạn bao gồm kế thừa từ đối tượng cấp trên"
+keywords:
+  - bảo hành
+  - phân công
+  - kỳ hạn
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

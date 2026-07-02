@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALLOCATIONSTDVH_2
 description: Functionallocationstdvh 2
+semantic_en: "functional location — standard value help showing functional location master data with authorization and planning information"
+semantic_vi: "địa điểm chức năng — trợ giúp giá trị chuẩn hiển thị dữ liệu chính của địa điểm với thông tin lập kế hoạch"
+keywords:
+  - địa điểm chức năng
+  - lập kế hoạch
+  - quyền hạn
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

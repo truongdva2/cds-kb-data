@@ -1,6 +1,12 @@
 ---
 name: I_FLOCCATEGORYTEXT
 description: Floccategorytext
+semantic_en: "functional location category text — multilingual descriptions for plant maintenance functional location categories."
+semantic_vi: "văn bản thể loại vị trí chức năng — mô tả đa ngôn ngữ cho các thể loại vị trí chức năng bảo trì nhà máy."
+keywords:
+  - danh mục vị trí
+  - bảo trì nhà máy
+  - thông tin văn bản
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

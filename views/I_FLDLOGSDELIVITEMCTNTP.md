@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSDELIVITEMCTNTP
 description: Fldlogsdelivitemctntp
+semantic_en: "field logistics shipment item to container mapping — linking delivery items to container units."
+semantic_vi: "ánh xạ mục lô hàng sang container logistics — liên kết mục giao hàng tới đơn vị container."
+keywords:
+  - logistics
+  - container
+  - mục lô hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

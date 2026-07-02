@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCBUSPROCCAT
 description: Frtcostallocbusproccat
+semantic_en: "freight cost allocation business process category — domain value classifying the business process type for freight cost allocation activities."
+semantic_vi: "danh mục quy trình kinh doanh phân bổ chi phí vận tải — giá trị miền phân loại loại quy trình kinh doanh cho các hoạt động phân bổ chi phí."
+keywords:
+  - danh mục quy trình kinh doanh
+  - phân loại quy trình vận tải
+  - chi phí vận tải
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

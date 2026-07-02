@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTRATETABLEVALIDITYTP
 description: Frtagrmtratetablevaliditytp
+semantic_en: "freight agreement rate table validity transposition — identifies the active date range and currency for transportation rate tables within freight agreements."
+semantic_vi: "tính cách chính của bảng tỷ lệ cước phí vận tải trong hợp đồng vận tải — xác định khoảng thời gian áp dụng và loại tiền tệ cho các bảng tỷ lệ cước phí trong hợp đồng vận tải hàng không."
+keywords:
+  - bảng tỷ lệ cước phí vận tải
+  - hợp đồng vận tải hàng không
+  - tính chính xác ngày áp dụng
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

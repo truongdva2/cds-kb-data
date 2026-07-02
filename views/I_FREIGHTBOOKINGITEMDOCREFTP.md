@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGITEMDOCREFTP
 description: Freightbookingitemdocreftp
+semantic_en: "freight booking item document reference transactional proxy — source document references at line-item level for transportation order items."
+semantic_vi: "tham chiếu tài liệu mặt hàng đặt hàng vận chuyển - máy chủ proxy giao dịch — tham chiếu tài liệu nguồn ở cấp độ dòng cho các mặt hàng đơn hàng vận chuyển."
+keywords:
+  - tham chiếu tài liệu mặt hàng
+  - đặt hàng vận chuyển
+  - số hiệu tài liệu
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

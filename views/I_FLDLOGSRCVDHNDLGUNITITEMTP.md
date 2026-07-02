@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSRCVDHNDLGUNITITEMTP
 description: Fldlogsrcvdhndlgunititemtp
+semantic_en: "field logistics received handling unit item — handling units with delivery reference and status."
+semantic_vi: "mục đơn vị xử lý nhận được logistics — đơn vị xử lý với tham chiếu giao hàng và trạng thái."
+keywords:
+  - logistics
+  - đơn vị xử lý
+  - trạng thái
 app_component: CA-FL-RET
 software_component: SAPSCORE
 release_state: released

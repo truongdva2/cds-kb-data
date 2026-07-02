@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERCHARGETP
 description: Freightorderchargetp
+semantic_en: "freight order charge transactional proxy — consolidated transportation charges with document and local currency amounts and posting status."
+semantic_vi: "phí đơn hàng vận chuyển - máy chủ proxy giao dịch — phí vận chuyển hợp nhất với số tiền tệ tài liệu và tiền tệ địa phương cũng như trạng thái ghi chép."
+keywords:
+  - phí vận chuyển
+  - đơn hàng vận chuyển
+  - tính toán
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

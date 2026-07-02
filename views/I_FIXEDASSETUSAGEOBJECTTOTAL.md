@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDASSETUSAGEOBJECTTOTAL
 description: Fixed AssetUSAGEOBJECTTOTAL
+semantic_en: "fixed asset total capacity by depreciation area — cumulative expected units over periods."
+semantic_vi: "công suất tổng tài sản cố định theo khu vực khấu hao — các đơn vị dự kiến tích lũy."
+keywords:
+  - tài sản cố định
+  - công suất
+  - khấu hao
 app_component: FI-AA-2CL
 software_component: SAPSCORE
 release_state: released

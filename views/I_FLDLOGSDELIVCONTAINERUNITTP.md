@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSDELIVCONTAINERUNITTP
 description: Fldlogsdelivcontainerunittp
+semantic_en: "field logistics delivery container unit transactional view — container and shipment status tracking."
+semantic_vi: "view giao dịch đơn vị container giao hàng logistics — theo dõi trạng thái container và lô hàng."
+keywords:
+  - logistics
+  - container
+  - giao hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

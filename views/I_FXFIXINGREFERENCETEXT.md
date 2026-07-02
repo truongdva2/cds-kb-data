@@ -1,6 +1,12 @@
 ---
 name: I_FXFIXINGREFERENCETEXT
 description: Fxfixingreferencetext
+semantic_en: "foreign exchange fixing reference text — multilingual names for foreign exchange fixing reference codes"
+semantic_vi: "văn bản tham chiếu cố định ngoại tệ — tên đa ngôn ngữ cho mã tham chiếu cố định ngoại tệ"
+keywords:
+  - tỷ giá
+  - tham chiếu
+  - ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTCTNCERTIFICATETP
 description: Fldlogsshptctncertificatetp
+semantic_en: "field logistics shipment container certificate — certification with validity dates and renewal tracking."
+semantic_vi: "chứng chỉ container lô hàng logistics — chứng chỉ với ngày hiệu lực và theo dõi gia hạn."
+keywords:
+  - logistics
+  - container
+  - chứng chỉ
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

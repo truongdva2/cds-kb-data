@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALAREATEXT
 description: Functionalareatext
+semantic_en: "functional area text — language-dependent names and descriptions for functional areas in fund accounting"
+semantic_vi: "văn bản lĩnh vực chức năng — tên và mô tả phụ thuộc ngôn ngữ cho các lĩnh vực chức năng"
+keywords:
+  - mô tả
+  - lĩnh vực
+  - ngôn ngữ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

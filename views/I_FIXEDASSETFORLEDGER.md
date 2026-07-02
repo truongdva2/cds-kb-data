@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDASSETFORLEDGER
 description: Fixed AssetFORLEDGER
+semantic_en: "fixed asset ledger view — capitalization, deactivation, and acquisition dates by ledger."
+semantic_vi: "view tài sản cố định theo sổ cái — ngày vốn hóa, ngừng hoạt động, mua lại theo sổ cái."
+keywords:
+  - tài sản cố định
+  - sổ cái
+  - ngày mua
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

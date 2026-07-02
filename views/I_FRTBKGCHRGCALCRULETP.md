@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGCHRGCALCRULETP
 description: Frtbkgchrgcalcruletp
+semantic_en: "freight booking charge calculation rule transposition — defines the rate calculation rules and quantity parameters applied to transportation charges."
+semantic_vi: "quy tắc tính cước phí vận đơn — xác định các quy tắc tính tỷ lệ cước phí và thông số khối lượng áp dụng cho cước phí vận tải."
+keywords:
+  - quy tắc tính cước phí
+  - tỷ lệ cước phí vận tải
+  - khối lượng tính toán
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

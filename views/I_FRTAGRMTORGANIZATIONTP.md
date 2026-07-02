@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTORGANIZATIONTP
 description: Frtagrmtorganizationtp
+semantic_en: "freight agreement organization transactional proxy — organizational unit references linked to transportation agreements."
+semantic_vi: "tổ chức hợp đồng vận chuyển - máy chủ proxy giao dịch — tham chiếu đơn vị tổ chức được liên kết với các hợp đồng vận chuyển."
+keywords:
+  - tổ chức
+  - hợp đồng vận chuyển
+  - đơn vị
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FISCCALENDARDATEFORCOMPCODE
 description: Fisccalendardateforcompcode
+semantic_en: "fiscal calendar dates by company code — date-to-period mappings including quarters and weeks."
+semantic_vi: "ngày lịch tài chính theo mã công ty — ánh xạ ngày đến kỳ bao gồm quý và tuần."
+keywords:
+  - lịch tài chính
+  - mã công ty
+  - kỳ
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

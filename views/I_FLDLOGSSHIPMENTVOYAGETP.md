@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHIPMENTVOYAGETP
 description: Fldlogsshipmentvoyagetp
+semantic_en: "field logistics shipment voyage — voyage operations with vehicle, status, and carrier tracking."
+semantic_vi: "chuyến du lịch lô hàng logistics — hoạt động chuyến với xe, trạng thái và theo dõi đơn vị vận chuyển."
+keywords:
+  - logistics
+  - chuyến hàng
+  - xe
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

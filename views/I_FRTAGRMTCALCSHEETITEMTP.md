@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTCALCSHEETITEMTP
 description: Frtagrmtcalcsheetitemtp
+semantic_en: "freight agreement calculation sheet item transactional proxy — calculation items with charge types, resolution bases, and rate table references."
+semantic_vi: "mặt hàng bảng tính toán hợp đồng vận chuyển - máy chủ proxy giao dịch — các mặt hàng tính toán với loại phí, cơ sở giải quyết và tham chiếu bảng tỷ giá."
+keywords:
+  - mặt hàng tính toán
+  - bảng tỷ giá
+  - phí vận chuyển
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GENERICPRIORITYTYPE
 description: Genericprioritytype
+semantic_en: "generic priority type — classification master for priority types used in maintenance planning"
+semantic_vi: "loại ưu tiên chung — phân loại chính cho các loại ưu tiên được sử dụng trong lập kế hoạch bảo trì"
+keywords:
+  - loại ưu tiên
+  - phân loại
+  - bảo trì
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

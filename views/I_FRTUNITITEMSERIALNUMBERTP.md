@@ -1,6 +1,12 @@
 ---
 name: I_FRTUNITITEMSERIALNUMBERTP
 description: FRTUNITITEMSerial NumberTP
+semantic_en: "transportation order item serial number — unique serial identifiers for freight unit items in transit"
+semantic_vi: "số sê-ri của khoản vận chuyển — mã định danh duy nhất cho các mục hàng trong quá trình vận chuyển"
+keywords:
+  - sê-ri
+  - vận chuyển
+  - định danh
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FUNDPERIODICITYTEXT
 description: Fundperiodicitytext
+semantic_en: "fund frequency text — language-dependent descriptions for fund periodicity codes"
+semantic_vi: "văn bản tần suất quỹ — mô tả phụ thuộc ngôn ngữ cho mã tần suất quỹ"
+keywords:
+  - mô tả
+  - tần suất
+  - ngôn ngữ
 app_component: PSM-FM-MD
 software_component: SAPSCORE
 release_state: released

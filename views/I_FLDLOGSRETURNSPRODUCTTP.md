@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSRETURNSPRODUCTTP
 description: Fldlogsreturnsproducttp
+semantic_en: "field logistics returns stock view — return quantities and reservation items for maintenance operations."
+semantic_vi: "view kho hoàn trả logistics — số lượng hoàn trả và mục đặt trữ cho hoạt động bảo trì."
+keywords:
+  - logistics
+  - hoàn trả
+  - kho
 app_component: CA-FL-RET
 software_component: SAPSCORE
 release_state: released

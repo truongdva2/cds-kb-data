@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSTRANSFSUPPLIERITEMTP
 description: Fldlogstransfsupplieritemtp
+semantic_en: "field logistics transfer supplier item transactional view — supplier items with purchase and delivery criticality."
+semantic_vi: "view giao dịch chuyển mục nhà cung cấp logistics — mục nhà cung cấp với độ tới hạn mua/giao."
+keywords:
+  - logistics
+  - nhà cung cấp
+  - chuyển
 app_component: CA-FL-SRV
 software_component: SAPSCORE
 release_state: released

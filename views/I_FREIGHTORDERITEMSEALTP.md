@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERITEMSEALTP
 description: Freightorderitemsealtp
+semantic_en: "freight order item seal transactional proxy — seal numbers and sealing timestamps for shipment security tracking on transportation order items."
+semantic_vi: "con dấu mặt hàng đơn hàng vận chuyển - máy chủ proxy giao dịch — số con dấu và dấu thời gian đóng dấu để theo dõi bảo mật hàng hóa trên các mặt hàng đơn hàng vận chuyển."
+keywords:
+  - con dấu vận chuyển
+  - bảo mật hàng hóa
+  - đơn hàng
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

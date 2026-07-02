@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARQUARTER
 description: Fiscalyearquarter
+semantic_en: "fiscal year quarter with sequential and next-quarter navigation — includes start/end dates and quarter numbering."
+semantic_vi: "quý tài chính với điều hướng quý tiếp theo — bao gồm ngày bắt đầu/kết thúc và số thứ tự quý."
+keywords:
+  - quý tài chính
+  - kỳ tiếp theo
+  - ngày kết thúc
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

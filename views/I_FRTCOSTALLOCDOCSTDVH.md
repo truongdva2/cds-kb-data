@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCDOCSTDVH
 description: Frtcostallocdocstdvh
+semantic_en: "freight cost allocation document standard value help — value-help view providing organization dimensions for freight cost allocation document selection."
+semantic_vi: "trợ giúp giá trị chứng từ phân bổ chi phí vận tải tiêu chuẩn — khung nhìn hỗ trợ giá trị cung cấp các chiều tổ chức cho lựa chọn chứng từ."
+keywords:
+  - trợ giúp giá trị chứng từ
+  - chiều tổ chức vận tải
+  - phân bổ chi phí
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

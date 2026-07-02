@@ -1,6 +1,12 @@
 ---
 name: I_FRTUNITBPADDRADDLRPRSTNTP
 description: Frtunitbpaddraddlrprstntp
+semantic_en: "freight unit business partner address additional representation transposition — stores alternative address formats for business partners associated with transportation units."
+semantic_vi: "địa chỉ đối tác kinh doanh đơn vị vận tải bổ sung — lưu giữ các dạng địa chỉ thay thế cho đối tác liên quan đến đơn vị vận tải."
+keywords:
+  - địa chỉ đối tác đơn vị vận tải
+  - đại diện địa chỉ bổ sung
+  - thông tin liên hệ vận tải
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

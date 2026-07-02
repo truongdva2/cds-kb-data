@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCITMTP
 description: Frtcostallocitmtp
+semantic_en: "freight cost allocation document item transposition — cost allocation transposed line items with quantity units, pricing and product references."
+semantic_vi: "mục chứng từ phân bổ chi phí vận tải chuyển vị — mục dòng phân bổ chi phí chuyển vị với đơn vị khối lượng, định giá và tham chiếu sản phẩm."
+keywords:
+  - mục phân bổ chi phí chuyển vị
+  - đơn vị khối lượng
+  - tham chiếu sản phẩm
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

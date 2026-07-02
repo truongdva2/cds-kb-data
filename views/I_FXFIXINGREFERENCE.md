@@ -1,6 +1,12 @@
 ---
 name: I_FXFIXINGREFERENCE
 description: Fxfixingreference
+semantic_en: "foreign exchange fixing reference — reference codes for FX rate fixing benchmarks used in currency transactions"
+semantic_vi: "tham chiếu cố định ngoại tệ — mã tham chiếu cho các tiêu chuẩn cố định tỷ giá ngoại tệ"
+keywords:
+  - tỷ giá
+  - ngoại tệ
+  - tham chiếu
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

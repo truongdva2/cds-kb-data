@@ -1,6 +1,12 @@
 ---
 name: I_GHGDTAQLTYCHARCTEXT
 description: Ghgdtaqltycharctext
+semantic_en: "greenhouse gas data quality characteristic text — language-dependent names for GHG data quality characteristic codes"
+semantic_vi: "văn bản đặc tính chất lượng dữ liệu khí nhà kính — tên phụ thuộc ngôn ngữ cho mã đặc tính chất lượng dữ liệu"
+keywords:
+  - chất lượng dữ liệu
+  - đặc tính
+  - ngôn ngữ
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

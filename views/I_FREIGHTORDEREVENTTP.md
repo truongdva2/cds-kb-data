@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDEREVENTTP
 description: Freightordereventtp
+semantic_en: "freight order event transactional proxy — transportation order events with actual and estimated timestamps, event codes, and location references."
+semantic_vi: "sự kiện đơn hàng vận chuyển - máy chủ proxy giao dịch — sự kiện đơn hàng vận chuyển với dấu thời gian thực tế và ước tính, mã sự kiện và tham chiếu vị trí."
+keywords:
+  - sự kiện vận chuyển
+  - đơn hàng vận chuyển
+  - dấu thời gian
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGITEMSEALTP
 description: Freightbookingitemsealtp
+semantic_en: "freight booking item seal transactional proxy — seal numbers and sealing timestamps for shipment security tracking on transportation order items."
+semantic_vi: "con dấu mặt hàng đặt hàng vận chuyển - máy chủ proxy giao dịch — số con dấu và dấu thời gian đóng dấu để theo dõi bảo mật hàng hóa trên các mặt hàng đơn hàng vận chuyển."
+keywords:
+  - con dấu vận chuyển
+  - bảo mật hàng hóa
+  - đặt hàng
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

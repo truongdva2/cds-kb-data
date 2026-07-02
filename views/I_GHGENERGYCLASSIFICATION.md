@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYCLASSIFICATION
 description: Ghgenergyclassification
+semantic_en: "greenhouse gas energy classification codelist — domain-based classification codes for energy consumption and efficiency assessment in GHG tracking"
+semantic_vi: "danh sách mã phân loại năng lượng khí nhà kính — mã phân loại dựa trên miền cho đánh giá năng lượng tiêu thụ"
+keywords:
+  - phân loại năng lượng
+  - khí nhà kính
+  - tiêu thụ
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

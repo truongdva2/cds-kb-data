@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCITMSTDVH
 description: Frtcostallocitmstdvh
+semantic_en: "freight cost allocation document item standard value help — value-help view enabling selection of cost allocation document line items."
+semantic_vi: "trợ giúp giá trị mục chứng từ phân bổ chi phí vận tải tiêu chuẩn — khung nhìn hỗ trợ giá trị cho phép lựa chọn các mục dòng chứng từ phân bổ."
+keywords:
+  - trợ giúp giá trị mục chứng từ
+  - lựa chọn mục dòng
+  - phân bổ chi phí
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

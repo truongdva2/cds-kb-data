@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALAREA
 description: Functionalarea
+semantic_en: "functional area — master data for fund accounting functional areas with creation and change tracking"
+semantic_vi: "lĩnh vực chức năng — dữ liệu chính cho các lĩnh vực chức năng của kế toán quỹ"
+keywords:
+  - lĩnh vực chức năng
+  - kế toán
+  - quỹ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

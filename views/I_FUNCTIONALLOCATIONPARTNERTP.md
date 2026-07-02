@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALLOCATIONPARTNERTP
 description: Functionallocationpartnertp
+semantic_en: "functional location partner — partner relationships with contact and responsibility assignments for functional locations"
+semantic_vi: "đối tác địa điểm chức năng — quan hệ đối tác với phân công liên hệ và trách nhiệm cho các địa điểm"
+keywords:
+  - đối tác
+  - liên hệ
+  - phân công
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTUNITITEMTP
 description: Freightunititemtp
+semantic_en: "freight unit item transactional proxy — transportation unit items with shipper, shipping condition, and destination information."
+semantic_vi: "mặt hàng đơn vị vận chuyển - máy chủ proxy giao dịch — các mặt hàng đơn vị vận chuyển với thông tin người gửi, điều kiện vận chuyển và đích đến."
+keywords:
+  - mặt hàng vận chuyển
+  - người gửi hàng
+  - điều kiện vận chuyển
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

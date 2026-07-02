@@ -1,6 +1,12 @@
 ---
 name: I_FUNCNLLOCCLFNCLASSTP
 description: Funcnllocclfnclasstp
+semantic_en: "functional location classification class — classification assignments including class type, validity, and authorization group for functional locations"
+semantic_vi: "lớp phân loại của địa điểm chức năng — phân công phân loại bao gồm loại lớp, giá trị và nhóm quyền hạn"
+keywords:
+  - phân loại
+  - lớp
+  - quyền hạn
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

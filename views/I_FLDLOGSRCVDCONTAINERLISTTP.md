@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSRCVDCONTAINERLISTTP
 description: Fldlogsrcvdcontainerlisttp
+semantic_en: "field logistics received container list — containers with processing dates and voyage linkage."
+semantic_vi: "danh sách container nhận được logistics — container với ngày xử lý và liên kết chuyến."
+keywords:
+  - logistics
+  - container nhận
+  - danh sách
 app_component: CA-FL-RET
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDERITEMSERIALNUMBERTP
 description: FRTORDERITEMSerial NumberTP
+semantic_en: "freight order item serial number transposition — tracks serial number assignments for individual items within freight transportation orders."
+semantic_vi: "số seri mục lệnh vận tải — theo dõi gán số seri cho từng mục hàng trong lệnh vận tải."
+keywords:
+  - số seri mục lệnh vận tải
+  - theo dõi mục hàng
+  - lệnh vận tải
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

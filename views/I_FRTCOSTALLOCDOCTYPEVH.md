@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCDOCTYPEVH
 description: Frtcostallocdoctypevh
+semantic_en: "settlement document type — value-help view providing available settlement document types for freight cost allocation."
+semantic_vi: "loại chứng từ giải quyết — khung nhìn hỗ trợ giá trị cung cấp các loại chứng từ giải quyết có sẵn."
+keywords:
+  - loại chứng từ giải quyết
+  - giải quyết vận tải
+  - chứng từ vận tải
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

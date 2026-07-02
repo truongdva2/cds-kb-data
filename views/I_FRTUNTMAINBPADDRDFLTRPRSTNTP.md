@@ -1,6 +1,12 @@
 ---
 name: I_FRTUNTMAINBPADDRDFLTRPRSTNTP
 description: Frtuntmainbpaddrdfltrprstntp
+semantic_en: "transportation order main business partner address default representation — primary contact address for main business partner in freight order with contact details"
+semantic_vi: "địa chỉ mặc định của đối tác kinh doanh chính trong vận chuyển — thông tin liên hệ chính của bên vận chuyển"
+keywords:
+  - địa chỉ
+  - liên hệ
+  - đối tác kinh doanh
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

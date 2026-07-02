@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDVARIABLEINTERESTCATT
 description: Fixedvariableinterestcatt
+semantic_en: "interest rate category text — language-specific names for fixed/variable rate classifications."
+semantic_vi: "văn bản danh mục lãi suất — tên lãi suất cố định/biến theo ngôn ngữ."
+keywords:
+  - lãi suất
+  - danh mục
+  - tên
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

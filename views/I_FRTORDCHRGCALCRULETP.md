@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDCHRGCALCRULETP
 description: Frtordchrgcalcruletp
+semantic_en: "freight order charge calculation rule transposition — defines the rate calculation rules and quantity parameters applied to freight order transportation charges."
+semantic_vi: "quy tắc tính cước phí lệnh vận tải — xác định các quy tắc tính tỷ lệ cước phí và thông số khối lượng áp dụng cho cước phí lệnh vận tải."
+keywords:
+  - quy tắc tính cước phí lệnh vận tải
+  - tỷ lệ cước phí
+  - khối lượng tính toán
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALAREAHIERNODET
 description: Functionalareahiernodet
+semantic_en: "functional area hierarchy node text — multilingual descriptions for hierarchy nodes within functional area structures"
+semantic_vi: "văn bản nút phân cấp lĩnh vực chức năng — mô tả đa ngôn ngữ cho các nút phân cấp"
+keywords:
+  - nút
+  - mô tả
+  - phân cấp
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

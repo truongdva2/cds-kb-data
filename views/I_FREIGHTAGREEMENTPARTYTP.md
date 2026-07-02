@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTAGREEMENTPARTYTP
 description: Freightagreementpartytp
+semantic_en: "freight agreement party transactional proxy — business partners and stakeholders linked to transportation agreements."
+semantic_vi: "bên hợp đồng vận chuyển - máy chủ proxy giao dịch — đối tác kinh doanh và những người liên quan được liên kết với hợp đồng vận chuyển."
+keywords:
+  - bên tham gia hợp đồng
+  - đối tác kinh doanh
+  - vận chuyển
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

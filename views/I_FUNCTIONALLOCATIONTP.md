@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALLOCATIONTP
 description: Functionallocationtp
+semantic_en: "functional location transactional view — comprehensive functional location master data including hierarchy, structure, category, and value information"
+semantic_vi: "xem giao dịch địa điểm chức năng — dữ liệu chính đầy đủ bao gồm phân cấp, cấu trúc, danh mục và giá trị"
+keywords:
+  - địa điểm chức năng
+  - dữ liệu chính
+  - giá trị
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGCHARGETP
 description: Freightbookingchargetp
+semantic_en: "freight booking charge transactional proxy — consolidated transportation charges with document and local currency amounts and posting status."
+semantic_vi: "phí đặt hàng vận chuyển - máy chủ proxy giao dịch — phí vận chuyển hợp nhất với số tiền tệ tài liệu và tiền tệ địa phương cũng như trạng thái ghi chép."
+keywords:
+  - phí vận chuyển
+  - đặt hàng
+  - tính toán phí
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

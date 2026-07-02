@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGCHRGELEMENTTP
 description: Frtbkgchrgelementtp
+semantic_en: "freight booking charge element transposition — represents individual charge items with their rate references, calculation bases, and currency conversions."
+semantic_vi: "phần tử cước phí vận đơn — biểu diễn các mục cước phí riêng lẻ với tham chiếu tỷ lệ, cơ sở tính toán và chuyển đổi tiền tệ."
+keywords:
+  - mục cước phí vận tải
+  - tỷ lệ cước phí
+  - chuyển đổi tiền tệ cước phí
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

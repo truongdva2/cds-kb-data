@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGBPTP
 description: Freightbookingbptp
+semantic_en: "freight booking business partner transactional proxy — business partners participating in transportation orders with function and address details."
+semantic_vi: "đối tác kinh doanh đặt hàng vận chuyển - máy chủ proxy giao dịch — các đối tác kinh doanh tham gia đơn hàng vận chuyển với chi tiết chức năng và địa chỉ."
+keywords:
+  - đối tác kinh doanh
+  - đặt hàng vận chuyển
+  - địa chỉ
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

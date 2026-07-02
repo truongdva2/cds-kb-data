@@ -1,6 +1,12 @@
 ---
 name: I_FUNCNLLOCCLFNCLASSCHARTP
 description: Funcnllocclfnclasschartp
+semantic_en: "functional location classification class character — characteristic definitions for classification classes assigned to functional locations"
+semantic_vi: "đặc tính lớp phân loại của địa điểm chức năng — định nghĩa đặc tính cho các lớp phân loại được gán"
+keywords:
+  - phân loại
+  - đặc tính
+  - lớp
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

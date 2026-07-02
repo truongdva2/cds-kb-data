@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGCHRGCALCBASETP
 description: Frtbkgchrgcalcbasetp
+semantic_en: "freight booking charge calculation base transposition — records the foundational scale and data source quantities used to determine transportation charges."
+semantic_vi: "cơ sở tính toán cước phí vận đơn — ghi lại khối lượng tiêu chuẩn và nguồn dữ liệu dùng để tính toán cước phí vận tải."
+keywords:
+  - tính cước phí vận tải
+  - khối lượng tính toán cước phí
+  - dữ liệu nguồn cước phí
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

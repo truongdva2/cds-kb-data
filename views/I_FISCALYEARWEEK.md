@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARWEEK
 description: Fiscalyearweek
+semantic_en: "fiscal year week calendar with next-week navigation — week boundaries and sequential numbering."
+semantic_vi: "lịch tuần tài chính với điều hướng tuần tiếp theo — giới hạn tuần và số thứ tự."
+keywords:
+  - tuần tài chính
+  - kỳ tiếp theo
+  - ngày kết thúc
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

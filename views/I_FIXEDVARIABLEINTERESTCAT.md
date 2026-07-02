@@ -1,6 +1,12 @@
 ---
 name: I_FIXEDVARIABLEINTERESTCAT
 description: Fixedvariableinterestcat
+semantic_en: "fixed or variable interest rate category — classification for rate type."
+semantic_vi: "danh mục lãi suất cố định hoặc biến — phân loại loại lãi suất."
+keywords:
+  - lãi suất
+  - phân loại
+  - cố định
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

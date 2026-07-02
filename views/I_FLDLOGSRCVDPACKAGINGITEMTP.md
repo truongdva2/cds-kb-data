@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSRCVDPACKAGINGITEMTP
 description: Fldlogsrcvdpackagingitemtp
+semantic_en: "field logistics received packaging item — packaging items with container and dispatch tracking."
+semantic_vi: "mục đóng gói nhận được logistics — mục đóng gói với container và theo dõi gửi đi."
+keywords:
+  - logistics
+  - đóng gói nhận
+  - container
 app_component: CA-FL-RET
 software_component: SAPSCORE
 release_state: released

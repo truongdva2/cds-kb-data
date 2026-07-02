@@ -1,6 +1,12 @@
 ---
 name: I_FRTUNTMAINBPADDRADDLRPRSTNTP
 description: Frtuntmainbpaddraddlrprstntp
+semantic_en: "transportation order main business partner address additional representation — supplementary address for primary business partner in freight order"
+semantic_vi: "địa chỉ bổ sung của đối tác kinh doanh chính trong vận chuyển — thông tin địa chỉ bổ sung cho bên vận chuyển"
+keywords:
+  - địa chỉ
+  - đối tác kinh doanh
+  - vận chuyển
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FRTAGRMTCALCSHTITMCALCRULETP
 description: Frtagrmtcalcshtitmcalcruletp
+semantic_en: "freight agreement calculation sheet item calculation rule transactional proxy — calculation rules with bases, units, and price per quantity metrics."
+semantic_vi: "quy tắc tính toán mặt hàng bảng tính toán hợp đồng vận chuyển - máy chủ proxy giao dịch — quy tắc tính toán với cơ sở, đơn vị và chỉ số giá trên số lượng."
+keywords:
+  - quy tắc tính toán
+  - cơ sở tính toán
+  - giá trên số lượng
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

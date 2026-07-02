@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTVOYITMASSGMTTP
 description: Fldlogsshptvoyitmassgmttp
+semantic_en: "field logistics shipment voyage item assignment — delivery item-to-voyage routing with weight."
+semantic_vi: "phân công mục chuyến lô hàng logistics — định tuyến mục giao hàng sang chuyến với trọng lượng."
+keywords:
+  - logistics
+  - mục hàng
+  - chuyến hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

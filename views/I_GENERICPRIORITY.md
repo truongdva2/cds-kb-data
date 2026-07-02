@@ -1,6 +1,12 @@
 ---
 name: I_GENERICPRIORITY
 description: Genericpriority
+semantic_en: "generic priority — priority master data for maintenance with scheduling factors, colors, and completion deadline calculations"
+semantic_vi: "ưu tiên chung — dữ liệu chính ưu tiên cho bảo trì với các yếu tố lập kế hoạch, màu sắc và tính toán thời hạn"
+keywords:
+  - ưu tiên
+  - bảo trì
+  - thời hạn
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTAGREEMENTRATETABLETP
 description: Freightagreementratetabletp
+semantic_en: "freight agreement rate table transactional proxy — transportation rate tables with value types, charge categories, and timezone settings."
+semantic_vi: "bảng tỷ giá hợp đồng vận chuyển - máy chủ proxy giao dịch — bảng tỷ giá vận chuyển với loại giá trị, danh mục phí và cài đặt múi giờ."
+keywords:
+  - bảng tỷ giá vận chuyển
+  - phí vận chuyển
+  - tính toán
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

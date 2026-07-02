@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSRCVDCONTAINERITEMTP
 description: Fldlogsrcvdcontaineritemtp
+semantic_en: "field logistics received container item — container-level items with dispatch and status tracking."
+semantic_vi: "mục container nhận được logistics — mục cấp container với theo dõi gửi đi và trạng thái."
+keywords:
+  - logistics
+  - container nhận
+  - gửi đi
 app_component: CA-FL-RET
 software_component: SAPSCORE
 release_state: released

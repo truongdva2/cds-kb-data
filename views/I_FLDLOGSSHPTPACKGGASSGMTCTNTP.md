@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTPACKGGASSGMTCTNTP
 description: Fldlogsshptpackggassgmtctntp
+semantic_en: "field logistics shipment packaging assignment to container — container packaging status and transport state."
+semantic_vi: "phân công đóng gói lô hàng sang container — trạng thái đóng gói container và vận chuyển."
+keywords:
+  - logistics
+  - đóng gói
+  - container
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

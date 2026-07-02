@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGSTGEBPADDRDFLTRPRSTNTP
 description: Frtbkgstgebpaddrdfltrprstntp
+semantic_en: "freight booking stage business partner address default representation transposition — provides primary address and contact information for business partners at the transportation order stage level."
+semantic_vi: "địa chỉ đối tác kinh doanh giai đoạn vận đơn mặc định — cung cấp thông tin địa chỉ chính và liên hệ cho đối tác ở cấp giai đoạn lệnh vận tải."
+keywords:
+  - địa chỉ đối tác giai đoạn mặc định
+  - thông tin liên hệ giai đoạn
+  - lệnh vận tải hàng không
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GENERICPRIORITYTEXT
 description: Genericprioritytext
+semantic_en: "generic priority text — language-dependent descriptions for generic priority codes and types"
+semantic_vi: "văn bản ưu tiên chung — mô tả phụ thuộc ngôn ngữ cho mã và loại ưu tiên chung"
+keywords:
+  - mô tả
+  - ưu tiên
+  - ngôn ngữ
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

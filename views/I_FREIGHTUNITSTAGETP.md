@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTUNITSTAGETP
 description: Freightunitstagetp
+semantic_en: "freight unit stage transactional proxy — transportation legs with distance, duration, and source-destination stop references for freight units."
+semantic_vi: "giai đoạn đơn vị vận chuyển - máy chủ proxy giao dịch — các chặng vận chuyển với khoảng cách, thời gian và tham chiếu điểm dừng nguồn-đích cho các đơn vị vận chuyển."
+keywords:
+  - giai đoạn vận chuyển
+  - khoảng cách
+  - thời gian
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

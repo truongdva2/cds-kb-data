@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTBOOKINGSTAGETP
 description: Freightbookingstagetp
+semantic_en: "freight booking stage transactional proxy — transportation legs with mode, vessel, carrier, and invoicing details for freight bookings."
+semantic_vi: "giai đoạn đặt hàng vận chuyển - máy chủ proxy giao dịch — các chặng vận chuyển với chế độ, tàu, nhà cung cấp và chi tiết hóa đơn cho việc đặt hàng vận chuyển."
+keywords:
+  - giai đoạn vận chuyển
+  - chế độ vận chuyển
+  - nhà cung cấp
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

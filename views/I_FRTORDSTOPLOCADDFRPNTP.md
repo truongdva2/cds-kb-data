@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDSTOPLOCADDFRPNTP
 description: Frtordstoplocaddfrpntp
+semantic_en: "freight order stop location address default representation transposition — provides primary address information for transportation stops within freight orders."
+semantic_vi: "địa chỉ điểm dừng lệnh vận tải mặc định — cung cấp thông tin địa chỉ chính cho các điểm dừng trong lệnh vận tải."
+keywords:
+  - địa chỉ điểm dừng mặc định
+  - thông tin vị trí dừng
+  - lệnh vận tải
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

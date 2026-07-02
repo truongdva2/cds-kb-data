@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHIPMENTCONTAINERTP
 description: Fldlogsshipmentcontainertp
+semantic_en: "field logistics shipment container — equipment with load specifications and current location."
+semantic_vi: "container lô hàng logistics — thiết bị với đặc tả tải và vị trí hiện tại."
+keywords:
+  - logistics
+  - container
+  - thiết bị
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

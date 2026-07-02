@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTUNITITEMDOCREFTP
 description: Freightunititemdocreftp
+semantic_en: "freight unit item document reference transactional proxy — source document references at line-item level for transportation unit items."
+semantic_vi: "tham chiếu tài liệu mặt hàng đơn vị vận chuyển - máy chủ proxy giao dịch — tham chiếu tài liệu nguồn ở cấp độ dòng cho các mặt hàng đơn vị vận chuyển."
+keywords:
+  - tham chiếu tài liệu mặt hàng
+  - đơn vị vận chuyển
+  - số hiệu tài liệu
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

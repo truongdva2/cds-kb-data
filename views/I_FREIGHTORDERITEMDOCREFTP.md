@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERITEMDOCREFTP
 description: Freightorderitemdocreftp
+semantic_en: "freight order item document reference transactional proxy — source document references at line-item level for transportation order items."
+semantic_vi: "tham chiếu tài liệu mặt hàng đơn hàng vận chuyển - máy chủ proxy giao dịch — tham chiếu tài liệu nguồn ở cấp độ dòng cho các mặt hàng đơn hàng vận chuyển."
+keywords:
+  - tham chiếu tài liệu mặt hàng
+  - đơn hàng vận chuyển
+  - số hiệu tài liệu
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FUNCTIONALLOCATIONCATEGORY
 description: Functionallocationcategory
+semantic_en: "functional location category — classification schema defining inspection level codes for functional location types"
+semantic_vi: "danh mục địa điểm chức năng — lược đồ phân loại xác định mã cấp kiểm tra cho các loại địa điểm"
+keywords:
+  - danh mục
+  - địa điểm
+  - kiểm tra
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

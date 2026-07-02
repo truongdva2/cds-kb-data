@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSRCVDPACKAGINGTP
 description: Fldlogsrcvdpackagingtp
+semantic_en: "field logistics received packaging transactional view — packaging containers with processing status."
+semantic_vi: "view giao dịch đóng gói nhận được logistics — container đóng gói với trạng thái xử lý."
+keywords:
+  - logistics
+  - đóng gói nhận
+  - trạng thái
 app_component: CA-FL-RET
 software_component: SAPSCORE
 release_state: released

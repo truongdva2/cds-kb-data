@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDCHRGELMNTEXCHRATETP
 description: Frtordchrgelmntexchratetp
+semantic_en: "freight order charge element exchange rate transposition — tracks currency conversions applied to individual freight order charge elements with rate type and date information."
+semantic_vi: "tỷ giá hối đoái phần tử cước phí lệnh vận tải — theo dõi chuyển đổi tiền tệ áp dụng cho từng mục cước phí lệnh vận tải với loại tỷ giá và thông tin ngày tháng."
+keywords:
+  - tỷ giá hối đoái cước phí lệnh vận tải
+  - chuyển đổi tiền tệ
+  - ngày tỷ giá
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

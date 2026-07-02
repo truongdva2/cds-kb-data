@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYCLASSIFICATIONVH
 description: Ghgenergyclassificationvh
+semantic_en: "greenhouse gas energy classification value help — lookup for energy classification categories in greenhouse gas tracking systems"
+semantic_vi: "trợ giúp giá trị phân loại năng lượng khí nhà kính — tra cứu danh mục phân loại năng lượng trong hệ thống theo dõi"
+keywords:
+  - phân loại năng lượng
+  - khí nhà kính
+  - tra cứu
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

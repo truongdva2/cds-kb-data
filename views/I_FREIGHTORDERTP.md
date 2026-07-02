@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERTP
 description: Freightordertp
+semantic_en: "freight order transactional proxy — master transportation orders with shipping types, modes, carrier and shipper identification across order lifecycle."
+semantic_vi: "đơn hàng vận chuyển - máy chủ proxy giao dịch — các đơn hàng vận chuyển chính với loại vận chuyển, chế độ, xác định nhà cung cấp và người gửi hàng trong vòng đời đơn hàng."
+keywords:
+  - đơn hàng vận chuyển
+  - nhà cung cấp
+  - loại vận chuyển
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

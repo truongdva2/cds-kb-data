@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSITMSTAGGEDTOPACKGGTP
 description: Fldlogsitmstaggedtopackggtp
+semantic_en: "field logistics items tagged to packaging transactional view — delivery document items linked to packages."
+semantic_vi: "view giao dịch mục được gắn thẻ vào đóng gói logistics — mục tài liệu giao hàng liên kết tới gói."
+keywords:
+  - logistics
+  - đóng gói
+  - mục hàng
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

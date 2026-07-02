@@ -1,6 +1,12 @@
 ---
 name: I_FRTBKGCHRGELMNTEXCHRATETP
 description: Frtbkgchrgelmntexchratetp
+semantic_en: "freight booking charge element exchange rate transposition — tracks currency conversions applied to individual charge elements with rate type and date information."
+semantic_vi: "tỷ giá hối đoái phần tử cước phí vận đơn — theo dõi chuyển đổi tiền tệ áp dụng cho từng mục cước phí với loại tỷ giá và thông tin ngày tháng."
+keywords:
+  - tỷ giá hối đoái cước phí
+  - chuyển đổi tiền tệ vận tải
+  - ngày tỷ giá hối đoái
 app_component: TM-FRM-FRB-2CL
 software_component: SAPSCORE
 release_state: released

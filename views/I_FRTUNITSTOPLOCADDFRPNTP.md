@@ -1,6 +1,12 @@
 ---
 name: I_FRTUNITSTOPLOCADDFRPNTP
 description: Frtunitstoplocaddfrpntp
+semantic_en: "transportation order stop location address default representation — primary address format for freight order stops with postal and street details"
+semantic_vi: "địa chỉ mặc định tại điểm dừng vận chuyển — định dạng địa chỉ chính cho các điểm dừng vận tải"
+keywords:
+  - địa chỉ
+  - mặc định
+  - điểm dừng
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARVARIANT
 description: Fiscalyearvariant
+semantic_en: "fiscal year variant configuration — period/month alignment, year dependency, and calendar type settings."
+semantic_vi: "cấu hình biến thể năm tài chính — cài đặt căn chỉnh kỳ/tháng, phụ thuộc năm và loại lịch."
+keywords:
+  - biến thể năm
+  - cấu hình lịch
+  - kỳ đặc biệt
 app_component: BC-SRV-ASF-FYV-2CL
 software_component: SAP_BASIS
 release_state: released

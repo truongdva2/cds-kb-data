@@ -1,6 +1,12 @@
 ---
 name: I_FUNDTYPE
 description: Fundtype
+semantic_en: "fund type — classification types for funds under grantee management including fund type codes"
+semantic_vi: "loại quỹ — các loại phân loại cho quỹ dưới quản lý người nhận bao gồm mã loại quỹ"
+keywords:
+  - loại quỹ
+  - phân loại
+  - người nhận
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

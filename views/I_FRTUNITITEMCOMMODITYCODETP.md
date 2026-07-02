@@ -1,6 +1,12 @@
 ---
 name: I_FRTUNITITEMCOMMODITYCODETP
 description: Frtunititemcommoditycodetp
+semantic_en: "transportation order item commodity code — classification codes for freight unit items in logistics"
+semantic_vi: "mã phân loại hàng hóa của khoản vận chuyển — mã hóa và sơ đồ đánh số cho các mục vận tải"
+keywords:
+  - mã hàng hóa
+  - vận chuyển
+  - phân loại
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

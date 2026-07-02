@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTORDERITEMBATCHTP
 description: Freightorderitembatchtp
+semantic_en: "freight order item batch transactional proxy — batch and manufacturing information for transportation order items with expiration tracking."
+semantic_vi: "lô mặt hàng đơn hàng vận chuyển - máy chủ proxy giao dịch — thông tin lô và sản xuất cho các mặt hàng đơn hàng vận chuyển với theo dõi hết hạn."
+keywords:
+  - lô hàng
+  - ngày sản xuất
+  - hết hạn
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

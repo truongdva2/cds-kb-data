@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHPTVOYOUTPUTREQUEST
 description: Fldlogsshptvoyoutputrequest
+semantic_en: "field logistics shipment voyage output request — summary export of voyage with plant routing."
+semantic_vi: "yêu cầu kết quả chuyến lô hàng logistics — tóm tắt xuất chuyến với định tuyến nhà máy."
+keywords:
+  - logistics
+  - chuyến hàng
+  - xuất
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCDOC
 description: Frtcostallocdoc
+semantic_en: "freight cost allocation document — settlement document header recording freight cost allocation with document type, dates, status and pricing references."
+semantic_vi: "chứng từ phân bổ chi phí vận tải — chứng từ giải quyết ghi lại phân bổ chi phí vận tải với loại chứng từ, ngày tháng, trạng thái và tham chiếu giá cả."
+keywords:
+  - chứng từ phân bổ chi phí
+  - giải quyết chi phí vận tải
+  - tài liệu vận tải
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

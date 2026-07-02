@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDCHRGITMEXCHRATETP
 description: Frtordchrgitmexchratetp
+semantic_en: "freight order charge item exchange rate transposition — manages currency exchange rates applied at the freight order charge item level."
+semantic_vi: "tỷ giá hối đoái mục cước phí lệnh vận tải — quản lý tỷ giá hối đoái áp dụng ở cấp mục cước phí lệnh vận tải."
+keywords:
+  - tỷ giá hối đoái mục cước phí
+  - chuyển đổi tiền tệ lệnh vận tải
+  - loại tỷ giá
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

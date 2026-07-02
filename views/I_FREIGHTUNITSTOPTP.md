@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTUNITSTOPTP
 description: Freightunitstoptp
+semantic_en: "freight unit stop transactional proxy — scheduled stops with location codes, acceptable and required time windows for transportation units."
+semantic_vi: "điểm dừng đơn vị vận chuyển - máy chủ proxy giao dịch — các điểm dừng được lên lịch với mã vị trí, cửa sổ thời gian chấp nhận và bắt buộc cho các đơn vị vận chuyển."
+keywords:
+  - điểm dừng vận chuyển
+  - vị trí giao hàng
+  - lịch trình
 app_component: TM-PLN-FU-2CL
 software_component: SAPSCORE
 release_state: released

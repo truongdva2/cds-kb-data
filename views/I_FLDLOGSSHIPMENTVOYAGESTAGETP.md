@@ -1,6 +1,12 @@
 ---
 name: I_FLDLOGSSHIPMENTVOYAGESTAGETP
 description: Fldlogsshipmentvoyagestagetp
+semantic_en: "field logistics shipment voyage stage — voyage route stages with planned arrival and departure times."
+semantic_vi: "giai đoạn chuyến du lịch lô hàng logistics — giai đoạn tuyến đường chuyến với thời gian đến/rời dự kiến."
+keywords:
+  - logistics
+  - chuyến hàng
+  - giai đoạn
 app_component: CA-FL-SG
 software_component: SAPSCORE
 release_state: released

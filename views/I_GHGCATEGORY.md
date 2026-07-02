@@ -1,6 +1,12 @@
 ---
 name: I_GHGCATEGORY
 description: Ghgcategory
+semantic_en: "greenhouse gas category codelist — environmental classification codes for greenhouse gas emissions by scope"
+semantic_vi: "danh sách mã danh mục khí nhà kính — mã phân loại môi trường cho phát thải khí nhà kính theo phạm vi"
+keywords:
+  - khí nhà kính
+  - phân loại
+  - phát thải
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

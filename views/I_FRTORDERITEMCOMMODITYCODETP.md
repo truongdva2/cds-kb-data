@@ -1,6 +1,12 @@
 ---
 name: I_FRTORDERITEMCOMMODITYCODETP
 description: Frtorderitemcommoditycodetp
+semantic_en: "freight order item commodity code transposition — assigns standardized commodity codes to transportation order items in freight orders."
+semantic_vi: "mã mặt hàng hóa mục lệnh vận tải — gán mã mặt hàng hóa chuẩn cho các mục hàng trong lệnh vận tải."
+keywords:
+  - mã mặt hàng hóa lệnh vận tải
+  - mã hóa mặt hàng
+  - lệnh vận tải
 app_component: TM-FRM-FRO-2CL
 software_component: SAPSCORE
 release_state: released

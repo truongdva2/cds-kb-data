@@ -1,6 +1,12 @@
 ---
 name: I_FREIGHTAGREEMENTITEMTP
 description: Freightagreementitemtp
+semantic_en: "freight agreement item transactional proxy — transportation agreement line items with calculation sheet references and charge classifications."
+semantic_vi: "mặt hàng hợp đồng vận chuyển - máy chủ proxy giao dịch — các dòng hợp đồng vận chuyển với tham chiếu bảng tính toán và phân loại phí."
+keywords:
+  - mặt hàng hợp đồng vận chuyển
+  - bảng tính toán
+  - phí vận chuyển
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

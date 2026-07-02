@@ -1,6 +1,12 @@
 ---
 name: I_FRTCOSTALLOCBUSPROCCATTEXT
 description: Frtcostallocbusproccattext
+semantic_en: "freight cost allocation business process category text — language-dependent category descriptions for freight cost allocation business processes."
+semantic_vi: "văn bản danh mục quy trình kinh doanh phân bổ chi phí vận tải — mô tả danh mục phụ thuộc ngôn ngữ cho các quy trình kinh doanh phân bổ chi phí."
+keywords:
+  - danh mục quy trình văn bản
+  - mô tả ngôn ngữ
+  - quy trình kinh doanh vận tải
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

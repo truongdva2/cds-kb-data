@@ -1,6 +1,12 @@
 ---
 name: I_FUNCNLLOCATIONHIERARCHYNODE
 description: Funcnllocationhierarchynode
+semantic_en: "functional location hierarchy interface — superior-subordinate relationships for functional locations in maintenance hierarchy"
+semantic_vi: "giao diện phân cấp địa điểm chức năng — quan hệ cấp dưới giữa các địa điểm chức năng"
+keywords:
+  - phân cấp
+  - quan hệ
+  - địa điểm
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

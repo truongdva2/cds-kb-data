@@ -1,6 +1,12 @@
 ---
 name: I_GHGCATEGORYVH
 description: Ghgcategoryvh
+semantic_en: "greenhouse gas category value help — lookup data for greenhouse gas emission classification with scope codes"
+semantic_vi: "trợ giúp giá trị danh mục khí nhà kính — dữ liệu tra cứu cho phân loại phát thải khí nhà kính"
+keywords:
+  - khí nhà kính
+  - phân loại
+  - tra cứu
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

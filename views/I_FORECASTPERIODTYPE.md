@@ -1,6 +1,12 @@
 ---
 name: I_FORECASTPERIODTYPE
 description: Forecastperiodtype
+semantic_en: "forecast period type — enumeration of period types used in demand and supply forecasting."
+semantic_vi: "loại kỳ dự báo — liệt kê các loại kỳ được sử dụng trong dự báo cung cầu."
+keywords:
+  - loại kỳ dự báo
+  - dự báo nhu cầu
+  - lập kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

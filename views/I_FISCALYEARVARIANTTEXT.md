@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARVARIANTTEXT
 description: Fiscalyearvarianttext
+semantic_en: "fiscal year variant text translations — language-specific variant descriptions."
+semantic_vi: "văn bản biến thể năm tài chính — mô tả biến thể theo ngôn ngữ."
+keywords:
+  - biến thể năm
+  - văn bản
+  - mô tả
 app_component: BC-SRV-ASF-FYV-2CL
 software_component: SAP_BASIS
 release_state: released
