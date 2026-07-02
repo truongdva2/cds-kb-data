@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTPROCUREMENTTP_2
 description: Productplantprocurementtp 2
+semantic_en: "product plant procurement template — defines auto-PO creation, source list requirement, and JIT schedule eligibility by purchasing group."
+semantic_vi: "Mẫu mua sắm nhà máy sản phẩm — định nghĩa tạo tự động PO, yêu cầu danh sách nguồn cung cấp và khả năng lập lịch JIT theo nhóm mua hàng."
+keywords:
+  - mua sắm
+  - tự động PO
+  - JIT
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

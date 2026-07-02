@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCLOGSDOCTRNSTCTRYTP
 description: Prodcmplnclogsdoctrnstctrytp
+semantic_en: "Product compliance logs document transit country — transit countries for logistics documents tracking document flow."
+semantic_vi: "Quốc gia qua cảng tài liệu nhật ký tuân thủ sản phẩm — các quốc gia qua cảng cho tài liệu hậu cần theo dõi luồng tài liệu."
+keywords:
+  - nhật ký tuân thủ
+  - quốc gia qua cảng
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERTRIGGERPOINT
 description: Production OrderTRIGGERPOINT
+semantic_en: "production order trigger points — represents project milestones linked to production orders for workflow control."
+semantic_vi: "Các điểm kích hoạt lệnh sản xuất — đại diện cho các mốc tiến độ dự án được liên kết với lệnh sản xuất để kiểm soát luồng công việc."
+keywords:
+  - điểm kích hoạt
+  - mốc tiến độ
+  - lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

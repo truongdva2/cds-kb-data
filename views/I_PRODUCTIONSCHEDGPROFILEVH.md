@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONSCHEDGPROFILEVH
 description: Productionschedgprofilevh
+semantic_en: "value-help for production scheduling profiles — enables selection by profile and plant with order category."
+semantic_vi: "Giúp đỡ giá trị cho hồ sơ lập lịch sản xuất — cho phép chọn theo hồ sơ và nhà máy kèm hạng mục lệnh."
+keywords:
+  - tra cứu hồ sơ
+  - lập lịch
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

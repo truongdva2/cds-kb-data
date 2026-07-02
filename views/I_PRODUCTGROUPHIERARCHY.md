@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTGROUPHIERARCHY
 description: Productgrouphierarchy
+semantic_en: "master data view of product group hierarchies with validity dates and hierarchy identifiers"
+semantic_vi: "view dữ liệu chính phân cấp nhóm sản phẩm với ngày hiệu lực và mã định danh phân cấp"
+keywords:
+  - phân cấp nhóm
+  - nhóm sản phẩm
+  - phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

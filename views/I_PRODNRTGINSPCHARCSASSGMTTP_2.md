@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRTGINSPCHARCSASSGMTTP_2
 description: Prodnrtginspcharcsassgmttp 2
+semantic_en: "inspection characteristics assigned to routing operations — linking quality characteristics and inspection methods to production routing steps with version control"
+semantic_vi: "đặc điểm kiểm tra được gán cho hoạt động bố trí — liên kết các đặc điểm chất lượng và phương pháp kiểm tra với các bước bố trí sản xuất với kiểm soát phiên bản"
+keywords:
+  - đặc điểm kiểm tra
+  - bố trí sản xuất
+  - chất lượng
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

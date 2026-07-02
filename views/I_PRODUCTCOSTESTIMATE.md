@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCOSTESTIMATE
 description: Productcostestimate
+semantic_en: "analytical projection of product cost estimates across costing types, variants, and valuation methods with control area and company code dimensions"
+semantic_vi: "projection dự toán chi phí sản phẩm theo loại định giá, biến thể và phương pháp định giá với các chiều lực lượng kiểm soát và công ty"
+keywords:
+  - dự toán chi phí
+  - định giá sản phẩm
+  - chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODEXTASSTMTPRIORITY
 description: Prodextasstmtpriority
+semantic_en: "External assortment priority — priority codes for product assortment sequencing in sales and supply planning."
+semantic_vi: "Ưu tiên phân loại bên ngoài — mã ưu tiên cho sắp xếp thứ tự phân loại sản phẩm trong bán hàng và lập kế hoạch cung cấp."
+keywords:
+  - ưu tiên phân loại
+  - sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

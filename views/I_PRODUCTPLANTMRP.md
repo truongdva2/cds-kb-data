@@ -1,6 +1,13 @@
 ---
 name: I_PRODUCTPLANTMRP
 description: Productplantmrp
+semantic_en: "MRP area data for a product — defines MRP type, responsible planner, group, lot sizing, safety stock, and planning time fence by area."
+semantic_vi: "Dữ liệu khu vực MRP cho sản phẩm — định nghĩa loại MRP, kế hoạch viên chịu trách nhiệm, nhóm, kích thước lô, kho dự trữ an toàn và rào cản thời gian lập kế hoạch theo khu vực."
+keywords:
+  - MRP
+  - kích thước lô
+  - an toàn
+  - lập kế hoạch
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTINTLTRD
 description: Productplantintltrd
+semantic_en: "product plant international trade — captures commodity codes, CAS numbers, import/export classifications, and consumption tax control."
+semantic_vi: "Thương mại quốc tế nhà máy sản phẩm — ghi lại mã hàng hóa, số CAS, phân loại nhập khẩu/xuất khẩu và kiểm soát thuế tiêu thụ."
+keywords:
+  - thương mại quốc tế
+  - mã hàng hóa
+  - thuế
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

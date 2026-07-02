@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTCOSTING
 description: Productplantcosting
+semantic_en: "product plant costing data — specifies BOM usage, task lists, lot sizing, variance key, and production version for cost accounting."
+semantic_vi: "Dữ liệu định giá nhà máy sản phẩm — chỉ định cách sử dụng BOM, danh sách nhiệm vụ, kích thước lô, khóa phương sai và phiên bản sản xuất cho kế toán chi phí."
+keywords:
+  - định giá
+  - BOM
+  - kích thước lô
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

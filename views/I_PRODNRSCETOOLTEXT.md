@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLTEXT
 description: Prodnrscetooltext
+semantic_en: "text descriptions for production resource tools — providing language-specific names and descriptions of tools with document reference information"
+semantic_vi: "mô tả văn bản cho công cụ tài nguyên sản xuất — cung cấp tên và mô tả theo ngôn ngữ của công cụ với thông tin tài liệu tham chiếu"
+keywords:
+  - mô tả công cụ
+  - văn bản công cụ
+  - dịch ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

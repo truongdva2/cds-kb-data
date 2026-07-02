@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTREPLACEMENTPARTTYPEVH
 description: Productreplacementparttypevh
+semantic_en: "replacement part type value-help — domain values for product replacement part type classifications"
+semantic_vi: "trợ giúp giá trị loại phụ tùng thay thế — giá trị miền cho phân loại loại phụ tùng thay thế"
+keywords:
+  - phụ tùng thay thế
+  - loại phụ tùng
+  - giá trị
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

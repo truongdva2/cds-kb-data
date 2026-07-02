@@ -1,6 +1,12 @@
 ---
 name: I_PRODNROUTINGOPCOMPALLOCTP_2
 description: Prodnroutingopcompalloctp 2
+semantic_en: "component allocation to routing operations — linking bill-of-material items to specific production routing operations with backflush flags and change tracking"
+semantic_vi: "phân bổ thành phần cho hoạt động bố trí — liên kết mục danh sách vật liệu với các hoạt động bố trí sản xuất cụ thể với cờ xả và theo dõi thay đổi"
+keywords:
+  - phân bổ thành phần
+  - bố trí hoạt động
+  - vật liệu
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

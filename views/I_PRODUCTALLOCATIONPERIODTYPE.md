@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTALLOCATIONPERIODTYPE
 description: Productallocationperiodtype
+semantic_en: "domain-value view for product allocation period type classifications"
+semantic_vi: "view giá trị miền cho các loại kỳ hạn phân bổ sản phẩm"
+keywords:
+  - kỳ hạn phân bổ
+  - loại kỳ hạn
+  - phân bổ sản phẩm
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

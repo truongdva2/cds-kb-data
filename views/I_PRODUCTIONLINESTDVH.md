@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONLINESTDVH
 description: Productionlinestdvh
+semantic_en: "value-help view for production lines identified by plant and production line code"
+semantic_vi: "view hỗ trợ giá trị cho các dây chuyền sản xuất theo mã dây chuyền và nhà máy"
+keywords:
+  - dây chuyền sản xuất
+  - production line
+  - nhà máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

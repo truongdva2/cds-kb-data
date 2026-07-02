@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCOBJTIMESERIESTP_2
 description: Prodallocobjtimeseriestp 2
+semantic_en: "Product allocation object time series — time-bound allocation quantities for characteristic value combinations with UTC datetime and timezone."
+semantic_vi: "Chuỗi thời gian đối tượng phân bổ sản phẩm — số lượng phân bổ được giới hạn thời gian cho kết hợp giá trị đặc tính với ngày giờ UTC và múi giờ."
+keywords:
+  - chuỗi thời gian
+  - số lượng phân bổ
+  - múi giờ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

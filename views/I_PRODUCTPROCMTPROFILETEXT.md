@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPROCMTPROFILETEXT
 description: Productprocmtprofiletext
+semantic_en: "product procurement profile text — localized names for procurement subtypes by plant and language"
+semantic_vi: "tên loại mua hàng sản phẩm — các tên được bản địa hóa cho loại mua hàng phụ theo nhà máy và ngôn ngữ"
+keywords:
+  - tên loại mua hàng
+  - bản địa hóa mua hàng
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

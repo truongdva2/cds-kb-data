@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERSEQUENCEVH
 description: Production OrderSEQUENCEVH
+semantic_en: "value-help list of production order sequences — supports dropdown selection by order and sequence identifiers."
+semantic_vi: "Danh sách giúp đỡ giá trị của trình tự lệnh sản xuất — hỗ trợ chọn lựa từ danh sách bằng mã lệnh và trình tự."
+keywords:
+  - tra cứu trình tự
+  - danh sách lệnh sản xuất
+  - tìm kiếm
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

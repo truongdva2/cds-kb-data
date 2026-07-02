@@ -1,6 +1,12 @@
 ---
 name: I_PRODSHELFLIFEEXPRTNDTEPERDT
 description: Prodshelflifeexprtndteperdt
+semantic_en: "text view for localized labels of shelf life expiration date period types"
+semantic_vi: "view mô tả các tên loại kỳ hạn ngày hết hạn thời gian bảo quản theo ngôn ngữ"
+keywords:
+  - thời hạn sử dụng
+  - hết hạn
+  - kỳ hạn
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

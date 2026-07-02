@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLMASTERDATA
 description: Prodnrscetoolmasterdata
+semantic_en: "master data for production resource tools — comprehensive tool definitions including categories, groups, control profiles, and formula-based usage calculation"
+semantic_vi: "dữ liệu chính cho công cụ tài nguyên sản xuất — định nghĩa công cụ toàn diện bao gồm danh mục, nhóm, hồ sơ kiểm soát và tính toán sử dụng dựa trên công thức"
+keywords:
+  - dữ liệu chính công cụ
+  - định nghĩa công cụ
+  - phân loại
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPROCMTPROFILE
 description: Productprocmtprofile
+semantic_en: "product procurement profile — defines procurement subtype and plant-level procurement settings"
+semantic_vi: "hồ sơ mua hàng sản phẩm — xác định loại mua hàng phụ và cài đặt mua hàng cấp nhà máy"
+keywords:
+  - mua hàng sản phẩm
+  - loại mua hàng
+  - nhà máy
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

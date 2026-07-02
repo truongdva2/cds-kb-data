@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCCHARCCSTRTSTATUST
 description: Prodalloccharccstrtstatust
+semantic_en: "Product allocation characteristic constraint status text — localized status descriptions for characteristic constraints by language."
+semantic_vi: "Văn bản trạng thái ràng buộc đặc tính phân bổ sản phẩm — mô tả trạng thái địa phương cho ràng buộc đặc tính theo ngôn ngữ."
+keywords:
+  - ràng buộc đặc tính
+  - mô tả trạng thái
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

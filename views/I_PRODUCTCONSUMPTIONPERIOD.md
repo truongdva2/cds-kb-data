@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCONSUMPTIONPERIOD
 description: Productconsumptionperiod
+semantic_en: "domain-value view for product consumption period type classifications"
+semantic_vi: "view giá trị miền cho các loại kỳ hạn tiêu dùng sản phẩm"
+keywords:
+  - kỳ hạn tiêu dùng
+  - loại kỳ hạn
+  - tiêu dùng sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

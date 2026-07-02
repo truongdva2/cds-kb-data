@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSALESDELIVERY
 description: Productsalesdelivery
+semantic_en: "product sales delivery — sales organization and distribution channel specific delivery attributes including minimum order quantities and pricing groups"
+semantic_vi: "giao hàng bán hàng sản phẩm — các thuộc tính giao hàng cụ thể cho tổ chức bán hàng và kênh phân phối bao gồm số lượng đơn hàng tối thiểu"
+keywords:
+  - giao hàng sản phẩm
+  - bán hàng
+  - số lượng đơn hàng tối thiểu
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

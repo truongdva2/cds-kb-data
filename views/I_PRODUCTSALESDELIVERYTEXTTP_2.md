@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSALESDELIVERYTEXTTP_2
 description: Productsalesdeliverytexttp 2
+semantic_en: "product sales delivery long texts data extract — localized long text descriptions for sales delivery by language and creation metadata"
+semantic_vi: "văn bản dài giao hàng bán hàng sản phẩm — mô tả văn bản dài được bản địa hóa theo ngôn ngữ và siêu dữ liệu tạo"
+keywords:
+  - văn bản giao hàng
+  - mô tả dài
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

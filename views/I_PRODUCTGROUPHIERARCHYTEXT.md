@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTGROUPHIERARCHYTEXT
 description: Productgrouphierarchytext
+semantic_en: "text view providing localized product group hierarchy names by language and validity period"
+semantic_vi: "view mô tả cung cấp tên phân cấp nhóm sản phẩm theo ngôn ngữ và kỳ hạn hiệu lực"
+keywords:
+  - tên phân cấp
+  - nhóm sản phẩm
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

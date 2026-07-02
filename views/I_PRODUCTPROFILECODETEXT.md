@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPROFILECODETEXT
 description: Productprofilecodetext
+semantic_en: "product profile code text — localized descriptions of product profile codes by language"
+semantic_vi: "mô tả mã hồ sơ sản phẩm — tên mô tả được bản địa hóa theo ngôn ngữ"
+keywords:
+  - mã hồ sơ
+  - bản địa hóa
+  - mô tả
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERCONFIRMATION
 description: Production OrderCONFIRMATION
+semantic_en: "master data view of production order confirmations with operation tracking, confirmation dates, and long text support"
+semantic_vi: "view dữ liệu chính xác nhận lệnh sản xuất với theo dõi hoạt động, ngày xác nhận và hỗ trợ văn bản dài"
+keywords:
+  - xác nhận lệnh
+  - hoạt động sản xuất
+  - ngày xác nhận
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

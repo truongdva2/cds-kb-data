@@ -1,6 +1,12 @@
 ---
 name: I_PRODCMPLNCLOGSDOCUMENTTP
 description: Prodcmplnclogsdocumenttp
+semantic_en: "Product compliance logistics document — master document for compliance logistics tracking with category, status, and compliance check flags."
+semantic_vi: "Tài liệu hậu cần tuân thủ sản phẩm — tài liệu chính cho theo dõi hậu cần tuân thủ với loại, trạng thái và cờ kiểm tra tuân thủ."
+keywords:
+  - tài liệu hậu cần
+  - tuân thủ sản phẩm
+  - trạng thái
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

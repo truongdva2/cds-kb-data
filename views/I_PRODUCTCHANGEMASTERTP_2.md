@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCHANGEMASTERTP_2
 description: PRODUCTChange MasterERTP 2
+semantic_en: "transactional projection of product changes with revision levels and change document linkage"
+semantic_vi: "projection giao dịch thay đổi sản phẩm với các cấp độ sửa đổi và liên kết tài liệu thay đổi"
+keywords:
+  - thay đổi sản phẩm
+  - revision level
+  - tài liệu thay đổi
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

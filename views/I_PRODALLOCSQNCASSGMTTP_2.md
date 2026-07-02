@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCSQNCASSGMTTP_2
 description: Prodallocsqncassgmttp 2
+semantic_en: "Product allocation sequence assignment — material and plant assignments to allocation sequences with validity periods."
+semantic_vi: "Gán chuỗi phân bổ sản phẩm — gán vật liệu và nhà máy cho các chuỗi phân bổ với kỳ hiệu lực."
+keywords:
+  - gán chuỗi phân bổ
+  - vật liệu
+  - nhà máy
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

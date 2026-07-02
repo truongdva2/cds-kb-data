@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTRETAIL
 description: Productretail
+semantic_en: "product retail basic data — retail-specific attributes including listing procedures and dates for stores and distribution centers"
+semantic_vi: "dữ liệu bán lẻ cơ bản sản phẩm — các thuộc tính dành riêng cho bán lẻ bao gồm thủ tục niêm yết và ngày tháng"
+keywords:
+  - bán lẻ sản phẩm
+  - niêm yết
+  - cửa hàng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

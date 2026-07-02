@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTREPLACEMENTPARTTYPET
 description: Productreplacementparttypet
+semantic_en: "product replacement part type text — localized names for replacement part types by language"
+semantic_vi: "mô tả loại phụ tùng thay thế — tên được bản địa hóa cho loại phụ tùng thay thế theo ngôn ngữ"
+keywords:
+  - phụ tùng thay thế
+  - bản địa hóa
+  - tên loại
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

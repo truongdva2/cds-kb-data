@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDEROPERATIONTP
 description: Production OrderOPERATIONTP
+semantic_en: "transactional projection of production order operations with work center assignments, control profiles, and change tracking"
+semantic_vi: "projection giao dịch hoạt động lệnh sản xuất bao gồm phân công trung tâm công việc, hồ sơ kiểm soát và theo dõi thay đổi"
+keywords:
+  - hoạt động lệnh sản xuất
+  - trung tâm công việc
+  - operation
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

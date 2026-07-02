@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTCOSTINGTP_2
 description: Productplantcostingtp 2
+semantic_en: "product plant costing template — mirrors costing attributes including co-product status, special procurement, and fixed price classification."
+semantic_vi: "Mẫu định giá nhà máy sản phẩm — phản chiếu các thuộc tính định giá bao gồm trạng thái cùng sản phẩm, mua sắm đặc biệt và phân loại giá cố định."
+keywords:
+  - định giá
+  - cùng sản phẩm
+  - mua sắm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

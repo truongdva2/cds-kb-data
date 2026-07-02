@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCLBLFLDVERSTXTTP_2
 description: Prodcmplnclblfldverstxttp 2
+semantic_en: "Label field version text — multilingual names for versioned label fields."
+semantic_vi: "Văn bản phiên bản trường nhãn — tên đa ngôn ngữ cho các trường nhãn có phiên bản."
+keywords:
+  - phiên bản trường nhãn
+  - tên
 app_component: EHS-SUS-SDS
 software_component: SAPSCORE
 release_state: released

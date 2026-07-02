@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCCHECKDATETIMETYPE
 description: Prodalloccheckdatetimetype
+semantic_en: "Product allocation check date time type — domain value defining the temporal scope for allocation checks."
+semantic_vi: "Loại ngày giờ kiểm tra phân bổ sản phẩm — giá trị miền xác định phạm vi thời gian cho kiểm tra phân bổ."
+keywords:
+  - kiểm tra phân bổ
+  - loại ngày giờ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

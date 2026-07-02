@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTDESCRIPTIONTP_2
 description: Productdescriptiontp 2
+semantic_en: "transactional projection of multilingual product descriptions"
+semantic_vi: "projection giao dịch mô tả sản phẩm đa ngôn ngữ"
+keywords:
+  - mô tả sản phẩm
+  - tên sản phẩm
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODHIERTODISTRCHNASSGMT
 description: Prodhiertodistrchnassgmt
+semantic_en: "product hierarchy assignments in sales — linking universal hierarchy versions to sales organization and distribution channel combinations with validity dates"
+semantic_vi: "gán cấp bậc sản phẩm trong bán hàng — liên kết các phiên bản cấu trúc phân cấp với kết hợp tổ chức bán hàng và kênh phân phối có ngày hiệu lực"
+keywords:
+  - cấu trúc phân cấp sản phẩm
+  - gán kênh phân phối
+  - tổ chức bán hàng
 app_component: SD-SLS-PH-2CL
 software_component: SAPSCORE
 release_state: released

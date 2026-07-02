@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTP_2
 description: Producttp 2
+semantic_en: "product data extract — product identification, creation/change timestamps, marking for deletion, status and weight data"
+semantic_vi: "dữ liệu sản phẩm — nhận dạng sản phẩm, dấu thời gian tạo/thay đổi, đánh dấu xóa và dữ liệu trọng lượng"
+keywords:
+  - dữ liệu sản phẩm
+  - ngày tạo
+  - trọng lượng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

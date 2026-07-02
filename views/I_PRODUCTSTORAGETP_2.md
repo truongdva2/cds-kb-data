@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSTORAGETP_2
 description: Productstoragetp 2
+semantic_en: "product storage data extract — storage conditions, temperature requirements, hazmat data, and shelf life parameters for products"
+semantic_vi: "dữ liệu lưu trữ sản phẩm — điều kiện lưu trữ, yêu cầu nhiệt độ, dữ liệu hàng nguy hiểm và các tham số tuổi thọ kệ"
+keywords:
+  - lưu trữ sản phẩm
+  - điều kiện lưu trữ
+  - tuổi thọ kệ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

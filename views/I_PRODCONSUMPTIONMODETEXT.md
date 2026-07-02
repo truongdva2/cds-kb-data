@@ -1,6 +1,11 @@
 ---
 name: I_PRODCONSUMPTIONMODETEXT
 description: Prodconsumptionmodetext
+semantic_en: "Consumption mode text — localized descriptions for production requirement consumption methods by language."
+semantic_vi: "Văn bản chế độ tiêu thụ — mô tả địa phương cho các phương pháp tiêu thụ yêu cầu sản xuất theo ngôn ngữ."
+keywords:
+  - chế độ tiêu thụ
+  - mô tả
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

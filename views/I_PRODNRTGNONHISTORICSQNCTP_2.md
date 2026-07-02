@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRTGNONHISTORICSQNCTP_2
 description: Prodnrtgnonhistoricsqnctp 2
+semantic_en: "non-historical production routing sequences — accessing current non-archived routing sequence records with change timestamp tracking"
+semantic_vi: "chuỗi bố trí sản xuất không lịch sử — truy cập các bản ghi chuỗi bố trí hiện tại không được lưu trữ với theo dõi thời gian thay đổi"
+keywords:
+  - chuỗi không lịch sử
+  - bố trí sản xuất
+  - thay đổi
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

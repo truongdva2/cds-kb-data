@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTYPECODE
 description: Producttypecode
+semantic_en: "product type code — product type group classification code values"
+semantic_vi: "mã loại sản phẩm — giá trị mã phân loại nhóm loại sản phẩm"
+keywords:
+  - mã loại sản phẩm
+  - phân loại nhóm
+  - mã phân loại
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCCHARCCSTRTSTATUS
 description: Prodalloccharccstrtstatus
+semantic_en: "Product allocation characteristic constraint status — domain value for constraint activation status on characteristics."
+semantic_vi: "Trạng thái ràng buộc đặc tính phân bổ sản phẩm — giá trị miền cho trạng thái kích hoạt ràng buộc trên đặc tính."
+keywords:
+  - ràng buộc đặc tính
+  - trạng thái ràng buộc
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

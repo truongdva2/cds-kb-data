@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTIONRESOURCEUSAGETEXT
 description: Productionresourceusagetext
+semantic_en: "production resource usage descriptions — provides translated explanations for resource usage types."
+semantic_vi: "Mô tả sử dụng tài nguyên sản xuất — cung cấp giải thích dịch cho các loại sử dụng tài nguyên."
+keywords:
+  - mô tả sử dụng
+  - tài nguyên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

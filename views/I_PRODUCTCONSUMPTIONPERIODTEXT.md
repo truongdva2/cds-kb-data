@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCONSUMPTIONPERIODTEXT
 description: Productconsumptionperiodtext
+semantic_en: "text view providing localized names of product consumption period types by language"
+semantic_vi: "view mô tả cung cấp tên các loại kỳ hạn tiêu dùng sản phẩm theo ngôn ngữ"
+keywords:
+  - kỳ hạn tiêu dùng
+  - tên kỳ hạn
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

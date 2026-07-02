@@ -1,6 +1,12 @@
 ---
 name: I_PRODNROUTINGOPERATIONTP_2
 description: Prodnroutingoperationtp 2
+semantic_en: "production routing operations — defining individual steps in manufacturing routings with validity periods and deletion status for version control"
+semantic_vi: "hoạt động bố trí sản xuất — xác định các bước riêng lẻ trong bố trí sản xuất với các kỳ hiệu lực và trạng thái xóa để kiểm soát phiên bản"
+keywords:
+  - hoạt động bố trí
+  - sản xuất
+  - công đoạn
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

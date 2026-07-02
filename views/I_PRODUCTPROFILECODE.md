@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPROFILECODE
 description: Productprofilecode
+semantic_en: "product profile code — classification code for product profiles"
+semantic_vi: "mã hồ sơ sản phẩm — mã phân loại cho hồ sơ sản phẩm"
+keywords:
+  - mã hồ sơ
+  - phân loại sản phẩm
+  - mã phân loại
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

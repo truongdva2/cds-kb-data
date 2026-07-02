@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERTP
 description: Production OrderTP
+semantic_en: "production order header data — contains master information including order type, category, importance, and delivery status."
+semantic_vi: "Dữ liệu tiêu đề lệnh sản xuất — chứa thông tin chính bao gồm loại lệnh, hạng mục, mức độ quan trọng và trạng thái giao hàng."
+keywords:
+  - tiêu đề lệnh
+  - tình trạng đơn hàng
+  - thông tin chính
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

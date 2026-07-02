@@ -1,6 +1,12 @@
 ---
 name: I_PRODNORDOPERATIONCAPACITYTP
 description: Prodnordoperationcapacitytp
+semantic_en: "technical interface for production order operation capacity — exposing capacity requirements and work center allocations for system integration and reporting"
+semantic_vi: "giao diện kỹ thuật cho dung lượng hoạt động lệnh sản xuất — tiếp xúc yêu cầu dung lượng và phân bổ trung tâm làm việc cho tích hợp và báo cáo hệ thống"
+keywords:
+  - dung lượng kỹ thuật
+  - trung tâm làm việc
+  - giao diện
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

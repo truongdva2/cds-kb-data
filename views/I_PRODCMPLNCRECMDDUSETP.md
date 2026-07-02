@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCRECMDDUSETP
 description: Prodcmplncrecmddusetp
+semantic_en: "Recommended use transactional processing — recommended uses for chemical products with use rating assignments."
+semantic_vi: "Xử lý giao dịch cách sử dụng được đề xuất — các cách sử dụng được đề xuất cho sản phẩm hóa học với gán xếp hạng sử dụng."
+keywords:
+  - cách sử dụng được đề xuất
+  - sản phẩm hóa học
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

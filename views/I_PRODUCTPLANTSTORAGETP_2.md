@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTSTORAGETP_2
 description: Productplantstoragetp 2
+semantic_en: "product plant storage template — specifies physical inventory cycle counting and storage period constraints."
+semantic_vi: "Mẫu lưu trữ nhà máy sản phẩm — chỉ định kiểm kê vật lý theo chu kỳ và ràng buộc thời gian lưu trữ."
+keywords:
+  - lưu trữ
+  - kiểm kê
+  - thời gian
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

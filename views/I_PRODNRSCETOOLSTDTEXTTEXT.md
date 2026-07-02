@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLSTDTEXTTEXT
 description: Prodnrscetoolstdtexttext
+semantic_en: "text translations for standard text codes — providing language-specific names and descriptions of standard text templates for tools"
+semantic_vi: "dịch văn bản cho mã văn bản tiêu chuẩn — cung cấp tên và mô tả theo ngôn ngữ của các mẫu văn bản tiêu chuẩn cho công cụ"
+keywords:
+  - văn bản tiêu chuẩn
+  - dịch mã
+  - tên mẫu
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

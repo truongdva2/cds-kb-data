@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCHANGEDOCUMENT_2
 description: Productchangedocument 2
+semantic_en: "projection of product change documents tracking modifications with object class, table keys, user details, and timestamps"
+semantic_vi: "projection tài liệu thay đổi sản phẩm theo dõi các sửa đổi bao gồm lớp đối tượng, khóa bảng, người thực hiện và thời gian"
+keywords:
+  - tài liệu thay đổi
+  - sử dụng sản phẩm
+  - lịch sử thay đổi
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

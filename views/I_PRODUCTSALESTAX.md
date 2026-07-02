@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSALESTAX
 description: Productsalestax
+semantic_en: "product sales tax — tax classification indicators for products by country"
+semantic_vi: "thuế bán hàng sản phẩm — chỉ báo phân loại thuế cho sản phẩm theo quốc gia"
+keywords:
+  - thuế bán hàng
+  - phân loại thuế
+  - quốc gia
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

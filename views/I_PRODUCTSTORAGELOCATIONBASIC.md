@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSTORAGELOCATIONBASIC
 description: Productstoragelocationbasic
+semantic_en: "product storage location — plant and warehouse location-specific inventory attributes including maintenance status and stock indicators"
+semantic_vi: "vị trí lưu trữ sản phẩm — các thuộc tính hàng tồn kho cụ thể cho vị trí nhà máy và kho hàng bao gồm trạng thái bảo trì"
+keywords:
+  - vị trí lưu trữ
+  - kho hàng
+  - hàng tồn kho
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

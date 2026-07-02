@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTEXT
 description: Producttext
+semantic_en: "product text — localized product names and descriptions by language"
+semantic_vi: "tên sản phẩm — tên và mô tả sản phẩm được bản địa hóa theo ngôn ngữ"
+keywords:
+  - tên sản phẩm
+  - bản địa hóa
+  - mô tả
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODABCLASSFCTNTXT
 description: Prodabclassfctntxt
+semantic_en: "Material ABC classification description — text translation for the material's ABC indicator value by language."
+semantic_vi: "Mô tả phân loại ABC vật liệu — bản dịch văn bản cho giá trị chỉ số ABC của vật liệu theo ngôn ngữ."
+keywords:
+  - phân loại ABC vật liệu
+  - mô tả ABC
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

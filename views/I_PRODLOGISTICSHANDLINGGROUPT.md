@@ -1,6 +1,12 @@
 ---
 name: I_PRODLOGISTICSHANDLINGGROUPT
 description: Prodlogisticshandlinggroupt
+semantic_en: "text translations for product logistics handling group names — providing language-specific descriptions of handling and storage group classifications"
+semantic_vi: "dịch văn bản tên nhóm xử lý logistics sản phẩm — cung cấp mô tả theo ngôn ngữ của các phân loại nhóm xử lý và lưu kho"
+keywords:
+  - nhóm xử lý logistics
+  - phân loại xử lý
+  - mô tả hàng hóa
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

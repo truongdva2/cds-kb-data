@@ -1,6 +1,12 @@
 ---
 name: I_PRODLBTRYORDESIGNOFFICEVH
 description: Prodlbtryordesignofficevh
+semantic_en: "value help for selecting laboratory or design office — enabling dropdown selection of active laboratory and design office entities"
+semantic_vi: "trợ giúp giá trị cho chọn phòng thí nghiệm hoặc văn phòng thiết kế — cho phép chọn từ danh sách các thực thể phòng thí nghiệm và thiết kế đang hoạt động"
+keywords:
+  - chọn phòng thí nghiệm
+  - giá trị trợ giúp
+  - danh sách
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

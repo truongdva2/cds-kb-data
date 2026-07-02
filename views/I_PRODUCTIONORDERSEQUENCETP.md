@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERSEQUENCETP
 description: Production OrderSEQUENCETP
+semantic_en: "production order sequence data — manages sequence details, operations, and scheduling alignment for manufacturing orders."
+semantic_vi: "Dữ liệu trình tự lệnh sản xuất — quản lý chi tiết trình tự, hoạt động và căn chỉnh lên lịch cho các lệnh sản xuất."
+keywords:
+  - trình tự sản xuất
+  - lệnh sản xuất
+  - hoạt động
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

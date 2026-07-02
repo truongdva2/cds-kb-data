@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTMRPAVAILABILITYTYPEVH
 description: Productmrpavailabilitytypevh
+semantic_en: "value-help for MRP availability types — enables selection of availability classification codes."
+semantic_vi: "Giúp đỡ giá trị cho loại khả dụng MRP — cho phép chọn mã phân loại khả dụng."
+keywords:
+  - tra cứu khả dụng
+  - MRP
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

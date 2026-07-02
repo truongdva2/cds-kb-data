@@ -1,6 +1,12 @@
 ---
 name: I_PRODLBTRYORDESIGNOFFICETEXT
 description: Prodlbtryordesignofficetext
+semantic_en: "text translations for laboratory or design office names — providing language-specific descriptions of laboratory and design organizational units"
+semantic_vi: "dịch văn bản tên phòng thí nghiệm hoặc văn phòng thiết kế — cung cấp mô tả theo ngôn ngữ của các đơn vị tổ chức phòng thí nghiệm và thiết kế"
+keywords:
+  - tên phòng thí nghiệm
+  - dịch văn bản
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

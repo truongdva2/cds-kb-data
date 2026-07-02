@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCCHKRSTRCNSTATUS
 description: Prodallocchkrstrcnstatus
+semantic_en: "Product allocation check restriction status — domain value for the restriction activation status of allocation checks."
+semantic_vi: "Trạng thái hạn chế kiểm tra phân bổ sản phẩm — giá trị miền cho trạng thái kích hoạt hạn chế của kiểm tra phân bổ."
+keywords:
+  - hạn chế kiểm tra
+  - phân bổ sản phẩm
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

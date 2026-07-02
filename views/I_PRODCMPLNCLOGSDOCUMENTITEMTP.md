@@ -1,6 +1,12 @@
 ---
 name: I_PRODCMPLNCLOGSDOCUMENTITEMTP
 description: Prodcmplnclogsdocumentitemtp
+semantic_en: "Product compliance logistics document item — line items for logistics documents with product, country, date, and organizational assignment data."
+semantic_vi: "Mục tài liệu hậu cần tuân thủ sản phẩm — các mục dòng cho tài liệu hậu cần với dữ liệu gán sản phẩm, quốc gia, ngày và tổ chức."
+keywords:
+  - tài liệu hậu cần
+  - mục dòng
+  - sản phẩm
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

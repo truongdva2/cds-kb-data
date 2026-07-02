@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCLIFECYCLESTATUS
 description: Prodalloclifecyclestatus
+semantic_en: "Product allocation lifecycle status — domain value defining the lifecycle phase of allocation objects."
+semantic_vi: "Trạng thái vòng đời phân bổ sản phẩm — giá trị miền xác định giai đoạn vòng đời của các đối tượng phân bổ."
+keywords:
+  - vòng đời
+  - phân bổ sản phẩm
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

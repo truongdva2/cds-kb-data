@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTYPEVH
 description: Producttypevh
+semantic_en: "product type value-help — product type classification codes for product type lookup"
+semantic_vi: "trợ giúp giá trị loại sản phẩm — mã phân loại loại sản phẩm để tra cứu loại sản phẩm"
+keywords:
+  - loại sản phẩm
+  - mã phân loại
+  - trợ giúp
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

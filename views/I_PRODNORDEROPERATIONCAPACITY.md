@@ -1,6 +1,12 @@
 ---
 name: I_PRODNORDEROPERATIONCAPACITY
 description: Prodnorderoperationcapacity
+semantic_en: "capacity requirements for production order operations — recording work center capacity allocation and confirmation status by production order operation sequence"
+semantic_vi: "yêu cầu dung lượng cho hoạt động lệnh sản xuất — ghi lại phân bổ dung lượng trung tâm làm việc và trạng thái xác nhận theo chuỗi hoạt động lệnh sản xuất"
+keywords:
+  - dung lượng sản xuất
+  - trung tâm làm việc
+  - yêu cầu dung lượng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

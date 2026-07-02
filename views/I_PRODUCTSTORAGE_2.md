@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSTORAGE_2
 description: Productstorage 2
+semantic_en: "product storage — storage conditions, temperature requirements, hazmat classification and shelf life management for product inventory"
+semantic_vi: "lưu trữ sản phẩm — điều kiện lưu trữ, yêu cầu nhiệt độ, phân loại hàng nguy hiểm và quản lý tuổi thọ kệ"
+keywords:
+  - lưu trữ sản phẩm
+  - điều kiện lưu trữ
+  - hàng nguy hiểm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

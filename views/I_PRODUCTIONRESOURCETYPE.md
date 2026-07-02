@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONRESOURCETYPE
 description: Productionresourcetype
+semantic_en: "production resource type catalog — classifies manufacturing resources by type code."
+semantic_vi: "Danh mục loại tài nguyên sản xuất — phân loại tài nguyên sản xuất theo mã loại."
+keywords:
+  - loại tài nguyên
+  - phân loại
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

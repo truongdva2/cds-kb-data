@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTPLANTFORECASTTP_2
 description: Productplantforecasttp 2
+semantic_en: "product plant forecast template — specifies consumption reference settings and forecast model reset parameters."
+semantic_vi: "Mẫu dự báo nhà máy sản phẩm — chỉ định cài đặt tham chiếu tiêu thụ và tham số đặt lại mô hình dự báo."
+keywords:
+  - dự báo
+  - tiêu thụ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLANTWORKSCHEDULINGTP_2
 description: Prodplantworkschedulingtp 2
+semantic_en: "work scheduling parameters for products in plants — defining delivery tolerances, production batch rules, backflush codes, and scheduling profiles by product and plant"
+semantic_vi: "tham số lập lịch làm việc cho sản phẩm trong nhà máy — xác định các dung sai giao hàng, quy tắc lô sản xuất, mã xả lưng và hồ sơ lập lịch theo sản phẩm và nhà máy"
+keywords:
+  - lập lịch làm việc
+  - nhà máy
+  - sản xuất
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSALESDELIVERYTP_2
 description: Productsalesdeliverytp 2
+semantic_en: "product sales delivery data extract — delivery attributes for sales organization and distribution channel including quantities and status information"
+semantic_vi: "dữ liệu giao hàng bán hàng sản phẩm — các thuộc tính giao hàng cho tổ chức bán hàng và kênh phân phối"
+keywords:
+  - giao hàng bán hàng
+  - số lượng giao hàng
+  - trạng thái bán hàng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

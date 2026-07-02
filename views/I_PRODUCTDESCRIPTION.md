@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTDESCRIPTION
 description: Productdescription
+semantic_en: "master data view of product descriptions in multiple languages with ISO language codes"
+semantic_vi: "view dữ liệu chính mô tả sản phẩm theo nhiều ngôn ngữ với mã ISO"
+keywords:
+  - mô tả sản phẩm
+  - đa ngôn ngữ
+  - tên sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

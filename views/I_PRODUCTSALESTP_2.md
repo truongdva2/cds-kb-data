@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSALESTP_2
 description: Productsalestp 2
+semantic_en: "product sales data extract — transportation and packaging attributes including weight/volume tolerances and stacking factors"
+semantic_vi: "dữ liệu bán hàng sản phẩm — các thuộc tính vận chuyển và đóng gói bao gồm khả năng chịu độ lệch về trọng lượng/thể tích"
+keywords:
+  - bán hàng sản phẩm
+  - vận chuyển
+  - đóng gói
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

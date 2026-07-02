@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPURCHASETAX
 description: Productpurchasetax
+semantic_en: "product purchase tax — tax indicators for products by source country and source location"
+semantic_vi: "thuế mua hàng sản phẩm — chỉ báo thuế cho sản phẩm theo quốc gia và địa điểm nguồn"
+keywords:
+  - thuế mua hàng
+  - quốc gia nguồn
+  - chỉ báo thuế
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

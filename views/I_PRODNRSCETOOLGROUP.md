@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLGROUP
 description: Prodnrscetoolgroup
+semantic_en: "production resource tool groups — organizing tools into logical groups for collective management and classification"
+semantic_vi: "nhóm công cụ tài nguyên sản xuất — sắp xếp công cụ thành các nhóm logic để quản lý và phân loại tập hợp"
+keywords:
+  - nhóm công cụ
+  - sắp xếp công cụ
+  - phân loại
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

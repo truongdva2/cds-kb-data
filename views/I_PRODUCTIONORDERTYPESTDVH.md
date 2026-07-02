@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTIONORDERTYPESTDVH
 description: Production OrderTYPESTDVH
+semantic_en: "value-help for production order types — enables selection by order type code."
+semantic_vi: "Giúp đỡ giá trị cho các loại lệnh sản xuất — cho phép chọn theo mã loại lệnh."
+keywords:
+  - tra cứu loại
+  - lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

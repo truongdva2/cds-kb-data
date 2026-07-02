@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONSCHEDULINGPROFILE
 description: Productionschedulingprofile
+semantic_en: "production scheduling profile configuration — defines goods receipt automation and EWM synchronization settings."
+semantic_vi: "Cấu hình hồ sơ lập lịch sản xuất — định nghĩa cài đặt tự động hóa biên nhận hàng hóa và đồng bộ hóa EWM."
+keywords:
+  - cấu hình lập lịch
+  - biên nhận hàng
+  - EWM
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

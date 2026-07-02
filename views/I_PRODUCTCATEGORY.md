@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCATEGORY
 description: Productcategory
+semantic_en: "domain-value view for product category type classifications"
+semantic_vi: "view giá trị miền cho các loại phân loại danh mục sản phẩm"
+keywords:
+  - danh mục sản phẩm
+  - phân loại sản phẩm
+  - loại danh mục
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

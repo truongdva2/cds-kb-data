@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLCATEGORYTEXT_2
 description: Prodnrscetoolcategorytext 2
+semantic_en: "text translations for production resource tool category names — duplicate view offering language-specific names and codes for tool categories"
+semantic_vi: "dịch văn bản tên danh mục công cụ tài nguyên sản xuất — chế độ xem trùng lặp cung cấp tên và mã theo ngôn ngữ cho danh mục công cụ"
+keywords:
+  - danh mục công cụ
+  - dịch văn bản
+  - ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

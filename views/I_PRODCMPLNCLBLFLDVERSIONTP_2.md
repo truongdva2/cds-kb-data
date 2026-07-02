@@ -1,6 +1,12 @@
 ---
 name: I_PRODCMPLNCLBLFLDVERSIONTP_2
 description: Prodcmplnclblfldversiontp 2
+semantic_en: "Label field version transactional processing — versioned definitions for label fields including status, group, technical name, and cardinality."
+semantic_vi: "Xử lý giao dịch phiên bản trường nhãn — định nghĩa có phiên bản cho các trường nhãn bao gồm trạng thái, nhóm, tên kỹ thuật và số lượng."
+keywords:
+  - phiên bản trường nhãn
+  - trạng thái phiên bản
+  - tên kỹ thuật
 app_component: EHS-SUS-SDS
 software_component: SAPSCORE
 release_state: released

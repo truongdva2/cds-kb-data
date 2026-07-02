@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCSQNCGROUPTXTTP_2
 description: Prodallocsqncgrouptxttp 2
+semantic_en: "Product allocation sequence group text — descriptions for allocation sequence groups by language."
+semantic_vi: "Văn bản nhóm chuỗi phân bổ sản phẩm — mô tả cho các nhóm chuỗi phân bổ theo ngôn ngữ."
+keywords:
+  - nhóm chuỗi phân bổ
+  - mô tả
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTUNITSOFMEASURE
 description: Productunitsofmeasure
+semantic_en: "units of measure of product — conversion factors, volume, weight, and dimension attributes for alternative product units"
+semantic_vi: "đơn vị đo sản phẩm — hệ số chuyển đổi, thể tích, trọng lượng và các thuộc tính kích thước cho các đơn vị sản phẩm khác"
+keywords:
+  - đơn vị đo
+  - chuyển đổi
+  - trọng lượng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

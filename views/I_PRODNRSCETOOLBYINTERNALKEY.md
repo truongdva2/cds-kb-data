@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLBYINTERNALKEY
 description: Prodnrscetoolbyinternalkey
+semantic_en: "production resource tools indexed by internal key — comprehensive tool master data including material and equipment associations with document references"
+semantic_vi: "công cụ tài nguyên sản xuất được lập chỉ mục theo khóa nội bộ — dữ liệu chính công cụ toàn diện bao gồm các liên kết vật liệu và thiết bị với tài liệu tham chiếu"
+keywords:
+  - công cụ tài nguyên
+  - khóa nội bộ
+  - dữ liệu chính
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

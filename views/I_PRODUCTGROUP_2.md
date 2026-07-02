@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTGROUP_2
 description: Productgroup 2
+semantic_en: "master data view of product groups with authorization, valuation class, and purchasing acknowledgment profile attributes"
+semantic_vi: "view dữ liệu chính nhóm sản phẩm với các thuộc tính phân quyền, lớp định giá và hồ sơ xác nhận mua hàng"
+keywords:
+  - nhóm sản phẩm
+  - phân loại định giá
+  - phân quyền
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

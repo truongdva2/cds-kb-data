@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERCOMPONENT
 description: Production OrderCOMPONENT
+semantic_en: "master data view of production order components linking reservations, materials, and operation sequences across plants"
+semantic_vi: "view dữ liệu chính thành phần lệnh sản xuất liên kết các đơn đặt hàng, vật liệu và chuỗi hoạt động qua các nhà máy"
+keywords:
+  - thành phần lệnh sản xuất
+  - vật liệu sản xuất
+  - lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

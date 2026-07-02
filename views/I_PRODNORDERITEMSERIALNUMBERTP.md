@@ -1,6 +1,12 @@
 ---
 name: I_PRODNORDERITEMSERIALNUMBERTP
 description: PRODNORDERITEMSerial NumberTP
+semantic_en: "technical interface for production order item serial numbers — exposing serial number assignments and product identifiers for external system integration"
+semantic_vi: "giao diện kỹ thuật cho số seri mục lệnh sản xuất — tiếp xúc gán số seri và định danh sản phẩm cho tích hợp hệ thống bên ngoài"
+keywords:
+  - số seri kỹ thuật
+  - lệnh sản xuất
+  - giao diện
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

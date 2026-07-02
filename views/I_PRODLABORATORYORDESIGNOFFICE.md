@@ -1,6 +1,12 @@
 ---
 name: I_PRODLABORATORYORDESIGNOFFICE
 description: Prodlaboratoryordesignoffice
+semantic_en: "laboratory or design office master data — identifying organizational units responsible for product testing and design work"
+semantic_vi: "dữ liệu chính của phòng thí nghiệm hoặc văn phòng thiết kế — xác định các đơn vị tổ chức chịu trách nhiệm kiểm tra sản phẩm và công việc thiết kế"
+keywords:
+  - phòng thí nghiệm
+  - văn phòng thiết kế
+  - đơn vị tổ chức
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

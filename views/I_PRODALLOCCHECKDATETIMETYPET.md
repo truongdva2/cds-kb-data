@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCCHECKDATETIMETYPET
 description: Prodalloccheckdatetimetypet
+semantic_en: "Product allocation check date time type text — localized descriptions for allocation check temporal scopes by language."
+semantic_vi: "Văn bản loại ngày giờ kiểm tra phân bổ sản phẩm — mô tả địa phương cho phạm vi thời gian kiểm tra phân bổ theo ngôn ngữ."
+keywords:
+  - kiểm tra phân bổ
+  - loại ngày giờ
+  - mô tả
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

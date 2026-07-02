@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTGROUPHIERNODETEXT
 description: Productgrouphiernodetext
+semantic_en: "text view providing localized hierarchy node descriptions by language and validity period"
+semantic_vi: "view mô tả cung cấp tên nút phân cấp theo ngôn ngữ và kỳ hạn hiệu lực"
+keywords:
+  - mô tả nút
+  - phân cấp
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

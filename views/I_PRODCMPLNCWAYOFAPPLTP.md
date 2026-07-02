@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCWAYOFAPPLTP
 description: Prodcmplncwayofappltp
+semantic_en: "Way of application transactional processing — application methods for chemical products with use rating assignments."
+semantic_vi: "Xử lý giao dịch cách ứng dụng — các phương pháp ứng dụng cho sản phẩm hóa học với gán xếp hạng sử dụng."
+keywords:
+  - cách ứng dụng
+  - sản phẩm hóa học
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

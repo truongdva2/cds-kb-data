@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTPLANTSTDVH
 description: Productplantstdvh
+semantic_en: "value-help for product plants — enables selection of active product-plant combinations."
+semantic_vi: "Giúp đỡ giá trị cho nhà máy sản phẩm — cho phép chọn các tổ hợp sản phẩm-nhà máy đang hoạt động."
+keywords:
+  - tra cứu nhà máy
+  - sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCCHKDATASNPSHTTYPE
 description: Prodallocchkdatasnpshttype
+semantic_en: "Product allocation check data snapshot type — domain value for the data snapshot method used in allocation checks."
+semantic_vi: "Loại ảnh chụp dữ liệu kiểm tra phân bổ sản phẩm — giá trị miền cho phương pháp ảnh chụp dữ liệu được sử dụng trong kiểm tra phân bổ."
+keywords:
+  - ảnh chụp dữ liệu
+  - kiểm tra phân bổ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

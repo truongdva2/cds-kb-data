@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTINSPECTIONTEXTTP_2
 description: Productinspectiontexttp 2
+semantic_en: "transactional projection of product inspection long text objects across multiple languages with creation and modification timestamps"
+semantic_vi: "projection giao dịch các văn bản dài kiểm tra sản phẩm theo ngôn ngữ khác nhau với thời gian tạo và sửa đổi"
+keywords:
+  - văn bản kiểm tra
+  - kiểm tra sản phẩm
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

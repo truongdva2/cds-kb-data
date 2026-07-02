@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONACCOUNTING_2
 description: Productvaluationaccounting 2
+semantic_en: "product valuation account data extract — commercial, tax, and future pricing with LIFO/FIFO valuation pools for accounting"
+semantic_vi: "dữ liệu tài khoản định giá sản phẩm — giá thương mại, thuế và giá trong tương lai với nhóm định giá LIFO/FIFO"
+keywords:
+  - định giá sản phẩm
+  - LIFO/FIFO
+  - tài khoản
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

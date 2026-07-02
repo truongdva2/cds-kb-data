@@ -1,6 +1,12 @@
 ---
 name: I_PRODINTERNALCOMMENTTEXTTP_2
 description: Prodinternalcommenttexttp 2
+semantic_en: "internal comment long text entries for products — storing user-created and user-maintained descriptive comments with audit trail of creation and modification timestamps"
+semantic_vi: "mục nhập văn bản bình luận nội bộ dài cho sản phẩm — lưu trữ bình luận mô tả do người dùng tạo và duy trì với lịch sử thời gian tạo và sửa đổi"
+keywords:
+  - bình luận nội bộ
+  - văn bản sản phẩm
+  - ghi chú dài
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERSTDVH
 description: Production OrderSTDVH
+semantic_en: "value-help for production orders — enables selection of manufacturing orders by order number, type, and plant."
+semantic_vi: "Giúp đỡ giá trị cho lệnh sản xuất — cho phép chọn lệnh sản xuất theo số lệnh, loại và nhà máy."
+keywords:
+  - tra cứu lệnh
+  - sản xuất
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

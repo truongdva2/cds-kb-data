@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTUNITOFMEASUREEAN
 description: PRODUCTUnit of MeasureEAN
+semantic_en: "international article number of product — EAN/barcode identifiers and standards for product units of measure"
+semantic_vi: "mã bài viết quốc tế của sản phẩm — mã định danh EAN/barcode và tiêu chuẩn cho đơn vị đo sản phẩm"
+keywords:
+  - mã EAN
+  - barcode sản phẩm
+  - đơn vị đo
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

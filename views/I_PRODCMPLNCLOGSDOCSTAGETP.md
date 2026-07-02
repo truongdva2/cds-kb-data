@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCLOGSDOCSTAGETP
 description: Prodcmplnclogsdocstagetp
+semantic_en: "Product compliance logs document stage — document processing stages with geographic and logistics mode information."
+semantic_vi: "Sân khấu tài liệu nhật ký tuân thủ sản phẩm — các sân khấu xử lý tài liệu với thông tin địa lý và chế độ hậu cần."
+keywords:
+  - nhật ký tuân thủ
+  - sân khấu tài liệu
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTINSPTYPESETTING
 description: Productinsptypesetting
+semantic_en: "configuration view for inspection type settings on product including task list, specification, batch characteristic, and automation requirements"
+semantic_vi: "view cấu hình thiết lập loại kiểm tra sản phẩm bao gồm danh sách tác vụ, đặc tả, đặc tính lô và yêu cầu tự động hóa"
+keywords:
+  - cấu hình kiểm tra
+  - loại kiểm tra sản phẩm
+  - tự động hóa
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

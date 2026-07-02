@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCCHECKMETHOD
 description: Prodalloccheckmethod
+semantic_en: "Product allocation check method — domain value specifying the method used for allocation validation."
+semantic_vi: "Phương pháp kiểm tra phân bổ sản phẩm — giá trị miền chỉ định phương pháp được sử dụng để xác thực phân bổ."
+keywords:
+  - phương pháp kiểm tra
+  - phân bổ sản phẩm
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

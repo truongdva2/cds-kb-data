@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERTYPE
 description: Production OrderTYPE
+semantic_en: "production order type definitions — includes number ranges, status profiles, planning rules, and settlement configuration."
+semantic_vi: "Định nghĩa loại lệnh sản xuất — bao gồm dãy số, hồ sơ trạng thái, quy tắc lập kế hoạch và cấu hình thanh toán."
+keywords:
+  - loại lệnh
+  - hồ sơ trạng thái
+  - lập kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

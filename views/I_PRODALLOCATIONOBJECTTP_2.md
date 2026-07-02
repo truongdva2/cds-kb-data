@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCATIONOBJECTTP_2
 description: Prodallocationobjecttp 2
+semantic_en: "Product allocation object — master data for allocation objects including period type, factory calendar, lifecycle status, and audit fields."
+semantic_vi: "Đối tượng phân bổ sản phẩm — dữ liệu chính cho các đối tượng phân bổ bao gồm loại kỳ, lịch nhà máy, trạng thái vòng đời và trường kiểm toán."
+keywords:
+  - đối tượng phân bổ
+  - lịch nhà máy
+  - trạng thái vòng đời
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

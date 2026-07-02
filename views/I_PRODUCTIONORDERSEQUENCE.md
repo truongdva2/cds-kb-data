@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERSEQUENCE
 description: Production OrderSEQUENCE
+semantic_en: "master data view of production order sequences with hierarchy, operation branching, and bill of operations attributes"
+semantic_vi: "view dữ liệu chính chuỗi lệnh sản xuất với phân cấp, nhánh hoạt động và thuộc tính danh sách hoạt động"
+keywords:
+  - chuỗi lệnh sản xuất
+  - hoạt động sản xuất
+  - sequence
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

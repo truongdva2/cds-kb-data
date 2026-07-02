@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLNTINSPTYPESETTINGTP_2
 description: Prodplntinsptypesettingtp 2
+semantic_en: "inspection type settings for product plants — configuring quality control requirements including task lists, material specifications, batch characteristics, and sampling rules by inspection lot type"
+semantic_vi: "cài đặt loại kiểm tra cho nhà máy sản phẩm — cấu hình các yêu cầu kiểm soát chất lượng bao gồm danh sách tác vụ, thông số kỹ thuật vật liệu, đặc điểm lô và quy tắc lấy mẫu theo loại lô kiểm tra"
+keywords:
+  - cài đặt kiểm tra
+  - chất lượng
+  - lô kiểm tra
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

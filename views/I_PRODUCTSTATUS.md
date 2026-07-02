@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSTATUS
 description: Productstatus
+semantic_en: "cross-plant product status — product status values applicable across all plants"
+semantic_vi: "trạng thái sản phẩm toàn tập đoàn — các giá trị trạng thái sản phẩm áp dụng trên tất cả các nhà máy"
+keywords:
+  - trạng thái sản phẩm
+  - toàn tập đoàn
+  - trạng thái
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTFORECASTRQMTSSPLITVH
 description: Productforecastrqmtssplitvh
+semantic_en: "value-help view for production forecast requirements split codes by plant and forecast period type"
+semantic_vi: "view hỗ trợ giá trị cho các mã chia tách yêu cầu dự báo sản xuất theo nhà máy và loại kỳ hạn dự báo"
+keywords:
+  - dự báo sản xuất
+  - chia tách yêu cầu
+  - value help
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

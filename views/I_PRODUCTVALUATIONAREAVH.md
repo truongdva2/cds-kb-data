@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONAREAVH
 description: Productvaluationareavh
+semantic_en: "product valuation area value-help — valuation area to company code mapping for valuation lookups"
+semantic_vi: "trợ giúp giá trị vùng định giá sản phẩm — ánh xạ vùng định giá tới mã công ty để tra cứu định giá"
+keywords:
+  - vùng định giá
+  - mã công ty
+  - định giá
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

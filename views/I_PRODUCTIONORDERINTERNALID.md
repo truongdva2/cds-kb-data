@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERINTERNALID
 description: Production OrderINTERNALID
+semantic_en: "master data view mapping production order internal identifiers to order numbers and order types"
+semantic_vi: "view dữ liệu chính ánh xạ các mã định danh nội bộ lệnh sản xuất thành số lệnh và loại lệnh"
+keywords:
+  - ID nội bộ
+  - số lệnh sản xuất
+  - loại lệnh
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

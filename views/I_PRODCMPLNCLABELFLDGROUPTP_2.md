@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCLABELFLDGROUPTP_2
 description: Prodcmplnclabelfldgrouptp 2
+semantic_en: "Label field group transactional processing — parent-child grouping for product compliance label fields with creation and change tracking."
+semantic_vi: "Xử lý giao dịch nhóm trường nhãn — nhóm cha-con cho các trường nhãn tuân thủ sản phẩm với theo dõi tạo và thay đổi."
+keywords:
+  - nhóm trường nhãn
+  - tuân thủ sản phẩm
 app_component: EHS-SUS-SDS
 software_component: SAPSCORE
 release_state: released

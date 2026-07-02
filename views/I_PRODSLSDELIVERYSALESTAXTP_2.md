@@ -1,6 +1,12 @@
 ---
 name: I_PRODSLSDELIVERYSALESTAXTP_2
 description: Prodslsdeliverysalestaxtp 2
+semantic_en: "transactional projection of product sales delivery and sales tax classification across organizations and distribution channels"
+semantic_vi: "projection giao dịch bao gồm phân loại thuế bán hàng cho phép bán sản phẩm theo tổ chức bán hàng và kênh phân phối"
+keywords:
+  - thuế bán hàng
+  - phân loại thuế
+  - bán hàng theo tổ chức
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

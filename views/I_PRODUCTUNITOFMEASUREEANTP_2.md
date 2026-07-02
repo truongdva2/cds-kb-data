@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTUNITOFMEASUREEANTP_2
 description: PRODUCTUnit of MeasureEANTP 2
+semantic_en: "product unit of measure EAN data extract — EAN/barcode identifiers and standards for product units of measure"
+semantic_vi: "dữ liệu mã EAN đơn vị đo sản phẩm — mã định danh EAN/barcode và tiêu chuẩn cho đơn vị đo sản phẩm"
+keywords:
+  - mã EAN
+  - đơn vị đo
+  - barcode
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

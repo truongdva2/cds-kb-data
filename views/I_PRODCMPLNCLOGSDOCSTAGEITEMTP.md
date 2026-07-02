@@ -1,6 +1,12 @@
 ---
 name: I_PRODCMPLNCLOGSDOCSTAGEITEMTP
 description: Prodcmplnclogsdocstageitemtp
+semantic_en: "Product compliance logs document stage item — line items within document stages tracking creation and last change details."
+semantic_vi: "Mục sân khấu tài liệu nhật ký tuân thủ sản phẩm — các mục dòng trong các sân khấu tài liệu theo dõi chi tiết tạo và thay đổi lần cuối."
+keywords:
+  - nhật ký tuân thủ
+  - sân khấu tài liệu
+  - mục dòng
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

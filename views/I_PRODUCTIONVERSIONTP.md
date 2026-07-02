@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONVERSIONTP
 description: Productionversiontp
+semantic_en: "production version status template — tracks change history, bill of operations variants, and BOM usage for version control."
+semantic_vi: "Mẫu trạng thái phiên bản sản xuất — theo dõi lịch sử thay đổi, các biến thể hóa đơn hoạt động và cách sử dụng BOM để kiểm soát phiên bản."
+keywords:
+  - phiên bản sản xuất
+  - lịch sử thay đổi
+  - BOM
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

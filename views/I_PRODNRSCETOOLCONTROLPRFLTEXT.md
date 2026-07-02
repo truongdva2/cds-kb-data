@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLCONTROLPRFLTEXT
 description: Prodnrscetoolcontrolprfltext
+semantic_en: "text translations for production resource tool control profile names — providing language-specific descriptions of control profile types for tool management"
+semantic_vi: "dịch văn bản tên hồ sơ kiểm soát công cụ tài nguyên sản xuất — cung cấp mô tả theo ngôn ngữ về loại hồ sơ kiểm soát cho quản lý công cụ"
+keywords:
+  - hồ sơ kiểm soát
+  - công cụ tài nguyên
+  - mô tả
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTSALES
 description: Productplantsales
+semantic_en: "product plant sales configuration — defines loading group, shipping duration, work center setup time, availability check, and replacement part classification."
+semantic_vi: "Cấu hình bán hàng nhà máy sản phẩm — định nghĩa nhóm tải hàng, thời gian giao hàng, thời gian thiết lập trung tâm công việc, kiểm tra khả dụng và phân loại sản phẩm thay thế."
+keywords:
+  - bán hàng
+  - giao hàng
+  - khả dụng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

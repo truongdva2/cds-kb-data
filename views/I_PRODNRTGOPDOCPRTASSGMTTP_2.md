@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRTGOPDOCPRTASSGMTTP_2
 description: Prodnrtgopdocprtassgmttp 2
+semantic_en: "document assignments to production resource tools in routing — mapping technical documents and parts to tool usage in routing operations"
+semantic_vi: "gán tài liệu cho công cụ tài nguyên sản xuất trong bố trí — ánh xạ tài liệu kỹ thuật và bộ phận để sử dụng công cụ trong hoạt động bố trí"
+keywords:
+  - gán tài liệu
+  - công cụ tài nguyên
+  - bố trí
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

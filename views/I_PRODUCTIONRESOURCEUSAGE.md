@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTIONRESOURCEUSAGE
 description: Productionresourceusage
+semantic_en: "production resource usage codes — categorizes how manufacturing resources are utilized."
+semantic_vi: "Mã sử dụng tài nguyên sản xuất — phân loại cách sử dụng tài nguyên sản xuất."
+keywords:
+  - mục đích sử dụng
+  - tài nguyên sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

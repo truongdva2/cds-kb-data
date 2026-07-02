@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTTP_2
 description: Productplanttp 2
+semantic_en: "product plant master template — contains profile settings, serial numbering, batch management, stock determination, and CFOP classification."
+semantic_vi: "Mẫu chính nhà máy sản phẩm — chứa cài đặt hồ sơ, đánh số sê-ri, quản lý lô, xác định kho và phân loại CFOP."
+keywords:
+  - mẫu chính
+  - hồ sơ
+  - quản lý lô
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

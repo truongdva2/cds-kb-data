@@ -1,6 +1,12 @@
 ---
 name: I_PRODSAFETYTIMEMRPRELEVANCE
 description: Prodsafetytimemrprelevance
+semantic_en: "domain-value view for determining MRP relevance of product safety time in manufacturing operations"
+semantic_vi: "view giá trị miền xác định mức độ liên quan đến MRP của thời gian an toàn sản phẩm trong hoạt động sản xuất"
+keywords:
+  - an toàn sản phẩm
+  - MRP
+  - thời gian an toàn
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

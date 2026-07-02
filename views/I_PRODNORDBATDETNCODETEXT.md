@@ -1,6 +1,12 @@
 ---
 name: I_PRODNORDBATDETNCODETEXT
 description: Prodnordbatdetncodetext
+semantic_en: "text translations for production order batch determination codes — providing language-specific names for batch control strategies in manufacturing orders"
+semantic_vi: "dịch văn bản mã xác định lô sản xuất — cung cấp tên theo ngôn ngữ cho các chiến lược kiểm soát lô trong lệnh sản xuất"
+keywords:
+  - mã xác định lô
+  - lô sản xuất
+  - chiến lược lô
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

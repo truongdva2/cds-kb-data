@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTFORECAST
 description: Productplantforecast
+semantic_en: "product plant forecast consumption rules — defines reference product/plant, consumption multiplier, correction factor, and forecast reset settings."
+semantic_vi: "Quy tắc tiêu thụ dự báo nhà máy sản phẩm — định nghĩa sản phẩm/nhà máy tham chiếu, hệ số nhân tiêu thụ, hệ số hiệu chỉnh và cài đặt đặt lại dự báo."
+keywords:
+  - dự báo
+  - tiêu thụ
+  - hệ số nhân
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

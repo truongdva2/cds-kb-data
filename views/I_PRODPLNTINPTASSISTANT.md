@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLNTINPTASSISTANT
 description: Prodplntinptassistant
+semantic_en: "input assistance view for product plant data — providing aggregated product, plant, and planning attributes for efficient data entry and selection"
+semantic_vi: "chế độ xem trợ giúp đầu vào cho dữ liệu nhà máy sản phẩm — cung cấp các thuộc tính sản phẩm, nhà máy và lập kế hoạch được tổng hợp để nhập và chọn dữ liệu hiệu quả"
+keywords:
+  - trợ giúp đầu vào
+  - dữ liệu nhà máy
+  - lập kế hoạch
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

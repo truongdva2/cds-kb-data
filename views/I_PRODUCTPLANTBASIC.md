@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTBASIC
 description: Productplantbasic
+semantic_en: "product plant core data — contains purchasing group, country/region origin, inventory management location, profile code, and fiscal year settings."
+semantic_vi: "Dữ liệu cốt lõi nhà máy sản phẩm — chứa nhóm mua hàng, xuất xứ quốc gia/vùng, vị trí quản lý kho, mã hồ sơ và cài đặt năm tài chính."
+keywords:
+  - nhà máy sản phẩm
+  - mua hàng
+  - hồ sơ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

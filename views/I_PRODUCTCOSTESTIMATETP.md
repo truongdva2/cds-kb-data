@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCOSTESTIMATETP
 description: Productcostestimatetp
+semantic_en: "transactional projection of product cost estimates with full dimensionality including plant, controlling area, and valuation method"
+semantic_vi: "projection giao dịch dự toán chi phí sản phẩm với đầy đủ chiều bao gồm nhà máy, lực lượng kiểm soát và phương pháp định giá"
+keywords:
+  - dự toán chi phí
+  - cost estimate
+  - sản phẩm
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

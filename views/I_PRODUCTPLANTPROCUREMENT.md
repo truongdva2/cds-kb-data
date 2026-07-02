@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTPROCUREMENT
 description: Productplantprocurement
+semantic_en: "product plant procurement settings — controls purchase order creation, source list requirement, and JIT delivery eligibility."
+semantic_vi: "Cài đặt mua sắm nhà máy sản phẩm — kiểm soát tạo đơn mua hàng, yêu cầu danh sách nguồn cung cấp và khả năng giao hàng JIT."
+keywords:
+  - mua sắm
+  - đơn mua hàng
+  - JIT
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

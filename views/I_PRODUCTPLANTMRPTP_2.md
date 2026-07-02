@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTMRPTP_2
 description: Productplantmrptp 2
+semantic_en: "product plant MRP template — mirrors MRP configuration including responsible planner, lot sizing rules, and rounding profile."
+semantic_vi: "Mẫu MRP nhà máy sản phẩm — phản chiếu cấu hình MRP bao gồm kế hoạch viên chịu trách nhiệm, quy tắc kích thước lô và hồ sơ làm tròn."
+keywords:
+  - MRP
+  - kích thước lô
+  - làm tròn
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

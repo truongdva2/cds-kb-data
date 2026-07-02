@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSUPPLYPLANNING
 description: Productsupplyplanning
+semantic_en: "product supply planning — lot sizing, safety stock, MRP parameters and ABC classification for supply chain planning"
+semantic_vi: "lập kế hoạch cung ứng sản phẩm — kích thước lô, hàng tồn kho an toàn, các tham số MRP và phân loại ABC"
+keywords:
+  - lập kế hoạch cung ứng
+  - kích thước lô
+  - phân loại ABC
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

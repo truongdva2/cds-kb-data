@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONSUPPLYAREAADDRTP_2
 description: Productionsupplyareaaddrtp 2
+semantic_en: "production supply area address template — stores street addresses and contact details for supply locations."
+semantic_vi: "Mẫu địa chỉ khu vực cung cấp sản xuất — lưu trữ địa chỉ đường phố và chi tiết liên hệ cho các vị trí cung cấp."
+keywords:
+  - địa chỉ khu vực
+  - cung cấp
+  - chi tiết liên hệ
 app_component: PP-KAB-2CL
 software_component: SAPSCORE
 release_state: released

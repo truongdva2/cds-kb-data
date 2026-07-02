@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONTP_2
 description: Productvaluationtp 2
+semantic_en: "product valuation data extract — valuation types, standard/moving average prices, inventory procedure and product usage/origin type"
+semantic_vi: "dữ liệu định giá sản phẩm — loại định giá, giá tiêu chuẩn/trung bình động, thủ tục hàng tồn kho và loại sử dụng/nguồn gốc sản phẩm"
+keywords:
+  - định giá sản phẩm
+  - giá tiêu chuẩn
+  - loại sử dụng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

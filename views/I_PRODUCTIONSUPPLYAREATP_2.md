@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONSUPPLYAREATP_2
 description: Productionsupplyareatp 2
+semantic_en: "production supply area template — defines unloading points, shift schedules, pull intervals, warehouse staging, and master address reference."
+semantic_vi: "Mẫu khu vực cung cấp sản xuất — định nghĩa điểm dỡ hàng, lịch ca, khoảng thời gian kéo, dàn dựng kho và tham chiếu địa chỉ chính."
+keywords:
+  - điểm dỡ hàng
+  - lịch ca
+  - khoảng kéo
 app_component: PP-KAB-2CL
 software_component: SAPSCORE
 release_state: released

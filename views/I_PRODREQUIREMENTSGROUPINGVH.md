@@ -1,6 +1,12 @@
 ---
 name: I_PRODREQUIREMENTSGROUPINGVH
 description: Prodrequirementsgroupingvh
+semantic_en: "value-help view for product requirements grouping codes used in materials planning"
+semantic_vi: "view hỗ trợ giá trị cho các mã nhóm yêu cầu sản phẩm dùng trong lập kế hoạch vật liệu"
+keywords:
+  - nhóm yêu cầu sản phẩm
+  - mã yêu cầu
+  - value help
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

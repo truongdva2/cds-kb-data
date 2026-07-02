@@ -1,6 +1,12 @@
 ---
 name: I_PRODNORDCONFMATLDOCITEMTP
 description: Prodnordconfmatldocitemtp
+semantic_en: "production order confirmation material document items — recording material confirmations linked to production orders with reservation and document tracking"
+semantic_vi: "mục xác nhận tài liệu vật liệu sản xuất — ghi nhận xác nhận vật liệu liên quan đến lệnh sản xuất với theo dõi đặt chỗ và tài liệu"
+keywords:
+  - xác nhận sản xuất
+  - tài liệu vật liệu
+  - lệnh sản xuất
 app_component: PP-SFC-EXE-CON-2CL
 software_component: SAPSCORE
 release_state: released

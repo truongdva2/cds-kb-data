@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDEROPCOMPONENTTP
 description: Production OrderOPCOMPONENTTP
+semantic_en: "transactional projection of production order operation components including material reservations and component text descriptions"
+semantic_vi: "projection giao dịch thành phần hoạt động lệnh sản xuất bao gồm đơn đặt hàng vật liệu và mô tả văn bản thành phần"
+keywords:
+  - thành phần hoạt động
+  - lệnh sản xuất
+  - vật liệu
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

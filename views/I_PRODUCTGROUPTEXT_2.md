@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTGROUPTEXT_2
 description: Productgrouptext 2
+semantic_en: "text view for product group descriptions including group name and descriptive text by language"
+semantic_vi: "view mô tả cho nhóm sản phẩm bao gồm tên nhóm và văn bản mô tả theo ngôn ngữ"
+keywords:
+  - tên nhóm sản phẩm
+  - mô tả nhóm
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

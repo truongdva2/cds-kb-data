@@ -1,6 +1,12 @@
 ---
 name: I_PRODCMPLNCUSETP
 description: Prodcmplncusetp
+semantic_en: "Product compliance use transactional processing — product uses in legal areas with processing status and validity dates."
+semantic_vi: "Xử lý giao dịch cách sử dụng tuân thủ sản phẩm — cách sử dụng sản phẩm trong các lĩnh vực pháp lý với trạng thái xử lý và ngày hiệu lực."
+keywords:
+  - cách sử dụng
+  - tuân thủ sản phẩm
+  - lĩnh vực pháp lý
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

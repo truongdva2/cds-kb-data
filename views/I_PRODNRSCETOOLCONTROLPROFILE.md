@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLCONTROLPROFILE
 description: Prodnrscetoolcontrolprofile
+semantic_en: "control profiles for production resource tools — defining feature activation flags for scheduling, costing, confirmation, and printing capabilities"
+semantic_vi: "hồ sơ kiểm soát cho công cụ tài nguyên sản xuất — xác định các cờ kích hoạt tính năng cho lập lịch, tính chi phí, xác nhận và khả năng in"
+keywords:
+  - hồ sơ kiểm soát
+  - kích hoạt tính năng
+  - công cụ sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

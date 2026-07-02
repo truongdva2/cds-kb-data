@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTAXCLASSIFICATION
 description: Producttaxclassification
+semantic_en: "tax classification for product — multiple tax classification levels by country for products"
+semantic_vi: "phân loại thuế sản phẩm — nhiều cấp độ phân loại thuế theo quốc gia cho sản phẩm"
+keywords:
+  - phân loại thuế
+  - thuế sản phẩm
+  - quốc gia
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

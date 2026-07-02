@@ -1,6 +1,12 @@
 ---
 name: I_PRODSAFETYTIMEMRPRLVNCETEXT
 description: Prodsafetytimemrprlvncetext
+semantic_en: "text view providing localized descriptions of product safety time MRP relevance codes"
+semantic_vi: "view mô tả cung cấp các tên mã liên quan MRP thời gian an toàn sản phẩm theo ngôn ngữ"
+keywords:
+  - mô tả an toàn sản phẩm
+  - MRP relevance
+  - ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

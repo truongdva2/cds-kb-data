@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONCATEGORYTEXT
 description: Productvaluationcategorytext
+semantic_en: "valuation category name — localized inventory valuation category names by language"
+semantic_vi: "tên danh mục định giá — tên danh mục định giá hàng tồn kho được bản địa hóa theo ngôn ngữ"
+keywords:
+  - danh mục định giá
+  - bản địa hóa
+  - tên
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

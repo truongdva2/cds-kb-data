@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTSUPPLYPLANNING
 description: Productplantsupplyplanning
+semantic_en: "product plant supply planning — defines lot sizing, safety stock, maximum stock, planning time fence, and consumption value category."
+semantic_vi: "Lập kế hoạch cung cấp nhà máy sản phẩm — định nghĩa kích thước lô, kho dự trữ an toàn, kho tối đa, rào cản thời gian lập kế hoạch và hạng mục giá trị tiêu thụ."
+keywords:
+  - lập kế hoạch cung cấp
+  - kích thước lô
+  - an toàn
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

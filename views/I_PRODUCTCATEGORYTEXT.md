@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCATEGORYTEXT
 description: Productcategorytext
+semantic_en: "text view providing localized names and descriptions of product categories by language"
+semantic_vi: "view mô tả cung cấp tên danh mục sản phẩm theo ngôn ngữ khác nhau"
+keywords:
+  - tên danh mục
+  - phân loại sản phẩm
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

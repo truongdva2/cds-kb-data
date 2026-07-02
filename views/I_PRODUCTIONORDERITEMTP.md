@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERITEMTP
 description: Production OrderITEMTP
+semantic_en: "transactional projection of production order items with MRP status, material details, and planning plant information"
+semantic_vi: "projection giao dịch các mục lệnh sản xuất bao gồm trạng thái MRP, chi tiết vật liệu và thông tin nhà máy lập kế hoạch"
+keywords:
+  - mục lệnh sản xuất
+  - trạng thái MRP
+  - sản phẩm lệnh
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

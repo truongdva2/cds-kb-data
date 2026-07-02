@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTYPETEXT_2
 description: Producttypetext 2
+semantic_en: "product type text — localized product type names by language"
+semantic_vi: "tên loại sản phẩm — tên loại sản phẩm được bản địa hóa theo ngôn ngữ"
+keywords:
+  - loại sản phẩm
+  - tên loại
+  - bản địa hóa
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTIONSUPPLYAREASTDVH
 description: Productionsupplyareastdvh
+semantic_en: "value-help for production supply areas — enables selection by area code and plant."
+semantic_vi: "Giúp đỡ giá trị cho khu vực cung cấp sản xuất — cho phép chọn theo mã khu vực và nhà máy."
+keywords:
+  - tra cứu khu vực
+  - cung cấp
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

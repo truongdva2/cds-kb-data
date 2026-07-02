@@ -1,6 +1,12 @@
 ---
 name: I_PRODNORDBATDETNCODEVALUEHELP
 description: Prodnordbatdetncodevaluehelp
+semantic_en: "value help for production order batch determination — providing selectable batch determination codes used in manufacturing workflows"
+semantic_vi: "trợ giúp giá trị cho xác định lô sản xuất — cung cấp các mã xác định lô có thể chọn được sử dụng trong quy trình sản xuất"
+keywords:
+  - xác định lô
+  - mã lô
+  - giá trị lô
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

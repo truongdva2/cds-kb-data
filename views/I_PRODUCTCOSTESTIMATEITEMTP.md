@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCOSTESTIMATEITEMTP
 description: Productcostestimateitemtp
+semantic_en: "transactional projection of product cost estimate items with line-level pricing and currency details"
+semantic_vi: "projection giao dịch các dòng dự toán chi phí sản phẩm với giá tại từng dòng và chi tiết tiền tệ"
+keywords:
+  - dòng chi phí
+  - dự toán mục
+  - giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLNTMRPTEXTTP_2
 description: Prodplntmrptexttp 2
+semantic_en: "product plant MRP long text documents — storing extended textual information for supply planning and material requirements with user audit trail"
+semantic_vi: "tài liệu văn bản dài MRP nhà máy sản phẩm — lưu trữ thông tin văn bản mở rộng cho lập kế hoạch cung ứng và yêu cầu vật liệu với lịch sử kiểm toán người dùng"
+keywords:
+  - văn bản MRP
+  - yêu cầu vật liệu
+  - lập kế hoạch
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

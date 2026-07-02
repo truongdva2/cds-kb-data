@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRTGOPEQUIPPRTASSGMTTP_2
 description: Prodnrtgopequipprtassgmttp 2
+semantic_en: "equipment assignments to production resource tools in routing — linking equipment and tool specifications including standard work quantities to routing operations"
+semantic_vi: "gán thiết bị cho công cụ tài nguyên sản xuất trong bố trí — liên kết thiết bị và thông số kỹ thuật công cụ bao gồm số lượng công việc tiêu chuẩn cho hoạt động bố trí"
+keywords:
+  - gán thiết bị
+  - công cụ tài nguyên
+  - bố trí hoạt động
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

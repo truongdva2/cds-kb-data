@@ -1,6 +1,12 @@
 ---
 name: I_PRODSHELFLIFEEXPRTNDTEPERDVH
 description: Prodshelflifeexprtndteperdvh
+semantic_en: "value-help view for shelf life expiration date period classification codes"
+semantic_vi: "view hỗ trợ giá trị cho các mã phân loại kỳ hạn ngày hết hạn thời gian bảo quản"
+keywords:
+  - shelf life
+  - hết hạn
+  - kỳ hạn bảo quản
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

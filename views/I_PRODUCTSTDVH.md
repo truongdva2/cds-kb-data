@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSTDVH
 description: Productstdvh
+semantic_en: "external product ID value-help — product identifiers, groups, types and authorization data for product lookup"
+semantic_vi: "trợ giúp giá trị ID sản phẩm bên ngoài — mã sản phẩm, nhóm, loại và dữ liệu ủy quyền để tra cứu sản phẩm"
+keywords:
+  - ID sản phẩm bên ngoài
+  - mã sản phẩm
+  - nhóm sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

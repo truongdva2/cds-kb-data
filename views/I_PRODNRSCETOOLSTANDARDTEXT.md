@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLSTANDARDTEXT
 description: Prodnrscetoolstandardtext
+semantic_en: "standard text codes for production resource tools — managing predefined text templates for tool documentation and work instructions"
+semantic_vi: "mã văn bản tiêu chuẩn cho công cụ tài nguyên sản xuất — quản lý các mẫu văn bản được xác định trước cho tài liệu công cụ và hướng dẫn làm việc"
+keywords:
+  - văn bản tiêu chuẩn
+  - mã văn bản
+  - tài liệu công cụ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

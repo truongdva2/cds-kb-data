@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTFIELDATTRIBUTES
 description: Productfieldattributes
+semantic_en: "configuration view for product field maintenance including selection groups and content copy flags across reference products"
+semantic_vi: "view cấu hình để bảo trì trường sản phẩm bao gồm các nhóm lựa chọn và cờ sao chép nội dung từ sản phẩm tham chiếu"
+keywords:
+  - trường sản phẩm
+  - nhóm lựa chọn
+  - cấu hình
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

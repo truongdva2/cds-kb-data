@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCATIONSEQUENCETP_2
 description: Prodallocationsequencetp 2
+semantic_en: "Product allocation sequence — master data for allocation sequences with consumption unit, lifecycle status, and change tracking."
+semantic_vi: "Chuỗi phân bổ sản phẩm — dữ liệu chính cho các chuỗi phân bổ với đơn vị tiêu thụ, trạng thái vòng đời và theo dõi thay đổi."
+keywords:
+  - chuỗi phân bổ
+  - đơn vị tiêu thụ
+  - trạng thái vòng đời
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

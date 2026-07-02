@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCACTIVATIONSTATUST
 description: Prodallocactivationstatust
+semantic_en: "Product allocation activation status text — localized descriptions of allocation activation states by language."
+semantic_vi: "Văn bản trạng thái kích hoạt phân bổ sản phẩm — mô tả địa phương của các trạng thái kích hoạt phân bổ theo ngôn ngữ."
+keywords:
+  - kích hoạt phân bổ
+  - mô tả trạng thái
+  - đa ngôn ngữ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

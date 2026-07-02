@@ -1,6 +1,12 @@
 ---
 name: I_PRODLOGISTICSHANDLINGGROUPVH
 description: Prodlogisticshandlinggroupvh
+semantic_en: "value help for selecting logistics handling groups — enabling dropdown selection of product handling and storage classifications"
+semantic_vi: "trợ giúp giá trị cho chọn nhóm xử lý logistics — cho phép chọn từ danh sách các phân loại xử lý và lưu kho sản phẩm"
+keywords:
+  - nhóm xử lý
+  - giá trị trợ giúp
+  - lựa chọn phân loại
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

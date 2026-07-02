@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONSCHEDGPROFILETEXT
 description: Productionschedgprofiletext
+semantic_en: "production scheduling profile labels — provides multilingual names for scheduling profiles by plant."
+semantic_vi: "Nhãn hồ sơ lập lịch sản xuất — cung cấp tên đa ngôn ngữ cho hồ sơ lập lịch theo nhà máy."
+keywords:
+  - hồ sơ lập lịch
+  - tên hồ sơ
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

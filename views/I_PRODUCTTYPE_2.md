@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTYPE_2
 description: Producttype 2
+semantic_en: "product type — product type classification with number ranges for external and internal ID assignment"
+semantic_vi: "loại sản phẩm — phân loại loại sản phẩm với phạm vi số để gán ID bên ngoài và bên trong"
+keywords:
+  - loại sản phẩm
+  - phạm vi số
+  - gán ID
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONROUTINGTP_2
 description: Productionroutingtp 2
+semantic_en: "production routing main header template — defines routing versions with flexibility, change numbers, and usage tracking."
+semantic_vi: "Mẫu tiêu đề chính định tuyến sản xuất — định nghĩa phiên bản định tuyến với tính linh hoạt, số thay đổi và theo dõi sử dụng."
+keywords:
+  - phiên bản định tuyến
+  - linh hoạt
+  - theo dõi
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

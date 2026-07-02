@@ -1,6 +1,11 @@
 ---
 name: I_PRODCOMPONENTBACKFLUSHCODEVH
 description: Prodcomponentbackflushcodevh
+semantic_en: "Product component backflush code — domain value defining component consumption method in manufacturing."
+semantic_vi: "Mã xóa ngược thành phần sản phẩm — giá trị miền xác định phương pháp tiêu thụ thành phần trong sản xuất."
+keywords:
+  - mã xóa ngược
+  - tiêu thụ thành phần
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

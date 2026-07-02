@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLNTQLTYMANAGEMENTTP_2
 description: Prodplntqltymanagementtp 2
+semantic_en: "product plant quality management settings — configuring inspection requirements, post-to-inspection stock flags, documentation mandates, and certification types for quality assurance by product and plant"
+semantic_vi: "cài đặt quản lý chất lượng nhà máy sản phẩm — cấu hình yêu cầu kiểm tra, cờ hàng sau kiểm tra, yêu cầu tài liệu và loại chứng chỉ cho bảo đảm chất lượng theo sản phẩm và nhà máy"
+keywords:
+  - quản lý chất lượng
+  - kiểm tra
+  - chứng chỉ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTSALESTP_2
 description: Productplantsalestp 2
+semantic_en: "product plant sales template — specifies shipping processing time, capacity planning, and replacement part type for distribution."
+semantic_vi: "Mẫu bán hàng nhà máy sản phẩm — chỉ định thời gian xử lý giao hàng, lập kế hoạch năng lực và loại sản phẩm thay thế cho phân phối."
+keywords:
+  - bán hàng
+  - giao hàng
+  - năng lực
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

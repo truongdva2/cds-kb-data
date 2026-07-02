@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRTGOPMATLPRTASSGMTTP_2
 description: Prodnrtgopmatlprtassgmttp 2
+semantic_en: "material assignments to production resource tools in routing — mapping materials and plants to tool usage with text and control profile references in routing operations"
+semantic_vi: "gán vật liệu cho công cụ tài nguyên sản xuất trong bố trí — ánh xạ vật liệu và nhà máy để sử dụng công cụ với tài liệu tham chiếu văn bản và hồ sơ kiểm soát"
+keywords:
+  - gán vật liệu
+  - công cụ tài nguyên
+  - bố trí
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

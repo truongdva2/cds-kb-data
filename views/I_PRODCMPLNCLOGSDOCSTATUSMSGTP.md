@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCLOGSDOCSTATUSMSGTP
 description: Prodcmplnclogsdocstatusmsgtp
+semantic_en: "Product compliance logs document status message — system messages generated during document processing stages with message type and variables."
+semantic_vi: "Thông báo trạng thái tài liệu nhật ký tuân thủ sản phẩm — thông báo hệ thống được tạo trong các sân khấu xử lý tài liệu với loại thông báo và biến."
+keywords:
+  - nhật ký tuân thủ
+  - thông báo trạng thái
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTQUALITYMANAGEMENTTP_2
 description: Productqualitymanagementtp 2
+semantic_en: "product quality management data extract — quality management activation status and catalog profile for products"
+semantic_vi: "dữ liệu quản lý chất lượng sản phẩm — trạng thái kích hoạt quản lý chất lượng và hồ sơ danh mục sản phẩm"
+keywords:
+  - quản lý chất lượng
+  - hồ sơ danh mục
+  - kiểm tra
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

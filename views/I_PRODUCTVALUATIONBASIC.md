@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONBASIC
 description: Productvaluationbasic
+semantic_en: "product valuation — standard and moving average prices, valuation class and inventory valuation procedures by valuation area"
+semantic_vi: "định giá sản phẩm — giá tiêu chuẩn và giá trung bình động, phân loại định giá và thủ tục định giá hàng tồn kho theo vùng"
+keywords:
+  - định giá sản phẩm
+  - giá tiêu chuẩn
+  - giá trung bình động
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

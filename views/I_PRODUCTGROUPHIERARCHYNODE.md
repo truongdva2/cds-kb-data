@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTGROUPHIERARCHYNODE
 description: Productgrouphierarchynode
+semantic_en: "hierarchy node view defining product group structure with parent-child relationships, levels, and hierarchy values"
+semantic_vi: "view nút phân cấp xác định cấu trúc nhóm sản phẩm với mối quan hệ cha-con, cấp độ và giá trị phân cấp"
+keywords:
+  - nút phân cấp
+  - cấu trúc nhóm
+  - hierarchy node
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

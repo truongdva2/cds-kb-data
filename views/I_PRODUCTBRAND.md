@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTBRAND
 description: Productbrand
+semantic_en: "master data view for product brands without language-specific attributes"
+semantic_vi: "view dữ liệu chính cho các thương hiệu sản phẩm không phụ thuộc ngôn ngữ"
+keywords:
+  - thương hiệu sản phẩm
+  - brand
+  - nhãn hiệu
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

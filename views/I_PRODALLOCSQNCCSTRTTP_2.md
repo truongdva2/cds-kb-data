@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCSQNCCSTRTTP_2
 description: Prodallocsqnccstrttp 2
+semantic_en: "Product allocation sequence constraint — constraints between allocation sequences with rate, lead time, and object relationships."
+semantic_vi: "Ràng buộc chuỗi phân bổ sản phẩm — ràng buộc giữa các chuỗi phân bổ với tỷ lệ, thời gian dẫn và mối quan hệ đối tượng."
+keywords:
+  - ràng buộc chuỗi
+  - tỷ lệ phân bổ
+  - thời gian dẫn
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

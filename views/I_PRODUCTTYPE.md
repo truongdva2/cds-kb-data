@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTYPE
 description: Producttype
+semantic_en: "product type — classification type with reference accounting category and maintenance status"
+semantic_vi: "loại sản phẩm — loại phân loại với danh mục kế toán tham chiếu và trạng thái bảo trì"
+keywords:
+  - loại sản phẩm
+  - danh mục kế toán
+  - phân loại
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

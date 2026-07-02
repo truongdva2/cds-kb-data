@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSTATUSTEXT
 description: Productstatustext
+semantic_en: "cross-plant product status text — localized status descriptions by language for material usability profile"
+semantic_vi: "mô tả trạng thái sản phẩm toàn tập đoàn — tên hồ sơ khả dụng vật liệu được bản địa hóa theo ngôn ngữ"
+keywords:
+  - trạng thái sản phẩm
+  - bản địa hóa
+  - hồ sơ khả dụng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

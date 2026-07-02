@@ -1,6 +1,12 @@
 ---
 name: I_PRODPROCUREMENTTYPE
 description: Prodprocurementtype
+semantic_en: "procurement type domain values — enumerating purchasing and manufacturing decision alternatives (buy, make, or mixed strategies)"
+semantic_vi: "giá trị lĩnh vực loại mua sắm — liệt kê các lựa chọn thay thế quyết định mua hàng và sản xuất (mua, sản xuất hoặc chiến lược hỗn hợp)"
+keywords:
+  - loại mua sắm
+  - mua hay sản xuất
+  - chiến lược
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

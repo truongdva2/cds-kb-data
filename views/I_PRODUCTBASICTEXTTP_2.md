@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTBASICTEXTTP_2
 description: Productbasictexttp 2
+semantic_en: "transactional projection of product long text objects across multiple languages and creation timestamps"
+semantic_vi: "projection giao dịch bao gồm các văn bản dài sản phẩm theo ngôn ngữ khác nhau với thời gian tạo và sửa đổi"
+keywords:
+  - văn bản sản phẩm
+  - mô tả dài
+  - đa ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

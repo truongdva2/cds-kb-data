@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPROCUREMENTTP_2
 description: Productprocurementtp 2
+semantic_en: "product procurement data extract — comprehensive procurement attributes including sourcing rules, purchasing groups, and listing dates"
+semantic_vi: "dữ liệu mua hàng sản phẩm — bao gồm các quy tắc sourcing, nhóm mua hàng và ngày niêm yết"
+keywords:
+  - mua hàng sản phẩm
+  - nguồn cung
+  - nhóm mua hàng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTPLANTPLANNINGTP_2
 description: Productplantplanningtp 2
+semantic_en: "product plant planning template — specifies alternate planning material and plant with conversion factor."
+semantic_vi: "Mẫu lập kế hoạch nhà máy sản phẩm — chỉ định vật liệu lập kế hoạch thay thế và nhà máy kèm hệ số chuyển đổi."
+keywords:
+  - lập kế hoạch
+  - vật liệu thay thế
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

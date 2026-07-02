@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTSTORAGE
 description: Productplantstorage
+semantic_en: "product plant storage management — controls cycle counting, maximum storage period, warehouse strategies, and provisioning service levels."
+semantic_vi: "Quản lý kho nhà máy sản phẩm — kiểm soát kiểm kê theo chu kỳ, thời gian lưu trữ tối đa, chiến lược kho và mức dịch vụ cung cấp."
+keywords:
+  - quản lý kho
+  - kiểm kê
+  - lưu trữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

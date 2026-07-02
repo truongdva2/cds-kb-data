@@ -1,6 +1,12 @@
 ---
 name: I_PRODNROUTINGSEQUENCETP_2
 description: Prodnroutingsequencetp 2
+semantic_en: "production routing sequences — organizing routing operations into ordered sequences with implicit deletion tracking and lot size constraints"
+semantic_vi: "chuỗi bố trí sản xuất — sắp xếp hoạt động bố trí thành các chuỗi có thứ tự với theo dõi xóa ngầm và các ràng buộc kích thước lô"
+keywords:
+  - chuỗi bố trí
+  - sắp xếp hoạt động
+  - kích thước lô
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

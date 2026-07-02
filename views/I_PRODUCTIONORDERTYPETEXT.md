@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERTYPETEXT
 description: Production OrderTYPETEXT
+semantic_en: "production order type text labels — provides translated descriptions for order types by language."
+semantic_vi: "Nhãn văn bản loại lệnh sản xuất — cung cấp mô tả dịch cho các loại lệnh theo ngôn ngữ."
+keywords:
+  - tên loại lệnh
+  - dịch thuật
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

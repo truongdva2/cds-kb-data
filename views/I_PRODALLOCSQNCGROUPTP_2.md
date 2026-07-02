@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCSQNCGROUPTP_2
 description: Prodallocsqncgrouptp 2
+semantic_en: "Product allocation sequence group — group definitions for sequences with priority, consumption direction, and backward/forward period parameters."
+semantic_vi: "Nhóm chuỗi phân bổ sản phẩm — định nghĩa nhóm cho các chuỗi với ưu tiên, hướng tiêu thụ và các tham số kỳ trước/sau."
+keywords:
+  - nhóm chuỗi phân bổ
+  - ưu tiên
+  - hướng tiêu thụ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

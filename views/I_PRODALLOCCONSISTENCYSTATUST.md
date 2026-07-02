@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCCONSISTENCYSTATUST
 description: Prodallocconsistencystatust
+semantic_en: "Product allocation consistency status text — localized descriptions for allocation data consistency states by language."
+semantic_vi: "Văn bản trạng thái tính nhất quán phân bổ sản phẩm — mô tả địa phương cho các trạng thái tính nhất quán dữ liệu phân bổ theo ngôn ngữ."
+keywords:
+  - tính nhất quán
+  - mô tả trạng thái
+  - đa ngôn ngữ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCCHARCMETADATATP_2
 description: Prodalloccharcmetadatatp 2
+semantic_en: "Characteristic internal ID — metadata for characteristics in allocation objects including catalog path and ordinal numbers."
+semantic_vi: "Mã định danh nội bộ đặc tính — siêu dữ liệu cho các đặc tính trong các đối tượng phân bổ bao gồm đường dẫn danh mục và số thứ tự."
+keywords:
+  - siêu dữ liệu đặc tính
+  - đường dẫn danh mục
+  - mã định danh
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

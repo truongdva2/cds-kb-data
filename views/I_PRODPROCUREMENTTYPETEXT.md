@@ -1,6 +1,12 @@
 ---
 name: I_PRODPROCUREMENTTYPETEXT
 description: Prodprocurementtypetext
+semantic_en: "text translations for procurement type names — providing language-specific descriptions of procurement strategies"
+semantic_vi: "dịch văn bản tên loại mua sắm — cung cấp mô tả theo ngôn ngữ về chiến lược mua sắm"
+keywords:
+  - loại mua sắm văn bản
+  - dịch mua sắm
+  - chiến lược
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTSCM
 description: Productscm
+semantic_en: "product supply chain management — shelf life, maturation duration, and packaging-related attributes for supply chain planning"
+semantic_vi: "quản lý chuỗi cung ứng sản phẩm — tuổi thọ kệ, thời gian chín muộn và các thuộc tính liên quan đến đóng gói"
+keywords:
+  - quản lý chuỗi cung ứng
+  - tuổi thọ kệ
+  - đóng gói
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

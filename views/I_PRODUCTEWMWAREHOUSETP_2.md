@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTEWMWAREHOUSETP_2
 description: Productewmwarehousetp 2
+semantic_en: "transactional projection of product EWM warehouse assignments with process blocks, load categories, and shelf life requirements"
+semantic_vi: "projection giao dịch phân công kho EWM sản phẩm bao gồm khối quy trình, danh mục tải và yêu cầu thời gian bảo quản"
+keywords:
+  - kho EWM
+  - phân công kho
+  - warehouse
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

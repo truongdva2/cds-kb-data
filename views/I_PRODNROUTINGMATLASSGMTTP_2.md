@@ -1,6 +1,12 @@
 ---
 name: I_PRODNROUTINGMATLASSGMTTP_2
 description: Prodnroutingmatlassgmttp 2
+semantic_en: "material assignments in production routing — mapping materials to specific routing sequences with validity dates and change tracking for routing versions"
+semantic_vi: "gán vật liệu trong bố trí sản xuất — ánh xạ vật liệu cho các chuỗi bố trí cụ thể với ngày hiệu lực và theo dõi thay đổi cho các phiên bản bố trí"
+keywords:
+  - gán vật liệu
+  - bố trí sản xuất
+  - phiên bản
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

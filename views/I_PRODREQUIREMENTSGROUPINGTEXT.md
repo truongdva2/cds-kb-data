@@ -1,6 +1,12 @@
 ---
 name: I_PRODREQUIREMENTSGROUPINGTEXT
 description: Prodrequirementsgroupingtext
+semantic_en: "text translations for product requirements grouping codes — providing language-specific names for grouping strategies used in requirements planning"
+semantic_vi: "dịch văn bản mã nhóm yêu cầu sản phẩm — cung cấp tên theo ngôn ngữ cho các chiến lược nhóm được sử dụng trong lập kế hoạch yêu cầu"
+keywords:
+  - nhóm yêu cầu
+  - dịch văn bản
+  - lập kế hoạch
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

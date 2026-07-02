@@ -1,6 +1,12 @@
 ---
 name: I_PRODSLSDELIVPOINTOFSALETP_2
 description: Prodslsdelivpointofsaletp 2
+semantic_en: "transactional projection of point-of-sale product availability and sales parameters across stores and distribution chains"
+semantic_vi: "projection giao dịch cho phép tại quầy bán hàng bao gồm trạng thái bán hàng và điều kiện bán hàng tại các cửa hàng"
+keywords:
+  - điểm bán hàng
+  - trạng thái bán
+  - quầy bán hàng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

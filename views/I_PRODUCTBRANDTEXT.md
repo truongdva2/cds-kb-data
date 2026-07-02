@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTBRANDTEXT
 description: Productbrandtext
+semantic_en: "text view providing localized product brand names and descriptions by language"
+semantic_vi: "view mô tả cung cấp tên thương hiệu sản phẩm theo ngôn ngữ khác nhau"
+keywords:
+  - tên thương hiệu
+  - brand name
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

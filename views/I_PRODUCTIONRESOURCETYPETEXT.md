@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTIONRESOURCETYPETEXT
 description: Productionresourcetypetext
+semantic_en: "production resource type labels — provides translated names for resource types."
+semantic_vi: "Nhãn loại tài nguyên sản xuất — cung cấp tên dịch cho các loại tài nguyên."
+keywords:
+  - tên tài nguyên
+  - dịch thuật
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

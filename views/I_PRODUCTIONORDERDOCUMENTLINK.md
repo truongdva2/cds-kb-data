@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERDOCUMENTLINK
 description: Production OrderDOCUMENTLINK
+semantic_en: "projection of document information records linked to production orders with document type, version, and internal status tracking"
+semantic_vi: "projection các bản ghi thông tin tài liệu được liên kết với lệnh sản xuất bao gồm loại tài liệu, phiên bản và theo dõi trạng thái nội bộ"
+keywords:
+  - liên kết tài liệu
+  - lệnh sản xuất
+  - tài liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

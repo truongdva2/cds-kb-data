@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTALLOCATIONPERIODTYPET
 description: Productallocationperiodtypet
+semantic_en: "text view providing localized descriptions of product allocation period types"
+semantic_vi: "view mô tả cung cấp tên các loại kỳ hạn phân bổ sản phẩm theo ngôn ngữ"
+keywords:
+  - loại kỳ hạn
+  - phân bổ
+  - mô tả kỳ hạn
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

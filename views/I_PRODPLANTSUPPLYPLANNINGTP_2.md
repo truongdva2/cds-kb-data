@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLANTSUPPLYPLANNINGTP_2
 description: Prodplantsupplyplanningtp 2
+semantic_en: "product plant supply planning parameters — configuring lot sizing, MRP rules, planning horizons, and safety stock thresholds by product and plant"
+semantic_vi: "tham số lập kế hoạch cung ứng nhà máy sản phẩm — cấu hình kích thước lô, quy tắc MRP, chân trời lập kế hoạch và ngưỡng hàng dự trữ an toàn theo sản phẩm và nhà máy"
+keywords:
+  - cung ứng lập kế hoạch
+  - kích thước lô
+  - MRP
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTQM
 description: Productqm
+semantic_en: "product quality management — quality management indicators and authorization settings for products"
+semantic_vi: "quản lý chất lượng sản phẩm — chỉ báo quản lý chất lượng và cài đặt ủy quyền cho sản phẩm"
+keywords:
+  - quản lý chất lượng
+  - ủy quyền
+  - kiểm tra chất lượng
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

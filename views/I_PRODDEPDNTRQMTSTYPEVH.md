@@ -1,6 +1,11 @@
 ---
 name: I_PRODDEPDNTRQMTSTYPEVH
 description: Proddepdntrqmtstypevh
+semantic_en: "Dependent requirements type value help — domain value defining the type of dependent requirements in production."
+semantic_vi: "Trợ giúp giá trị loại yêu cầu phụ thuộc — giá trị miền xác định loại yêu cầu phụ thuộc trong sản xuất."
+keywords:
+  - yêu cầu phụ thuộc
+  - loại yêu cầu
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

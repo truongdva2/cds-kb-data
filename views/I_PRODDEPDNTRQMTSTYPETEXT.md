@@ -1,6 +1,11 @@
 ---
 name: I_PRODDEPDNTRQMTSTYPETEXT
 description: Proddepdntrqmtstypetext
+semantic_en: "Dependent requirements type text — localized descriptions for dependent requirements types by language."
+semantic_vi: "Văn bản loại yêu cầu phụ thuộc — mô tả địa phương cho các loại yêu cầu phụ thuộc theo ngôn ngữ."
+keywords:
+  - yêu cầu phụ thuộc
+  - loại yêu cầu
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODCOSTESTCOSTCOMPRAWDEX
 description: Prodcostestcostcomprawdex
+semantic_en: "Product cost estimate cost component raw data extract — detailed cost component breakdown for costing objects by type and valuation variant."
+semantic_vi: "Trích xuất dữ liệu thô thành phần chi phí ước tính chi phí sản phẩm — chi tiết phân tích thành phần chi phí cho các đối tượng tính giá theo loại và biến thể định giá."
+keywords:
+  - chi phí sản phẩm
+  - ước tính chi phí
+  - thành phần chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

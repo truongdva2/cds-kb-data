@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTUNITOFMEASURETP_2
 description: PRODUCTUnit of MeasureTP 2
+semantic_en: "product unit of measure data extract — conversion factors, volume, weight, and dimension data for alternative units of measure"
+semantic_vi: "dữ liệu đơn vị đo sản phẩm — hệ số chuyển đổi, thể tích, trọng lượng và dữ liệu kích thước cho các đơn vị đo khác"
+keywords:
+  - đơn vị đo sản phẩm
+  - chuyển đổi
+  - kích thước
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

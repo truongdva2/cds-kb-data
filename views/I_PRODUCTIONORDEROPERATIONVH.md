@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDEROPERATIONVH
 description: Production OrderOPERATIONVH
+semantic_en: "value-help view for production order operations by internal ID, operation sequence, and plant"
+semantic_vi: "view hỗ trợ giá trị cho hoạt động lệnh sản xuất theo ID nội bộ, chuỗi hoạt động và nhà máy"
+keywords:
+  - hoạt động lệnh sản xuất
+  - value help
+  - operation
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

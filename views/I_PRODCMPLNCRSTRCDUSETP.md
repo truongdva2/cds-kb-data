@@ -1,6 +1,11 @@
 ---
 name: I_PRODCMPLNCRSTRCDUSETP
 description: Prodcmplncrstrcdusetp
+semantic_en: "Restrictions on use transactional processing — restrictions on uses for chemical products with use rating assignments."
+semantic_vi: "Xử lý giao dịch hạn chế sử dụng — các hạn chế sử dụng cho sản phẩm hóa học với gán xếp hạng sử dụng."
+keywords:
+  - hạn chế sử dụng
+  - sản phẩm hóa học
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

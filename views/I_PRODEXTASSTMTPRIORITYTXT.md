@@ -1,6 +1,12 @@
 ---
 name: I_PRODEXTASSTMTPRIORITYTXT
 description: Prodextasstmtprioritytxt
+semantic_en: "text descriptions for external assortment priority levels — translating priority codes into language-specific names"
+semantic_vi: "mô tả văn bản các mức độ ưu tiên phân loại hàng bên ngoài — dịch mã độc lập thành tên theo từng ngôn ngữ"
+keywords:
+  - ưu tiên phân loại hàng
+  - văn bản ưu tiên
+  - mã ưu tiên
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

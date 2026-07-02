@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVH_2
 description: Productvh 2
+semantic_en: "external product ID value-help — product identification with descriptions, types, groups and batch management indicators"
+semantic_vi: "trợ giúp giá trị ID sản phẩm bên ngoài — nhận dạng sản phẩm với mô tả, loại, nhóm và chỉ báo quản lý lô"
+keywords:
+  - ID sản phẩm bên ngoài
+  - mô tả sản phẩm
+  - quản lý lô
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

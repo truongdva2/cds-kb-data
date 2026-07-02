@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTEWMSTORAGETYPETP_2
 description: Productewmstoragetypetp 2
+semantic_en: "transactional projection of product EWM storage type configurations including storage quantity limits and bin specifications"
+semantic_vi: "projection giao dịch cấu hình loại kho EWM sản phẩm bao gồm giới hạn số lượng kho và thông số bin"
+keywords:
+  - loại kho EWM
+  - lưu trữ sản phẩm
+  - cấu hình kho
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

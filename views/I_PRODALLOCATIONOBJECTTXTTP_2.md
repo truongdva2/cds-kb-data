@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCATIONOBJECTTXTTP_2
 description: Prodallocationobjecttxttp 2
+semantic_en: "Product allocation object text — descriptions for allocation objects by language."
+semantic_vi: "Văn bản đối tượng phân bổ sản phẩm — mô tả cho các đối tượng phân bổ theo ngôn ngữ."
+keywords:
+  - đối tượng phân bổ
+  - mô tả
+  - đa ngôn ngữ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

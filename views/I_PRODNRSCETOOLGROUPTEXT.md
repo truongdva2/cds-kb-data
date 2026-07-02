@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLGROUPTEXT
 description: Prodnrscetoolgrouptext
+semantic_en: "text translations for tool group names — providing language-specific descriptions of tool group classifications and organizational groupings"
+semantic_vi: "dịch văn bản tên nhóm công cụ — cung cấp mô tả theo ngôn ngữ về phân loại nhóm công cụ và các nhóm tổ chức"
+keywords:
+  - nhóm công cụ văn bản
+  - dịch nhóm
+  - mô tả
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

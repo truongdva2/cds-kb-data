@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCCHARCVALCOMBNTP_2
 description: Prodalloccharcvalcombntp 2
+semantic_en: "Product allocation characteristic value combination — characteristic value assignments for allocation objects with up to 10 characteristic fields and comments."
+semantic_vi: "Kết hợp giá trị đặc tính phân bổ sản phẩm — gán giá trị đặc tính cho các đối tượng phân bổ với tối đa 10 trường đặc tính và nhận xét."
+keywords:
+  - kết hợp đặc tính
+  - giá trị đặc tính
+  - phân bổ sản phẩm
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

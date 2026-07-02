@@ -1,6 +1,12 @@
 ---
 name: I_PRODNORDERITEMSERIALNUMBER
 description: PRODNORDERITEMSerial Number
+semantic_en: "serial numbers assigned to production order items — tracking unique identifiers for products within manufacturing orders including maintenance and equipment references"
+semantic_vi: "số seri được gán cho mục lệnh sản xuất — theo dõi các định danh duy nhất cho sản phẩm trong lệnh sản xuất bao gồm tài liệu bảo trì và thiết bị"
+keywords:
+  - số seri
+  - lệnh sản xuất
+  - theo dõi mục
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

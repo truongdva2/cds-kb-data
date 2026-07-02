@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDERPRT
 description: Production OrderPRT
+semantic_en: "master data view of production resources and tools assigned to production order operations with deletion and audit timestamps"
+semantic_vi: "view dữ liệu chính tài nguyên sản xuất và công cụ được phân công cho hoạt động lệnh sản xuất với xóa và dấu thời gian kiểm tra"
+keywords:
+  - tài nguyên sản xuất
+  - công cụ sản xuất
+  - PRT
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

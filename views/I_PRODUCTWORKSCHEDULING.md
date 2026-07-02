@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTWORKSCHEDULING
 description: Productworkscheduling
+semantic_en: "product work scheduling — production planning attributes including lot sizing, over/under delivery tolerance and batch requirements"
+semantic_vi: "lập lịch làm việc sản phẩm — các thuộc tính lập kế hoạch sản xuất bao gồm kích thước lô, khả năng chịu độ lệch giao hàng và yêu cầu lô"
+keywords:
+  - lập lịch sản xuất
+  - kích thước lô
+  - khả năng chịu độ lệch
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

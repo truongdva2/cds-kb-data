@@ -1,6 +1,12 @@
 ---
 name: I_PRODFORECASTREQUIREMENTSSPLT
 description: Prodforecastrequirementssplt
+semantic_en: "forecast requirements splitting configuration by plant — defining how daily and weekly forecast requirements are distributed across planning periods"
+semantic_vi: "cấu hình phân chia yêu cầu dự báo theo nhà máy — xác định cách phân bổ yêu cầu dự báo hàng ngày và hàng tuần trên các kỳ kế hoạch"
+keywords:
+  - yêu cầu dự báo
+  - phân chia dự báo
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

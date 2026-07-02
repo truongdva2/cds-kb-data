@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTMASTERSTATUS
 description: Productmasterstatus
+semantic_en: "product master status records — tracks maintenance status across plants, storage locations, warehouses, and organizational levels."
+semantic_vi: "Bản ghi trạng thái chủ sản phẩm — theo dõi trạng thái bảo trì trên các nhà máy, vị trí kho, kho hàng và các mức tổ chức."
+keywords:
+  - trạng thái sản phẩm
+  - bảo trì
+  - nhà máy
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

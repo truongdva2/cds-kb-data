@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTPLANTPURCHASETAXTP_2
 description: Productplantpurchasetaxtp 2
+semantic_en: "product plant purchase tax template — assigns tax classification for procurement by departure country."
+semantic_vi: "Mẫu thuế mua hàng nhà máy sản phẩm — gán phân loại thuế cho mua sắm theo quốc gia xuất phát."
+keywords:
+  - thuế mua hàng
+  - phân loại thuế
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

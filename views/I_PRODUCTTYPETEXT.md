@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTTYPETEXT
 description: Producttypetext
+semantic_en: "product type description — localized material type names for product types by language"
+semantic_vi: "mô tả loại sản phẩm — tên loại vật liệu được bản địa hóa cho loại sản phẩm theo ngôn ngữ"
+keywords:
+  - loại sản phẩm
+  - tên loại vật liệu
+  - bản địa hóa
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

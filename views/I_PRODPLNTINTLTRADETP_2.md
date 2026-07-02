@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLNTINTLTRADETP_2
 description: Prodplntintltradetp 2
+semantic_en: "international trade parameters for products in plants — capturing country of origin, trade classifications, and regulatory identifiers for customs and compliance purposes"
+semantic_vi: "tham số thương mại quốc tế cho sản phẩm trong nhà máy — ghi lại xuất xứ, phân loại thương mại và định danh quy định cho hải quan và mục đích tuân thủ"
+keywords:
+  - thương mại quốc tế
+  - xuất xứ
+  - phân loại
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

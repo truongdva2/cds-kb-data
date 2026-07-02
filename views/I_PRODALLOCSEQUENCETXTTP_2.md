@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCSEQUENCETXTTP_2
 description: Prodallocsequencetxttp 2
+semantic_en: "Product allocation sequence text — descriptions for allocation sequences by language."
+semantic_vi: "Văn bản chuỗi phân bổ sản phẩm — mô tả cho các chuỗi phân bổ theo ngôn ngữ."
+keywords:
+  - chuỗi phân bổ
+  - mô tả
+  - đa ngôn ngữ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONVERSIONGROUP
 description: Productionversiongroup
+semantic_en: "production version group — organizes repetitive manufacturing planning groups with descriptive names."
+semantic_vi: "Nhóm phiên bản sản xuất — tổ chức các nhóm lập kế hoạch sản xuất lặp đi lặp lại với tên mô tả."
+keywords:
+  - nhóm phiên bản
+  - lập kế hoạch
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

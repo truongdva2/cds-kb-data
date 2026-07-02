@@ -1,6 +1,12 @@
 ---
 name: I_PRODALLOCSQNCCSTRTTXTTP_2
 description: Prodallocsqnccstrttxttp 2
+semantic_en: "Product allocation constraint text — descriptions for allocation sequence constraints by language."
+semantic_vi: "Văn bản ràng buộc phân bổ sản phẩm — mô tả cho ràng buộc chuỗi phân bổ theo ngôn ngữ."
+keywords:
+  - ràng buộc chuỗi
+  - mô tả
+  - đa ngôn ngữ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONCOSTINGTP_2
 description: Productvaluationcostingtp 2
+semantic_en: "product valuation costing data extract — costing attributes including planned prices and quantity structure for overhead allocation"
+semantic_vi: "dữ liệu định giá chi phí sản phẩm — các thuộc tính chi phí bao gồm giá kế hoạch và cấu trúc số lượng để phân bổ chi phí chung"
+keywords:
+  - chi phí sản phẩm
+  - giá kế hoạch
+  - phân bổ chi phí chung
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

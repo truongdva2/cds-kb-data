@@ -1,6 +1,12 @@
 ---
 name: I_PRODPLANTSTORAGELOCATIONTP_2
 description: Prodplantstoragelocationtp 2
+semantic_en: "product plant storage location assignments — mapping storage locations and warehouse bins to products within plants including marking for deletion"
+semantic_vi: "gán vị trí lưu kho sản phẩm nhà máy — ánh xạ vị trí lưu kho và thùng nhà kho cho sản phẩm trong nhà máy bao gồm đánh dấu xóa"
+keywords:
+  - vị trí lưu kho
+  - nhà máy
+  - lưu kho
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

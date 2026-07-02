@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRSCETOOLCATEGORY
 description: Prodnrscetoolcategory
+semantic_en: "production resource tool categories — classifying tools used in manufacturing by their functional type and purpose"
+semantic_vi: "danh mục công cụ tài nguyên sản xuất — phân loại công cụ được sử dụng trong sản xuất theo loại chức năng và mục đích của chúng"
+keywords:
+  - danh mục công cụ
+  - phân loại tài nguyên
+  - loại công cụ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

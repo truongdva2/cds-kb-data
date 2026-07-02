@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTCOSTESTIMATEITEM
 description: Productcostestimateitem
+semantic_en: "analytical view of individual cost estimate line items with pricing details by controlling area currency"
+semantic_vi: "view chi tiết từng dòng dự toán chi phí với thông tin giá theo đơn vị tiền tệ lực lượng kiểm soát"
+keywords:
+  - dòng dự toán
+  - chi tiết chi phí
+  - định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

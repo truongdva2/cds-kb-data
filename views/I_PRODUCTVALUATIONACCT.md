@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONACCT
 description: Productvaluationacct
+semantic_en: "product valuation account — commercial, tax, and future pricing with LIFO/FIFO valuation pools and devaluation tracking"
+semantic_vi: "tài khoản định giá sản phẩm — giá thương mại, thuế và giá tương lai với nhóm định giá LIFO/FIFO và theo dõi khấu hao"
+keywords:
+  - định giá sản phẩm
+  - tài khoản
+  - LIFO/FIFO
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

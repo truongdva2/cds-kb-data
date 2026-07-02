@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDCONFIRMATIONTP
 description: Productionordconfirmationtp
+semantic_en: "transactional projection of production order confirmations with confirmation group, operation sequences, and final confirmation type"
+semantic_vi: "projection giao dịch xác nhận lệnh sản xuất bao gồm nhóm xác nhận, chuỗi hoạt động và loại xác nhận cuối cùng"
+keywords:
+  - xác nhận lệnh sản xuất
+  - hoạt động sản xuất
+  - confirmation
 app_component: PP-SFC-EXE-CON-2CL
 software_component: SAPSCORE
 release_state: released

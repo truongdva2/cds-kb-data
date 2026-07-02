@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONSUPPLYAREATEXTTP_2
 description: Productionsupplyareatexttp 2
+semantic_en: "production supply area text template — stores multilingual area names with uppercase variant for reporting."
+semantic_vi: "Mẫu văn bản khu vực cung cấp sản xuất — lưu trữ tên khu vực đa ngôn ngữ với biến thể chữ hoa để báo cáo."
+keywords:
+  - tên khu vực
+  - dịch thuật
+  - báo cáo
 app_component: PP-KAB-2CL
 software_component: SAPSCORE
 release_state: released

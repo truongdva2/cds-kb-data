@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCACTIVATIONSTATUS
 description: Prodallocactivationstatus
+semantic_en: "Product allocation activation status — domain value indicating whether allocation feature is enabled or disabled."
+semantic_vi: "Trạng thái kích hoạt phân bổ sản phẩm — giá trị miền cho biết tính năng phân bổ được bật hay tắt."
+keywords:
+  - kích hoạt phân bổ
+  - trạng thái phân bổ sản phẩm
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

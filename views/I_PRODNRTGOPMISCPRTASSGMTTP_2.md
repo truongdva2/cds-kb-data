@@ -1,6 +1,12 @@
 ---
 name: I_PRODNRTGOPMISCPRTASSGMTTP_2
 description: Prodnrtgopmiscprtassgmttp 2
+semantic_en: "miscellaneous assignments to production resource tools in routing — linking diverse tool types including text and control profiles to routing operations"
+semantic_vi: "gán vật liệu khác cho công cụ tài nguyên sản xuất trong bố trí — liên kết các loại công cụ đa dạng bao gồm văn bản và hồ sơ kiểm soát với hoạt động bố trí"
+keywords:
+  - gán vật liệu khác
+  - công cụ tài nguyên
+  - bố trí
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

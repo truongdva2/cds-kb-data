@@ -1,6 +1,12 @@
 ---
 name: I_PRODCMPLNCLBLFLDGROUPTXTTP_2
 description: Prodcmplnclblfldgrouptxttp 2
+semantic_en: "Label field group text — multilingual names for product compliance label field groups."
+semantic_vi: "Văn bản nhóm trường nhãn — tên đa ngôn ngữ cho các nhóm trường nhãn tuân thủ sản phẩm."
+keywords:
+  - nhóm trường nhãn
+  - tên
+  - đa ngôn ngữ
 app_component: EHS-SUS-SDS
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODCOMPONENTBACKFLUSHCODET
 description: Prodcomponentbackflushcodet
+semantic_en: "Product component backflush code text — localized descriptions for component consumption methods by language."
+semantic_vi: "Văn bản mã xóa ngược thành phần sản phẩm — mô tả địa phương cho các phương pháp tiêu thụ thành phần theo ngôn ngữ."
+keywords:
+  - mã xóa ngược
+  - tiêu thụ thành phần
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

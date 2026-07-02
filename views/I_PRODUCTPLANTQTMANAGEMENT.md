@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPLANTQTMANAGEMENT
 description: Productplantqtmanagement
+semantic_en: "product plant quality management — specifies QM control keys, inspector authorization, inspection setup requirements, and certificate type."
+semantic_vi: "Quản lý chất lượng nhà máy sản phẩm — chỉ định khóa kiểm soát QM, ủy quyền người kiểm tra, yêu cầu thiết lập kiểm tra và loại chứng chỉ."
+keywords:
+  - quản lý chất lượng
+  - kiểm tra
+  - chứng chỉ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

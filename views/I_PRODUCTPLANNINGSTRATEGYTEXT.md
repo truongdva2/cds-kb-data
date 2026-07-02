@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTPLANNINGSTRATEGYTEXT
 description: Productplanningstrategytext
+semantic_en: "product planning strategy names — provides translated strategy descriptions for planning configuration by language."
+semantic_vi: "Tên chiến lược lập kế hoạch sản phẩm — cung cấp mô tả chiến lược dịch cho cấu hình lập kế hoạch theo ngôn ngữ."
+keywords:
+  - chiến lược lập kế hoạch
+  - dịch thuật
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

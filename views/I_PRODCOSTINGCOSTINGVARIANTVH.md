@@ -1,6 +1,12 @@
 ---
 name: I_PRODCOSTINGCOSTINGVARIANTVH
 description: Prodcostingcostingvariantvh
+semantic_en: "Costing variant value help — costing and valuation variant pairs with names and costing type for selection list."
+semantic_vi: "Trợ giúp giá trị biến thể tính giá — cặp biến thể tính giá và định giá với tên và loại tính giá cho danh sách lựa chọn."
+keywords:
+  - biến thể tính giá
+  - tính giá
+  - định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

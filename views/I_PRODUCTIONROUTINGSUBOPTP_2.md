@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONROUTINGSUBOPTP_2
 description: Productionroutingsuboptp 2
+semantic_en: "production routing sub-operation template — details sub-operations within routing sequences including work center and operation control."
+semantic_vi: "Mẫu phụ hoạt động định tuyến sản xuất — chi tiết các phụ hoạt động trong chuỗi định tuyến bao gồm trung tâm công việc và kiểm soát hoạt động."
+keywords:
+  - phụ hoạt động
+  - trung tâm công việc
+  - định tuyến
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

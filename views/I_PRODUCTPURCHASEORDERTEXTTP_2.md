@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTPURCHASEORDERTEXTTP_2
 description: PRODUCTPurchase OrderTEXTTP 2
+semantic_en: "product purchase order text data extract — long text descriptions of products for purchase orders by language and creation metadata"
+semantic_vi: "văn bản đơn hàng mua hàng sản phẩm — mô tả văn bản dài của sản phẩm theo ngôn ngữ và siêu dữ liệu tạo"
+keywords:
+  - văn bản đơn hàng
+  - mô tả sản phẩm
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTIONVERSIONBASICSTDVH
 description: Productionversionbasicstdvh
+semantic_en: "value-help for production versions — enables selection of product versions with validity dates and plant context."
+semantic_vi: "Giúp đỡ giá trị cho phiên bản sản xuất — cho phép chọn phiên bản sản phẩm với ngày hiệu lực và bối cảnh nhà máy."
+keywords:
+  - tra cứu phiên bản
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

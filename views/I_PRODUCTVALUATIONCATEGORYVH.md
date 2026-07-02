@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTVALUATIONCATEGORYVH
 description: Productvaluationcategoryvh
+semantic_en: "product valuation category value-help — inventory valuation categories by valuation area for category lookup"
+semantic_vi: "trợ giúp giá trị danh mục định giá sản phẩm — danh mục định giá hàng tồn kho theo vùng định giá"
+keywords:
+  - danh mục định giá
+  - vùng định giá
+  - định giá
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

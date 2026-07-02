@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONSUPPLYAREATEXT
 description: Productionsupplyareatext
+semantic_en: "production supply area names — provides translated descriptions for supply area identifiers."
+semantic_vi: "Tên khu vực cung cấp sản xuất — cung cấp mô tả dịch cho các định danh khu vực cung cấp."
+keywords:
+  - tên khu vực
+  - dịch thuật
+  - cung cấp
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

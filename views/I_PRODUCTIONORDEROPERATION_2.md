@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONORDEROPERATION_2
 description: Production OrderOPERATION 2
+semantic_en: "master data view of production order operations with supervisor assignment, operation text, and deletion markers"
+semantic_vi: "view dữ liệu chính hoạt động lệnh sản xuất bao gồm phân công giám sát viên, văn bản hoạt động và dấu xóa"
+keywords:
+  - hoạt động sản xuất
+  - supervisor
+  - operation
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PRODALLOCCHKPERDCNSMPNTYPE
 description: Prodallocchkperdcnsmpntype
+semantic_en: "Product allocation check period consumption type — domain value defining consumption period classification for allocation checks."
+semantic_vi: "Loại tiêu thụ kỳ kiểm tra phân bổ sản phẩm — giá trị miền xác định phân loại kỳ tiêu thụ cho kiểm tra phân bổ."
+keywords:
+  - tiêu thụ kỳ
+  - kiểm tra phân bổ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

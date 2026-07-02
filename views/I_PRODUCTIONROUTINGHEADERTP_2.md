@@ -1,6 +1,12 @@
 ---
 name: I_PRODUCTIONROUTINGHEADERTP_2
 description: Productionroutingheadertp 2
+semantic_en: "production routing header template — defines bill of operations with usage, status, lot size constraints, and planner responsibility."
+semantic_vi: "Mẫu tiêu đề định tuyến sản xuất — định nghĩa hóa đơn hoạt động với cách sử dụng, trạng thái, ràng buộc kích thước lô và trách nhiệm kế hoạch."
+keywords:
+  - định tuyến sản xuất
+  - hóa đơn hoạt động
+  - kích thước lô
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released
