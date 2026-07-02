@@ -1,6 +1,12 @@
 ---
 name: I_DATEFUNCTIONVALUE
 description: Datefunctionvalue
+semantic_en: "Date function values — date range values for business date calculation functions."
+semantic_vi: "Giá trị hàm ngày — các khoảng ngày cho các hàm tính toán ngày kinh doanh."
+keywords:
+  - Hàm ngày
+  - Khoảng ngày
+  - Tính toán
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

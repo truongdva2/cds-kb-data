@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMSPREFERENCE
 description: Customspreference
+semantic_en: "trade preference indicator — classification of customs preference codes for international trade"
+semantic_vi: "Chỉ số sở thích thương mại — phân loại mã sở thích hải quan cho thương mại quốc tế"
+keywords:
+  - sở thích thương mại
+  - mã hải quan
+  - phân loại thương mại
 app_component: FT-ITR-TRC
 software_component: SAPSCORE
 release_state: released

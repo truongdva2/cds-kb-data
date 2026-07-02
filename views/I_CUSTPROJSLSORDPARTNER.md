@@ -1,6 +1,12 @@
 ---
 name: I_CUSTPROJSLSORDPARTNER
 description: Custprojslsordpartner
+semantic_en: "sales order partner for customer project — partner assignments at project sales order header level with address context"
+semantic_vi: "Đối tác đơn hàng bán hàng cho dự án khách hàng — gán đối tác ở cấp đầu đơn bán dự án với bối cảnh địa chỉ"
+keywords:
+  - đối tác đơn dự án
+  - liên hệ dự án khách
+  - người liên hệ đơn hàng
 app_component: SD-SLS-PBS
 software_component: SAPSCORE
 release_state: released

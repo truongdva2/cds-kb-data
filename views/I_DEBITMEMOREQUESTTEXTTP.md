@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQUESTTEXTTP
 description: Debitmemorequesttexttp
+semantic_en: "Debit memo request text TP — text documents for debit memo requests by language and text identifier."
+semantic_vi: "Văn bản yêu cầu ghi nợ — tài liệu mô tả dài cho yêu cầu ghi nợ theo ngôn ngữ."
+keywords:
+  - Văn bản yêu cầu ghi nợ
+  - Tài liệu mô tả
+  - Ngôn ngữ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQUESTITEMTP
 description: Debitmemorequestitemtp
+semantic_en: "Debit memo request item TP — transactional item data for debit memos including product and quantity details."
+semantic_vi: "Dữ liệu giao dịch mục yêu cầu ghi nợ — thông tin mục ghi nợ gồm sản phẩm, số lượng, mô tả mục hàng."
+keywords:
+  - Mục ghi nợ
+  - Sản phẩm
+  - Số lượng
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCONDITIONGROUPVH
 description: Customerconditiongroupvh
+semantic_en: "Customer condition group value-help — reference list of condition groups for customer pricing configurations."
+semantic_vi: "Danh sách tìm kiếm nhóm điều kiện khách hàng — danh sách tham chiếu các nhóm điều kiện cho cấu hình định giá khách hàng."
+keywords:
+  - nhóm điều kiện
+  - định giá
+  - danh sách tìm kiếm
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DISPUTECASELINKEDOBJECT
 description: Disputecaselinkedobject
+semantic_en: "linked objects for dispute cases — tracks relationships between disputes and related business objects."
+semantic_vi: "các đối tượng được liên kết cho vụ tranh chấp — theo dõi mối quan hệ giữa tranh chấp và các đối tượng kinh doanh liên quan."
+keywords:
+  - vụ tranh chấp
+  - đối tượng liên kết
+  - mối quan hệ
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

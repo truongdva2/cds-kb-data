@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNDELIVERY
 description: Customerreturndelivery
+semantic_en: "customer returns delivery document — inbound logistics document recording return shipment receipt with shipping and organizational context"
+semantic_vi: "Tài liệu giao hàng trả lại khách hàng — tài liệu hậu cần ngoài tuyến ghi nhận tiếp nhận lô hàng trả lại"
+keywords:
+  - giao hàng trả lại
+  - nhận hàng hoàn trả
+  - tài liệu giao nhận
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DEPENDENTRQMTSTYPETEXT
 description: Dependentrqmtstypetext
+semantic_en: "multilingual names for dependent requirements types — provides localized type labels for dependent materials."
+semantic_vi: "tên đa ngôn ngữ cho loại yêu cầu phụ thuộc — cung cấp nhãn loại địa phương cho vật liệu phụ thuộc."
+keywords:
+  - yêu cầu phụ thuộc
+  - loại yêu cầu
+  - tên đa ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

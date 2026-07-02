@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQAPPROVALREASON
 description: Debitmemoreqapprovalreason
+semantic_en: "Approval reason for debit memo request — approval reason codes for debit memo request transactions."
+semantic_vi: "Lý do phê duyệt yêu cầu ghi nợ — mã lý do phê duyệt cho giao dịch yêu cầu ghi nợ."
+keywords:
+  - Phê duyệt yêu cầu
+  - Ghi nợ
+  - Lý do
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

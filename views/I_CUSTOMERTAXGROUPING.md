@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERTAXGROUPING
 description: Customertaxgrouping
+semantic_en: "customer tax grouping — consolidated tax grouping data including exemption certificates and exemption periods"
+semantic_vi: "Nhóm thuế khách hàng — dữ liệu nhóm thuế tổng hợp bao gồm chứng chỉ miễn thuế và kỳ miễn thuế"
+keywords:
+  - nhóm thuế
+  - miễn thuế
+  - chứng chỉ thuế
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

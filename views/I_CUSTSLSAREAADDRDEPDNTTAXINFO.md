@@ -1,6 +1,12 @@
 ---
 name: I_CUSTSLSAREAADDRDEPDNTTAXINFO
 description: Custslsareaaddrdepdnttaxinfo
+semantic_en: "Customer sales area address dependent tax — tax classifications linked to customer address and sales area combinations."
+semantic_vi: "Thông tin thuế phụ thuộc vào địa chỉ vùng bán hàng khách hàng — phân loại thuế theo địa chỉ khách hàng và vùng bán hàng."
+keywords:
+  - Thuế
+  - Địa chỉ
+  - Vùng bán hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

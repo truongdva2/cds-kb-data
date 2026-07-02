@@ -1,6 +1,12 @@
 ---
 name: I_CUSTPROJSLSORDITMBILLGPLN
 description: Custprojslsorditmbillgpln
+semantic_en: "billing plan of sales order item for customer project — billing plans associated with project sales order items"
+semantic_vi: "Kế hoạch thanh toán mục đơn hàng bán hàng cho dự án khách hàng — các kế hoạch thanh toán liên quan đến mục đơn bán dự án"
+keywords:
+  - kế hoạch hóa đơn
+  - thanh toán dự án
+  - lịch thanh toán
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

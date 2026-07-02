@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERMATERIALITEMUSAGET
 description: Customermaterialitemusaget
+semantic_en: "Customer material item usage text — translatable descriptions of material usage classifications."
+semantic_vi: "Văn bản cách sử dụng mục vật liệu khách hàng — mô tả dịch được các phân loại cách sử dụng vật liệu."
+keywords:
+  - mô tả cách sử dụng
+  - vật liệu khách hàng
+  - đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

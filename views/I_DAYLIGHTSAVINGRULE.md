@@ -1,6 +1,12 @@
 ---
 name: I_DAYLIGHTSAVINGRULE
 description: Daylightsavingrule
+semantic_en: "Daylight saving rule — daylight saving time definitions and time differentials by rule."
+semantic_vi: "Quy tắc giờ mặt trời — định nghĩa quy tắc chuyển đổi giờ mặt trời và độ chênh lệch thời gian."
+keywords:
+  - Giờ mặt trời
+  - Quy tắc thời gian
+  - Chuyển đổi giờ
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

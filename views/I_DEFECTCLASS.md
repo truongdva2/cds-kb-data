@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTCLASS
 description: Defectclass
+semantic_en: "Defect class — quality defect classification levels linked to inspection lot quality scoring."
+semantic_vi: "Lớp khuyết tật — phân loại mức khuyết tật chất lượng liên kết với điểm chất lượng lô kiểm tra."
+keywords:
+  - Lớp khuyết tật
+  - Chất lượng
+  - Phân loại
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

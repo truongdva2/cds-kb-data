@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERSUPPLIERINDUSTRY
 description: Customersupplierindustry
+semantic_en: "customer supplier industry — classification of customer or supplier industry types"
+semantic_vi: "Loại ngành công nghiệp khách hàng nhà cung cấp — phân loại loại ngành công nghiệp của khách hàng hoặc nhà cung cấp"
+keywords:
+  - ngành công nghiệp
+  - loại ngành
+  - phân loại ngành
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

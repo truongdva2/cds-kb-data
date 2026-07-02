@@ -1,6 +1,12 @@
 ---
 name: I_CUSTMGMTPARTNER
 description: Custmgmtpartner
+semantic_en: "Customer management partner — parties involved in service transactions with roles, functions, and address references."
+semantic_vi: "Đối tác quản lý khách hàng — các bên liên quan đến giao dịch dịch vụ với vai trò, chức năng, và tham chiếu địa chỉ."
+keywords:
+  - đối tác dịch vụ
+  - chức năng đối tác
+  - quản lý khách hàng
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERGROUPHIERARCHY
 description: Customergrouphierarchy
+semantic_en: "Customer group hierarchy — hierarchical structures for organizing customer groups with validity periods."
+semantic_vi: "Cấu trúc phân cấp nhóm khách hàng — các cấu trúc phân cấp để tổ chức các nhóm khách hàng có kỳ hạn hiệu lực."
+keywords:
+  - cấu trúc phân cấp khách hàng
+  - nhóm khách hàng
+  - tổ chức phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

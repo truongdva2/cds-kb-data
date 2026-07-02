@@ -1,6 +1,12 @@
 ---
 name: I_CUSTADDRDEPDNTINFORMATION
 description: Custaddrdepdntinformation
+semantic_en: "Information dependent on customer address — address-specific logistics attributes including unloading points and city codes."
+semantic_vi: "Thông tin phụ thuộc vào địa chỉ khách hàng — các thuộc tính logistik dành riêng cho địa chỉ bao gồm các điểm dỡ hàng và mã thành phố."
+keywords:
+  - địa chỉ khách hàng
+  - thông tin logistik
+  - điểm dỡ hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

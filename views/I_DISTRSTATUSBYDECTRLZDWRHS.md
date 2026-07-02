@@ -1,6 +1,12 @@
 ---
 name: I_DISTRSTATUSBYDECTRLZDWRHS
 description: Distrstatusbydectrlzdwrhs
+semantic_en: "distribution status codes for decentralized warehouses — classifies inventory distribution status by warehouse location."
+semantic_vi: "mã trạng thái phân phối cho kho hàng phân cấp — phân loại trạng thái phân phối hàng tồn kho theo vị trí kho hàng."
+keywords:
+  - phân phối
+  - kho hàng phân cấp
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

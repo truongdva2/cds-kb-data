@@ -1,6 +1,12 @@
 ---
 name: I_CUSTPROJSLSORDITMBILLGPLNITM
 description: Custprojslsorditmbillgplnitm
+semantic_en: "billing plan item of sales order item for customer project — individual billing plan items with amounts and usage tracking"
+semantic_vi: "Mục kế hoạch thanh toán mục đơn hàng bán hàng cho dự án khách hàng — các mục kế hoạch thanh toán riêng lẻ với số tiền và theo dõi sử dụng"
+keywords:
+  - dòng kế hoạch thanh toán
+  - mục hóa đơn dự án
+  - số tiền thanh toán
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

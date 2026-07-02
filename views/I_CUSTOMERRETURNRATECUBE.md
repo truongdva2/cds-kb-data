@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNRATECUBE
 description: Customerreturnratecube
+semantic_en: "customer return rate cube — analytical return rate metrics by document, item, and date periods"
+semantic_vi: "Khối tỷ lệ trả lại khách hàng — chỉ số tỷ lệ trả lại phân tích theo tài liệu, mục, và kỳ thời gian"
+keywords:
+  - tỷ lệ trả lại
+  - phân tích hoàn trả
+  - thống kê trả hàng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

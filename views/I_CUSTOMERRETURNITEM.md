@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNITEM
 description: Customerreturnitem
+semantic_en: "returns order item — individual return line item with product and category details"
+semantic_vi: "Mục đơn hàng trả lại — mục dòng trả lại riêng lẻ với chi tiết sản phẩm và danh mục"
+keywords:
+  - mục trả hàng
+  - dòng trả lại
+  - chi tiết sản phẩm trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

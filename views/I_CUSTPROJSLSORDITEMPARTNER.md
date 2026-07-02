@@ -1,6 +1,12 @@
 ---
 name: I_CUSTPROJSLSORDITEMPARTNER
 description: Custprojslsorditempartner
+semantic_en: "sales order item partner for customer project — partner roles for project sales order line items with address references"
+semantic_vi: "Đối tác mục đơn hàng bán hàng cho dự án khách hàng — vai trò đối tác cho mục dòng đơn bán dự án với tham chiếu địa chỉ"
+keywords:
+  - đối tác dòng dự án
+  - liên hệ đơn dự án
+  - địa chỉ đối tác dự
 app_component: SD-SLS-PBS
 software_component: SAPSCORE
 release_state: released

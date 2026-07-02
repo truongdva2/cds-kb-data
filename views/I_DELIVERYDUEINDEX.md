@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYDUEINDEX
 description: Deliverydueindex
+semantic_en: "delivery due index — analytical index for tracking delivery readiness across key dimensions."
+semantic_vi: "chỉ mục hạn chót giao hàng — chỉ mục phân tích để theo dõi sẵn sàng giao hàng trên các chiều chính."
+keywords:
+  - hạn chót giao hàng
+  - chỉ mục phân tích
+  - sẵn sàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNAPPROVALREASON
 description: Customerreturnapprovalreason
+semantic_en: "approval reason for returns order — classification of reasons for authorizing customer returns"
+semantic_vi: "Lý do phê duyệt đơn hàng trả lại — phân loại lý do cho phép trả lại khách hàng"
+keywords:
+  - lý do phê duyệt
+  - trả lại được phê duyệt
+  - xác nhận hoàn trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

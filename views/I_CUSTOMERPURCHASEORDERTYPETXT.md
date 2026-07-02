@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPURCHASEORDERTYPETXT
 description: CUSTOMERPurchase OrderTYPETXT
+semantic_en: "customer purchase order type text — localized descriptions for PO type classifications"
+semantic_vi: "Văn bản loại đơn hàng mua khách hàng — mô tả bản địa hóa cho phân loại kiểu PO"
+keywords:
+  - mô tả PO
+  - loại đơn hàng
+  - phân loại đơn mua
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

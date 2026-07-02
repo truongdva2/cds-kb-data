@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERACCOUNTASSGMTGROUP
 description: Customeraccountassgmtgroup
+semantic_en: "Customer account assignment group — classification for assigning customers to account groups for sales organization."
+semantic_vi: "Nhóm phân bổ tài khoản khách hàng — phân loại để gán khách hàng vào nhóm tài khoản cho tổ chức bán hàng."
+keywords:
+  - nhóm phân bổ tài khoản
+  - tài khoản khách hàng
+  - bán hàng
 app_component: SD-BF-ACT-2CL
 software_component: SAPSCORE
 release_state: released

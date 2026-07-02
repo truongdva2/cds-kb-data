@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYBLOCKSTATUSTEXT
 description: Deliveryblockstatustext
+semantic_en: "text descriptions for delivery block statuses — provides multilingual status labels."
+semantic_vi: "mô tả văn bản cho trạng thái khóa giao hàng — cung cấp nhãn trạng thái đa ngôn ngữ."
+keywords:
+  - trạng thái khóa giao hàng
+  - mô tả đa ngôn ngữ
+  - tạm dừng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

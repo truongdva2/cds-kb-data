@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNTEXTTP
 description: Customerreturntexttp
+semantic_en: "returns order text transactional partner — localized notes and text descriptions for return documents"
+semantic_vi: "Văn bản đơn hàng trả lại đối tác giao dịch — ghi chú bản địa hóa và mô tả văn bản cho tài liệu trả"
+keywords:
+  - ghi chú đơn trả
+  - mô tả trả lại
+  - chú thích hoàn trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

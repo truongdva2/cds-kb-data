@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTLONGTEXTTP_2
 description: Defectlongtexttp 2
+semantic_en: "Defect long text TP — transactional detailed text for defects by language with content type tracking."
+semantic_vi: "Dữ liệu giao dịch tài liệu dài khuyết tật — tài liệu chi tiết cho khuyết tật theo ngôn ngữ kèm theo loại nội dung."
+keywords:
+  - Tài liệu khuyết tật
+  - Giao dịch
+  - Ngôn ngữ
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

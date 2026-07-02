@@ -1,6 +1,12 @@
 ---
 name: I_DIVISIONHIERARCHYTEXT
 description: Divisionhierarchytext
+semantic_en: "multilingual text for division hierarchies — provides localized hierarchy descriptions."
+semantic_vi: "văn bản đa ngôn ngữ cho cấu trúc phân cấp bộ phận — cung cấp mô tả cấu trúc phân cấp địa phương."
+keywords:
+  - bộ phận
+  - cấu trúc phân cấp
+  - mô tả đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

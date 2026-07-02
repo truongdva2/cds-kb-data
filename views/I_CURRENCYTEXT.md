@@ -1,6 +1,12 @@
 ---
 name: I_CURRENCYTEXT
 description: Currencytext
+semantic_en: "Currency text — translatable full names, short codes, and descriptions of currencies by language."
+semantic_vi: "Văn bản tiền tệ — tên đầy đủ dịch được, mã ngắn, và mô tả tiền tệ theo ngôn ngữ."
+keywords:
+  - tên tiền tệ
+  - mã tiền tệ
+  - mô tả đa ngôn ngữ
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

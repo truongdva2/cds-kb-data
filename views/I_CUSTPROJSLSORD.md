@@ -1,6 +1,12 @@
 ---
 name: I_CUSTPROJSLSORD
 description: Custprojslsord
+semantic_en: "sales order for customer project — sales orders associated with customer projects including pricing and payment terms"
+semantic_vi: "Đơn hàng bán hàng cho dự án khách hàng — đơn hàng bán hàng liên quan đến dự án khách hàng bao gồm giá và điều khoản thanh toán"
+keywords:
+  - đơn hàng dự án
+  - bán hàng dự án khách
+  - liên kết đơn hàng
 app_component: SD-SLS-PBS
 software_component: SAPSCORE
 release_state: released

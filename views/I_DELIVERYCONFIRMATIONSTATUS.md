@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYCONFIRMATIONSTATUS
 description: Deliveryconfirmationstatus
+semantic_en: "delivery confirmation status codes — domain value helper for delivery acknowledgment states."
+semantic_vi: "mã trạng thái xác nhận giao hàng — view hỗ trợ giá trị miền cho trạng thái xác nhận giao hàng."
+keywords:
+  - xác nhận giao hàng
+  - trạng thái
+  - giá trị miền
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

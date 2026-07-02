@@ -1,6 +1,12 @@
 ---
 name: I_DIRECTACTIVITYALLOCATIONTP_2
 description: Directactivityallocationtp 2
+semantic_en: "direct activity allocation transactional projection — presents cost allocation data for assigned activities across time periods."
+semantic_vi: "phép chiếu giao dịch phân bổ hoạt động trực tiếp — trình bày dữ liệu phân bổ chi phí cho các hoạt động được gán trên các kỳ thời gian."
+keywords:
+  - phân bổ hoạt động
+  - chi phí
+  - kỳ thời gian
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

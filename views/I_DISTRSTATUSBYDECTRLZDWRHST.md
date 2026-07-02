@@ -1,6 +1,12 @@
 ---
 name: I_DISTRSTATUSBYDECTRLZDWRHST
 description: Distrstatusbydectrlzdwrhst
+semantic_en: "multilingual text for distribution statuses by decentralized warehouses — provides localized distribution status descriptions."
+semantic_vi: "văn bản đa ngôn ngữ cho trạng thái phân phối theo kho hàng phân cấp — cung cấp mô tả trạng thái phân phối địa phương."
+keywords:
+  - phân phối
+  - kho hàng phân cấp
+  - mô tả đa ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

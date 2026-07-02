@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYCONFIRMATIONSTATUST
 description: Deliveryconfirmationstatust
+semantic_en: "text descriptions for delivery confirmation statuses — provides multilingual confirmation labels."
+semantic_vi: "mô tả văn bản cho trạng thái xác nhận giao hàng — cung cấp nhãn xác nhận đa ngôn ngữ."
+keywords:
+  - xác nhận giao hàng
+  - mô tả đa ngôn ngữ
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

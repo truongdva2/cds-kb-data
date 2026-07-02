@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPAYMENTTERMS
 description: Customerpaymentterms
+semantic_en: "Customer payment terms — payment term codes defining payment conditions and due date calculations for customer transactions."
+semantic_vi: "Điều khoản thanh toán khách hàng — mã điều khoản thanh toán xác định điều kiện thanh toán và tính toán ngày hạn cho giao dịch khách hàng."
+keywords:
+  - điều khoản thanh toán
+  - mã thanh toán
+  - tính toán hạn cuối
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

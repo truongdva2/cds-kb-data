@@ -1,6 +1,12 @@
 ---
 name: I_CUSTPROJSLSORDITEM
 description: Custprojslsorditem
+semantic_en: "sales order item for customer project — line items for project-based sales orders with material and financial details"
+semantic_vi: "Mục đơn hàng bán hàng cho dự án khách hàng — các mục dòng cho đơn hàng bán hàng dựa trên dự án với chi tiết vật liệu và tài chính"
+keywords:
+  - dòng đơn dự án
+  - mục bán dự án
+  - chi tiết sản phẩm dự án
 app_component: SD-SLS-PBS
 software_component: SAPSCORE
 release_state: released

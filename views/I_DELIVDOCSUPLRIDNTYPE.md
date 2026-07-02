@@ -1,6 +1,12 @@
 ---
 name: I_DELIVDOCSUPLRIDNTYPE
 description: Delivdocsuplridntype
+semantic_en: "domain value helper — lists external identification types for delivery document suppliers."
+semantic_vi: "view hỗ trợ giá trị miền — liệt kê các loại định danh bên ngoài cho nhà cung cấp tài liệu giao hàng."
+keywords:
+  - loại định danh nhà cung cấp
+  - tài liệu giao hàng
+  - giá trị miền
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

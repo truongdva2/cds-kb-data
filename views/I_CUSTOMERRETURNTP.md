@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNTP
 description: Customerreturntp
+semantic_en: "returns order transactional partner — return document header with sales org, dates, and involved parties"
+semantic_vi: "Đơn hàng trả lại đối tác giao dịch — đầu tài liệu trả lại với tổ chức bán hàng, ngày tháng, và các bên liên quan"
+keywords:
+  - tài liệu trả lại
+  - đơn hàng hoàn trả
+  - chi tiết đơn trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

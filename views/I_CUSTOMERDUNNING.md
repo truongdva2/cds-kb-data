@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERDUNNING
 description: Customerdunning
+semantic_en: "Customer company code dunning fields — dunning procedures, levels, blocks, and clerks for payment follow-up by company code."
+semantic_vi: "Trường thúc tiền công ty khách hàng — quy trình thúc tiền, cấp độ, khối, và nhân viên cho theo dõi thanh toán theo mã công ty."
+keywords:
+  - thúc tiền khách hàng
+  - theo dõi thanh toán
+  - quy trình thúc tiền
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

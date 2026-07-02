@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCOMPANYVH
 description: Customer CompanyVH
+semantic_en: "Customer company value-help — reference list of customers by company code with names and country information."
+semantic_vi: "Danh sách tìm kiếm công ty khách hàng — danh sách tham chiếu khách hàng theo mã công ty với tên và thông tin quốc gia."
+keywords:
+  - công ty khách hàng
+  - danh sách tìm kiếm
+  - mã công ty
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

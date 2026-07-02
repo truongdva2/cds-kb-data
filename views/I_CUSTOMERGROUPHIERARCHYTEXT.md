@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERGROUPHIERARCHYTEXT
 description: Customergrouphierarchytext
+semantic_en: "Customer group hierarchy text — translatable names of customer group hierarchies across languages."
+semantic_vi: "Văn bản cấu trúc phân cấp nhóm khách hàng — tên dịch được của các cấu trúc phân cấp nhóm khách hàng trên các ngôn ngữ."
+keywords:
+  - tên cấu trúc phân cấp
+  - mô tả phân cấp
+  - đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTADDRDEPDNTEXTIDENTIFIER
 description: Custaddrdepdntextidentifier
+semantic_en: "Customer external identifier for address — mapping between customer addresses and external reference identifiers."
+semantic_vi: "Mã định danh ngoại bộ khách hàng cho địa chỉ — ánh xạ giữa địa chỉ khách hàng và mã định danh tham chiếu ngoài."
+keywords:
+  - địa chỉ khách hàng
+  - mã tham chiếu ngoài
+  - định danh địa chỉ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

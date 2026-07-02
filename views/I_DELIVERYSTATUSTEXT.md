@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYSTATUSTEXT
 description: Deliverystatustext
+semantic_en: "multilingual descriptions for delivery statuses — provides localized delivery status labels."
+semantic_vi: "mô tả đa ngôn ngữ cho trạng thái giao hàng — cung cấp nhãn trạng thái giao hàng địa phương."
+keywords:
+  - trạng thái giao hàng
+  - mô tả đa ngôn ngữ
+  - tiến trình
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTRETDELIVPARTNERTP
 description: Custretdelivpartnertp
+semantic_en: "Customer returns delivery partner — business partner roles and contact details for return shipment transactions."
+semantic_vi: "Đối tác giao nhận hàng trả về — lưu trữ vai trò đối tác (khách hàng, nhà cung cấp, nhân viên) và thông tin địa chỉ liên hệ cho phiếu giao nhận hàng trả về."
+keywords:
+  - Đối tác giao nhận
+  - Hàng trả về
+  - Thông tin liên hệ
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

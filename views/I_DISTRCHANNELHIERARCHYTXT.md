@@ -1,6 +1,12 @@
 ---
 name: I_DISTRCHANNELHIERARCHYTXT
 description: Distrchannelhierarchytxt
+semantic_en: "multilingual text for distribution channel hierarchies — provides localized hierarchy descriptions."
+semantic_vi: "văn bản đa ngôn ngữ cho cấu trúc phân cấp kênh phân phối — cung cấp mô tả cấu trúc phân cấp địa phương."
+keywords:
+  - kênh phân phối
+  - cấu trúc phân cấp
+  - mô tả đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

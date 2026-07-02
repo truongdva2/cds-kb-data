@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNSDELIVERYTP
 description: Customerreturnsdeliverytp
+semantic_en: "customer returns delivery transactional partner — receiving and shipping partner details for return shipments with warehouse and routing info"
+semantic_vi: "Giao hàng trả lại khách hàng đối tác giao dịch — chi tiết đối tác nhận và gửi cho lô hàng trả với kho hàng"
+keywords:
+  - chi tiết giao nhận trả
+  - địa chỉ giao trả
+  - kho hàng trả
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

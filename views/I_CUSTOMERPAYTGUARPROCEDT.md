@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPAYTGUARPROCEDT
 description: Customerpaytguarprocedt
+semantic_en: "Payment guarantee procedure text — translatable descriptions of payment guarantee types."
+semantic_vi: "Văn bản quy trình bảo đảm thanh toán — mô tả dịch được các loại bảo đảm thanh toán."
+keywords:
+  - mô tả bảo đảm thanh toán
+  - tên bảo đảm
+  - đa ngôn ngữ
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTDEPARTMENTADDRDEPDNTINFO
 description: Custdepartmentaddrdepdntinfo
+semantic_en: "Department dependent on customer address — department-level logistics attributes by address including retail space and layout details."
+semantic_vi: "Thông tin bộ phận phụ thuộc vào địa chỉ khách hàng — thuộc tính logistik cấp bộ phận theo địa chỉ bao gồm không gian bán lẻ và chi tiết bố cục."
+keywords:
+  - bộ phận khách hàng
+  - địa chỉ doanh nghiệp
+  - thông tin bán lẻ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

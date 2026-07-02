@@ -1,6 +1,12 @@
 ---
 name: I_DISTRCHANNELHIERARCHYNODET
 description: Distrchannelhierarchynodet
+semantic_en: "multilingual text for distribution channel hierarchy nodes — provides localized node descriptions."
+semantic_vi: "văn bản đa ngôn ngữ cho nút cấu trúc phân cấp kênh phân phối — cung cấp mô tả nút địa phương."
+keywords:
+  - nút phân cấp
+  - kênh phân phối
+  - mô tả đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

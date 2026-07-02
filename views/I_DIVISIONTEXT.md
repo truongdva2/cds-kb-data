@@ -1,6 +1,12 @@
 ---
 name: I_DIVISIONTEXT
 description: Divisiontext
+semantic_en: "multilingual names for divisions — provides localized division descriptions."
+semantic_vi: "tên đa ngôn ngữ cho bộ phận — cung cấp mô tả bộ phận địa phương."
+keywords:
+  - bộ phận
+  - tên đa ngôn ngữ
+  - mô tả
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

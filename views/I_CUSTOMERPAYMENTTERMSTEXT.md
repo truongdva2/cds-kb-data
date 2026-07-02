@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPAYMENTTERMSTEXT
 description: Customerpaymenttermstext
+semantic_en: "Customer payment terms text — translatable names of payment term codes."
+semantic_vi: "Văn bản điều khoản thanh toán khách hàng — tên dịch được của các mã điều khoản thanh toán."
+keywords:
+  - tên điều khoản thanh toán
+  - mô tả thanh toán
+  - đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

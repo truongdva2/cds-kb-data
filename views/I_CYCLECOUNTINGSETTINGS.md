@@ -1,6 +1,12 @@
 ---
 name: I_CYCLECOUNTINGSETTINGS
 description: Cyclecountingsettings
+semantic_en: "Cycle counting settings — configuration for inventory cycle counting frequency and intervals by plant."
+semantic_vi: "Cấu hình kiểm kê tuần hoàn — thiết lập tần suất và khoảng thời gian kiểm kê hàng tồn kho theo nhà máy."
+keywords:
+  - Kiểm kê tuần hoàn
+  - Cấu hình nhà máy
+  - Tồn kho
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERACCOUNTASSGMTGROUPT
 description: Customeraccountassgmtgroupt
+semantic_en: "Account assignment group of customer text — translatable names of customer account assignment groups."
+semantic_vi: "Văn bản nhóm phân bổ tài khoản của khách hàng — tên dịch được của các nhóm phân bổ tài khoản khách hàng."
+keywords:
+  - tên nhóm tài khoản
+  - mô tả nhóm
+  - tài khoản khách hàng
 app_component: SD-BF-ACT-2CL
 software_component: SAPSCORE
 release_state: released

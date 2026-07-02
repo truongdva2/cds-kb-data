@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPRICEGROUPTEXT
 description: Customerpricegrouptext
+semantic_en: "customer price group descriptor — contains name and language for grouping customers by pricing tiers"
+semantic_vi: "Mô tả nhóm giá khách hàng — chứa tên nhóm và ngôn ngữ để phân loại khách hàng theo cấp giá"
+keywords:
+  - nhóm giá khách hàng
+  - phân loại giá
+  - mô tả giá
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

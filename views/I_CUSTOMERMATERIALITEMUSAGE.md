@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERMATERIALITEMUSAGE
 description: Customermaterialitemusage
+semantic_en: "Customer material item usage — classification of how materials are used in customer-specific contexts."
+semantic_vi: "Cách sử dụng mục vật liệu khách hàng — phân loại cách vật liệu được sử dụng trong các bối cảnh cụ thể của khách hàng."
+keywords:
+  - cách sử dụng vật liệu
+  - vật liệu khách hàng
+  - phân loại
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

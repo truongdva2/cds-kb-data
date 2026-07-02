@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURN
 description: Customerreturn
+semantic_en: "returns order — core document capturing returned sales orders with header details including sales org, distribution channel, and timestamps"
+semantic_vi: "Đơn hàng trả lại — tài liệu cốt lõi ghi nhận đơn hàng bán bị trả lại với chi tiết đầu đề bao gồm tổ chức bán hàng, kênh phân phối"
+keywords:
+  - đơn trả lại
+  - quản lý trả hàng
+  - hoàn trả hàng
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

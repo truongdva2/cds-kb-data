@@ -1,6 +1,12 @@
 ---
 name: I_DELIVDOCSUPLRIDNTYPETEXT
 description: Delivdocsuplridntypetext
+semantic_en: "text descriptions for external supplier identification types — supports multilingual labeling in delivery documents."
+semantic_vi: "mô tả văn bản cho các loại định danh nhà cung cấp bên ngoài — hỗ trợ ghi nhãn đa ngôn ngữ trong tài liệu giao hàng."
+keywords:
+  - định danh nhà cung cấp
+  - mô tả đa ngôn ngữ
+  - giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

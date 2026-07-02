@@ -1,6 +1,12 @@
 ---
 name: I_CUSTMGMTBUSOBJTYPETEXT
 description: Custmgmtbusobjtypetext
+semantic_en: "Business object type of service transaction text — translatable names and descriptions of customer management transaction types."
+semantic_vi: "Văn bản loại đối tượng kinh doanh của giao dịch dịch vụ — tên dịch được và mô tả các loại giao dịch quản lý khách hàng."
+keywords:
+  - loại giao dịch
+  - tên loại đối tượng
+  - mô tả dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

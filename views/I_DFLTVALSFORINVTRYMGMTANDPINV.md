@@ -1,6 +1,12 @@
 ---
 name: I_DFLTVALSFORINVTRYMGMTANDPINV
 description: Dfltvalsforinvtrymgmtandpinv
+semantic_en: "default values configuration for inventory management and physical inventory — stores plant-level defaults for inventory processes."
+semantic_vi: "cấu hình giá trị mặc định cho quản lý tồn kho và kiểm kho vật lý — lưu trữ giá trị mặc định ở cấp nhà máy cho các quy trình tồn kho."
+keywords:
+  - cấu hình mặc định
+  - tồn kho
+  - kiểm kho vật lý
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

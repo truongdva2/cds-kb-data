@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCREDITGROUPTEXT
 description: Customercreditgrouptext
+semantic_en: "Customer credit group text — translatable names of credit account groups for customer classifications."
+semantic_vi: "Văn bản nhóm tín dụng khách hàng — tên dịch được các nhóm tài khoản tín dụng cho phân loại khách hàng."
+keywords:
+  - tên nhóm tín dụng
+  - mô tả tín dụng
+  - đa ngôn ngữ
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

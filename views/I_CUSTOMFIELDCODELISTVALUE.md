@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMFIELDCODELISTVALUE
 description: Customfieldcodelistvalue
+semantic_en: "custom field code list value — enumerated code values for custom field configurations"
+semantic_vi: "Giá trị danh sách mã trường tùy chỉnh — các giá trị mã được liệt kê cho cấu hình trường tùy chỉnh"
+keywords:
+  - mã trường tùy chỉnh
+  - giá trị mã
+  - cấu hình trường
 app_component: BC-SRV-APS-EXT-FLD
 software_component: SAP_BASIS
 release_state: released

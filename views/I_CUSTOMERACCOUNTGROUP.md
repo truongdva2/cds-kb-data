@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERACCOUNTGROUP
 description: Customeraccountgroup
+semantic_en: "Customer account group — classification of customers by account type for financial and trading purposes."
+semantic_vi: "Nhóm tài khoản khách hàng — phân loại khách hàng theo loại tài khoản cho các mục đích tài chính và giao dịch."
+keywords:
+  - nhóm tài khoản
+  - loại khách hàng
+  - phân loại tài khoản
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

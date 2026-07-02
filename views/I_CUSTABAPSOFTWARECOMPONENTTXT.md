@@ -1,6 +1,12 @@
 ---
 name: I_CUSTABAPSOFTWARECOMPONENTTXT
 description: Custabapsoftwarecomponenttxt
+semantic_en: "Custom ABAP software component text — translatable names for customer-defined software components."
+semantic_vi: "Văn bản thành phần phần mềm ABAP tùy chỉnh — tên dịch được cho các thành phần phần mềm do khách hàng định nghĩa."
+keywords:
+  - tên thành phần phần mềm
+  - đa ngôn ngữ
+  - thành phần tùy chỉnh
 app_component: BC-SRV-APS-EXT-REL
 software_component: SAP_BASIS
 release_state: released

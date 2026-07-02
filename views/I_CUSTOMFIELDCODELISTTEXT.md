@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMFIELDCODELISTTEXT
 description: Customfieldcodelisttext
+semantic_en: "custom field code list value description — localized descriptions for custom field code values"
+semantic_vi: "Mô tả giá trị danh sách mã trường tùy chỉnh — mô tả bản địa hóa cho các giá trị mã trường tùy chỉnh"
+keywords:
+  - mô tả mã tùy chỉnh
+  - giá trị trường
+  - danh sách mã
 app_component: BC-SRV-APS-EXT-FLD
 software_component: SAP_BASIS
 release_state: released

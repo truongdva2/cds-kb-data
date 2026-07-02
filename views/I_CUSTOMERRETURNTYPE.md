@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNTYPE
 description: Customerreturntype
+semantic_en: "returns order types — classification of return document types with returns management activation status"
+semantic_vi: "Loại đơn hàng trả lại — phân loại loại tài liệu trả lại với trạng thái kích hoạt quản lý trả hàng"
+keywords:
+  - loại trả lại
+  - phân loại đơn trả
+  - loại hoàn trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

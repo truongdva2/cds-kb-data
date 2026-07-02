@@ -1,6 +1,12 @@
 ---
 name: I_CUSTUNLDGPTADDRDEPDNTINFO
 description: Custunldgptaddrdepdntinfo
+semantic_en: "Unloading points dependent on address — delivery point preferences and operating hours linked to customer addresses."
+semantic_vi: "Thông tin điểm dỡ hàng phụ thuộc vào địa chỉ — tên điểm dỡ, giờ làm việc hàng tuần liên kết với địa chỉ khách hàng."
+keywords:
+  - Điểm dỡ hàng
+  - Địa chỉ khách hàng
+  - Giờ làm việc
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

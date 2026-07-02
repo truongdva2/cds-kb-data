@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYBLOCKREASONTEXT
 description: Deliveryblockreasontext
+semantic_en: "multilingual text for delivery block reasons — provides localized descriptions of why deliveries are blocked."
+semantic_vi: "văn bản đa ngôn ngữ cho lý do khóa giao hàng — cung cấp mô tả địa phương về lý do tạm dừng giao hàng."
+keywords:
+  - lý do khóa giao hàng
+  - mô tả đa ngôn ngữ
+  - tạm dừng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

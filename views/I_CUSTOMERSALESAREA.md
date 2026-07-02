@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERSALESAREA
 description: Customer Sales Area
+semantic_en: "customer sales area — customer master data by sales org and distribution channel with pricing and delivery terms"
+semantic_vi: "Khu vực bán hàng khách hàng — dữ liệu chính khách hàng theo tổ chức bán hàng và kênh phân phối với điều khoản giá và giao hàng"
+keywords:
+  - khu vực bán hàng
+  - điều kiện bán hàng
+  - tổ chức bán khách hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

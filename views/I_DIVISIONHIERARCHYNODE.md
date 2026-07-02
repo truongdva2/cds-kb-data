@@ -1,6 +1,12 @@
 ---
 name: I_DIVISIONHIERARCHYNODE
 description: Divisionhierarchynode
+semantic_en: "division hierarchy nodes — represents individual positions in the division hierarchy."
+semantic_vi: "nút cấu trúc phân cấp bộ phận — đại diện cho các vị trí riêng lẻ trong phân cấp bộ phận."
+keywords:
+  - nút phân cấp
+  - bộ phận
+  - cấu trúc
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNENHANCED
 description: Customerreturnenhanced
+semantic_en: "returns order enhanced — extended returns order view with comprehensive header attributes and audit trail"
+semantic_vi: "Đơn hàng trả lại nâng cao — chế độ xem đơn hàng trả lại mở rộng với các thuộc tính đầu đề toàn diện"
+keywords:
+  - đơn trả nâng cao
+  - quản lý trả lại chi tiết
+  - hoàn trả mở rộng
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

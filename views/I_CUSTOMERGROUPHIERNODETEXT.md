@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERGROUPHIERNODETEXT
 description: Customergrouphiernodetext
+semantic_en: "Customer group hierarchy node text — translatable names and descriptions of individual hierarchy nodes."
+semantic_vi: "Văn bản nút cấu trúc phân cấp nhóm khách hàng — tên dịch được và mô tả các nút phân cấp riêng lẻ."
+keywords:
+  - tên nút phân cấp
+  - mô tả nút
+  - đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

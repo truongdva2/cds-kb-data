@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMER_VH
 description: Customer (Value Help)
+semantic_en: "business partner type value help — value help for customer selection with complete business partner and address details"
+semantic_vi: "Trợ giúp giá trị loại đối tác kinh doanh — trợ giúp giá trị để lựa chọn khách hàng với chi tiết đối tác kinh doanh và địa chỉ đầy đủ"
+keywords:
+  - lựa chọn khách hàng
+  - danh sách đối tác
+  - tìm kiếm khách hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

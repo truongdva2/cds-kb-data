@@ -1,6 +1,12 @@
 ---
 name: I_CUSTSALESPARTNERCOUNTER
 description: Custsalespartnercounter
+semantic_en: "Partner counter — sequence numbering for business partner relationships."
+semantic_vi: "Bộ đếm đối tác — số thứ tự để định danh các mối quan hệ đối tác kinh doanh."
+keywords:
+  - Đối tác
+  - Số thứ tự
+  - Bộ đếm
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

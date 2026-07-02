@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCLASSIFICATIONTEXT
 description: Customerclassificationtext
+semantic_en: "Customer classification text — translatable descriptions of customer classification types across languages."
+semantic_vi: "Văn bản phân loại khách hàng — mô tả dịch được các loại phân loại khách hàng trên các ngôn ngữ."
+keywords:
+  - tên phân loại
+  - mô tả phân loại
+  - đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

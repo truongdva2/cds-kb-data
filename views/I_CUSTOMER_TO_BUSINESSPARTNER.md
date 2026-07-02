@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMER_TO_BUSINESSPARTNER
 description: Customer TO Business Partner
+semantic_en: "customer to business partner relationship — links customer to business partner UUID with authorization context"
+semantic_vi: "Mối quan hệ khách hàng với đối tác kinh doanh — liên kết khách hàng với UUID đối tác kinh doanh có bối cảnh ủy quyền"
+keywords:
+  - liên kết đối tác
+  - khách hàng đối tác
+  - ủy quyền đối tác
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

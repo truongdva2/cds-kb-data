@@ -1,6 +1,12 @@
 ---
 name: I_DISTRCHANNELHIERARCHY
 description: Distrchannelhierarchy
+semantic_en: "distribution channel hierarchy master — defines organizational structure for distribution channels."
+semantic_vi: "chính dữ liệu cấu trúc phân cấp kênh phân phối — định nghĩa cấu trúc tổ chức cho các kênh phân phối."
+keywords:
+  - kênh phân phối
+  - cấu trúc phân cấp
+  - tổ chức
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

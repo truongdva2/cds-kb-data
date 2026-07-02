@@ -1,6 +1,12 @@
 ---
 name: I_CUSTABAPOBJDIRECTORYENTRY
 description: Custabapobjdirectoryentry
+semantic_en: "Customer ABAP object directory entry — metadata on user-defined ABAP objects, their ownership, deletion status, and package assignment."
+semantic_vi: "Mục nhập thư mục đối tượng ABAP khách hàng — siêu dữ liệu về các đối tượng ABAP do người dùng định nghĩa, quyền sở hữu, trạng thái xóa, và phân bổ gói."
+keywords:
+  - đối tượng ABAP tùy chỉnh
+  - thư mục ABAP
+  - gói phần mềm
 app_component: BC-CTS-ORG
 software_component: SAP_BASIS
 release_state: released

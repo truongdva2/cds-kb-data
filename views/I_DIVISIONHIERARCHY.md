@@ -1,6 +1,12 @@
 ---
 name: I_DIVISIONHIERARCHY
 description: Divisionhierarchy
+semantic_en: "division hierarchy master — defines organizational structure for divisions."
+semantic_vi: "chính dữ liệu cấu trúc phân cấp bộ phận — định nghĩa cấu trúc tổ chức cho các bộ phận."
+keywords:
+  - bộ phận
+  - cấu trúc phân cấp
+  - tổ chức
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

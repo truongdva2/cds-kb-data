@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPURCHASEORDERTYPE
 description: CUSTOMERPurchase OrderTYPE
+semantic_en: "customer purchase order type — categorizes PO types for customer orders"
+semantic_vi: "Loại đơn hàng mua của khách hàng — phân loại các kiểu PO cho đơn hàng khách hàng"
+keywords:
+  - loại đơn mua
+  - phân loại PO
+  - đơn hàng khách hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

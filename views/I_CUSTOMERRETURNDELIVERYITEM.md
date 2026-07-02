@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNDELIVERYITEM
 description: Customerreturndeliveryitem
+semantic_en: "customer returns delivery document item — line-level details for returned goods including sales category and distribution info"
+semantic_vi: "Dòng mục giao hàng trả lại khách hàng — chi tiết cấp dòng cho hàng hóa trả lại bao gồm danh mục bán hàng"
+keywords:
+  - chi tiết dòng trả lại
+  - mục giao hàng
+  - phân loại sản phẩm trả
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

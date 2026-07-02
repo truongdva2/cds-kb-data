@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNSDELIVITEMTP
 description: Customerreturnsdelivitemtp
+semantic_en: "customer returns delivery item transactional partner — quantity and pick details for individual return delivery line items"
+semantic_vi: "Mục giao hàng trả lại khách hàng đối tác giao dịch — chi tiết số lượng và chọn hàng cho mục dòng giao trả riêng lẻ"
+keywords:
+  - số lượng giao trả
+  - chi tiết chọn hàng
+  - mục giao lại
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

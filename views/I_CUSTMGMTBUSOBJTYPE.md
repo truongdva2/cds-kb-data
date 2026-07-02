@@ -1,6 +1,12 @@
 ---
 name: I_CUSTMGMTBUSOBJTYPE
 description: Custmgmtbusobjtype
+semantic_en: "Business object type of service transaction — classification of transaction types in customer management applications."
+semantic_vi: "Loại đối tượng kinh doanh của giao dịch dịch vụ — phân loại các loại giao dịch trong ứng dụng quản lý khách hàng."
+keywords:
+  - loại giao dịch dịch vụ
+  - quản lý khách hàng
+  - phân loại
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CURRENCYSTDVH
 description: Currencystdvh
+semantic_en: "Currency value-help — standard reference list of valid currencies for selection."
+semantic_vi: "Danh sách tìm kiếm tiền tệ — tham chiếu tiêu chuẩn các tiền tệ hợp lệ để chọn lựa."
+keywords:
+  - tiền tệ
+  - danh sách tìm kiếm
+  - giá trị tham chiếu
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

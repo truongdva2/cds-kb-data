@@ -1,6 +1,13 @@
 ---
 name: I_DELIVERYPICKVIEWHEADER
 description: Deliverypickviewheader
+semantic_en: "delivery pick list header projection — presents picking operations data at delivery level with location and weight information."
+semantic_vi: "phép chiếu tiêu đề danh sách chọn giao hàng — trình bày dữ liệu hoạt động chọn ở cấp giao hàng với thông tin vị trí và trọng lượng."
+keywords:
+  - danh sách chọn
+  - giao hàng
+  - vị trí
+  - trọng lượng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

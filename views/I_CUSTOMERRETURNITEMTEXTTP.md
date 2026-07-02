@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNITEMTEXTTP
 description: Customerreturnitemtexttp
+semantic_en: "returns order item text transactional partner — localized long text and notes for individual return items"
+semantic_vi: "Văn bản mục đơn hàng trả lại đối tác giao dịch — văn bản dài bản địa hóa và ghi chú cho các mục trả lại riêng lẻ"
+keywords:
+  - ghi chú trả lại
+  - mô tả dòng trả
+  - chú thích hàng trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

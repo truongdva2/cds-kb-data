@@ -1,6 +1,12 @@
 ---
 name: I_CURRENCYFIELDTEXT
 description: Currencyfieldtext
+semantic_en: "Currency field text — translatable names and descriptions of currency-bearing data fields in ABAP dictionary."
+semantic_vi: "Văn bản trường tiền tệ — tên và mô tả dịch được của các trường dữ liệu mang tiền tệ trong từ điển ABAP."
+keywords:
+  - tên trường tiền tệ
+  - mô tả trường
+  - đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

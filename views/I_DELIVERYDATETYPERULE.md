@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYDATETYPERULE
 description: Deliverydatetyperule
+semantic_en: "delivery date type rule codes — defines rules governing delivery date calculations."
+semantic_vi: "mã quy tắc loại ngày giao hàng — định nghĩa quy tắc chi phối tính toán ngày giao hàng."
+keywords:
+  - quy tắc ngày giao
+  - loại ngày
+  - tính toán
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

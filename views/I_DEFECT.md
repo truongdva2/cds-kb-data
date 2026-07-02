@@ -1,6 +1,12 @@
 ---
 name: I_DEFECT
 description: Defect
+semantic_en: "Defect — quality defects and issues detected in notifications including defect codes and categorization."
+semantic_vi: "Khuyết tật chất lượng — các vấn đề khuyết tật được phát hiện trong thông báo gồm mã khuyết tật, loại, danh mục."
+keywords:
+  - Khuyết tật
+  - Chất lượng
+  - Mã khuyết tật
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

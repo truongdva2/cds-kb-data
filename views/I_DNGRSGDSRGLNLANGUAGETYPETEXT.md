@@ -1,6 +1,12 @@
 ---
 name: I_DNGRSGDSRGLNLANGUAGETYPETEXT
 description: Dngrsgdsrglnlanguagetypetext
+semantic_en: "multilingual text for dangerous goods regulation language types — provides localized regulatory language labels."
+semantic_vi: "văn bản đa ngôn ngữ cho các loại ngôn ngữ quy định hàng nguy hiểm — cung cấp nhãn ngôn ngữ quy định địa phương."
+keywords:
+  - hàng nguy hiểm
+  - quy định
+  - ngôn ngữ
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

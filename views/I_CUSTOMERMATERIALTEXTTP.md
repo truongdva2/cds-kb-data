@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERMATERIALTEXTTP
 description: Customermaterialtexttp
+semantic_en: "Product — customer material long text projection with translatable product descriptions by sales channel and language."
+semantic_vi: "Sản phẩm — phép chiếu văn bản sản phẩm dài vật liệu khách hàng với mô tả sản phẩm dịch được theo kênh bán hàng và ngôn ngữ."
+keywords:
+  - mô tả sản phẩm
+  - văn bản dài sản phẩm
+  - đa ngôn ngữ
 app_component: SD-MD-AM-CMI-2CL
 software_component: SAPSCORE
 release_state: released

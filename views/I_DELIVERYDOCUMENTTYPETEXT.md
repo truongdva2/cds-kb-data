@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYDOCUMENTTYPETEXT
 description: Delivery DocumentUMENTTYPETEXT
+semantic_en: "multilingual names for delivery document types — provides localized type descriptions."
+semantic_vi: "tên đa ngôn ngữ cho các loại tài liệu giao hàng — cung cấp mô tả loại địa phương."
+keywords:
+  - loại tài liệu giao
+  - tên đa ngôn ngữ
+  - mô tả
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

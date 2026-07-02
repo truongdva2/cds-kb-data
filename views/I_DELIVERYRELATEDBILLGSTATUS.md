@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYRELATEDBILLGSTATUS
 description: Deliveryrelatedbillgstatus
+semantic_en: "delivery-related billing status codes — tracks billing progress tied to delivery completion."
+semantic_vi: "mã trạng thái lập hóa đơn liên quan đến giao hàng — theo dõi tiến trình lập hóa đơn liên kết với hoàn thành giao hàng."
+keywords:
+  - lập hóa đơn
+  - giao hàng
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

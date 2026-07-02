@@ -1,6 +1,12 @@
 ---
 name: I_DOCINFORECDDOCNMBRSTDVH
 description: Docinforecddocnmbrstdvh
+semantic_en: "value helper for document info record document numbers — provides lookup for document number assignments."
+semantic_vi: "view hỗ trợ giá trị cho số tài liệu hồ sơ thông tin tài liệu — cung cấp tra cứu cho gán số tài liệu."
+keywords:
+  - hồ sơ thông tin tài liệu
+  - số tài liệu
+  - tra cứu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

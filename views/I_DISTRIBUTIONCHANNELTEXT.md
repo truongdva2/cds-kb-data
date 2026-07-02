@@ -1,6 +1,12 @@
 ---
 name: I_DISTRIBUTIONCHANNELTEXT
 description: Distributionchanneltext
+semantic_en: "multilingual names for distribution channels — provides localized channel descriptions."
+semantic_vi: "tên đa ngôn ngữ cho kênh phân phối — cung cấp mô tả kênh địa phương."
+keywords:
+  - kênh phân phối
+  - tên đa ngôn ngữ
+  - mô tả
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

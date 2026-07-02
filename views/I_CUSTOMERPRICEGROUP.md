@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPRICEGROUP
 description: Customerpricegroup
+semantic_en: "Customer price group — classification of customers for applying group-level pricing agreements."
+semantic_vi: "Nhóm giá khách hàng — phân loại khách hàng để áp dụng các thỏa thuận định giá cấp nhóm."
+keywords:
+  - nhóm giá khách hàng
+  - định giá nhóm
+  - phân loại giá
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

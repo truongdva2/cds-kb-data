@@ -1,6 +1,12 @@
 ---
 name: I_CUSTUNIVHIERARCHYNODE_2
 description: Custunivhierarchynode 2
+semantic_en: "Customer universal hierarchy node — hierarchy node definitions including parent-child relationships and node attributes."
+semantic_vi: "Nút phân cấp khách hàng toàn phương — định nghĩa nút trong cấu trúc phân cấp gồm quan hệ cha-con và thuộc tính nút."
+keywords:
+  - Phân cấp
+  - Nút cấp con
+  - Cấu trúc tổ chức
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

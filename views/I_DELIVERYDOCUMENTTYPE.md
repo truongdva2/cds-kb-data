@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYDOCUMENTTYPE
 description: Delivery DocumentUMENTTYPE
+semantic_en: "delivery document type master — defines characteristics and configuration rules for delivery document types."
+semantic_vi: "chính dữ liệu loại tài liệu giao hàng — định nghĩa đặc tính và quy tắc cấu hình cho các loại tài liệu giao hàng."
+keywords:
+  - loại tài liệu giao
+  - cấu hình
+  - đặc tính
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

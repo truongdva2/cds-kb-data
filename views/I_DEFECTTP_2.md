@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTTP_2
 description: Defecttp 2
+semantic_en: "Defect TP — transactional defect data including codes, locations, and audit trail information."
+semantic_vi: "Dữ liệu giao dịch khuyết tật — thông tin khuyết tật gồm mã, vị trí, người tạo, ngày thay đổi."
+keywords:
+  - Khuyết tật
+  - Giao dịch
+  - Dữ liệu chất lượng
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

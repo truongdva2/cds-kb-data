@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTCODEGROUP
 description: Defectcodegroup
+semantic_en: "Defect code group — groupings of defect codes with activity and status tracking."
+semantic_vi: "Nhóm mã khuyết tật — nhóm các mã khuyết tật với trạng thái hoạt động và theo dõi trạng thái."
+keywords:
+  - Nhóm mã khuyết tật
+  - Mã khuyết tật
+  - Trạng thái
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

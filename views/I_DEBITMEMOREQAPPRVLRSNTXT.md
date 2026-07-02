@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQAPPRVLRSNTXT
 description: Debitmemoreqapprvlrsntxt
+semantic_en: "Approval reason for debit memo request text — text descriptions for approval reasons by language."
+semantic_vi: "Văn bản lý do phê duyệt yêu cầu ghi nợ — mô tả tên lý do phê duyệt theo ngôn ngữ."
+keywords:
+  - Phê duyệt
+  - Yêu cầu ghi nợ
+  - Lý do
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

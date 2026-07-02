@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQUESTTYPE
 description: Debitmemorequesttype
+semantic_en: "Debit memo request types — debit memo request type classifications and processing categories."
+semantic_vi: "Loại yêu cầu ghi nợ — phân loại loại yêu cầu ghi nợ và danh mục xử lý."
+keywords:
+  - Loại yêu cầu ghi nợ
+  - Phân loại
+  - Xử lý
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERUNLOADINGPOINT
 description: Customerunloadingpoint
+semantic_en: "customer unloading point — delivery location hours and receiving point schedules for goods receipt"
+semantic_vi: "Điểm dỡ hàng khách hàng — giờ giờ địa điểm giao hàng và lịch trình điểm nhận hàng cho tiếp nhận hàng hóa"
+keywords:
+  - điểm dỡ hàng
+  - giờ giao hàng
+  - lịch trình nhận hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

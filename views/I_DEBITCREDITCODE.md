@@ -1,6 +1,12 @@
 ---
 name: I_DEBITCREDITCODE
 description: Debitcreditcode
+semantic_en: "Debit credit code — accounting debit/credit indicator values."
+semantic_vi: "Mã ghi nợ/ghi có — các giá trị chỉ báo ghi nợ hay ghi có trong hạch toán."
+keywords:
+  - Ghi nợ ghi có
+  - Mã hạch toán
+  - Kế toán
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

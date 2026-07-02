@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQUESTTP
 description: Debitmemorequesttp
+semantic_en: "Debit memo request TP — transactional debit memo request data including dates, parties, and organization references."
+semantic_vi: "Dữ liệu giao dịch yêu cầu ghi nợ — thông tin yêu cầu ghi nợ gồm ngày, bên liên quan, tổ chức bán hàng."
+keywords:
+  - Yêu cầu ghi nợ
+  - Ngày tạo
+  - Khách hàng
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTCODEGROUPTEXT
 description: Defectcodegrouptext
+semantic_en: "Defect code group text — text descriptions for defect code groups by language."
+semantic_vi: "Văn bản nhóm mã khuyết tật — mô tả tên nhóm mã khuyết tật theo ngôn ngữ."
+keywords:
+  - Nhóm mã khuyết tật
+  - Văn bản
+  - Mô tả
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

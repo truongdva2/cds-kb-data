@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNPARTNERTP
 description: Customerreturnpartnertp
+semantic_en: "returns order partner transactional partner — customer and contact roles at return document header level"
+semantic_vi: "Đối tác đơn hàng trả lại đối tác giao dịch — vai trò khách hàng và liên hệ ở cấp đầu đề tài liệu trả"
+keywords:
+  - đối tác đơn trả
+  - liên hệ khách hàng trả
+  - người liên hệ trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

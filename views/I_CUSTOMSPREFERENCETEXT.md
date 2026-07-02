@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMSPREFERENCETEXT
 description: Customspreferencetext
+semantic_en: "preference indicator text — localized descriptions for trade preference classifications"
+semantic_vi: "Văn bản chỉ số sở thích — mô tả bản địa hóa cho phân loại sở thích thương mại"
+keywords:
+  - mô tả sở thích
+  - chỉ số ưu tiên
+  - phân loại sở thích
 app_component: FT-ITR-TRC
 software_component: SAPSCORE
 release_state: released

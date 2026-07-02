@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYCATEGORY
 description: Deliverycategory
+semantic_en: "delivery category codes — classifies delivery types from domain values."
+semantic_vi: "mã danh mục giao hàng — phân loại các loại giao hàng từ các giá trị miền."
+keywords:
+  - danh mục giao hàng
+  - loại giao hàng
+  - mã
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

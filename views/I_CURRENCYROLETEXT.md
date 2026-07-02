@@ -1,6 +1,12 @@
 ---
 name: I_CURRENCYROLETEXT
 description: Currencyroletext
+semantic_en: "Currency role text — translatable names for currency roles across languages."
+semantic_vi: "Văn bản vai trò tiền tệ — tên dịch được cho các vai trò tiền tệ trên các ngôn ngữ."
+keywords:
+  - tên vai trò tiền tệ
+  - đa ngôn ngữ
+  - dịch
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

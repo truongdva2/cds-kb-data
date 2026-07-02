@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQUESTPARTNERTP
 description: Debitmemorequestpartnertp
+semantic_en: "Debit memo request partner TP — transactional partner data for debit memos by function and organization."
+semantic_vi: "Dữ liệu giao dịch đối tác yêu cầu ghi nợ — thông tin đối tác ghi nợ theo chức năng, tổ chức bán hàng."
+keywords:
+  - Đối tác ghi nợ
+  - Chức năng đối tác
+  - Giao dịch
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DIVISIONHIERARCHYNODETEXT
 description: Divisionhierarchynodetext
+semantic_en: "multilingual text for division hierarchy nodes — provides localized node descriptions."
+semantic_vi: "văn bản đa ngôn ngữ cho nút cấu trúc phân cấp bộ phận — cung cấp mô tả nút địa phương."
+keywords:
+  - nút phân cấp
+  - bộ phận
+  - mô tả đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

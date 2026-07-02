@@ -1,6 +1,12 @@
 ---
 name: I_DEBITCREDITCODETEXT
 description: Debitcreditcodetext
+semantic_en: "Debit credit code text — text descriptions for debit/credit codes by language."
+semantic_vi: "Văn bản mã ghi nợ/ghi có — mô tả tên mã ghi nợ hay ghi có theo ngôn ngữ."
+keywords:
+  - Ghi nợ ghi có
+  - Mã hạch toán
+  - Văn bản
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

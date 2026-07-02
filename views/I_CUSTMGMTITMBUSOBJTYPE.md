@@ -1,6 +1,12 @@
 ---
 name: I_CUSTMGMTITMBUSOBJTYPE
 description: Custmgmtitmbusobjtype
+semantic_en: "Business object type of service transaction item — classification of item-level transaction types in customer management."
+semantic_vi: "Loại đối tượng kinh doanh của mục giao dịch dịch vụ — phân loại các loại giao dịch cấp mục trong quản lý khách hàng."
+keywords:
+  - mục giao dịch
+  - loại đối tượng mục
+  - quản lý dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

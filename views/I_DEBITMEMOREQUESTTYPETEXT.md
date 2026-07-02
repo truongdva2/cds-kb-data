@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQUESTTYPETEXT
 description: Debitmemorequesttypetext
+semantic_en: "Debit memo request type text — text descriptions for debit memo request types by language."
+semantic_vi: "Văn bản loại yêu cầu ghi nợ — mô tả tên loại yêu cầu ghi nợ theo ngôn ngữ."
+keywords:
+  - Loại yêu cầu ghi nợ
+  - Mô tả
+  - Ngôn ngữ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

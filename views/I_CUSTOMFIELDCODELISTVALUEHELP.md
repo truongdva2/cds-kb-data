@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMFIELDCODELISTVALUEHELP
 description: Customfieldcodelistvaluehelp
+semantic_en: "value help view for custom field codes — selection helper for custom field code values with localized descriptions"
+semantic_vi: "Chế độ xem trợ giúp giá trị cho mã trường tùy chỉnh — trợ giúp lựa chọn cho các giá trị mã trường tùy chỉnh với mô tả bản địa hóa"
+keywords:
+  - lựa chọn mã tùy chỉnh
+  - danh sách giá trị mã
+  - tìm mã trường
 app_component: BC-SRV-APS-EXT-FLD
 software_component: SAP_BASIS
 release_state: released

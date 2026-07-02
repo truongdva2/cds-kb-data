@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTCLASSTEXT
 description: Defectclasstext
+semantic_en: "Defect class text — text descriptions for defect classifications by language."
+semantic_vi: "Văn bản lớp khuyết tật — mô tả tên lớp khuyết tật theo ngôn ngữ."
+keywords:
+  - Lớp khuyết tật
+  - Mô tả
+  - Văn bản
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

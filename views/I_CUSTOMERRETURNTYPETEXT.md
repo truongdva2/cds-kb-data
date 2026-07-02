@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNTYPETEXT
 description: Customerreturntypetext
+semantic_en: "returns order type text — localized names for return document type classifications"
+semantic_vi: "Văn bản loại đơn hàng trả lại — tên bản địa hóa cho phân loại loại tài liệu trả"
+keywords:
+  - tên loại trả
+  - mô tả loại trả lại
+  - phân loại hoàn trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

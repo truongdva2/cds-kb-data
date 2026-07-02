@@ -1,6 +1,12 @@
 ---
 name: I_DIGITALPAYMENTTYPETEXT
 description: Digitalpaymenttypetext
+semantic_en: "multilingual text for digital payment types — provides localized descriptions of electronic payment methods."
+semantic_vi: "văn bản đa ngôn ngữ cho loại thanh toán kỹ thuật số — cung cấp mô tả địa phương cho phương thức thanh toán điện tử."
+keywords:
+  - thanh toán kỹ thuật số
+  - phương thức thanh toán
+  - mô tả đa ngôn ngữ
 app_component: FIN-FSCM-DP-DP-2CL
 software_component: SAPSCORE
 release_state: released

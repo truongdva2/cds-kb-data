@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCOMPANY
 description: Customer Company
+semantic_en: "Customer company — company-code-level master data including reconciliation accounts, payment settings, and credit terms."
+semantic_vi: "Công ty khách hàng — dữ liệu chính cấp mã công ty bao gồm tài khoản đối sánh, cài đặt thanh toán, và điều khoản tín dụng."
+keywords:
+  - khách hàng công ty
+  - mã công ty
+  - tài khoản đối sánh
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

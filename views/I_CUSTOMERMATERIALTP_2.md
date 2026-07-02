@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERMATERIALTP_2
 description: Customermaterialtp 2
+semantic_en: "Customer material transposition — customer-specific product descriptions, search terms, and delivery parameters by sales channel."
+semantic_vi: "Chuyển vị vật liệu khách hàng — mô tả sản phẩm dành riêng cho khách hàng, thuật ngữ tìm kiếm, và tham số giao hàng theo kênh bán hàng."
+keywords:
+  - vật liệu khách hàng
+  - mô tả sản phẩm
+  - giao hàng
 app_component: SD-MD-AM-CMI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DIGITALPAYMENTTYPEVALUEHELP
 description: Digitalpaymenttypevaluehelp
+semantic_en: "value helper for digital payment types — provides lookup reference for electronic payment method codes."
+semantic_vi: "view hỗ trợ giá trị cho loại thanh toán kỹ thuật số — cung cấp tham chiếu tra cứu cho mã phương thức thanh toán điện tử."
+keywords:
+  - thanh toán kỹ thuật số
+  - loại thanh toán
+  - tra cứu
 app_component: FIN-FSCM-DP-DP-2CL
 software_component: SAPSCORE
 release_state: released

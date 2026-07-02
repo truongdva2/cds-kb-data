@@ -1,6 +1,12 @@
 ---
 name: I_CUSTRETDELIVITEMTEXTTP
 description: Custretdelivitemtexttp
+semantic_en: "Customer returns delivery item text — text documents for return delivery items by language and text identifier."
+semantic_vi: "Văn bản chi tiết mục hàng trả về — lưu trữ tài liệu mô tả dài cho từng mục hàng trong phiếu giao nhận hàng trả về theo ngôn ngữ."
+keywords:
+  - Hàng trả về
+  - Văn bản mô tả
+  - Mục hàng giao nhận
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCOMPANYBYPLANT
 description: Customer CompanyBYPLANT
+semantic_en: "Customer company by plant — plant-level customer assignments with valuation area and authorization groupings."
+semantic_vi: "Công ty khách hàng theo nhà máy — phân công khách hàng cấp nhà máy với vùng định giá và nhóm ủy quyền."
+keywords:
+  - khách hàng nhà máy
+  - nhà máy
+  - định giá vùng
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

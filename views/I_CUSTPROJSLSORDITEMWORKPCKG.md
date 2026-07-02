@@ -1,6 +1,12 @@
 ---
 name: I_CUSTPROJSLSORDITEMWORKPCKG
 description: Custprojslsorditemworkpckg
+semantic_en: "sales order item work packages for customer project — work package breakdown for project-based sales order items"
+semantic_vi: "Gói công việc mục đơn hàng bán hàng cho dự án khách hàng — phân tách gói công việc cho mục đơn bán dự án"
+keywords:
+  - gói công việc
+  - kế hoạch dự án
+  - lịch trình công việc
 app_component: SD-SLS-PBS
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CURRENCYROLE
 description: Currencyrole
+semantic_en: "Currency role — classification of how currencies are used in accounting valuations and reporting views."
+semantic_vi: "Vai trò tiền tệ — phân loại cách tiền tệ được sử dụng trong định giá kế toán và các khung nhìn báo cáo."
+keywords:
+  - vai trò tiền tệ
+  - định giá kế toán
+  - loại định giá
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

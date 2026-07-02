@@ -1,6 +1,12 @@
 ---
 name: I_DIVISION
 description: Division
+semantic_en: "division master — defines organizational divisions for sales and distribution."
+semantic_vi: "chính dữ liệu bộ phận — định nghĩa các bộ phận tổ chức cho bán hàng và phân phối."
+keywords:
+  - bộ phận
+  - tổ chức
+  - bán hàng
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

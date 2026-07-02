@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNITEMPARTNERTP
 description: Customerreturnitempartnertp
+semantic_en: "returns order item partner transactional partner — partner roles and contact details for individual return line items"
+semantic_vi: "Đối tác giao dịch mục đơn hàng trả lại — vai trò đối tác và chi tiết liên hệ cho các mục dòng trả lại riêng lẻ"
+keywords:
+  - đối tác trả lại
+  - liên hệ hàng trả
+  - phân công đối tác
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

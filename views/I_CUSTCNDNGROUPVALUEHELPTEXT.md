@@ -1,6 +1,12 @@
 ---
 name: I_CUSTCNDNGROUPVALUEHELPTEXT
 description: Custcndngroupvaluehelptext
+semantic_en: "Customer condition group value-help text — translatable descriptions of condition groups used in customer pricing."
+semantic_vi: "Văn bản danh sách tìm kiếm nhóm điều kiện khách hàng — mô tả dịch được của các nhóm điều kiện được sử dụng trong định giá khách hàng."
+keywords:
+  - nhóm điều kiện khách hàng
+  - định giá
+  - mô tả đa ngôn ngữ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

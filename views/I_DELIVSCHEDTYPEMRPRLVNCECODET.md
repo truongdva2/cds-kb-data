@@ -1,6 +1,12 @@
 ---
 name: I_DELIVSCHEDTYPEMRPRLVNCECODET
 description: Delivschedtypemrprlvncecodet
+semantic_en: "multilingual text for MRP relevance codes of delivery schedule types — supports localized MRP classification descriptions."
+semantic_vi: "văn bản đa ngôn ngữ cho mã liên quan MRP của các loại lịch trình giao hàng — hỗ trợ mô tả phân loại MRP địa phương."
+keywords:
+  - MRP
+  - lịch trình giao hàng
+  - mô tả đa ngôn ngữ
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQPRGELMTP
 description: Debitmemoreqprgelmtp
+semantic_en: "Debit memo request pricing element TP — transactional pricing data for debit memo requests with calculated amounts."
+semantic_vi: "Dữ liệu giá giao dịch yêu cầu ghi nợ — định giá yêu cầu ghi nợ bao gồm loại điều kiện, tỷ lệ và tiền tệ giao dịch."
+keywords:
+  - Giá yêu cầu ghi nợ
+  - Tỷ lệ
+  - Giao dịch
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTRETDELIVITEMSERIALNMBRTP
 description: Custretdelivitemserialnmbrtp
+semantic_en: "customer returns delivery item serial number transactional partner — serial number tracking for returned items with equipment reference"
+semantic_vi: "Số sê-ri mục giao hàng trả lại khách hàng đối tác giao dịch — theo dõi số sê-ri cho các mục trả lại với tham chiếu thiết bị"
+keywords:
+  - số sê-ri trả lại
+  - theo dõi sê-ri
+  - thiết bị trả hàng
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

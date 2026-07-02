@@ -1,6 +1,12 @@
 ---
 name: I_CUSTABAPPACKAGE
 description: Custabappackage
+semantic_en: "Customer ABAP package — user-created development packages with ownership, namespace, and audit trail."
+semantic_vi: "Gói ABAP khách hàng — gói phát triển do người dùng tạo với quyền sở hữu, không gian tên, và dấu vết kiểm tính."
+keywords:
+  - gói ABAP tùy chỉnh
+  - phát triển phần mềm
+  - không gian tên
 app_component: BC-CTS-ORG
 software_component: SAP_BASIS
 release_state: released

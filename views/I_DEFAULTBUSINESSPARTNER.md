@@ -1,6 +1,12 @@
 ---
 name: I_DEFAULTBUSINESSPARTNER
 description: DEFAULTBusiness Partner
+semantic_en: "Bank netting business partner — business partners linked to bank accounts for settlement and netting operations."
+semantic_vi: "Đối tác kinh doanh bù trừ ngân hàng — đối tác kinh doanh liên kết với tài khoản ngân hàng cho bù trừ nợ."
+keywords:
+  - Đối tác ngân hàng
+  - Bù trừ nợ
+  - Tài khoản
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

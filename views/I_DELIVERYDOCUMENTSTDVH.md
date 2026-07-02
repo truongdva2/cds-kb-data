@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYDOCUMENTSTDVH
 description: Delivery DocumentUMENTSTDVH
+semantic_en: "value helper for delivery documents — provides lookup reference to delivery document numbers by shipping point."
+semantic_vi: "view hỗ trợ giá trị cho tài liệu giao hàng — cung cấp tham chiếu tra cứu các số tài liệu giao hàng theo điểm giao hàng."
+keywords:
+  - tài liệu giao hàng
+  - điểm giao hàng
+  - tra cứu
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

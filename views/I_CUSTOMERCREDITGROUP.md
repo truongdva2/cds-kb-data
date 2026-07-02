@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCREDITGROUP
 description: Customercreditgroup
+semantic_en: "Customer credit group — classification of customers for credit management and risk assessment purposes."
+semantic_vi: "Nhóm tín dụng khách hàng — phân loại khách hàng cho các mục đích quản lý tín dụng và đánh giá rủi ro."
+keywords:
+  - nhóm tín dụng
+  - quản lý tín dụng
+  - đánh giá rủi ro
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

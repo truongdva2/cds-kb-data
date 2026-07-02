@@ -1,6 +1,13 @@
 ---
 name: I_DELIVERYPICKVIEWITEM
 description: Deliverypickviewitem
+semantic_en: "delivery pick list item projection — details picking operations at item level including batch and promotional information."
+semantic_vi: "phép chiếu mục danh sách chọn giao hàng — chi tiết hoạt động chọn ở cấp mục bao gồm thông tin batch và quảng bá."
+keywords:
+  - danh sách chọn
+  - mục giao hàng
+  - batch
+  - quảng bá
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

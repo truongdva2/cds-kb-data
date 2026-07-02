@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYSTATUS
 description: Deliverystatus
+semantic_en: "delivery status domain codes — defines available delivery progress states."
+semantic_vi: "mã trạng thái giao hàng — định nghĩa các trạng thái tiến trình giao hàng có sẵn."
+keywords:
+  - trạng thái giao hàng
+  - mã trạng thái
+  - tiến trình
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

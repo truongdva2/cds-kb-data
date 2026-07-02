@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTLONGTEXT
 description: Defectlongtext
+semantic_en: "Defect long text — detailed text narratives for defects by language including creation and change history."
+semantic_vi: "Tài liệu dài về khuyết tật — mô tả tài liệu chi tiết cho khuyết tật theo ngôn ngữ gồm lịch sử tạo và thay đổi."
+keywords:
+  - Tài liệu khuyết tật
+  - Mô tả dài
+  - Chất lượng
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

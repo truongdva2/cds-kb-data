@@ -1,6 +1,12 @@
 ---
 name: I_CUSTSALESPARTNERFUNC
 description: Custsalespartnerfunc
+semantic_en: "Customer sales area partner function — partner roles (bill-to, ship-to, contact) assigned to customers within sales areas."
+semantic_vi: "Chức năng đối tác vùng bán hàng khách hàng — gán các vai trò đối tác (khách hàng, nhà cung cấp, nhân viên) cho từng vùng bán hàng."
+keywords:
+  - Chức năng đối tác
+  - Vùng bán hàng
+  - Vai trò đối tác
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CURRENCYEXCHANGERATETP_2
 description: CURRENCYExchange RateTP 2
+semantic_en: "Currency exchange rate transposition — exchange rate type, source and target currencies, effective date, and conversion multiplier."
+semantic_vi: "Tỷ giá hối đoái tiền tệ — loại tỷ giá, tiền tệ nguồn và đích, ngày hiệu lực, và hệ số chuyển đổi."
+keywords:
+  - tỷ giá hối đoái
+  - tỷ giá tiền tệ
+  - chuyển đổi tiền tệ
 app_component: CA-GTF-FXU-FI-GL
 software_component: SAPSCORE
 release_state: released

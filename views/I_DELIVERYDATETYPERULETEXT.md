@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYDATETYPERULETEXT
 description: Deliverydatetyperuletext
+semantic_en: "multilingual descriptions for delivery date type rules — supports localized rule documentation."
+semantic_vi: "mô tả đa ngôn ngữ cho quy tắc loại ngày giao hàng — hỗ trợ tài liệu quy tắc địa phương."
+keywords:
+  - quy tắc ngày giao
+  - mô tả đa ngôn ngữ
+  - tính toán
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

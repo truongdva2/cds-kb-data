@@ -1,6 +1,12 @@
 ---
 name: I_DAYLIGHTSAVINGRULETEXT
 description: Daylightsavingruletext
+semantic_en: "Daylight saving rule text — text descriptions for daylight saving rules by language."
+semantic_vi: "Văn bản quy tắc giờ mặt trời — mô tả tên quy tắc giờ mặt trời theo ngôn ngữ."
+keywords:
+  - Giờ mặt trời
+  - Quy tắc
+  - Văn bản
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DEPDNTRQMTMRPRELEVANCETEXT
 description: Depdntrqmtmrprelevancetext
+semantic_en: "multilingual text for MRP relevance of dependent requirements — provides localized dependency classification labels."
+semantic_vi: "văn bản đa ngôn ngữ cho liên quan MRP của yêu cầu phụ thuộc — cung cấp nhãn phân loại phụ thuộc địa phương."
+keywords:
+  - yêu cầu phụ thuộc
+  - MRP
+  - mô tả đa ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERGROUP
 description: Customergroup
+semantic_en: "Customer group — grouping of customers for marketing, reporting, and organizational segmentation."
+semantic_vi: "Nhóm khách hàng — nhóm khách hàng cho các mục đích tiếp thị, báo cáo, và phân khúc tổ chức."
+keywords:
+  - nhóm khách hàng
+  - phân khúc
+  - tiếp thị
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

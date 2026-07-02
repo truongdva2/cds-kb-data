@@ -1,6 +1,12 @@
 ---
 name: I_DELIVSCHEDTYPEMRPRLVNCECODE
 description: Delivschedtypemrprlvncecode
+semantic_en: "MRP relevance code for delivery schedule types — classifies how schedule types affect material requirements planning."
+semantic_vi: "mã liên quan MRP cho các loại lịch trình giao hàng — phân loại cách các loại lịch trình ảnh hưởng đến lập kế hoạch yêu cầu vật liệu."
+keywords:
+  - MRP
+  - lịch trình giao hàng
+  - liên quan
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

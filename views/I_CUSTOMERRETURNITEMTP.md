@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNITEMTP
 description: Customerreturnitemtp
+semantic_en: "returns order item transactional partner — material and quantity details for returned items with weights and UOMs"
+semantic_vi: "Mục đơn hàng trả lại đối tác giao dịch — chi tiết vật liệu và số lượng cho các mục trả lại với trọng lượng"
+keywords:
+  - số lượng trả lại
+  - chi tiết vật liệu trả
+  - đơn vị đo trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

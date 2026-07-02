@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERWITHTAX
 description: Customerwithtax
+semantic_en: "customer withholding tax — withholding tax obligations and certificates with exemption details"
+semantic_vi: "Thuế khóa lại khách hàng — các nghĩa vụ thuế khóa lại và chứng chỉ với chi tiết miễn thuế"
+keywords:
+  - thuế khóa lại
+  - miễn thuế
+  - chứng chỉ khóa lại
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

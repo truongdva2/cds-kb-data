@@ -1,6 +1,12 @@
 ---
 name: I_CUSTSLSAREAADDRDEPDNTINFO
 description: Custslsareaaddrdepdntinfo
+semantic_en: "Customer sales area address dependent info — delivery and shipping preferences linked to customer address and sales area."
+semantic_vi: "Thông tin phụ thuộc vào địa chỉ vùng bán hàng khách hàng — điều kiện giao hàng, văn phòng bán hàng, nhà máy cung cấp liên kết với địa chỉ khách hàng."
+keywords:
+  - Địa chỉ giao hàng
+  - Vùng bán hàng
+  - Điều kiện giao hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

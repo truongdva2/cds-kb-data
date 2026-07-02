@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYRELATEDBILLGSTATUST
 description: Deliveryrelatedbillgstatust
+semantic_en: "multilingual text for delivery-related billing statuses — supports localized billing status descriptions."
+semantic_vi: "văn bản đa ngôn ngữ cho trạng thái lập hóa đơn liên quan đến giao hàng — hỗ trợ mô tả trạng thái lập hóa đơn địa phương."
+keywords:
+  - lập hóa đơn
+  - giao hàng
+  - mô tả đa ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERSUPPLIERINDUSTRYVH
 description: Customersupplierindustryvh
+semantic_en: "customer supplier industry value help — value help view for selecting industry classifications"
+semantic_vi: "Trợ giúp giá trị loại ngành công nghiệp khách hàng nhà cung cấp — chế độ xem trợ giúp giá trị để chọn phân loại ngành"
+keywords:
+  - lựa chọn ngành
+  - danh sách ngành
+  - giá trị ngành
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

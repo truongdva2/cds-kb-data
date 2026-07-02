@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERACCOUNTGROUPTEXT
 description: Customeraccountgrouptext
+semantic_en: "Customer account group text — translatable descriptions of customer account group classifications by language."
+semantic_vi: "Văn bản nhóm tài khoản khách hàng — mô tả dịch được các phân loại nhóm tài khoản khách hàng theo ngôn ngữ."
+keywords:
+  - tên nhóm tài khoản
+  - mô tả tài khoản
+  - đa ngôn ngữ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYCATEGORYTEXT
 description: Deliverycategorytext
+semantic_en: "multilingual names for delivery categories — supports localized category labels."
+semantic_vi: "tên đa ngôn ngữ cho danh mục giao hàng — hỗ trợ nhãn danh mục địa phương."
+keywords:
+  - danh mục giao hàng
+  - tên đa ngôn ngữ
+  - phân loại
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CUSTABAPSOFTWARECOMPONENT
 description: Custabapsoftwarecomponent
+semantic_en: "Custom ABAP software component — metadata on customer-defined software components and their deployment classification."
+semantic_vi: "Thành phần phần mềm ABAP tùy chỉnh — siêu dữ liệu về các thành phần phần mềm do khách hàng định nghĩa và phân loại triển khai."
+keywords:
+  - thành phần phần mềm ABAP
+  - đối tượng đám mây tùy chỉnh
+  - loại thành phần
 app_component: BC-SRV-APS-EXT-REL
 software_component: SAP_BASIS
 release_state: released

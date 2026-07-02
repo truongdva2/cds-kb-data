@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERSUPPLIERINDUSTRYTEXT
 description: Customersupplierindustrytext
+semantic_en: "customer supplier industry text — localized industry type descriptions"
+semantic_vi: "Văn bản loại ngành công nghiệp khách hàng nhà cung cấp — mô tả loại ngành bản địa hóa"
+keywords:
+  - tên ngành công nghiệp
+  - mô tả ngành
+  - phân loại ngành hàng
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

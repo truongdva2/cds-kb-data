@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERTAXCLASSIFICATIONT
 description: Customertaxclassificationt
+semantic_en: "customer tax classification text — localized tax classification names by category"
+semantic_vi: "Văn bản phân loại thuế khách hàng — tên phân loại thuế bản địa hóa theo danh mục"
+keywords:
+  - tên thuế lớp
+  - mô tả thuế
+  - phân loại thuế
 app_component: SD-BF-TX-2CL
 software_component: SAPSCORE
 release_state: released

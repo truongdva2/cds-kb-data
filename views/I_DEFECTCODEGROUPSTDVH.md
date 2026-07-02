@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTCODEGROUPSTDVH
 description: Defectcodegroupstdvh
+semantic_en: "Defect code group value help — list of defect code groups for selection with text and status."
+semantic_vi: "Trợ giúp chọn nhóm mã khuyết tật — danh sách các nhóm mã khuyết tật để chọn kèm tên và trạng thái."
+keywords:
+  - Nhóm mã khuyết tật
+  - Danh sách
+  - Trợ giúp chọn
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

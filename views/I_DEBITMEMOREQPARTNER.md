@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQPARTNER
 description: Debitmemoreqpartner
+semantic_en: "Debit memo request partner — business partners (bill-to, sold-to) assigned to debit memo requests."
+semantic_vi: "Đối tác yêu cầu ghi nợ — các vai trò đối tác gán cho toàn bộ yêu cầu ghi nợ bao gồm khách hàng, nhà cung cấp."
+keywords:
+  - Đối tác yêu cầu ghi nợ
+  - Khách hàng
+  - Vai trò
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

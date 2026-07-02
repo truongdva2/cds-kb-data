@@ -1,6 +1,12 @@
 ---
 name: I_DEPDNTRQMTMRPRELEVANCE
 description: Depdntrqmtmrprelevance
+semantic_en: "MRP relevance codes for dependent requirements — classifies how dependent materials affect material planning."
+semantic_vi: "mã liên quan MRP cho yêu cầu phụ thuộc — phân loại cách vật liệu phụ thuộc ảnh hưởng đến lập kế hoạch vật liệu."
+keywords:
+  - yêu cầu phụ thuộc
+  - MRP
+  - liên quan
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

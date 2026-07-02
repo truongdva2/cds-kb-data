@@ -1,6 +1,12 @@
 ---
 name: I_CUSTSALESAREATAX
 description: Custsalesareatax
+semantic_en: "Customer sales area tax — tax classifications and authorizations for customers within specific sales areas and countries."
+semantic_vi: "Thuế theo vùng bán hàng khách hàng — phân loại thuế khách hàng theo từng vùng bán hàng, nước xuất phát và quyền ủy quyền."
+keywords:
+  - Thuế khách hàng
+  - Vùng bán hàng
+  - Phân loại thuế
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

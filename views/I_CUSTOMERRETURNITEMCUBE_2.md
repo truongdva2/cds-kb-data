@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNITEMCUBE_2
 description: Customerreturnitemcube 2
+semantic_en: "customer return item cube — analytical view for return item metrics by type, category, and time dimensions"
+semantic_vi: "Khối dữ liệu mục trả lại khách hàng — chế độ xem phân tích cho các chỉ số mục trả lại theo kiểu, danh mục và chiều thời gian"
+keywords:
+  - phân tích trả lại
+  - báo cáo trả hàng
+  - dữ liệu trả lại
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

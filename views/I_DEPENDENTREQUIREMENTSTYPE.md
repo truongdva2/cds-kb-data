@@ -1,6 +1,12 @@
 ---
 name: I_DEPENDENTREQUIREMENTSTYPE
 description: Dependentrequirementstype
+semantic_en: "dependent requirements type codes — defines classification for dependent material requirements in manufacturing."
+semantic_vi: "mã loại yêu cầu phụ thuộc — định nghĩa phân loại cho yêu cầu vật liệu phụ thuộc trong sản xuất."
+keywords:
+  - yêu cầu phụ thuộc
+  - loại yêu cầu
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

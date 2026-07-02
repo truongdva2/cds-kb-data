@@ -1,6 +1,12 @@
 ---
 name: I_CURRENCYFIELD
 description: Currencyfield
+semantic_en: "Currency field — metadata defining which ABAP dictionary fields carry currency values."
+semantic_vi: "Trường tiền tệ — siêu dữ liệu xác định các trường từ điển ABAP chứa giá trị tiền tệ."
+keywords:
+  - trường tiền tệ
+  - định nghĩa trường
+  - từ điển ABAP
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

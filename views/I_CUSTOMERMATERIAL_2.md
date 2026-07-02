@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERMATERIAL_2
 description: Customermaterial 2
+semantic_en: "Customer material — customer-specific product assignments including search terms, delivery priority, and order specifications."
+semantic_vi: "Vật liệu khách hàng — phân công sản phẩm dành riêng cho khách hàng bao gồm thuật ngữ tìm kiếm, ưu tiên giao hàng, và đặc tả đơn hàng."
+keywords:
+  - vật liệu khách hàng
+  - sản phẩm khách hàng
+  - giao hàng
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

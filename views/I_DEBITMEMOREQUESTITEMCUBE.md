@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQUESTITEMCUBE
 description: Debitmemorequestitemcube
+semantic_en: "Debit memo request item cube — analytical dimensions for debit memo items including type, category, creation and change tracking."
+semantic_vi: "Khối dữ liệu phân tích mục yêu cầu ghi nợ — các chiều phân tích cho mục ghi nợ gồm loại, danh mục, người tạo và ngày tạo."
+keywords:
+  - Phân tích mục ghi nợ
+  - Khối dữ liệu
+  - Loại mục
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

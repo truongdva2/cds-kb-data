@@ -1,6 +1,12 @@
 ---
 name: I_CUSTRCVGPTADDRDEPDNTINFO
 description: Custrcvgptaddrdepdntinfo
+semantic_en: "receiving points dependent on address — receiving point mapping and unloading point names by customer address"
+semantic_vi: "Các điểm nhận hàng phụ thuộc vào địa chỉ — ánh xạ điểm nhận hàng và tên điểm dỡ hàng theo địa chỉ khách hàng"
+keywords:
+  - điểm nhận hàng
+  - địa chỉ giao hàng
+  - điểm dỡ hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

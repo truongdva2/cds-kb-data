@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERCLASSIFICATION
 description: Customerclassification
+semantic_en: "Customer classification — categorization of customers for targeting and segmentation purposes."
+semantic_vi: "Phân loại khách hàng — phân loại khách hàng cho các mục đích nhắm mục tiêu và phân khúc."
+keywords:
+  - phân loại khách hàng
+  - phân khúc
+  - nhắm mục tiêu
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

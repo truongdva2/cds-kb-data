@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERGROUPTEXT
 description: Customergrouptext
+semantic_en: "Customer group text — translatable names of customer groups across languages."
+semantic_vi: "Văn bản nhóm khách hàng — tên dịch được của các nhóm khách hàng trên các ngôn ngữ."
+keywords:
+  - tên nhóm khách hàng
+  - mô tả nhóm
+  - đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

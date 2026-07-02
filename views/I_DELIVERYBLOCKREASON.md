@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYBLOCKREASON
 description: Deliveryblockreason
+semantic_en: "delivery block reason codes — maps reason codes to delivery hold indicators from the tvls table."
+semantic_vi: "mã lý do khóa giao hàng — ánh xạ các mã lý do để tạm dừng giao hàng từ bảng tvls."
+keywords:
+  - khóa giao hàng
+  - lý do tạm dừng
+  - mã lý do
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

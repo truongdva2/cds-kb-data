@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERRETURNITEMENHANCED
 description: Customerreturnitemenhanced
+semantic_en: "returns order item enhanced — detailed return item view with product identifiers, dates, and hierarchy flags"
+semantic_vi: "Mục đơn hàng trả lại nâng cao — chế độ xem mục trả lại chi tiết với định danh sản phẩm, ngày tháng"
+keywords:
+  - mục trả nâng cao
+  - chi tiết dòng trả
+  - thông tin sản phẩm trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

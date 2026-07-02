@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERTOBUSINESSPARTNER
 description: CUSTOMERTOBusiness Partner
+semantic_en: "customer to business partner relationship — linking customer master data to business partner master data"
+semantic_vi: "Mối quan hệ khách hàng với đối tác kinh doanh — liên kết dữ liệu chính khách hàng với dữ liệu chính đối tác kinh doanh"
+keywords:
+  - mối quan hệ đối tác
+  - liên kết khách hàng
+  - đối tác kinh doanh
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

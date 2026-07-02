@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERACCOUNTGROUPSTDVH
 description: Customeraccountgroupstdvh
+semantic_en: "Customer account group value-help — standard reference list of available customer account group classifications."
+semantic_vi: "Danh sách tìm kiếm nhóm tài khoản khách hàng — tham chiếu tiêu chuẩn các phân loại nhóm tài khoản khách hàng."
+keywords:
+  - nhóm tài khoản khách hàng
+  - danh sách tìm kiếm
+  - phân loại
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

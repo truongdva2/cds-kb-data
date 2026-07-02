@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERPAYTGUARPROCED
 description: Customerpaytguarproced
+semantic_en: "Payment guarantee procedure — classification of payment guarantee types for customer credit protection."
+semantic_vi: "Quy trình bảo đảm thanh toán — phân loại các loại bảo đảm thanh toán để bảo vệ tín dụng khách hàng."
+keywords:
+  - bảo đảm thanh toán
+  - quy trình bảo đảm
+  - bảo vệ tín dụng
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

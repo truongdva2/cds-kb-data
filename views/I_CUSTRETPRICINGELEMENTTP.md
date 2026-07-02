@@ -1,6 +1,12 @@
 ---
 name: I_CUSTRETPRICINGELEMENTTP
 description: Custretpricingelementtp
+semantic_en: "Returns order pricing element — price conditions and amounts for return orders including rates, ratios, and transaction currency."
+semantic_vi: "Thành phần giá đơn hàng trả về — định giá toàn bộ đơn hàng trả về gồm loại điều kiện, tỷ lệ, số tiền và đơn vị tiền tệ giao dịch."
+keywords:
+  - Giá đơn hàng trả về
+  - Điều kiện giá
+  - Tiền tệ
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

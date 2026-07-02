@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERGROUPHIERARCHYNODE
 description: Customergrouphierarchynode
+semantic_en: "Customer group hierarchy node — individual nodes in customer group hierarchies with parent relationships and sequence ordering."
+semantic_vi: "Nút cấu trúc phân cấp nhóm khách hàng — các nút riêng lẻ trong cấu trúc phân cấp nhóm khách hàng với mối quan hệ cha và sắp xếp theo thứ tự."
+keywords:
+  - nút phân cấp
+  - cấu trúc phân cấp
+  - tổ chức nhóm
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

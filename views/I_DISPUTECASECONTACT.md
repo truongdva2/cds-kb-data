@@ -1,6 +1,12 @@
 ---
 name: I_DISPUTECASECONTACT
 description: Disputecasecontact
+semantic_en: "dispute case contact persons — references business users with authorization to handle disputes."
+semantic_vi: "người liên hệ vụ tranh chấp — tham chiếu những người dùng kinh doanh được phép xử lý tranh chấp."
+keywords:
+  - vụ tranh chấp
+  - người liên hệ
+  - ủy quyền
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

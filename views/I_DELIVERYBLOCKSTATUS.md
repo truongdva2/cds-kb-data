@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYBLOCKSTATUS
 description: Deliveryblockstatus
+semantic_en: "delivery block status domain value helper — defines available delivery hold states."
+semantic_vi: "view hỗ trợ giá trị miền cho trạng thái khóa giao hàng — định nghĩa các trạng thái tạm dừng giao hàng có sẵn."
+keywords:
+  - trạng thái khóa
+  - giá trị miền
+  - giao hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

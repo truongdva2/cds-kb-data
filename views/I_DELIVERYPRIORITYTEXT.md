@@ -1,6 +1,12 @@
 ---
 name: I_DELIVERYPRIORITYTEXT
 description: Deliveryprioritytext
+semantic_en: "multilingual descriptions for delivery priorities — provides localized priority level labels."
+semantic_vi: "mô tả đa ngôn ngữ cho ưu tiên giao hàng — cung cấp nhãn mức ưu tiên địa phương."
+keywords:
+  - ưu tiên giao hàng
+  - mô tả đa ngôn ngữ
+  - mức ưu tiên
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

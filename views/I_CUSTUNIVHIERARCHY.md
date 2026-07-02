@@ -1,6 +1,12 @@
 ---
 name: I_CUSTUNIVHIERARCHY
 description: Custunivhierarchy
+semantic_en: "Customer universal hierarchy — organizational hierarchy structures for customer master data across sales organizations."
+semantic_vi: "Cấu trúc phân cấp khách hàng toàn phương — tổ chức phân cấp khách hàng theo vùng bán hàng và kênh phân phối."
+keywords:
+  - Phân cấp khách hàng
+  - Tổ chức bán hàng
+  - Cấu trúc tổ chức
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

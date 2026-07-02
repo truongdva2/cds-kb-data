@@ -1,6 +1,12 @@
 ---
 name: I_CUSTRETAPPROVALREASONTXT
 description: Custretapprovalreasontxt
+semantic_en: "approval reason for returns order text — localized reason descriptions for return document approvals"
+semantic_vi: "Văn bản lý do phê duyệt đơn hàng trả lại — mô tả lý do bản địa hóa cho phê duyệt tài liệu trả"
+keywords:
+  - lý do phê duyệt trả lại
+  - mô tả lý do
+  - phê duyệt hoàn trả
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

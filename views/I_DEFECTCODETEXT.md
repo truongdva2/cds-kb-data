@@ -1,6 +1,12 @@
 ---
 name: I_DEFECTCODETEXT
 description: Defectcodetext
+semantic_en: "Defect code text — text descriptions for defect codes by language and code group."
+semantic_vi: "Văn bản mã khuyết tật — mô tả tên mã khuyết tật theo ngôn ngữ và nhóm mã."
+keywords:
+  - Mã khuyết tật
+  - Văn bản
+  - Mô tả
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

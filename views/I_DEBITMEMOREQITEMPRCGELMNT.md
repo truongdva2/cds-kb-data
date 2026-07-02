@@ -1,6 +1,12 @@
 ---
 name: I_DEBITMEMOREQITEMPRCGELMNT
 description: Debitmemoreqitemprcgelmnt
+semantic_en: "Debit memo request item pricing element — price conditions for individual items including rates and currency."
+semantic_vi: "Thành phần giá mục yêu cầu ghi nợ — điều kiện giá cho từng mục ghi nợ gồm tỷ lệ, số tiền và tiền tệ."
+keywords:
+  - Giá mục ghi nợ
+  - Điều kiện giá
+  - Tiền tệ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

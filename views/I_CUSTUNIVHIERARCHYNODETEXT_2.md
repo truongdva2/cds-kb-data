@@ -1,6 +1,12 @@
 ---
 name: I_CUSTUNIVHIERARCHYNODETEXT_2
 description: Custunivhierarchynodetext 2
+semantic_en: "Customer universal hierarchy node text — text descriptions for hierarchy nodes by language."
+semantic_vi: "Văn bản nút phân cấp khách hàng toàn phương — mô tả tên nút trong cấu trúc phân cấp theo ngôn ngữ."
+keywords:
+  - Phân cấp khách hàng
+  - Nút phân cấp
+  - Văn bản mô tả
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

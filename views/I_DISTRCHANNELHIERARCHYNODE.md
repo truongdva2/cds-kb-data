@@ -1,6 +1,12 @@
 ---
 name: I_DISTRCHANNELHIERARCHYNODE
 description: Distrchannelhierarchynode
+semantic_en: "distribution channel hierarchy nodes — represents individual positions in the channel hierarchy structure."
+semantic_vi: "nút cấu trúc phân cấp kênh phân phối — đại diện cho các vị trí riêng lẻ trong cấu trúc phân cấp kênh."
+keywords:
+  - nút phân cấp
+  - kênh phân phối
+  - cấu trúc
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

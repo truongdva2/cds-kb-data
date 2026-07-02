@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMERSEPAMANDATE
 description: Customersepamandate
+semantic_en: "customer SEPA mandate — SEPA direct debit authorization with bank details and validity periods"
+semantic_vi: "Ủy quyền SEPA khách hàng — ủy quyền thanh toán SEPA trực tiếp với chi tiết ngân hàng và kỳ hạn hiệu lực"
+keywords:
+  - ủy quyền SEPA
+  - thanh toán trực tiếp
+  - IBAN khách hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released
