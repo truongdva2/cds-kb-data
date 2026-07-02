@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINTRANSTYPEVH
 description: Cnsldtnfintranstypevh
+semantic_en: "consolidation combined financial transaction type value-help — lookup for transaction type codes and names"
+semantic_vi: "trợ giúp tìm kiếm kiểu giao dịch tài chính hợp nhất — tra cứu mã kiểu giao dịch"
+keywords:
+  - tìm kiếm kiểu giao dịch
+  - tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

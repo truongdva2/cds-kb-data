@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDISTRIBUTIONCHANNEL
 description: Cnsldtndistributionchannel
+semantic_en: "consolidation combined distribution channel — consolidates distribution channel master data from multiple sources."
+semantic_vi: "kênh phân phối kết hợp hợp nhất — kết hợp dữ liệu kênh phân phối từ nhiều nguồn."
+keywords:
+  - kênh phân phối
+  - hợp nhất dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

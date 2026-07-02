@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINANCIALDATASOURCET
 description: Cnsldtnfinancialdatasourcet
+semantic_en: "consolidation financial data source text — provides multilingual names and descriptions for data sources."
+semantic_vi: "văn bản nguồn dữ liệu tài chính hợp nhất — cung cấp tên và mô tả nguồn dữ liệu theo ngôn ngữ."
+keywords:
+  - tên nguồn dữ liệu
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

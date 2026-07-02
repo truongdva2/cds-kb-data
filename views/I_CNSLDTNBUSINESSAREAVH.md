@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSINESSAREAVH
 description: Cnsldtnbusinessareavh
+semantic_en: "value help for business areas — BusinessArea with name for selection lookup"
+semantic_vi: "danh sách giúp đỡ cho khu vực kinh doanh — mã khu vực với tên để chọn lựa"
+keywords:
+  - chọn khu vực
+  - danh sách area
+  - tên khu vực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

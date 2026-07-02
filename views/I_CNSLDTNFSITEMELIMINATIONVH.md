@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMELIMINATIONVH
 description: Cnsldtnfsitemeliminationvh
+semantic_en: "financial statement item elimination selection value-help — lookup for elimination classification codes"
+semantic_vi: "trợ giúp tìm kiếm lựa chọn loại bỏ mục báo cáo tài chính — tra cứu mã phân loại loại bỏ"
+keywords:
+  - loại bỏ
+  - tìm kiếm
+  - báo cáo
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

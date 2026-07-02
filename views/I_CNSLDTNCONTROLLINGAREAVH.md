@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCONTROLLINGAREAVH
 description: Cnsldtncontrollingareavh
+semantic_en: "value help for controlling areas — ControllingArea with name for selection lookup"
+semantic_vi: "danh sách giúp đỡ cho lĩnh vực kiểm soát — mã kiểm soát với tên để chọn lựa"
+keywords:
+  - chọn kiểm soát
+  - danh sách area
+  - tên lĩnh vực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

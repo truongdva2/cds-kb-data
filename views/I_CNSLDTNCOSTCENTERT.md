@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTERT
 description: CNSLDTNCost CenterT
+semantic_en: "multilingual text for cost centers — language-specific center name and source information"
+semantic_vi: "văn bản đa ngôn ngữ cho trung tâm chi phí — tên trung tâm, thông tin nguồn theo ngôn ngữ"
+keywords:
+  - tên chi phí
+  - văn bản center
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

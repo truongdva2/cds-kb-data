@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDIVISION
 description: Cnsldtndivision
+semantic_en: "consolidation combined division — consolidates division master data from multiple sources."
+semantic_vi: "bộ phận kết hợp hợp nhất — kết hợp dữ liệu bộ phận từ nhiều nguồn."
+keywords:
+  - bộ phận
+  - hợp nhất dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

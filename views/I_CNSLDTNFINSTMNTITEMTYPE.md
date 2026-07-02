@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSTMNTITEMTYPE
 description: Cnsldtnfinstmntitemtype
+semantic_en: "financial statement item type domain — classification codes for consolidation financial statement items"
+semantic_vi: "kiểu mục báo cáo tài chính — mã phân loại cho mục báo cáo hợp nhất"
+keywords:
+  - kiểu mục báo cáo
+  - tài chính
+  - phân loại
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

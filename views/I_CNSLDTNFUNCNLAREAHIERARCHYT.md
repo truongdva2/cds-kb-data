@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCNLAREAHIERARCHYT
 description: Cnsldtnfuncnlareahierarchyt
+semantic_en: "consolidation functional area hierarchy texts — multilingual names for hierarchy structures."
+semantic_vi: "mô tả đa ngôn ngữ cho cấu trúc phân cấp lĩnh vực chức năng."
+keywords:
+  - lĩnh vực chức năng
+  - phân cấp
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

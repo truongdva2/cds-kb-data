@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTERTP
 description: CNSLDTNCost CenterTP
+semantic_en: "consolidation cost center transfer/posting records — CostCenter and ControllingArea with consolidation indicator"
+semantic_vi: "bản ghi chuyển/ghi trung tâm chi phí gộp — trung tâm chi phí với chỉ báo gộp dữ liệu master"
+keywords:
+  - trung tâm chi phí
+  - chuyển dữ liệu
+  - kiểm soát
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

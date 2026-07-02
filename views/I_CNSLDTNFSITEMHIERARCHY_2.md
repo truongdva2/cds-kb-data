@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMHIERARCHY_2
 description: Cnsldtnfsitemhierarchy 2
+semantic_en: "consolidation financial statement item hierarchy — hierarchy definitions for statement item groupings with validity periods"
+semantic_vi: "hệ thống phân cấp mục báo cáo tài chính hợp nhất — định nghĩa hệ thống với kỳ hạn hiệu lực"
+keywords:
+  - hệ thống phân cấp
+  - báo cáo tài chính
+  - kỳ hạn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

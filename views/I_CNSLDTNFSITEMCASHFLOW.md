@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMCASHFLOW
 description: Cnsldtnfsitemcashflow
+semantic_en: "financial statement item cash flow selection — classification codes for cash flow treatment of statement items"
+semantic_vi: "lựa chọn dòng tiền mục báo cáo tài chính — mã phân loại xử lý dòng tiền"
+keywords:
+  - dòng tiền
+  - báo cáo tài chính
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

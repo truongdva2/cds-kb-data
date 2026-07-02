@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSINESSAREA
 description: Cnsldtnbusinessarea
+semantic_en: "consolidation combined business area master data — BusinessArea with source type and consolidation indicator"
+semantic_vi: "dữ liệu tổng hợp khu vực kinh doanh gộp — khu vực với loại nguồn và chỉ báo gộp"
+keywords:
+  - khu vực kinh doanh
+  - tổng hợp dữ liệu
+  - nguồn master
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

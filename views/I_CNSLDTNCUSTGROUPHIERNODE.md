@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTGROUPHIERNODE
 description: Cnsldtncustgrouphiernode
+semantic_en: "consolidation customer group hierarchy nodes — HierarchyNode with parent/child relationships and customer group mapping"
+semantic_vi: "nút phân cấp nhóm khách hàng gộp — phân cấp với quan hệ cha con, ánh xạ nhóm khách hàng"
+keywords:
+  - phân cấp khách hàng
+  - nút phân cấp
+  - cấu trúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

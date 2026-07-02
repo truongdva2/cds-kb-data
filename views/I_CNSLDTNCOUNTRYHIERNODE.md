@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYHIERNODE
 description: Cnsldtncountryhiernode
+semantic_en: "consolidation country/region hierarchy nodes — HierarchyNode with parent/child relationships and country mapping"
+semantic_vi: "nút phân cấp quốc gia/khu vực gộp — phân cấp với quan hệ cha con, ánh xạ quốc gia"
+keywords:
+  - phân cấp quốc gia
+  - nút phân cấp
+  - cấu trúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

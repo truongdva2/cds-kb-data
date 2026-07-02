@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERHIERNODE
 description: Cnsldtncustomerhiernode
+semantic_en: "consolidation customer hierarchy node — represents individual customer nodes within hierarchies with sequence and level information."
+semantic_vi: "nút phân cấp khách hàng hợp nhất — đại diện cho nút khách hàng riêng lẻ trong phân cấp."
+keywords:
+  - nút phân cấp
+  - khách hàng
+  - cấp nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

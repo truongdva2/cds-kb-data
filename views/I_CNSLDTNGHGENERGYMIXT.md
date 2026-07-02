@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENERGYMIXT
 description: Cnsldtnghgenergymixt
+semantic_en: "consolidation greenhouse gas energy mix texts — multilingual names for energy mix categories."
+semantic_vi: "mô tả đa ngôn ngữ của cấu thành năng lượng khí nhà kính."
+keywords:
+  - năng lượng tái tạo
+  - khí nhà kính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

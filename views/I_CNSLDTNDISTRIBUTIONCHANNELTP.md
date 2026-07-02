@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDISTRIBUTIONCHANNELTP
 description: Cnsldtndistributionchanneltp
+semantic_en: "consolidation distribution channel projection — extracts core channel data for simplified downstream consumption."
+semantic_vi: "chiếu kênh phân phối — trích xuất dữ liệu kênh phân phối chính."
+keywords:
+  - kênh phân phối
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

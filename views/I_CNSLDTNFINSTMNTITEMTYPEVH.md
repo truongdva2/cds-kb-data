@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINSTMNTITEMTYPEVH
 description: Cnsldtnfinstmntitemtypevh
+semantic_en: "financial statement item type value-help — lookup for item type codes and descriptions"
+semantic_vi: "trợ giúp tìm kiếm kiểu mục báo cáo tài chính — tra cứu mã kiểu mục"
+keywords:
+  - tìm kiếm kiểu mục
+  - báo cáo tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

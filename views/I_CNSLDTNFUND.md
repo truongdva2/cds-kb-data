@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUND
 description: Cnsldtnfund
+semantic_en: "consolidation fund — master data for funds with financial management area and additional master data indicators."
+semantic_vi: "dữ liệu chính quỹ hợp nhất với lĩnh vực quản lý tài chính."
+keywords:
+  - quỹ
+  - dữ liệu chính
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

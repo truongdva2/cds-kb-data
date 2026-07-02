@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBREAKDOWNCATEGORYVH
 description: Cnsldtnbreakdowncategoryvh
+semantic_en: "value help for breakdown categories — ConsolidationChartOfAccounts with category code and text"
+semantic_vi: "danh sách giúp đỡ cho danh mục phân tích — bảng tính gộp với mã và văn bản danh mục"
+keywords:
+  - chọn danh mục
+  - phân tích
+  - mã loại
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

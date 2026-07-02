@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNDHIERARCHYT
 description: Cnsldtnfundhierarchyt
+semantic_en: "consolidation fund hierarchy texts — multilingual names for fund hierarchies."
+semantic_vi: "mô tả đa ngôn ngữ cho cấu trúc phân cấp quỹ."
+keywords:
+  - quỹ
+  - phân cấp
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

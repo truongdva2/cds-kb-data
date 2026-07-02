@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNDVH
 description: Cnsldtnfundvh
+semantic_en: "value help for consolidation funds — lookup of funds with names and financial management areas."
+semantic_vi: "trợ giúp giá trị lựa chọn quỹ hợp nhất."
+keywords:
+  - quỹ
+  - trợ giúp giá trị
+  - danh sách
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

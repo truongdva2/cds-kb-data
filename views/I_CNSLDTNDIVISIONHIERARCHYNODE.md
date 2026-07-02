@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDIVISIONHIERARCHYNODE
 description: Cnsldtndivisionhierarchynode
+semantic_en: "consolidation division hierarchy node — represents individual division nodes within hierarchies with sequence and level information."
+semantic_vi: "nút phân cấp bộ phận hợp nhất — đại diện cho nút bộ phận riêng lẻ trong phân cấp."
+keywords:
+  - nút phân cấp
+  - bộ phận
+  - cấp nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

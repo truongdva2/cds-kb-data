@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBREAKDOWNTYPET
 description: Cnsldtnbreakdowntypet
+semantic_en: "multilingual text for breakdown types — language-specific breakdown type descriptions and domain values"
+semantic_vi: "văn bản đa ngôn ngữ cho loại phân tích — mô tả loại và giá trị miền theo ngôn ngữ"
+keywords:
+  - văn bản loại
+  - breakdown
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

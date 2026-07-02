@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMER
 description: Cnsldtncustomer
+semantic_en: "consolidation combined customer — consolidates customer master data from multiple sources with creation tracking."
+semantic_vi: "khách hàng kết hợp hợp nhất — kết hợp dữ liệu khách hàng từ nhiều nguồn với theo dõi thời gian tạo."
+keywords:
+  - khách hàng
+  - hợp nhất
+  - dữ liệu chủ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCRCYTRNSLTNMETHOD
 description: Cnsldtncrcytrnsltnmethod
+semantic_en: "consolidation currency translation method — CnsldtnCrcyTranslationMethod identifier for exchange rate application"
+semantic_vi: "phương pháp chuyển đổi tiền tệ gộp — mã phương pháp để áp dụng tỷ giá hối đoái"
+keywords:
+  - chuyển đổi tiền tệ
+  - tỷ giá
+  - phương pháp translation
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNDHIERARCHY
 description: Cnsldtnfundhierarchy
+semantic_en: "consolidation fund hierarchy — organizational structure definitions for funds with validity control."
+semantic_vi: "cấu trúc phân cấp quỹ hợp nhất với ngày hiệu lực."
+keywords:
+  - quỹ
+  - phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

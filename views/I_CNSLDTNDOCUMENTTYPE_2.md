@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDOCUMENTTYPE_2
 description: Cnsldtndocumenttype 2
+semantic_en: "consolidation document type — defines document type characteristics including posting levels, balance checks, and currency handling."
+semantic_vi: "loại tài liệu hợp nhất — xác định đặc điểm loại tài liệu bao gồm mức ghi sổ và xử lý tiền tệ."
+keywords:
+  - loại tài liệu
+  - cấu hình ghi sổ
+  - kiểm tra số dư
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

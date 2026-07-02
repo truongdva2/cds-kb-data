@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNDTEXTTP
 description: Cnsldtnfundtexttp
+semantic_en: "consolidation fund text transformation proxy — multilingual fund names for transformation scenarios."
+semantic_vi: "mô tả đa ngôn ngữ quỹ hỗ trợ các kịch bản chuyển đổi."
+keywords:
+  - quỹ
+  - mô tả
+  - chuyển đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

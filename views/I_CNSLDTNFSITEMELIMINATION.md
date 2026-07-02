@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMELIMINATION
 description: Cnsldtnfsitemelimination
+semantic_en: "financial statement item elimination selection — classification codes for intercompany elimination treatment"
+semantic_vi: "lựa chọn loại bỏ mục báo cáo tài chính — mã phân loại xử lý loại bỏ giữa các công ty"
+keywords:
+  - loại bỏ
+  - giữa công ty
+  - báo cáo tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

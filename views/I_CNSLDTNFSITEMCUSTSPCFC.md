@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMCUSTSPCFC
 description: Cnsldtnfsitemcustspcfc
+semantic_en: "financial statement item other selection — classification codes for customer-specific or other treatment flags"
+semantic_vi: "lựa chọn xử lý khác mục báo cáo tài chính — mã phân loại xử lý khác hoặc khách hàng"
+keywords:
+  - xử lý khác
+  - báo cáo tài chính
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

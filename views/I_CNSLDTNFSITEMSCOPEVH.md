@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMSCOPEVH
 description: Cnsldtnfsitemscopevh
+semantic_en: "value help for financial statement item scopes — lookup of available scopes with descriptions."
+semantic_vi: "trợ giúp giá trị lựa chọn phạm vi mục tài chính."
+keywords:
+  - phạm vi mục tài chính
+  - trợ giúp giá trị
+  - danh sách
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

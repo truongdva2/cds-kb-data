@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCHARTOFACCOUNTS
 description: Cnsldtnchartofaccounts
+semantic_en: "consolidation chart of accounts master — ConsolidationChartOfAccounts identifier"
+semantic_vi: "bảng tính gộp doanh nghiệp — mã bảng tính gộp"
+keywords:
+  - bảng tính
+  - tài khoản gộp
+  - master dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

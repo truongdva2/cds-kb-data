@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDOCTYPEHIERNODE_2
 description: Cnsldtndoctypehiernode 2
+semantic_en: "consolidation document type hierarchy node — represents individual document type nodes within hierarchies with sequence and level data."
+semantic_vi: "nút phân cấp loại tài liệu hợp nhất — đại diện cho nút loại tài liệu riêng lẻ."
+keywords:
+  - nút phân cấp
+  - loại tài liệu
+  - cấp nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

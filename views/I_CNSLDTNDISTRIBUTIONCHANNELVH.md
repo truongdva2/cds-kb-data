@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDISTRIBUTIONCHANNELVH
 description: Cnsldtndistributionchannelvh
+semantic_en: "consolidation combined distribution channel value-help — provides lookup values of channels with names for search and selection."
+semantic_vi: "trợ giúp giá trị kênh phân phối kết hợp — cung cấp giá trị tra cứu kênh phân phối."
+keywords:
+  - tra cứu kênh phân phối
+  - giá trị hỗ trợ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

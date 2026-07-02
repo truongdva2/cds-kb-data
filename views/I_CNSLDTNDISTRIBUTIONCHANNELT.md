@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDISTRIBUTIONCHANNELT
 description: Cnsldtndistributionchannelt
+semantic_en: "consolidation combined distribution channel text — provides multilingual names and descriptions for consolidated channels."
+semantic_vi: "văn bản kênh phân phối kết hợp hợp nhất — cung cấp tên và mô tả kênh theo ngôn ngữ."
+keywords:
+  - tên kênh phân phối
+  - bản dịch
+  - nguồn dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

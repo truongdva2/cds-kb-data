@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMHIERNODE_2
 description: Cnsldtnfsitemhiernode 2
+semantic_en: "consolidation financial statement item — organization of items in multi-level hierarchies with parent-child relationships, validity periods, and node sequencing."
+semantic_vi: "mục đích của nút phân cấp trích xuất thông tin mục tiêu tài chính hợp nhất từ cấu trúc phân cấp đa cấp với ngày hiệu lực và thứ tự nút."
+keywords:
+  - phân cấp tài chính
+  - mục tiêu hợp nhất
+  - nút phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

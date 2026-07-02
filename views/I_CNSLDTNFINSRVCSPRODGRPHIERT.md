@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSPRODGRPHIERT
 description: Cnsldtnfinsrvcsprodgrphiert
+semantic_en: "consolidation financial services product group hierarchy text — multilingual hierarchy descriptions"
+semantic_vi: "văn bản hệ thống phân cấp nhóm sản phẩm dịch vụ tài chính hợp nhất — mô tả hệ thống đa ngôn ngữ"
+keywords:
+  - hệ thống phân cấp
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

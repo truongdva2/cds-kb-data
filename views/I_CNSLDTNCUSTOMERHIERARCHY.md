@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERHIERARCHY
 description: Cnsldtncustomerhierarchy
+semantic_en: "consolidation customer hierarchy — stores customer hierarchy structures with validity dates and audit trail."
+semantic_vi: "phân cấp khách hàng hợp nhất — lưu trữ cấu trúc phân cấp khách hàng với ngày hiệu lực."
+keywords:
+  - phân cấp khách hàng
+  - tính hợp lệ
+  - lịch sử thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

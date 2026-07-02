@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMTEXT_2
 description: Cnsldtnfsitemtext 2
+semantic_en: "consolidation financial statement item texts — multilingual short, medium, and long descriptions of items."
+semantic_vi: "mô tả đa ngôn ngữ của mục tài chính hợp nhất ở các độ dài khác nhau."
+keywords:
+  - mục tài chính
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

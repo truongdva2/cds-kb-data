@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGDTAQLTYCHARCT
 description: Cnsldtnghgdtaqltycharct
+semantic_en: "consolidation ghg data quality characteristic texts — multilingual names for quality indicators."
+semantic_vi: "mô tả đa ngôn ngữ của đặc điểm chất lượng dữ liệu khí nhà kính."
+keywords:
+  - chất lượng dữ liệu
+  - khí nhà kính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

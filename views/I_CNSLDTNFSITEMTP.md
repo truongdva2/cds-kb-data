@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMTP
 description: Cnsldtnfsitemtp
+semantic_en: "consolidation fs item transformation proxy — item types, breakdown categories, and sign logic for financial statement items."
+semantic_vi: "loại mục, danh mục phân tích, và logic dấu cho mục tài chính hợp nhất."
+keywords:
+  - loại mục
+  - logic dấu
+  - danh mục
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

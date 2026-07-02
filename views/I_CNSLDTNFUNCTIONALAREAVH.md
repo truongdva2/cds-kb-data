@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCTIONALAREAVH
 description: Cnsldtnfunctionalareavh
+semantic_en: "value help for consolidation functional areas — lookup of functional areas with names."
+semantic_vi: "trợ giúp giá trị lựa chọn lĩnh vực chức năng hợp nhất."
+keywords:
+  - lĩnh vực chức năng
+  - trợ giúp giá trị
+  - danh sách
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

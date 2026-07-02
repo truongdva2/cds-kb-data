@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINMANAGEMENTAREAVH
 description: Cnsldtnfinmanagementareavh
+semantic_en: "consolidation financial management area value-help — lookup for area codes and descriptions"
+semantic_vi: "trợ giúp tìm kiếm vùng quản lý tài chính hợp nhất — tra cứu mã vùng và tên"
+keywords:
+  - tìm kiếm vùng tài chính
+  - quản lý vùng hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

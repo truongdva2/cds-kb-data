@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERGROUPHIER
 description: Cnsldtncustomergrouphier
+semantic_en: "consolidation customer group hierarchy — stores customer group hierarchy structures with validity dates and change tracking."
+semantic_vi: "phân cấp nhóm khách hàng hợp nhất — lưu trữ cấu trúc phân cấp nhóm khách hàng với ngày hiệu lực."
+keywords:
+  - phân cấp nhóm khách hàng
+  - tính hợp lệ
+  - lịch sử thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

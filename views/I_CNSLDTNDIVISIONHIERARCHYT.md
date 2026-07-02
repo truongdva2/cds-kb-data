@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDIVISIONHIERARCHYT
 description: Cnsldtndivisionhierarchyt
+semantic_en: "consolidation division hierarchy text — provides multilingual names and descriptions for division hierarchy levels."
+semantic_vi: "văn bản phân cấp bộ phận hợp nhất — cung cấp tên phân cấp bộ phận theo ngôn ngữ."
+keywords:
+  - tên phân cấp bộ phận
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

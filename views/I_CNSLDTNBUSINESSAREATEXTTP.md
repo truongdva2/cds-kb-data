@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSINESSAREATEXTTP
 description: Cnsldtnbusinessareatexttp
+semantic_en: "consolidation business area text transfer/posting — language-specific area names with master data indicator"
+semantic_vi: "văn bản khu vực kinh doanh gộp dành cho chuyển/ghi — tên khu vực theo ngôn ngữ với chỉ báo master"
+keywords:
+  - tên khu vực
+  - chuyển dữ liệu
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

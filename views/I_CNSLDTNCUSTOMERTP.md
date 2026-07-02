@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNCUSTOMERTP
 description: Cnsldtncustomertp
+semantic_en: "consolidation customer projection — extracts core customer data for simplified downstream consumption."
+semantic_vi: "chiếu khách hàng — trích xuất dữ liệu khách hàng chính."
+keywords:
+  - khách hàng
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

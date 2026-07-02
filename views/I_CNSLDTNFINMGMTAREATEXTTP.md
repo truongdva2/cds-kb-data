@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINMGMTAREATEXTTP
 description: Cnsldtnfinmgmtareatexttp
+semantic_en: "consolidation financial management area text translation template/projection — multilingual area names and master data flags"
+semantic_vi: "bản dịch văn bản vùng quản lý tài chính hợp nhất (template) — tên vùng đa ngôn ngữ"
+keywords:
+  - dịch văn bản vùng tài chính
+  - tên vùng hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

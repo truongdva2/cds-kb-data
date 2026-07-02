@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTER
 description: CNSLDTNCost Center
+semantic_en: "consolidation combined cost center master — CostCenter and ControllingArea with source and consolidation indicator"
+semantic_vi: "dữ liệu tổng hợp trung tâm chi phí gộp — trung tâm chi phí, lĩnh vực kiểm soát với loại nguồn"
+keywords:
+  - trung tâm chi phí
+  - lĩnh vực kiểm soát
+  - gộp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

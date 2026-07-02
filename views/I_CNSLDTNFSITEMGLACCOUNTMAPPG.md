@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMGLACCOUNTMAPPG
 description: Cnsldtnfsitemgl AccountMAPPG
+semantic_en: "consolidation financial statement item to G/L account mapping — links between statement items and chart of accounts entries by revision"
+semantic_vi: "ánh xạ mục báo cáo tài chính hợp nhất với tài khoản sổ cái — liên kết giữa mục báo cáo và tài khoản"
+keywords:
+  - ánh xạ
+  - báo cáo tài chính
+  - sổ cái
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

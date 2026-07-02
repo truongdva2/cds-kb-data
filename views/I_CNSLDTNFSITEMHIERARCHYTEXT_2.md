@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMHIERARCHYTEXT_2
 description: Cnsldtnfsitemhierarchytext 2
+semantic_en: "consolidation financial statement item hierarchy text — multilingual hierarchy descriptions for statement item groupings"
+semantic_vi: "văn bản hệ thống phân cấp mục báo cáo tài chính hợp nhất — mô tả hệ thống đa ngôn ngữ"
+keywords:
+  - hệ thống phân cấp
+  - báo cáo tài chính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

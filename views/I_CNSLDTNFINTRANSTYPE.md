@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINTRANSTYPE
 description: Cnsldtnfintranstype
+semantic_en: "consolidation combined financial transaction type — merged transaction types with master data source indicators"
+semantic_vi: "kiểu giao dịch tài chính hợp nhất kết hợp — kiểu giao dịch gộp với nguồn dữ liệu"
+keywords:
+  - kiểu giao dịch
+  - hợp nhất
+  - kết hợp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

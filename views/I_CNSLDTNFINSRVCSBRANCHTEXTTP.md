@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSBRANCHTEXTTP
 description: Cnsldtnfinsrvcsbranchtexttp
+semantic_en: "consolidation financial services branch text template/projection — multilingual branch names and master data flags"
+semantic_vi: "template văn bản chi nhánh dịch vụ tài chính hợp nhất — tên chi nhánh đa ngôn ngữ"
+keywords:
+  - chi nhánh
+  - văn bản hợp nhất
+  - template
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

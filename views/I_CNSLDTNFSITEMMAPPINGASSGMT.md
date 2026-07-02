@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMMAPPINGASSGMT
 description: Cnsldtnfsitemmappingassgmt
+semantic_en: "consolidation fs item mapping assignment — time-bound mappings of financial statement items by consolidation version and fiscal period."
+semantic_vi: "gán ánh xạ mục tài chính hợp nhất theo phiên bản hợp nhất và kỳ tài chính."
+keywords:
+  - gán ánh xạ
+  - kỳ tài chính
+  - phiên bản hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

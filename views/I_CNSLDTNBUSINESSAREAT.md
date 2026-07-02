@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSINESSAREAT
 description: Cnsldtnbusinessareat
+semantic_en: "multilingual text for business areas — language-specific area name and source information"
+semantic_vi: "văn bản đa ngôn ngữ cho khu vực kinh doanh — tên khu vực, thông tin nguồn theo ngôn ngữ"
+keywords:
+  - tên khu vực
+  - văn bản area
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSTMNTITEMTYPET
 description: Cnsldtnfinstmntitemtypet
+semantic_en: "financial statement item type text — multilingual descriptions of financial statement item classifications"
+semantic_vi: "văn bản kiểu mục báo cáo tài chính — mô tả phân loại đa ngôn ngữ"
+keywords:
+  - kiểu mục
+  - tài chính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

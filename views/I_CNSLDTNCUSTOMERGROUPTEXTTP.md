@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERGROUPTEXTTP
 description: Cnsldtncustomergrouptexttp
+semantic_en: "consolidation customer group text — language-specific names for customer group codes used in consolidation master data"
+semantic_vi: "văn bản nhóm khách hàng hợp nhất — tên theo ngôn ngữ cho mã nhóm khách hàng dùng trong dữ liệu chính hợp nhất"
+keywords:
+  - nhóm khách hàng hợp nhất
+  - văn bản đa ngôn ngữ
+  - mã nhóm khách hàng
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

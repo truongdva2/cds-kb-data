@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNCUSTOMERHIERNODET
 description: Cnsldtncustomerhiernodet
+semantic_en: "consolidation customer hierarchy node text — displays multilingual descriptions for hierarchy nodes and parent-child relationships."
+semantic_vi: "văn bản nút phân cấp khách hàng hợp nhất — hiển thị mô tả nút phân cấp theo ngôn ngữ."
+keywords:
+  - tên nút phân cấp
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTGROUPHIERNODET
 description: Cnsldtncustgrouphiernodet
+semantic_en: "consolidation customer group hierarchy node text — displays hierarchy node descriptions in multiple languages with validity dates and parent-child relationships."
+semantic_vi: "văn bản nút phân cấp nhóm khách hàng hợp nhất — hiển thị tên nút phân cấp và tính hợp lệ theo ngôn ngữ."
+keywords:
+  - phân cấp nhóm khách hàng
+  - nút phân cấp
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

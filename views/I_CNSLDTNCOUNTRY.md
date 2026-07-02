@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRY
 description: Cnsldtncountry
+semantic_en: "consolidation combined country/region master — Country with source type and consolidation indicator"
+semantic_vi: "dữ liệu tổng hợp quốc gia/khu vực gộp — quốc gia với loại nguồn và chỉ báo gộp"
+keywords:
+  - quốc gia
+  - khu vực địa lý
+  - gộp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

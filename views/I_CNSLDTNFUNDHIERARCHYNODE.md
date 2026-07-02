@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNDHIERARCHYNODE
 description: Cnsldtnfundhierarchynode
+semantic_en: "consolidation fund hierarchy nodes — parent-child relationships and sequencing in fund hierarchies."
+semantic_vi: "nút phân cấp quỹ hợp nhất với mối quan hệ cha-con."
+keywords:
+  - quỹ
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

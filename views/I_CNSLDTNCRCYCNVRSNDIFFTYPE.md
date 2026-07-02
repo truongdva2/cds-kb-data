@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCRCYCNVRSNDIFFTYPE
 description: Cnsldtncrcycnvrsndifftype
+semantic_en: "currency conversion difference type domain — CurrencyConversionsDiffType with domain value codes"
+semantic_vi: "loại chênh lệch chuyển đổi tiền tệ gộp — mã loại chênh lệch với giá trị miền"
+keywords:
+  - chênh lệch tiền tệ
+  - conversion difference
+  - miền giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

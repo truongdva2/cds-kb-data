@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSPRODUCTGROUPT
 description: Cnsldtnfinsrvcsproductgroupt
+semantic_en: "consolidation financial services product group text — multilingual product group names and descriptions"
+semantic_vi: "văn bản nhóm sản phẩm dịch vụ tài chính hợp nhất — tên nhóm đa ngôn ngữ"
+keywords:
+  - nhóm sản phẩm
+  - đa ngôn ngữ
+  - dịch vụ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

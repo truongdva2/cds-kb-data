@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINANCIALDATASOURCETP
 description: Cnsldtnfinancialdatasourcetp
+semantic_en: "consolidation financial data source projection — extracts core source data for simplified downstream consumption."
+semantic_vi: "chiếu nguồn dữ liệu tài chính — trích xuất dữ liệu nguồn chính."
+keywords:
+  - nguồn dữ liệu tài chính
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

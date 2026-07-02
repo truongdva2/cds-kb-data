@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCHARTOFACCOUNTSVH
 description: Cnsldtnchartofaccountsvh
+semantic_en: "value help for chart of accounts — ConsolidationChartOfAccounts with text for selection"
+semantic_vi: "danh sách giúp đỡ cho bảng tính — mã bảng tính với văn bản mô tả để chọn"
+keywords:
+  - chọn bảng tính
+  - danh sách tài khoản
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

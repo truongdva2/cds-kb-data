@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMROLEVH
 description: Cnsldtnfsitemrolevh
+semantic_en: "value help for financial statement item roles — lookup of available roles with text."
+semantic_vi: "trợ giúp giá trị lựa chọn vai trò mục tài chính."
+keywords:
+  - vai trò mục tài chính
+  - trợ giúp giá trị
+  - danh sách
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

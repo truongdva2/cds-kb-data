@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTERHIERARCHY
 description: CNSLDTNCost CenterHIERARCHY
+semantic_en: "consolidation cost center hierarchy master — CnsldtnCostCenterHierarchy with validity dates and audit fields"
+semantic_vi: "phân cấp trung tâm chi phí gộp — phân cấp với ngày hiệu lực, thay đổi cuối cùng"
+keywords:
+  - phân cấp chi phí
+  - trung tâm chi phí
+  - cấu trúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

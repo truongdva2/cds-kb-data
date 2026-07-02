@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDIVISIONHIERARCHY
 description: Cnsldtndivisionhierarchy
+semantic_en: "consolidation division hierarchy — stores division hierarchy structures with validity dates and audit trail."
+semantic_vi: "phân cấp bộ phận hợp nhất — lưu trữ cấu trúc phân cấp bộ phận với ngày hiệu lực."
+keywords:
+  - phân cấp bộ phận
+  - tính hợp lệ
+  - lịch sử thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

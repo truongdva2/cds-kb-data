@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSPRODGRPHIER
 description: Cnsldtnfinsrvcsprodgrphier
+semantic_en: "consolidation financial services product group hierarchy — hierarchy definitions with validity periods and change tracking"
+semantic_vi: "hệ thống phân cấp nhóm sản phẩm dịch vụ tài chính hợp nhất — định nghĩa hệ thống với kỳ hạn hiệu lực"
+keywords:
+  - hệ thống phân cấp
+  - nhóm sản phẩm
+  - kỳ hạn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDOCTYPEHIERARCHY_2
 description: Cnsldtndoctypehierarchy 2
+semantic_en: "consolidation document type hierarchy — stores document type hierarchy structures with validity dates and change tracking."
+semantic_vi: "phân cấp loại tài liệu hợp nhất — lưu trữ cấu trúc phân cấp loại tài liệu với ngày hiệu lực."
+keywords:
+  - phân cấp loại tài liệu
+  - tính hợp lệ
+  - lịch sử thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

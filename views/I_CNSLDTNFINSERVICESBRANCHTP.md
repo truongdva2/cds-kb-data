@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINSERVICESBRANCHTP
 description: Cnsldtnfinservicesbranchtp
+semantic_en: "consolidation financial services branch template/projection — branch codes and master data flags"
+semantic_vi: "template chi nhánh dịch vụ tài chính hợp nhất — mã chi nhánh và cờ dữ liệu"
+keywords:
+  - template chi nhánh
+  - dịch vụ tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

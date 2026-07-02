@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMSCOPE
 description: Cnsldtnfsitemscope
+semantic_en: "financial statement item scope selection — master data for scope categories of financial statement items."
+semantic_vi: "lựa chọn phạm vi của mục tài chính — dữ liệu chính cho phạm vi áp dụng của mục."
+keywords:
+  - phạm vi mục tài chính
+  - dữ liệu chính
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

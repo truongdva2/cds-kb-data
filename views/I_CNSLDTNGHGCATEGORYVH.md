@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGCATEGORYVH
 description: Cnsldtnghgcategoryvh
+semantic_en: "value help for consolidation ghg categories — lookup of emission categories with names."
+semantic_vi: "trợ giúp giá trị lựa chọn danh mục khí nhà kính hợp nhất."
+keywords:
+  - khí nhà kính
+  - danh mục
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

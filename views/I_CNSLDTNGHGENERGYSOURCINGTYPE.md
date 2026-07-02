@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENERGYSOURCINGTYPE
 description: Cnsldtnghgenergysourcingtype
+semantic_en: "consolidation ghg energy sourcing type — master data for energy source types in sustainability reporting."
+semantic_vi: "dữ liệu chính loại hình cấp năng lượng khí nhà kính trong báo cáo bền vững."
+keywords:
+  - loại năng lượng
+  - khí nhà kính
+  - báo cáo
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

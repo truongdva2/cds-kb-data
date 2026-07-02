@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTERHIERNODE
 description: CNSLDTNCost CenterHIERNODE
+semantic_en: "consolidation cost center hierarchy nodes — HierarchyNode with parent/child relationships and cost center mapping"
+semantic_vi: "nút phân cấp trung tâm chi phí gộp — phân cấp với quan hệ cha con, ánh xạ trung tâm chi phí"
+keywords:
+  - phân cấp chi phí
+  - nút phân cấp
+  - cấu trúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

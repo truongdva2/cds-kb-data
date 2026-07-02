@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCTIONALAREATP
 description: Cnsldtnfunctionalareatp
+semantic_en: "consolidation functional area transformation proxy — core functional area master data for transformation scenarios."
+semantic_vi: "dữ liệu chính lĩnh vực chức năng hỗ trợ các kịch bản chuyển đổi."
+keywords:
+  - lĩnh vực chức năng
+  - dữ liệu chính
+  - chuyển đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

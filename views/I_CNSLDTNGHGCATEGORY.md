@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGCATEGORY
 description: Cnsldtnghgcategory
+semantic_en: "consolidation greenhouse gas category — master data for ghg emission categories linked to scopes."
+semantic_vi: "dữ liệu chính danh mục khí nhà kính hợp nhất liên kết với phạm vi phát thải."
+keywords:
+  - khí nhà kính
+  - danh mục
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINMANAGEMENTAREATP
 description: Cnsldtnfinmanagementareatp
+semantic_en: "consolidation financial management area template/projection — identifies area codes and additional master data flags"
+semantic_vi: "vùng quản lý tài chính hợp nhất (template projection) — mã vùng và cờ dữ liệu chính bổ sung"
+keywords:
+  - vùng quản lý tài chính
+  - hợp nhất
+  - template
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

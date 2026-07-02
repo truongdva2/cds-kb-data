@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSINESSAREATP
 description: Cnsldtnbusinessareatp
+semantic_en: "consolidation business area transfer/posting records — BusinessArea with master data consolidation indicator"
+semantic_vi: "bản ghi chuyển/ghi khu vực kinh doanh gộp — khu vực với chỉ báo gộp dữ liệu master"
+keywords:
+  - khu vực kinh doanh
+  - chuyển dữ liệu
+  - gộp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

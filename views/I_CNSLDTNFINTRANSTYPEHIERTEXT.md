@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINTRANSTYPEHIERTEXT
 description: Cnsldtnfintranstypehiertext
+semantic_en: "consolidation financial transaction type hierarchy text — multilingual hierarchy descriptions and labels"
+semantic_vi: "văn bản hệ thống phân cấp kiểu giao dịch tài chính hợp nhất — mô tả hệ thống đa ngôn ngữ"
+keywords:
+  - hệ thống phân cấp
+  - kiểu giao dịch
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

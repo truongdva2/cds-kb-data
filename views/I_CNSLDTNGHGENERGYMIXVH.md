@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENERGYMIXVH
 description: Cnsldtnghgenergymixvh
+semantic_en: "value help for consolidation ghg energy mix — lookup of energy compositions with names."
+semantic_vi: "trợ giúp giá trị lựa chọn cấu thành năng lượng khí nhà kính."
+keywords:
+  - năng lượng tái tạo
+  - khí nhà kính
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

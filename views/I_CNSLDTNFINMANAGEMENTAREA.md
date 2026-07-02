@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINMANAGEMENTAREA
 description: Cnsldtnfinmanagementarea
+semantic_en: "consolidation financial management area — identifies financial management organizational units used in consolidation."
+semantic_vi: "vùng quản lý tài chính hợp nhất — xác định các đơn vị tổ chức quản lý tài chính."
+keywords:
+  - vùng quản lý tài chính
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

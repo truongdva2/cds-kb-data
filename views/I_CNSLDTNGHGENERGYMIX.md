@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENERGYMIX
 description: Cnsldtnghgenergymix
+semantic_en: "consolidation greenhouse gas energy mix — master data for energy source compositions in emissions calculations."
+semantic_vi: "dữ liệu chính cấu thành năng lượng khí nhà kính hợp nhất cho tính toán phát thải."
+keywords:
+  - năng lượng tái tạo
+  - khí nhà kính
+  - cấu thành
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

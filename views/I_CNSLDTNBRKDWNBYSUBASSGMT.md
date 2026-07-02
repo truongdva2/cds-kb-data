@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBRKDWNBYSUBASSGMT
 description: Cnsldtnbrkdwnbysubassgmt
+semantic_en: "breakdown by subassignment rules — consolidation chart, category, subassignment, breakdown type, and fixed values"
+semantic_vi: "quy tắc phân tích theo phân công phụ — bảng tính gộp, danh mục, phân công phụ, loại phân tích"
+keywords:
+  - phân tích phân công
+  - quy tắc gộp
+  - tài khoản breakdown
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

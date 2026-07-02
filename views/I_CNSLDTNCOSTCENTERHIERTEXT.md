@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTERHIERTEXT
 description: CNSLDTNCost CenterHIERTEXT
+semantic_en: "multilingual text for cost center hierarchies — language-specific hierarchy descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho phân cấp chi phí — mô tả phân cấp theo ngôn ngữ"
+keywords:
+  - văn bản phân cấp
+  - tên phân cấp
+  - chi phí
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

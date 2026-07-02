@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDOCTYPEBUSINESSAPPL
 description: Cnsldtndoctypebusinessappl
+semantic_en: "consolidation document type business application — maps document types to business application categories."
+semantic_vi: "ứng dụng kinh doanh loại tài liệu hợp nhất — ánh xạ loại tài liệu đến danh mục ứng dụng."
+keywords:
+  - loại tài liệu
+  - ứng dụng kinh doanh
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

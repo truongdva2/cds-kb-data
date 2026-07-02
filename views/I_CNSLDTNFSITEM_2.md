@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEM_2
 description: Cnsldtnfsitem 2
+semantic_en: "consolidation financial statement item — master data for financial statement items with types, categories, and posting controls."
+semantic_vi: "dữ liệu chính cho mục tài chính hợp nhất với loại, danh mục, và kiểm soát ghi sổ."
+keywords:
+  - mục tài chính
+  - dữ liệu chính
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

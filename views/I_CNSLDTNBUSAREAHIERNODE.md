@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSAREAHIERNODE
 description: Cnsldtnbusareahiernode
+semantic_en: "consolidation business area hierarchy nodes — HierarchyNode with parent/child relationships, validity dates, and business area mapping"
+semantic_vi: "nút phân cấp khu vực kinh doanh gộp — phân cấp với quan hệ cha con, ngày hiệu lực, ánh xạ khu vực"
+keywords:
+  - phân cấp khu vực
+  - nút phân cấp
+  - khu vực kinh doanh
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

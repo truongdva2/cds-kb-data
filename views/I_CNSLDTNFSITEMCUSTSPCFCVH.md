@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMCUSTSPCFCVH
 description: Cnsldtnfsitemcustspcfcvh
+semantic_en: "financial statement item other selection value-help — lookup for other treatment classification codes"
+semantic_vi: "trợ giúp tìm kiếm lựa chọn xử lý khác mục báo cáo tài chính — tra cứu mã phân loại"
+keywords:
+  - xử lý khác
+  - tìm kiếm
+  - báo cáo
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

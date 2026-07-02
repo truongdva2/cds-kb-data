@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSPRODGRPHIERNODE
 description: Cnsldtnfinsprodgrphiernode
+semantic_en: "consolidation financial services product group hierarchy node — nodes with parent-child relationships, validity dates, and sequencing"
+semantic_vi: "nút hệ thống phân cấp nhóm sản phẩm dịch vụ tài chính hợp nhất — quan hệ cha-con và thứ tự"
+keywords:
+  - hệ thống phân cấp
+  - nhóm sản phẩm
+  - nút hệ thống
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

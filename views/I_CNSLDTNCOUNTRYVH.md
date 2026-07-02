@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYVH
 description: Cnsldtncountryvh
+semantic_en: "value help for countries/regions — Country with name for selection lookup"
+semantic_vi: "danh sách giúp đỡ cho quốc gia/khu vực — mã quốc gia với tên để chọn lựa"
+keywords:
+  - chọn quốc gia
+  - danh sách country
+  - tên khu vực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

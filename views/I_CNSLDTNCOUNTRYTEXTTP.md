@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYTEXTTP
 description: Cnsldtncountrytexttp
+semantic_en: "consolidation country/region text transfer/posting — language-specific country names with master data indicator"
+semantic_vi: "văn bản quốc gia/khu vực gộp dành cho chuyển/ghi — tên quốc gia theo ngôn ngữ với chỉ báo master"
+keywords:
+  - tên quốc gia
+  - chuyển dữ liệu
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMELIMINATIONTEXT
 description: Cnsldtnfsitemeliminationtext
+semantic_en: "financial statement item elimination selection text — multilingual descriptions for elimination treatment methods"
+semantic_vi: "văn bản lựa chọn loại bỏ mục báo cáo tài chính — mô tả phương pháp loại bỏ đa ngôn ngữ"
+keywords:
+  - loại bỏ
+  - giữa công ty
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

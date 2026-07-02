@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINTRANSACTIONTYPETP
 description: Cnsldtnfintransactiontypetp
+semantic_en: "consolidation financial transaction type template/projection — transaction type codes and master data flags"
+semantic_vi: "template kiểu giao dịch tài chính hợp nhất — mã kiểu giao dịch và cờ dữ liệu"
+keywords:
+  - kiểu giao dịch
+  - tài chính
+  - template
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNCUSTOMERGROUPHIERT
 description: Cnsldtncustomergrouphiert
+semantic_en: "consolidation customer group hierarchy text — provides multilingual descriptions and names for customer group hierarchy levels."
+semantic_vi: "văn bản phân cấp nhóm khách hàng hợp nhất — cung cấp mô tả và tên phân cấp theo ngôn ngữ."
+keywords:
+  - bản dịch phân cấp
+  - tên nhóm khách hàng
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

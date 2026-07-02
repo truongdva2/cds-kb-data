@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSPRODGROUPTP
 description: Cnsldtnfinsrvcsprodgrouptp
+semantic_en: "consolidation financial services product group template/projection — product group codes and master data flags"
+semantic_vi: "template nhóm sản phẩm dịch vụ tài chính hợp nhất — mã nhóm và cờ dữ liệu chính"
+keywords:
+  - nhóm sản phẩm
+  - hợp nhất
+  - template
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

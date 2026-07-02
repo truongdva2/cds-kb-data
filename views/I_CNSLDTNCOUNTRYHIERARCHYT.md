@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYHIERARCHYT
 description: Cnsldtncountryhierarchyt
+semantic_en: "multilingual text for country/region hierarchies — language-specific hierarchy descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho phân cấp quốc gia — mô tả phân cấp theo ngôn ngữ"
+keywords:
+  - văn bản phân cấp
+  - tên quốc gia
+  - khu vực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

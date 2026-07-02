@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMCRCYTRNSLTNTEXT
 description: Cnsldtnfsitemcrcytrnsltntext
+semantic_en: "financial statement item currency translation selection text — multilingual labels for currency translation methods"
+semantic_vi: "văn bản lựa chọn dịch tệ mục báo cáo tài chính — nhãn phương pháp dịch tệ đa ngôn ngữ"
+keywords:
+  - dịch tệ
+  - báo cáo tài chính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

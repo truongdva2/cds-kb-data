@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMROLE
 description: Cnsldtnfsitemrole
+semantic_en: "financial statement item role selection — master data for roles assigned to financial statement items in consolidation."
+semantic_vi: "lựa chọn vai trò của mục tài chính — dữ liệu chính cho vai trò được gán cho mục."
+keywords:
+  - vai trò mục tài chính
+  - dữ liệu chính
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

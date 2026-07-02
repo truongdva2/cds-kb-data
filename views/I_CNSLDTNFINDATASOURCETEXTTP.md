@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINDATASOURCETEXTTP
 description: Cnsldtnfindatasourcetexttp
+semantic_en: "consolidation financial data source text projection — extracts multilingual source descriptions for simplified access."
+semantic_vi: "chiếu văn bản nguồn dữ liệu tài chính — trích xuất mô tả nguồn dữ liệu theo ngôn ngữ."
+keywords:
+  - tên nguồn dữ liệu
+  - bản dịch
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMMAPPINGVH
 description: Cnsldtnfsitemmappingvh
+semantic_en: "value help for consolidation fs item mapping — lookup of available mappings with display text."
+semantic_vi: "trợ giúp giá trị danh sách ánh xạ mục tài chính hợp nhất."
+keywords:
+  - ánh xạ mục tài chính
+  - trợ giúp giá trị
+  - danh sách
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERTEXTTP
 description: Cnsldtncustomertexttp
+semantic_en: "consolidation customer text projection — extracts multilingual customer descriptions for simplified access patterns."
+semantic_vi: "chiếu văn bản khách hàng — trích xuất mô tả khách hàng theo ngôn ngữ."
+keywords:
+  - tên khách hàng
+  - bản dịch
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

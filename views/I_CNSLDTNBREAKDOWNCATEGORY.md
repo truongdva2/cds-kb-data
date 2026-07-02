@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBREAKDOWNCATEGORY
 description: Cnsldtnbreakdowncategory
+semantic_en: "consolidation breakdown category master data — ConsolidationChartOfAccounts and breakdown category codes"
+semantic_vi: "danh mục phân tích gộp doanh nghiệp — mã phân loại với kế toán bảng tính gộp"
+keywords:
+  - phân tích danh mục
+  - loại gộp
+  - tài khoản gộp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

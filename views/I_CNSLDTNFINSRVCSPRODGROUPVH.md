@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSPRODGROUPVH
 description: Cnsldtnfinsrvcsprodgroupvh
+semantic_en: "consolidation financial services product group value-help — lookup for product group codes and names"
+semantic_vi: "trợ giúp tìm kiếm nhóm sản phẩm dịch vụ tài chính hợp nhất — tra cứu mã nhóm"
+keywords:
+  - nhóm sản phẩm
+  - tìm kiếm
+  - dịch vụ tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

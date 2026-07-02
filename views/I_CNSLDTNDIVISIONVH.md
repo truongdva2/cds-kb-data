@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDIVISIONVH
 description: Cnsldtndivisionvh
+semantic_en: "consolidation combined division value-help — provides lookup values of divisions with names for search and selection."
+semantic_vi: "trợ giúp giá trị bộ phận kết hợp — cung cấp giá trị tra cứu bộ phận."
+keywords:
+  - tra cứu bộ phận
+  - giá trị hỗ trợ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMMAPPINGTEXT
 description: Cnsldtnfsitemmappingtext
+semantic_en: "consolidation fs item mapping texts — multilingual names and descriptions for mapping records."
+semantic_vi: "mô tả đa ngôn ngữ của các bản ghi ánh xạ mục tài chính."
+keywords:
+  - mô tả ánh xạ
+  - đa ngôn ngữ
+  - tên ánh xạ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

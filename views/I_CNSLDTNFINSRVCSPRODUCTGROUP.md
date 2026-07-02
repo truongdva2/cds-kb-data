@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSPRODUCTGROUP
 description: Cnsldtnfinsrvcsproductgroup
+semantic_en: "consolidation financial services product group — product group master data with additional master data flags"
+semantic_vi: "nhóm sản phẩm dịch vụ tài chính hợp nhất — dữ liệu chính nhóm sản phẩm"
+keywords:
+  - nhóm sản phẩm
+  - dịch vụ tài chính
+  - dữ liệu chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

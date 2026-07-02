@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYHIERNODET
 description: Cnsldtncountryhiernodet
+semantic_en: "multilingual text for country/region hierarchy nodes — language-specific node descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho nút phân cấp quốc gia — mô tả nút theo ngôn ngữ"
+keywords:
+  - văn bản phân cấp
+  - tên nút
+  - quốc gia
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

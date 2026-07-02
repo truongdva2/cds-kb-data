@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENGYCLASSFCTNVH
 description: Cnsldtnghgengyclassfctnvh
+semantic_en: "value help for consolidation ghg energy classification — lookup of classifications with names."
+semantic_vi: "trợ giúp giá trị lựa chọn phân loại năng lượng khí nhà kính."
+keywords:
+  - phân loại năng lượng
+  - khí nhà kính
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

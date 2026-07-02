@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYT
 description: Cnsldtncountryt
+semantic_en: "multilingual text for countries/regions — language-specific country name and source information"
+semantic_vi: "văn bản đa ngôn ngữ cho quốc gia/khu vực — tên quốc gia, thông tin nguồn theo ngôn ngữ"
+keywords:
+  - tên quốc gia
+  - văn bản country
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

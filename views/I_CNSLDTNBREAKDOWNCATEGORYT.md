@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBREAKDOWNCATEGORYT
 description: Cnsldtnbreakdowncategoryt
+semantic_en: "multilingual text for consolidation breakdown categories — language-specific category descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho danh mục phân tích gộp — mô tả danh mục theo ngôn ngữ"
+keywords:
+  - văn bản phân tích
+  - đa ngôn ngữ
+  - tên danh mục
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

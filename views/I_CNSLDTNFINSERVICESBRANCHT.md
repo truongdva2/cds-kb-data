@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINSERVICESBRANCHT
 description: Cnsldtnfinservicesbrancht
+semantic_en: "consolidation financial services branch text — multilingual branch names and descriptions"
+semantic_vi: "văn bản chi nhánh dịch vụ tài chính hợp nhất — tên chi nhánh đa ngôn ngữ"
+keywords:
+  - chi nhánh dịch vụ
+  - tên đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDISTRCHANNELTEXTTP
 description: Cnsldtndistrchanneltexttp
+semantic_en: "consolidation distribution channel text projection — extracts multilingual channel descriptions for simplified access."
+semantic_vi: "chiếu văn bản kênh phân phối — trích xuất mô tả kênh phân phối theo ngôn ngữ."
+keywords:
+  - tên kênh phân phối
+  - bản dịch
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGCATEGORYT
 description: Cnsldtnghgcategoryt
+semantic_en: "consolidation ghg category texts — multilingual names for greenhouse gas categories."
+semantic_vi: "mô tả đa ngôn ngữ của danh mục khí nhà kính."
+keywords:
+  - khí nhà kính
+  - danh mục
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

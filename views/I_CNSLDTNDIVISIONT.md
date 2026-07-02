@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDIVISIONT
 description: Cnsldtndivisiont
+semantic_en: "consolidation combined division text — provides multilingual names and descriptions for consolidated divisions."
+semantic_vi: "văn bản bộ phận kết hợp hợp nhất — cung cấp tên và mô tả bộ phận theo ngôn ngữ."
+keywords:
+  - tên bộ phận
+  - bản dịch
+  - nguồn dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDISTRCHANNELHIERT
 description: Cnsldtndistrchannelhiert
+semantic_en: "consolidation distribution channel hierarchy text — provides multilingual names for distribution channel hierarchy levels."
+semantic_vi: "văn bản phân cấp kênh phân phối hợp nhất — cung cấp tên phân cấp theo ngôn ngữ."
+keywords:
+  - tên phân cấp kênh phân phối
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

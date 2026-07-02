@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCONTROLLINGAREATEXTTP
 description: Cnsldtncontrollingareatexttp
+semantic_en: "consolidation controlling area text transfer/posting — language-specific area names with master data indicator"
+semantic_vi: "văn bản lĩnh vực kiểm soát gộp dành cho chuyển/ghi — tên lĩnh vực theo ngôn ngữ với chỉ báo master"
+keywords:
+  - tên kiểm soát
+  - chuyển dữ liệu
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

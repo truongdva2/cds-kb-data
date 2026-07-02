@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINMANAGEMENTAREAT
 description: Cnsldtnfinmanagementareat
+semantic_en: "consolidation financial management area text — provides multilingual names and descriptions for management areas."
+semantic_vi: "văn bản vùng quản lý tài chính hợp nhất — cung cấp tên và mô tả vùng quản lý theo ngôn ngữ."
+keywords:
+  - tên vùng quản lý tài chính
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

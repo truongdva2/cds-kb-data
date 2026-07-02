@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMCUSTSPCFCTEXT
 description: Cnsldtnfsitemcustspcfctext
+semantic_en: "financial statement item other selection text — multilingual descriptions for other treatment classifications"
+semantic_vi: "văn bản lựa chọn xử lý khác mục báo cáo tài chính — mô tả phân loại khác đa ngôn ngữ"
+keywords:
+  - xử lý khác
+  - báo cáo tài chính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

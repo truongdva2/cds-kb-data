@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINANCIALDATASOURCEVH
 description: Cnsldtnfinancialdatasourcevh
+semantic_en: "consolidation financial data source value-help — provides lookup values of data sources with names for search and selection."
+semantic_vi: "trợ giúp giá trị nguồn dữ liệu tài chính — cung cấp giá trị tra cứu nguồn dữ liệu."
+keywords:
+  - tra cứu nguồn dữ liệu
+  - giá trị hỗ trợ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

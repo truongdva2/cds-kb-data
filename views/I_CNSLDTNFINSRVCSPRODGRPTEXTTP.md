@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINSRVCSPRODGRPTEXTTP
 description: Cnsldtnfinsrvcsprodgrptexttp
+semantic_en: "consolidation financial services product group text template/projection — multilingual group names and master data flags"
+semantic_vi: "template văn bản nhóm sản phẩm dịch vụ tài chính hợp nhất — tên nhóm đa ngôn ngữ"
+keywords:
+  - nhóm sản phẩm
+  - văn bản
+  - template
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

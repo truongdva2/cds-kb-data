@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINSERVICESBRANCHVH
 description: Cnsldtnfinservicesbranchvh
+semantic_en: "consolidation financial services branch value-help — lookup for branch codes and names"
+semantic_vi: "trợ giúp tìm kiếm chi nhánh dịch vụ tài chính hợp nhất — tra cứu mã chi nhánh"
+keywords:
+  - tìm kiếm chi nhánh
+  - dịch vụ tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

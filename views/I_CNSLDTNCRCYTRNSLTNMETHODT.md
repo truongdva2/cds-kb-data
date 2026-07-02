@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCRCYTRNSLTNMETHODT
 description: Cnsldtncrcytrnsltnmethodt
+semantic_en: "multilingual text for currency translation methods — language-specific method descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho phương pháp chuyển đổi tiền tệ — mô tả phương pháp theo ngôn ngữ"
+keywords:
+  - phương pháp tiền tệ
+  - văn bản translation
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

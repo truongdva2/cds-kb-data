@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCTIONALAREATEXTTP
 description: Cnsldtnfunctionalareatexttp
+semantic_en: "consolidation functional area text transformation proxy — multilingual names for functional areas in transformation scenarios."
+semantic_vi: "mô tả đa ngôn ngữ lĩnh vực chức năng hỗ trợ các kịch bản chuyển đổi."
+keywords:
+  - lĩnh vực chức năng
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

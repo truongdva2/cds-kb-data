@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDISTRCHANNELHIERNODE
 description: Cnsldtndistrchannelhiernode
+semantic_en: "consolidation distribution channel hierarchy node — represents individual distribution channel nodes within hierarchies with sequence and level data."
+semantic_vi: "nút phân cấp kênh phân phối hợp nhất — đại diện cho nút kênh phân phối riêng lẻ."
+keywords:
+  - nút phân cấp
+  - kênh phân phối
+  - cấp nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

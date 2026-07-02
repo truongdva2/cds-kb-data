@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSINESSAREAHIERARCHY
 description: Cnsldtnbusinessareahierarchy
+semantic_en: "consolidation business area hierarchy master — CnsldtnBusinessAreaHierarchy with validity dates and audit fields"
+semantic_vi: "phân cấp khu vực kinh doanh gộp — phân cấp với ngày hiệu lực, người thay đổi cuối cùng"
+keywords:
+  - phân cấp khu vực
+  - cấu trúc tổ chức
+  - ngày hiệu lực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

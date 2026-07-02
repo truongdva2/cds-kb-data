@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINANCIALDATASOURCE
 description: Cnsldtnfinancialdatasource
+semantic_en: "consolidation financial data source — identifies external financial data sources used in consolidation."
+semantic_vi: "nguồn dữ liệu tài chính hợp nhất — xác định các nguồn dữ liệu tài chính bên ngoài."
+keywords:
+  - nguồn dữ liệu tài chính
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

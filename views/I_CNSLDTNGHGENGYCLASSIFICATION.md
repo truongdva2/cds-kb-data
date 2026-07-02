@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENGYCLASSIFICATION
 description: Cnsldtnghgengyclassification
+semantic_en: "consolidation ghg energy classification — master data for categorizing energy types in emissions analysis."
+semantic_vi: "dữ liệu chính phân loại năng lượng khí nhà kính hợp nhất cho phân tích phát thải."
+keywords:
+  - phân loại năng lượng
+  - khí nhà kính
+  - phân tích
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

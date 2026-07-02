@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGDTAQLTYCHARC
 description: Cnsldtnghgdtaqltycharc
+semantic_en: "consolidation ghg data quality characteristic — master data for data quality indicators in emissions reporting."
+semantic_vi: "dữ liệu chính đặc điểm chất lượng dữ liệu khí nhà kính trong báo cáo phát thải."
+keywords:
+  - chất lượng dữ liệu
+  - khí nhà kính
+  - báo cáo
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

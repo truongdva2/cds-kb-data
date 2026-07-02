@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERT
 description: Cnsldtncustomert
+semantic_en: "consolidation combined customer text — provides multilingual names and descriptions for consolidated customers."
+semantic_vi: "văn bản khách hàng kết hợp hợp nhất — cung cấp tên và mô tả khách hàng theo ngôn ngữ."
+keywords:
+  - tên khách hàng
+  - bản dịch
+  - nguồn dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

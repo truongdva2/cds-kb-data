@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBREAKDOWNTYPE
 description: Cnsldtnbreakdowntype
+semantic_en: "consolidation breakdown type domain values — ConsolidationBreakdownType and domain value codes"
+semantic_vi: "loại phân tích gộp — mã loại với giá trị miền định nghĩa"
+keywords:
+  - loại phân tích
+  - miền giá trị
+  - breakdown
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLINGDOCUMENTTYPEVH
 description: CNSLDTNBilling DocumentUMENTTYPEVH
+semantic_en: "value help for consolidation billing document types — provides BillingDocumentType codes with descriptive names for selection"
+semantic_vi: "danh sách giúp đỡ cho loại tài liệu hóa đơn gộp — cung cấp mã loại với tên mô tả để lựa chọn"
+keywords:
+  - loại hóa đơn
+  - danh sách chọn
+  - tên loại
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

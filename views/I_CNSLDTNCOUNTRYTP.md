@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYTP
 description: Cnsldtncountrytp
+semantic_en: "consolidation country/region transfer/posting records — Country with master data consolidation indicator"
+semantic_vi: "bản ghi chuyển/ghi quốc gia/khu vực gộp — quốc gia với chỉ báo gộp dữ liệu master"
+keywords:
+  - quốc gia
+  - chuyển dữ liệu
+  - gộp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

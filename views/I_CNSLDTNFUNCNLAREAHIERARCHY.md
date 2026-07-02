@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCNLAREAHIERARCHY
 description: Cnsldtnfuncnlareahierarchy
+semantic_en: "consolidation functional area hierarchy — organizational structure definitions for functional areas with validity dates."
+semantic_vi: "cấu trúc phân cấp lĩnh vực chức năng hợp nhất với ngày hiệu lực."
+keywords:
+  - lĩnh vực chức năng
+  - phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

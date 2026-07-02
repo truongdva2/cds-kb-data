@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCHARTOFACCOUNTST
 description: Cnsldtnchartofaccountst
+semantic_en: "multilingual text for chart of accounts — language-specific account chart descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho bảng tính — mô tả bảng tính theo ngôn ngữ"
+keywords:
+  - bảng tính văn bản
+  - mô tả tài khoản
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

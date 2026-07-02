@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMSCOPETEXT
 description: Cnsldtnfsitemscopetext
+semantic_en: "financial statement item scope texts — multilingual scope names and descriptions."
+semantic_vi: "mô tả đa ngôn ngữ của phạm vi mục tài chính."
+keywords:
+  - phạm vi mục tài chính
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

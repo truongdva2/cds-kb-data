@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNCUSTOMERGROUP
 description: Cnsldtncustomergroup
+semantic_en: "consolidation combined customer group — consolidates customer group master data from multiple sources."
+semantic_vi: "nhóm khách hàng kết hợp hợp nhất — kết hợp dữ liệu nhóm khách hàng từ nhiều nguồn."
+keywords:
+  - nhóm khách hàng
+  - hợp nhất dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

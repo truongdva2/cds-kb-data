@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMBYTIMEVERSION
 description: Cnsldtnfsitembytimeversion
+semantic_en: "consolidation financial statement item by time and version — statement item mappings across fiscal periods and versions with role/treatment flags"
+semantic_vi: "mục báo cáo tài chính hợp nhất theo thời gian và phiên bản — ánh xạ mục theo kỳ và phiên bản"
+keywords:
+  - báo cáo tài chính
+  - mục báo cáo
+  - phiên bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

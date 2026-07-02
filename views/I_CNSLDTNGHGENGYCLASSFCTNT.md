@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENGYCLASSFCTNT
 description: Cnsldtnghgengyclassfctnt
+semantic_en: "consolidation ghg energy classification texts — multilingual names for energy classifications."
+semantic_vi: "mô tả đa ngôn ngữ của phân loại năng lượng khí nhà kính."
+keywords:
+  - phân loại năng lượng
+  - khí nhà kính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

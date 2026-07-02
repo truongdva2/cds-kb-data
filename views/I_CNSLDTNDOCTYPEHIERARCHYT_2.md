@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDOCTYPEHIERARCHYT_2
 description: Cnsldtndoctypehierarchyt 2
+semantic_en: "consolidation document type hierarchy text — provides multilingual descriptions for document type hierarchy levels."
+semantic_vi: "văn bản phân cấp loại tài liệu hợp nhất — cung cấp mô tả phân cấp theo ngôn ngữ."
+keywords:
+  - tên phân cấp loại tài liệu
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

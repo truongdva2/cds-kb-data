@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMDATACOLLTEXT
 description: Cnsldtnfsitemdatacolltext
+semantic_en: "financial statement item data collection selection text — multilingual labels for data collection methods"
+semantic_vi: "văn bản lựa chọn thu thập dữ liệu mục báo cáo tài chính — nhãn phương pháp thu thập đa ngôn ngữ"
+keywords:
+  - thu thập dữ liệu
+  - báo cáo tài chính
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

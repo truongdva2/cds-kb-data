@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCTIONALAREA
 description: Cnsldtnfunctionalarea
+semantic_en: "consolidation combined functional area — unified master data for functional areas across additional sources."
+semantic_vi: "dữ liệu chính lĩnh vực chức năng hợp nhất từ nhiều nguồn bổ sung."
+keywords:
+  - lĩnh vực chức năng
+  - dữ liệu chính
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

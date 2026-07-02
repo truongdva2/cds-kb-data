@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCRCYTRNSLTNMETHODVH
 description: Cnsldtncrcytrnsltnmethodvh
+semantic_en: "value help for currency translation methods — CnsldtnCrcyTranslationMethod with text for selection"
+semantic_vi: "danh sách giúp đỡ cho phương pháp chuyển đổi tiền tệ — mã phương pháp với văn bản để chọn"
+keywords:
+  - chọn phương pháp
+  - translation method
+  - tiền tệ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

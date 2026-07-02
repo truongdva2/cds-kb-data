@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTERVH
 description: CNSLDTNCost CenterVH
+semantic_en: "value help for cost centers — ControllingArea and CostCenter with name for selection lookup"
+semantic_vi: "danh sách giúp đỡ cho trung tâm chi phí — lĩnh vực kiểm soát, trung tâm chi phí với tên để chọn"
+keywords:
+  - chọn chi phí
+  - danh sách center
+  - tên trung tâm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDIVISIONTEXTTP
 description: Cnsldtndivisiontexttp
+semantic_en: "consolidation division text projection — extracts multilingual division descriptions for simplified access patterns."
+semantic_vi: "chiếu văn bản bộ phận — trích xuất mô tả bộ phận theo ngôn ngữ."
+keywords:
+  - tên bộ phận
+  - bản dịch
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

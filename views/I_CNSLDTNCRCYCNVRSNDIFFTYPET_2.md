@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCRCYCNVRSNDIFFTYPET_2
 description: Cnsldtncrcycnvrsndifftypet 2
+semantic_en: "multilingual text for currency conversion difference types — language-specific difference type descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho loại chênh lệch chuyển đổi tiền tệ — mô tả loại chênh lệch theo ngôn ngữ"
+keywords:
+  - chênh lệch tiền tệ
+  - văn bản loại
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

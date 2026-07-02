@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDIVISIONTP
 description: Cnsldtndivisiontp
+semantic_en: "consolidation division projection — extracts core division data for simplified downstream consumption."
+semantic_vi: "chiếu bộ phận — trích xuất dữ liệu bộ phận chính."
+keywords:
+  - bộ phận
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

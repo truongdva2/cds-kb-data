@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOSTCENTERTEXTTP
 description: CNSLDTNCost CenterTEXTTP
+semantic_en: "consolidation cost center text transfer/posting — language-specific center names with master data indicator"
+semantic_vi: "văn bản trung tâm chi phí gộp dành cho chuyển/ghi — tên trung tâm theo ngôn ngữ với chỉ báo master"
+keywords:
+  - tên chi phí
+  - chuyển dữ liệu
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

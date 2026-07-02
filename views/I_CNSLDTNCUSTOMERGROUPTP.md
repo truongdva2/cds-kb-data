@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERGROUPTP
 description: Cnsldtncustomergrouptp
+semantic_en: "consolidation customer group text projection — extracts multilingual customer group descriptions for simplified access."
+semantic_vi: "chiếu văn bản nhóm khách hàng — trích xuất mô tả nhóm khách hàng theo ngôn ngữ."
+keywords:
+  - tên nhóm khách hàng
+  - bản dịch
+  - chiếu dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

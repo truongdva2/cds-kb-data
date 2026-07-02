@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBREAKDOWNTYPEVH
 description: Cnsldtnbreakdowntypevh
+semantic_en: "value help for breakdown types — provides breakdown type codes with text and domain values"
+semantic_vi: "danh sách giúp đỡ cho loại phân tích — mã loại với văn bản và giá trị miền"
+keywords:
+  - chọn loại
+  - breakdown type
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

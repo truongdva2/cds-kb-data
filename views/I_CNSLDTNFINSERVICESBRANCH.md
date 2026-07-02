@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNFINSERVICESBRANCH
 description: Cnsldtnfinservicesbranch
+semantic_en: "consolidation financial services branch master — branch codes and additional master data indicators"
+semantic_vi: "chi nhánh dịch vụ tài chính hợp nhất — mã chi nhánh và cờ dữ liệu chính bổ sung"
+keywords:
+  - chi nhánh dịch vụ tài chính
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

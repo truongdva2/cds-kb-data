@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMMAPPGREVSNTEXT
 description: Cnsldtnfsitemmappgrevsntext
+semantic_en: "consolidation fs item mapping revision texts — multilingual descriptions of mapping revisions for items across accounting structures."
+semantic_vi: "mô tả đa ngôn ngữ của phiên bản sửa đổi ánh xạ mục tài chính hợp nhất."
+keywords:
+  - mô tả phiên bản
+  - ánh xạ mục tài chính
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

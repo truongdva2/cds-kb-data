@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNDT
 description: Cnsldtnfundt
+semantic_en: "consolidation fund texts — multilingual fund names and descriptions."
+semantic_vi: "mô tả đa ngôn ngữ của quỹ hợp nhất."
+keywords:
+  - quỹ
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFINTRANSTYPEHIERARCHY
 description: Cnsldtnfintranstypehierarchy
+semantic_en: "consolidation financial transaction type hierarchy — hierarchy definitions with validity periods and change tracking"
+semantic_vi: "hệ thống phân cấp kiểu giao dịch tài chính hợp nhất — định nghĩa với kỳ hạn hiệu lực"
+keywords:
+  - hệ thống phân cấp
+  - kiểu giao dịch
+  - kỳ hạn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

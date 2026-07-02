@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMTEXTTP
 description: Cnsldtnfsitemtexttp
+semantic_en: "consolidation fs item text transformation proxy — multilingual texts for financial statement items supporting transformation scenarios."
+semantic_vi: "văn bản mục tài chính hợp nhất đa ngôn ngữ hỗ trợ các kịch bản chuyển đổi."
+keywords:
+  - mục tài chính
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

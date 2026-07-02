@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMMAPPGREVISIONVH
 description: Cnsldtnfsitemmappgrevisionvh
+semantic_en: "value help for consolidation fs item mapping revisions — lookup of mapping revisions between consolidation and general ledger charts of accounts."
+semantic_vi: "trợ giúp giá trị cho phiên bản sửa đổi ánh xạ mục tài chính hợp nhất — danh sách ánh xạ giữa sơ đồ khoản mục tài chính hợp nhất và sơ đồ khoản mục chung."
+keywords:
+  - ánh xạ mục tài chính
+  - phiên bản sửa đổi
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

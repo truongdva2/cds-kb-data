@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCTIONALAREAT
 description: Cnsldtnfunctionalareat
+semantic_en: "consolidation combined functional area texts — multilingual functional area names and descriptions."
+semantic_vi: "mô tả đa ngôn ngữ của lĩnh vực chức năng hợp nhất."
+keywords:
+  - lĩnh vực chức năng
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

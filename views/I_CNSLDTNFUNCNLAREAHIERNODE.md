@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNCNLAREAHIERNODE
 description: Cnsldtnfuncnlareahiernode
+semantic_en: "consolidation functional area hierarchy nodes — parent-child relationships in functional area hierarchies."
+semantic_vi: "nút phân cấp lĩnh vực chức năng hợp nhất với mối quan hệ cha-con."
+keywords:
+  - lĩnh vực chức năng
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

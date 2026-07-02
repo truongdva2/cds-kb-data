@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMVH
 description: Cnsldtnfsitemvh
+semantic_en: "value help for consolidation financial statement items — lookup of items with descriptions."
+semantic_vi: "trợ giúp giá trị lựa chọn mục tài chính hợp nhất."
+keywords:
+  - mục tài chính
+  - trợ giúp giá trị
+  - danh sách
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

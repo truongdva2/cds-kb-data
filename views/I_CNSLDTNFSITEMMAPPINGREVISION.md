@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMMAPPINGREVISION
 description: Cnsldtnfsitemmappingrevision
+semantic_en: "consolidation fs item mapping revision — versioned mappings of financial statement items with revision control."
+semantic_vi: "phiên bản sửa đổi ánh xạ mục tài chính hợp nhất với kiểm soát phiên bản."
+keywords:
+  - sửa đổi ánh xạ
+  - kiểm soát phiên bản
+  - mục tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

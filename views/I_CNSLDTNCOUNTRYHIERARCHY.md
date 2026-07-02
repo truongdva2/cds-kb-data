@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCOUNTRYHIERARCHY
 description: Cnsldtncountryhierarchy
+semantic_en: "consolidation country/region hierarchy master — ConsolidationCountryHierarchy with validity dates and audit fields"
+semantic_vi: "phân cấp quốc gia/khu vực gộp — phân cấp với ngày hiệu lực, thay đổi cuối cùng"
+keywords:
+  - phân cấp quốc gia
+  - cấu trúc địa lý
+  - khu vực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

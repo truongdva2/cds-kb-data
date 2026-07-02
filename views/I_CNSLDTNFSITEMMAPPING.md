@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMMAPPING
 description: Cnsldtnfsitemmapping
+semantic_en: "consolidation fs item mapping — central mapping records linking financial statement items to consolidation frameworks."
+semantic_vi: "bản ghi ánh xạ mục tiêu tài chính hợp nhất liên kết các mục với khung hợp nhất."
+keywords:
+  - ánh xạ mục tài chính
+  - hợp nhất
+  - bảng quy đối
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

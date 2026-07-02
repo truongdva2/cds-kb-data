@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNDISTRCHANNELHIERARCHY
 description: Cnsldtndistrchannelhierarchy
+semantic_en: "consolidation distribution channel hierarchy — stores distribution channel hierarchy structures with validity dates and change tracking."
+semantic_vi: "phân cấp kênh phân phối hợp nhất — lưu trữ cấu trúc phân cấp kênh phân phối với ngày hiệu lực."
+keywords:
+  - phân cấp kênh phân phối
+  - tính hợp lệ
+  - lịch sử thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

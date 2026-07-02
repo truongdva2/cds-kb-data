@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCONTROLLINGAREATP
 description: Cnsldtncontrollingareatp
+semantic_en: "consolidation controlling area transfer/posting records — ControllingArea with master data consolidation indicator"
+semantic_vi: "bản ghi chuyển/ghi lĩnh vực kiểm soát gộp — lĩnh vực với chỉ báo gộp dữ liệu master"
+keywords:
+  - lĩnh vực kiểm soát
+  - chuyển dữ liệu
+  - gộp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

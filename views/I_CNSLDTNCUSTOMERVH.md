@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNCUSTOMERVH
 description: Cnsldtncustomervh
+semantic_en: "consolidation combined customer value-help — provides lookup values of customers with names for search and selection."
+semantic_vi: "trợ giúp giá trị khách hàng kết hợp — cung cấp giá trị tra cứu khách hàng."
+keywords:
+  - tra cứu khách hàng
+  - giá trị hỗ trợ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBUSAREAHIERNODET
 description: Cnsldtnbusareahiernodet
+semantic_en: "multilingual text for business area hierarchy nodes — language-specific node descriptions"
+semantic_vi: "văn bản đa ngôn ngữ cho nút phân cấp khu vực — mô tả nút theo ngôn ngữ"
+keywords:
+  - văn bản phân cấp
+  - tên nút
+  - khu vực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

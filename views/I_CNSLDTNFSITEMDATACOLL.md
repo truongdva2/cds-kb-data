@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMDATACOLL
 description: Cnsldtnfsitemdatacoll
+semantic_en: "financial statement item data collection selection — classification codes for data collection method selection"
+semantic_vi: "lựa chọn thu thập dữ liệu mục báo cáo tài chính — mã phân loại phương pháp thu thập"
+keywords:
+  - thu thập dữ liệu
+  - báo cáo tài chính
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

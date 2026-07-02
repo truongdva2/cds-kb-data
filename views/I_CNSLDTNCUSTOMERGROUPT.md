@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCUSTOMERGROUPT
 description: Cnsldtncustomergroupt
+semantic_en: "consolidation combined customer group text — provides multilingual names and descriptions for consolidated customer groups."
+semantic_vi: "văn bản nhóm khách hàng kết hợp hợp nhất — cung cấp tên và mô tả nhóm khách hàng theo ngôn ngữ."
+keywords:
+  - tên nhóm khách hàng
+  - bản dịch
+  - nguồn dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

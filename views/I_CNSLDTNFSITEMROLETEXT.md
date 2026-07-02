@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFSITEMROLETEXT
 description: Cnsldtnfsitemroletext
+semantic_en: "financial statement item role texts — multilingual role names and descriptions."
+semantic_vi: "mô tả đa ngôn ngữ của vai trò mục tài chính."
+keywords:
+  - vai trò mục tài chính
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

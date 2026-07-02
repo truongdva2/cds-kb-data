@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDOCTYPEHIERNODET_2
 description: Cnsldtndoctypehiernodet 2
+semantic_en: "consolidation document type hierarchy node text — displays multilingual descriptions for document type hierarchy nodes."
+semantic_vi: "văn bản nút phân cấp loại tài liệu hợp nhất — hiển thị mô tả nút phân cấp theo ngôn ngữ."
+keywords:
+  - tên nút phân cấp
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

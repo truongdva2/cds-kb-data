@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDOCUMENTTYPETEXT_2
 description: Cnsldtndocumenttypetext 2
+semantic_en: "consolidation document type text — provides multilingual names and descriptions for document types."
+semantic_vi: "văn bản loại tài liệu hợp nhất — cung cấp tên và mô tả loại tài liệu theo ngôn ngữ."
+keywords:
+  - tên loại tài liệu
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

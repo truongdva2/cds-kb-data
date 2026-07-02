@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNDIVISIONHIERNODET
 description: Cnsldtndivisionhiernodet
+semantic_en: "consolidation division hierarchy node text — displays multilingual descriptions for hierarchy nodes with parent-child links."
+semantic_vi: "văn bản nút phân cấp bộ phận hợp nhất — hiển thị mô tả nút phân cấp theo ngôn ngữ."
+keywords:
+  - tên nút phân cấp
+  - bản dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

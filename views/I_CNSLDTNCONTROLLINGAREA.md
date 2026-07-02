@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNCONTROLLINGAREA
 description: Cnsldtncontrollingarea
+semantic_en: "consolidation combined controlling area — ControllingArea with source type and consolidation indicator"
+semantic_vi: "lĩnh vực kiểm soát gộp — mã kiểm soát với loại nguồn và chỉ báo gộp"
+keywords:
+  - lĩnh vực kiểm soát
+  - gộp doanh nghiệp
+  - controlling
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

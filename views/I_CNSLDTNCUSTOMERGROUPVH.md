@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNCUSTOMERGROUPVH
 description: Cnsldtncustomergroupvh
+semantic_en: "consolidation combined customer group value-help — provides lookup values of customer groups with descriptions."
+semantic_vi: "trợ giúp giá trị nhóm khách hàng kết hợp — cung cấp giá trị tra cứu nhóm khách hàng."
+keywords:
+  - tra cứu nhóm khách hàng
+  - giá trị hỗ trợ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

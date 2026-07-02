@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGDTAQLTYCHARCVH
 description: Cnsldtnghgdtaqltycharcvh
+semantic_en: "value help for consolidation ghg data quality characteristics — lookup of quality indicators with names."
+semantic_vi: "trợ giúp giá trị lựa chọn đặc điểm chất lượng dữ liệu khí nhà kính."
+keywords:
+  - chất lượng dữ liệu
+  - khí nhà kính
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

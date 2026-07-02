@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNFUNDTP
 description: Cnsldtnfundtp
+semantic_en: "consolidation fund transformation proxy — core fund master data for transformation scenarios."
+semantic_vi: "dữ liệu chính quỹ hỗ trợ các kịch bản chuyển đổi."
+keywords:
+  - quỹ
+  - dữ liệu chính
+  - chuyển đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

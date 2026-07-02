@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLINGDOCUMENTTYPETP
 description: CNSLDTNBilling DocumentUMENTTYPETP
+semantic_en: "consolidation billing document type transfer/posting records — BillingDocumentType and master data indicator"
+semantic_vi: "loại tài liệu hóa đơn gộp dành cho chuyển/ghi sổ — chứa mã loại hóa đơn và chỉ báo dữ liệu tổng hợp"
+keywords:
+  - loại tài liệu hóa đơn
+  - gộp doanh nghiệp
+  - chuyển hóa đơn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released
