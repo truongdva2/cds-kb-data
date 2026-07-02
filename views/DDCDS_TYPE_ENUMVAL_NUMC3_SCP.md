@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC3_SCP
 description: Ddcds Type Enumval Numc 3 Scp
+semantic_en: "Enumeration Value Numeric 3 — domain values for three-digit numeric type enumeration."
+semantic_vi: "Giá trị liệt kê Số 3 — giá trị miền cho liệt kê kiểu số ba chữ số."
+keywords:
+  - liệt kê
+  - kiểu số
+  - NUMC3
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

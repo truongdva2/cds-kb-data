@@ -1,6 +1,12 @@
 ---
 name: D_CNDNTYPESELECTIONOPTIONP
 description: D Cndntypeselectionoptionp
+semantic_en: "Pricing Condition Type Selection Options Parameter — parameter for selecting pricing condition types with range specification."
+semantic_vi: "Tham số Tùy chọn Lựa chọn Loại Điều kiện Giá — tham số lựa chọn loại điều kiện giá."
+keywords:
+  - điều kiện giá
+  - loại giá
+  - phạm vi lựa chọn
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

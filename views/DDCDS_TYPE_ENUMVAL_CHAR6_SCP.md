@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_CHAR6_SCP
 description: Ddcds Type Enumval Char 6 Scp
+semantic_en: "Enumeration Value Character 6 — domain values for six-character type enumeration."
+semantic_vi: "Giá trị liệt kê Ký tự 6 — giá trị miền cho liệt kê kiểu sáu ký tự."
+keywords:
+  - liệt kê
+  - kiểu dữ liệu
+  - sáu ký tự
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

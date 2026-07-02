@@ -1,6 +1,13 @@
 ---
 name: /DCO/I_RBLPYBLTRANSACITEMTP
 description: Rblpybltransacitemtp
+semantic_en: "Receivable Payable Transaction Item — line items for receivable/payable transactions linked to accounting documents."
+semantic_vi: "Dòng giao dịch hàng phải thu/phải trả — các dòng chi tiết giao dịch hàng phải thu/phải trả được liên kết với tài liệu hạch toán."
+keywords:
+  - phải thu/phải trả
+  - giao dịch
+  - dòng chi tiết
+  - tài liệu hạch toán
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

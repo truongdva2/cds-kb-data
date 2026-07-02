@@ -1,6 +1,11 @@
 ---
 name: D_BILLGDOCCRTEFRMBILLGDOCIP
 description: D Billgdoccrtefrmbillgdocip
+semantic_en: "Action parameter for creating billing document from another billing document — BillingDocumentDate, BillingDocumentType"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ chứng từ lập hóa đơn khác — ngày chứng từ lập hóa đơn, loại chứng từ lập hóa đơn"
+keywords:
+  - lập hóa đơn
+  - tạo
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

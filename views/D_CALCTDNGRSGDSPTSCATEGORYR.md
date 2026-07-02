@@ -1,6 +1,12 @@
 ---
 name: D_CALCTDNGRSGDSPTSCATEGORYR
 description: D Calctdngrsgdsptscategoryr
+semantic_en: "Dangerous Goods Points Category Calculation Result — records dangerous goods point calculations by transport category with quantity factors and exemption status."
+semantic_vi: "Kết quả Tính toán Điểm Danh mục Hàng nguy hiểm — ghi nhận kết quả tính điểm theo danh mục vận chuyển."
+keywords:
+  - danh mục hàng nguy hiểm
+  - điểm vận chuyển
+  - miễn trừ số lượng
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

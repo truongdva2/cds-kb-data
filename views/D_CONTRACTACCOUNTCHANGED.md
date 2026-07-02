@@ -1,6 +1,12 @@
 ---
 name: D_CONTRACTACCOUNTCHANGED
 description: D Contractaccountchanged
+semantic_en: "Contract Account Changed — records modifications to contract account category and external reference information."
+semantic_vi: "Sự kiện Thay đổi Tài khoản Hợp đồng — ghi nhận thay đổi thông tin hợp đồng."
+keywords:
+  - hợp đồng tài chính
+  - thay đổi
+  - tài khoản
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

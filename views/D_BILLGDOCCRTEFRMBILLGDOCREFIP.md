@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCCRTEFRMBILLGDOCREFIP
 description: D Billgdoccrtefrmbillgdocrefip
+semantic_en: "Action parameter for creating billing document from reference billing document — ReferenceBillingDocument"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ chứng từ lập hóa đơn tham chiếu — chứng từ lập hóa đơn tham chiếu"
+keywords:
+  - lập hóa đơn
+  - tạo
+  - tham chiếu
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

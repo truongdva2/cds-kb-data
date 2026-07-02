@@ -1,6 +1,12 @@
 ---
 name: D_CAINVCGDOCCREATEDSOURCEDOC
 description: D Cainvcgdoccreatedsourcedoc
+semantic_en: "Invoicing Document Created - Source Document — records creation of invoicing documents with source document category and reference."
+semantic_vi: "Sự kiện tạo Tài liệu Hóa đơn từ Tài liệu Nguồn — ghi nhận tạo tài liệu hóa đơn từ tài liệu gốc."
+keywords:
+  - tài liệu hóa đơn
+  - tài liệu nguồn
+  - tạo tài liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

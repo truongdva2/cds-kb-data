@@ -1,6 +1,13 @@
 ---
 name: D_BDRCRTEFRMEXTPAYTCARDP
 description: D Bdrcrtefrmextpaytcardp
+semantic_en: "Action parameter for creating BDR from external data with payment card details — payment type, digital payment flags, card validity dates, holder name, amount, currency, authorization details, acquirer, clearing house, preauthorization flag"
+semantic_vi: "Tham số thao tác để tạo BDR từ dữ liệu bên ngoài với chi tiết thẻ thanh toán — loại thanh toán, cờ thanh toán kỹ thuật số, ngày hợp lệ thẻ, tên chủ sở hữu, số tiền, loại tiền tệ, chi tiết ủy quyền, người mua lại, nhà giải toán, cờ ủy quyền trước"
+keywords:
+  - BDR
+  - thẻ thanh toán
+  - bên ngoài
+  - tạo
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

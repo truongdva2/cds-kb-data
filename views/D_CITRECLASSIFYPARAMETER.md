@@ -1,6 +1,12 @@
 ---
 name: D_CITRECLASSIFYPARAMETER
 description: D Citreclassifyparameter
+semantic_en: "Corporate Income Tax Reclassify Action Parameter — parameter for reclassifying CIT items with change tracking capability."
+semantic_vi: "Tham số Hành động Phân loại lại Thuế thu nhập Doanh nghiệp — tham số phân loại lại mục CIT."
+keywords:
+  - thuế thu nhập doanh nghiệp
+  - phân loại lại
+  - theo dõi thay đổi
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

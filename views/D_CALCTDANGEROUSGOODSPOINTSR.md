@@ -1,6 +1,14 @@
 ---
 name: D_CALCTDANGEROUSGOODSPOINTSR
 description: D Calctdangerousgoodspointsr
+semantic_en: "Dangerous Goods Points Calculation Result — captures dangerous goods compliance point calculations for transport regulations including EUADR and RID."
+semantic_vi: "Kết quả Tính toán Điểm Hàng nguy hiểm — ghi nhận kết quả tính điểm tuân thủ hàng nguy hiểm theo quy định vận chuyển."
+keywords:
+  - hàng nguy hiểm
+  - điểm tuân thủ
+  - EUADR
+  - RID
+  - vận chuyển
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

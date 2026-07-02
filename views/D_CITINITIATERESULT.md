@@ -1,6 +1,12 @@
 ---
 name: D_CITINITIATERESULT
 description: D Citinitiateresult
+semantic_en: "Corporate Income Tax Initiate Filter Action Result — result of CIT filter initiation with reporting period and source ledger information."
+semantic_vi: "Kết quả Hành động Bắt đầu Lọc Thuế thu nhập Doanh nghiệp — kết quả khởi tạo lọc CIT."
+keywords:
+  - thuế thu nhập doanh nghiệp
+  - kỳ báo cáo
+  - sổ cái nguồn
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

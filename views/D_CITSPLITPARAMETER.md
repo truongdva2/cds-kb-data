@@ -1,6 +1,12 @@
 ---
 name: D_CITSPLITPARAMETER
 description: D Citsplitparameter
+semantic_en: "Corporate Income Tax Split Action Parameter — parameter for splitting CIT classified items with amount and currency information."
+semantic_vi: "Tham số Hành động Chia Thuế thu nhập Doanh nghiệp — tham số chia các mục CIT phân loại."
+keywords:
+  - thuế thu nhập doanh nghiệp
+  - chia mục
+  - tiền tệ
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

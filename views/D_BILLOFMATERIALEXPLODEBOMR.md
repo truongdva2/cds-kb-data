@@ -1,6 +1,13 @@
 ---
 name: D_BILLOFMATERIALEXPLODEBOMR
 description: D Bill of MaterialEXPLODEBOMR
+semantic_en: "Engineering/Design: BOM explosion result with material hierarchy, quantities, dates, change numbers, and variants"
+semantic_vi: "Kỹ thuật/Thiết kế: Kết quả khai triển BOM với phân cấp vật liệu, số lượng, ngày, số thay đổi và biến thể"
+keywords:
+  - BOM
+  - khai triển
+  - kỹ thuật
+  - vật liệu
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

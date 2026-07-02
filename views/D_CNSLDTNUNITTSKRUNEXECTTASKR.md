@@ -1,6 +1,12 @@
 ---
 name: D_CNSLDTNUNITTSKRUNEXECTTASKR
 description: D Cnsldtnunittskrunexecttaskr
+semantic_en: "Consolidation Unit Task Run Execute Result — result capturing background job reference for consolidation task execution."
+semantic_vi: "Kết quả Thực hiện Nhiệm vụ Thực hiện Nhiệm vụ Đơn vị Hợp nhất — kết quả tác vụ nền hợp nhất."
+keywords:
+  - hợp nhất
+  - tác vụ nền
+  - thực hiện nhiệm vụ
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

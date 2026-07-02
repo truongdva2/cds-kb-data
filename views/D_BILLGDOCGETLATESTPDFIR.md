@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCGETLATESTPDFIR
 description: D Billgdocgetlatestpdfir
+semantic_en: "Result for retrieving latest PDF output of billing document — BillingDocOutputDataBinary"
+semantic_vi: "Kết quả để truy xuất đầu ra PDF mới nhất của chứng từ lập hóa đơn — dữ liệu đầu ra chứng từ lập hóa đơn nhị phân"
+keywords:
+  - lập hóa đơn
+  - PDF
+  - tải xuống
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

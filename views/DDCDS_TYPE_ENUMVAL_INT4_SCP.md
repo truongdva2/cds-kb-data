@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_INT4_SCP
 description: Ddcds Type Enumval Int 4 Scp
+semantic_en: "Enumeration Value INT4 — domain values for four-byte integer type enumeration."
+semantic_vi: "Giá trị liệt kê INT4 — giá trị miền cho liệt kê kiểu số nguyên bốn byte."
+keywords:
+  - liệt kê
+  - kiểu số nguyên
+  - INT4
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

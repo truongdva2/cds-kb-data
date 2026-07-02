@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC6_SCP
 description: Ddcds Type Enumval Numc 6 Scp
+semantic_en: "Enumeration Value Numeric 6 — domain values for six-digit numeric type enumeration."
+semantic_vi: "Giá trị liệt kê Số 6 — giá trị miền cho liệt kê kiểu số sáu chữ số."
+keywords:
+  - liệt kê
+  - kiểu số
+  - NUMC6
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

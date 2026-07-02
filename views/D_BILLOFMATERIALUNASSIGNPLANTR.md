@@ -1,6 +1,12 @@
 ---
 name: D_BILLOFMATERIALUNASSIGNPLANTR
 description: D Bill of MaterialUNASSIGNPLANTR
+semantic_en: "Result for unassigning BOM from plant — BOMIsSuccessfulPlantUnassigned flag"
+semantic_vi: "Kết quả để hủy gán BOM khỏi nhà máy — cờ BOM đã được hủy gán nhà máy thành công"
+keywords:
+  - BOM
+  - nhà máy
+  - hủy gán
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

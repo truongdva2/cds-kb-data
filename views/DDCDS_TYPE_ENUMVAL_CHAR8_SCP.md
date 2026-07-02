@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_CHAR8_SCP
 description: Ddcds Type Enumval Char 8 Scp
+semantic_en: "Enumeration Value Character 8 — domain values for eight-character type enumeration."
+semantic_vi: "Giá trị liệt kê Ký tự 8 — giá trị miền cho liệt kê kiểu tám ký tự."
+keywords:
+  - liệt kê
+  - kiểu dữ liệu
+  - tám ký tự
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

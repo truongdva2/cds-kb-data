@@ -1,6 +1,12 @@
 ---
 name: D_BOMDELCHANGENOOUTPARAMETER
 description: D Bomdelchangenooutparameter
+semantic_en: "Result for deleting BOM with change number — BOMIsSuccessfulDeleted flag"
+semantic_vi: "Kết quả xóa BOM với số thay đổi — cờ BOM đã xóa thành công"
+keywords:
+  - BOM
+  - xóa
+  - thay đổi
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

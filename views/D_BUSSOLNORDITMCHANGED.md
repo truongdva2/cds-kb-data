@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDITMCHANGED
 description: D Bussolnorditmchanged
+semantic_en: "Business Solution Order Item Changed — records modifications to business solution order item details including category and description."
+semantic_vi: "Sự kiện thay đổi Mục đơn đặt hàng Giải pháp Kinh doanh — ghi nhận các thay đổi về danh mục và mô tả."
+keywords:
+  - mục đơn đặt hàng
+  - thay đổi chi tiết
+  - giải pháp kinh doanh
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

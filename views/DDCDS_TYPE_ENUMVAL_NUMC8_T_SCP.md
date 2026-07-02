@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC8_T_SCP
 description: Ddcds Type Enumval Numc 8 T Scp
+semantic_en: "Enumeration values with translations for numeric data type NUMC8 — simpleType, enumIdentifier, enumValue, language, enumTextName, enumText"
+semantic_vi: "Giá trị liệt kê có bản dịch cho kiểu dữ liệu số NUMC8 — bao gồm loại đơn giản, định danh, giá trị, ngôn ngữ, tên văn bản, nội dung văn bản"
+keywords:
+  - liệt kê
+  - dịch thuật
+  - NUMC8
+  - đa ngôn ngữ
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

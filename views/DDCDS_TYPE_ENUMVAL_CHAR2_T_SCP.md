@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_CHAR2_T_SCP
 description: Ddcds Type Enumval Char 2 T Scp
+semantic_en: "Enumeration Value Character 2 with Text — two-character enumeration values with translated text labels."
+semantic_vi: "Giá trị liệt kê Ký tự 2 có văn bản — giá trị liệt kê hai ký tự với nhãn văn bản được dịch."
+keywords:
+  - liệt kê
+  - bản dịch
+  - hai ký tự
+  - nhãn
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

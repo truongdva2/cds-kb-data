@@ -1,6 +1,12 @@
 ---
 name: D_CNDNFIELDSELECTIONOPTIONP
 description: D Cndnfieldselectionoptionp
+semantic_en: "Pricing Condition Field Selection Options Parameter — parameter defining field selection criteria for pricing condition records."
+semantic_vi: "Tham số Tùy chọn Lựa chọn Trường Điều kiện Giá — tham số lựa chọn trường điều kiện giá."
+keywords:
+  - điều kiện giá
+  - lựa chọn trường
+  - phạm vi
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

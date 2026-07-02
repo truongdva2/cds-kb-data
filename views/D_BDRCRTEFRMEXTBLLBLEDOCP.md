@@ -1,6 +1,12 @@
 ---
 name: D_BDRCRTEFRMEXTBLLBLEDOCP
 description: D Bdrcrtefrmextbllbledocp
+semantic_en: "Action parameter for creating BDR from external billable document — reference document, SD document category"
+semantic_vi: "Tham số thao tác để tạo BDR từ chứng từ lập hóa đơn bên ngoài — chứng từ tham chiếu, danh mục chứng từ SD"
+keywords:
+  - BDR
+  - tạo
+  - lập hóa đơn
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

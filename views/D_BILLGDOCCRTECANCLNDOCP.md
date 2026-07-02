@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCCRTECANCLNDOCP
 description: D Billgdoccrtecanclndocp
+semantic_en: "Action parameter for creating cancellation billing document — BillingDocumentDate, ReversalReason"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn huỷ bỏ — ngày chứng từ lập hóa đơn, lý do đảo ngược"
+keywords:
+  - lập hóa đơn
+  - huỷ bỏ
+  - tạo
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

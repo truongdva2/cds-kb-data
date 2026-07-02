@@ -1,6 +1,12 @@
 ---
 name: D_BOMGETWHEREUSEDMATERIALP
 description: D Bomgetwhereusedmaterialp
+semantic_en: "Action parameter for finding where a material is used in BOMs — HeaderValidityEndDate, HeaderValidityStartDate, BillOfMaterialComponent, BillOfMaterialVariant, BillOfMaterialVersion, BillOfMaterialCategory, Plant"
+semantic_vi: "Tham số thao tác để tìm nơi sử dụng vật liệu trong BOM — ngày kết thúc hợp lệ tiêu đề, ngày bắt đầu hợp lệ tiêu đề, thành phần BOM, biến thể BOM, phiên bản BOM, danh mục BOM, nhà máy"
+keywords:
+  - BOM
+  - vật liệu
+  - tìm kiếm
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

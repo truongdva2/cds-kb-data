@@ -1,6 +1,12 @@
 ---
 name: D_CONDITIONRECORDCRITERIAITEMP
 description: D Condition RecordCRITERIAITEMP
+semantic_en: "Condition Record Filters (Item) Parameter — parameter view for defining item-level filters on pricing condition records."
+semantic_vi: "Tham số Bộ lọc Bản ghi Điều kiện (Mục) — tham số lọc điều kiện giá cấp mục."
+keywords:
+  - điều kiện giá
+  - bộ lọc mục
+  - bản ghi
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

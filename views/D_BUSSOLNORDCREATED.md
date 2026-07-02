@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDCREATED
 description: D Bussolnordcreated
+semantic_en: "Event: Business Solution Order created — captures order type and description on creation"
+semantic_vi: "Sự kiện: Đơn hàng Giải pháp Kinh doanh được tạo — ghi lại loại đơn hàng và mô tả khi tạo"
+keywords:
+  - đơn hàng
+  - tạo
+  - sự kiện
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

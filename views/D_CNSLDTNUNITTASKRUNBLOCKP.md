@@ -1,6 +1,12 @@
 ---
 name: D_CNSLDTNUNITTASKRUNBLOCKP
 description: D Cnsldtnunittaskrunblockp
+semantic_en: "Consolidation Unit Task Run Block Parameter — parameter for blocking consolidation unit task execution by user request."
+semantic_vi: "Tham số Khóa Thực hiện Nhiệm vụ Đơn vị Hợp nhất — tham số khóa thực hiện nhiệm vụ."
+keywords:
+  - hợp nhất
+  - nhiệm vụ
+  - khóa thực hiện
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

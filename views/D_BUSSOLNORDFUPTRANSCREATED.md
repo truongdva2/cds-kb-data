@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDFUPTRANSCREATED
 description: D Bussolnordfuptranscreated
+semantic_en: "Business Solution Order Follow-up Transaction Created — tracks service document successors and follow-up order creation events."
+semantic_vi: "Sự kiện tạo giao dịch Follow-up Đơn đặt hàng Giải pháp Kinh doanh — ghi nhận các đơn hàng kế tiếp và sự kiện tạo Follow-up."
+keywords:
+  - follow-up đơn đặt hàng
+  - giải pháp kinh doanh
+  - sự kiện tạo
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

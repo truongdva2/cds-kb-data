@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC7_SCP
 description: Ddcds Type Enumval Numc 7 Scp
+semantic_en: "Enumeration Value Numeric 7 — domain values for seven-digit numeric type enumeration."
+semantic_vi: "Giá trị liệt kê Số 7 — giá trị miền cho liệt kê kiểu số bảy chữ số."
+keywords:
+  - liệt kê
+  - kiểu số
+  - NUMC7
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

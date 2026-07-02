@@ -1,6 +1,12 @@
 ---
 name: D_BOMITMDELEWITHCHANGENUMBERP
 description: D Bomitmdelewithchangenumberp
+semantic_en: "Action parameter for deleting BOM item with change number — EngineeringChangeDocForEdit"
+semantic_vi: "Tham số thao tác để xóa mục BOM với số thay đổi — chứng từ thay đổi kỹ thuật để chỉnh sửa"
+keywords:
+  - BOM
+  - mục
+  - xóa
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

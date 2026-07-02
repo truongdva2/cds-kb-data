@@ -1,6 +1,13 @@
 ---
 name: D_ARDISPUTECASECREATEATTCHP
 description: D Ardisputecasecreateattchp
+semantic_en: "Action parameter for creating attachments in AR dispute case — CaseAttachmentName, MimeType, UploadFileContentBinary"
+semantic_vi: "Tham số thao tác để tạo tệp đính kèm trong trường hợp tranh chấp AR — tên tệp, loại MIME, nội dung tệp nhị phân"
+keywords:
+  - tranh chấp
+  - tệp đính kèm
+  - tạo
+  - AR
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

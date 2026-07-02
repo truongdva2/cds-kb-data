@@ -1,6 +1,12 @@
 ---
 name: D_CEPUCOASLIOBJTOLGLTRNEXTP
 description: D Cepucoasliobjtolgltrnextp
+semantic_en: "Central Purchase Contract Assignment Legal Transaction Parameter — parameter view for legal transaction assignment in purchase contracts."
+semantic_vi: "Tham số Giao dịch Pháp lý Gán hợp đồng Mua tập trung — thông tin giao dịch pháp lý trong hợp đồng mua."
+keywords:
+  - hợp đồng mua
+  - giao dịch pháp lý
+  - gán hợp đồng
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

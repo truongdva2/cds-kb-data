@@ -1,6 +1,12 @@
 ---
 name: D_CONTRACCTGDOCUMENTCANCELED
 description: D Contracctgdocumentcanceled
+semantic_en: "Contract Accounting Document Canceled — records cancellation of contract accounting documents with document type and dating information."
+semantic_vi: "Sự kiện Hủy Tài liệu Kế toán Hợp đồng — ghi nhận hủy tài liệu kế toán hợp đồng."
+keywords:
+  - kế toán hợp đồng
+  - hủy tài liệu
+  - ngày tháng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

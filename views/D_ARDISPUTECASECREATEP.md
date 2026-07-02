@@ -1,6 +1,13 @@
 ---
 name: D_ARDISPUTECASECREATEP
 description: D Ardisputecasecreatep
+semantic_en: "Action parameter for creating new AR dispute case — coordinator, root cause, deadline, customer amount, currency, contact details, customer, company code, external reference, planned close date, processor, responsible party"
+semantic_vi: "Tham số thao tác để tạo trường hợp tranh chấp AR mới — bao gồm người phối hợp, nguyên nhân gốc rễ, hạn chót, số tiền khách hàng, loại tiền tệ, chi tiết liên hệ, khách hàng, mã công ty, tham chiếu bên ngoài, ngày đóng dự định, người xử lý, bên chịu trách nhiệm"
+keywords:
+  - tranh chấp
+  - tạo
+  - AR
+  - mới
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

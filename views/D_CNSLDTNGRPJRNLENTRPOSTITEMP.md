@@ -1,6 +1,13 @@
 ---
 name: D_CNSLDTNGRPJRNLENTRPOSTITEMP
 description: D Cnsldtngrpjrnlentrpostitemp
+semantic_en: "Consolidation Group Journal Entry Line Item Parameter — parameter capturing consolidated posting line items with multi-currency amounts and accounts."
+semantic_vi: "Tham số Mục Dòng Nhật ký Ghi sổ Nhóm Hợp nhất — tham số mục dòng ghi sổ hợp nhất."
+keywords:
+  - hợp nhất
+  - nhật ký ghi sổ
+  - mục dòng
+  - đa tiền tệ
 app_component: FIN-CS-JE-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_SUPPLIEREVALOVERALL
 description: Supplierevaloverall
+semantic_en: "Supplier Evaluation Overall Score — displays supplier evaluation completion metrics by purchasing category, year, and classification."
+semantic_vi: "Điểm đánh giá tổng thể nhà cung cấp — hiển thị các chỉ số hoàn thành đánh giá nhà cung cấp theo danh mục mua, năm và phân loại."
+keywords:
+  - đánh giá nhà cung cấp
+  - điểm số
+  - danh mục mua
+  - phân loại
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

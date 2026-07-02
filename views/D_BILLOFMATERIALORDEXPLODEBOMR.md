@@ -1,6 +1,12 @@
 ---
 name: D_BILLOFMATERIALORDEXPLODEBOMR
 description: D Bill of MaterialORDEXPLODEBOMR
+semantic_en: "Result for BOM explosion on sales order showing material hierarchy, header quantities, and variants"
+semantic_vi: "Kết quả khai triển BOM trên đơn hàng bán hiển thị phân cấp vật liệu, số lượng tiêu đề và biến thể"
+keywords:
+  - BOM
+  - đơn hàng bán
+  - khai triển
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

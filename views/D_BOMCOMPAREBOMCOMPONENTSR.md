@@ -1,6 +1,13 @@
 ---
 name: D_BOMCOMPAREBOMCOMPONENTSR
 description: D Bomcomparebomcomponentsr
+semantic_en: "Result for comparing BOM component field details — field name, field text, primary/secondary values, relevance, difference flags"
+semantic_vi: "Kết quả so sánh chi tiết trường thành phần BOM — tên trường, văn bản trường, giá trị chính/phụ, tính liên quan, cờ khác biệt"
+keywords:
+  - BOM
+  - thành phần
+  - so sánh
+  - trường
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

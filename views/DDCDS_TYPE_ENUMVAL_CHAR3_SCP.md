@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_CHAR3_SCP
 description: Ddcds Type Enumval Char 3 Scp
+semantic_en: "Enumeration Value Character 3 — domain values for three-character type enumeration."
+semantic_vi: "Giá trị liệt kê Ký tự 3 — giá trị miền cho liệt kê kiểu ba ký tự."
+keywords:
+  - liệt kê
+  - kiểu dữ liệu
+  - ba ký tự
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

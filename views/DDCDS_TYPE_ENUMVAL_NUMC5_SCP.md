@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC5_SCP
 description: Ddcds Type Enumval Numc 5 Scp
+semantic_en: "Enumeration Value Numeric 5 — domain values for five-digit numeric type enumeration."
+semantic_vi: "Giá trị liệt kê Số 5 — giá trị miền cho liệt kê kiểu số năm chữ số."
+keywords:
+  - liệt kê
+  - kiểu số
+  - NUMC5
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_TIMEVARIANCECUBE
 description: Timevariancecube
+semantic_en: "Purchasing Document Time Variance Analytical Cube — analyzes purchase order schedule variances including original and actual delivery dates."
+semantic_vi: "Khối phân tích phương sai thời gian tài liệu mua — phân tích phương sai lịch trình đơn hàng mua bao gồm ngày giao hàng gốc và thực tế."
+keywords:
+  - phương sai giao hàng
+  - lịch trình đơn hàng
+  - ngày giao hàng
+  - phân tích
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

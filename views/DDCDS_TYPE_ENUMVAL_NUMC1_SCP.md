@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC1_SCP
 description: Ddcds Type Enumval Numc 1 Scp
+semantic_en: "Enumeration Value Numeric 1 — domain values for single-digit numeric type enumeration."
+semantic_vi: "Giá trị liệt kê Số 1 — giá trị miền cho liệt kê kiểu số một chữ số."
+keywords:
+  - liệt kê
+  - kiểu số
+  - NUMC1
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

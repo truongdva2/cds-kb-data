@@ -1,6 +1,12 @@
 ---
 name: D_BOMGETWHEREUSEDMATERIALR
 description: D Bomgetwhereusedmaterialr
+semantic_en: "Result for finding where material is used — shows BOM items, numbers, hierarchy changes, categories, variants, versions, quantities, units, and engineering changes"
+semantic_vi: "Kết quả tìm nơi sử dụng vật liệu — hiển thị các mục BOM, số hiệu, thay đổi phân cấp, danh mục, biến thể, phiên bản, số lượng, đơn vị và thay đổi kỹ thuật"
+keywords:
+  - BOM
+  - vật liệu
+  - tìm kiếm
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC7_T_SCP
 description: Ddcds Type Enumval Numc 7 T Scp
+semantic_en: "Enumeration Value Numeric 7 with Text — numeric NUMC7 enumeration values with translated text labels."
+semantic_vi: "Giá trị liệt kê Số 7 có văn bản — giá trị liệt kê số NUMC7 với nhãn văn bản được dịch."
+keywords:
+  - liệt kê
+  - bản dịch
+  - NUMC7
+  - nhãn
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

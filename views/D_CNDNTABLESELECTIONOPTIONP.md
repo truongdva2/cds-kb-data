@@ -1,6 +1,12 @@
 ---
 name: D_CNDNTABLESELECTIONOPTIONP
 description: D Cndntableselectionoptionp
+semantic_en: "Pricing Condition Table Selection Options Parameter — parameter defining pricing condition table selection with range criteria."
+semantic_vi: "Tham số Tùy chọn Lựa chọn Bảng Điều kiện Giá — tham số lựa chọn bảng điều kiện giá."
+keywords:
+  - điều kiện giá
+  - bảng giá
+  - phạm vi
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

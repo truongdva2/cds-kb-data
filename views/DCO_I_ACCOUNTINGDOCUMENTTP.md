@@ -1,6 +1,13 @@
 ---
 name: /DCO/I_ACCOUNTINGDOCUMENTTP
 description: Accounting DocumentUMENTTP
+semantic_en: "Accounting Document — core accounting document with amounts, currency, due dates, and payment tracking."
+semantic_vi: "Tài liệu hạch toán — tài liệu hạch toán cốt lõi với số tiền, đơn vị tiền tệ, ngày đến hạn và theo dõi thanh toán."
+keywords:
+  - tài liệu hạch toán
+  - số tiền
+  - ngày đến hạn
+  - thanh toán
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

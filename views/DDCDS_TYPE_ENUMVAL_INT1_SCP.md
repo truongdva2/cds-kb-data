@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_INT1_SCP
 description: Ddcds Type Enumval Int 1 Scp
+semantic_en: "Enumeration Value INT1 — domain values for single-byte integer type enumeration."
+semantic_vi: "Giá trị liệt kê INT1 — giá trị miền cho liệt kê kiểu số nguyên một byte."
+keywords:
+  - liệt kê
+  - kiểu số nguyên
+  - INT1
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

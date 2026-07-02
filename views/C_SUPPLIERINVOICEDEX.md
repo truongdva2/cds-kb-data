@@ -1,6 +1,13 @@
 ---
 name: C_SUPPLIERINVOICEDEX
 description: Supplier InvoiceDEX
+semantic_en: "Data Extraction for Supplier Invoice — supplier invoice master data including invoice amounts, currency, and posting dates."
+semantic_vi: "Trích xuất dữ liệu hóa đơn nhà cung cấp — dữ liệu chính hóa đơn nhà cung cấp bao gồm số tiền, đơn vị tiền tệ và ngày hạch toán."
+keywords:
+  - hóa đơn nhà cung cấp
+  - trích xuất dữ liệu
+  - số tiền
+  - ngày hạch toán
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

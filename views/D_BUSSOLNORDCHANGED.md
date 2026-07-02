@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDCHANGED
 description: D Bussolnordchanged
+semantic_en: "Event: Business Solution Order changed — tracks changes to order type and description"
+semantic_vi: "Sự kiện: Đơn hàng Giải pháp Kinh doanh đã thay đổi — theo dõi thay đổi loại đơn hàng và mô tả"
+keywords:
+  - đơn hàng
+  - thay đổi
+  - sự kiện
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

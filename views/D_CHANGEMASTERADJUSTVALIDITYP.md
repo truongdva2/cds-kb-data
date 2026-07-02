@@ -1,6 +1,12 @@
 ---
 name: D_CHANGEMASTERADJUSTVALIDITYP
 description: D Change MasterERADJUSTVALIDITYP
+semantic_en: "Change Master Adjust Validity Date Parameter — parameter view for adjusting validity start dates in change management."
+semantic_vi: "Tham số Điều chỉnh Ngày Hiệu lực Chính bản Thay đổi — tham số điều chỉnh ngày bắt đầu hiệu lực."
+keywords:
+  - chính bản thay đổi
+  - ngày hiệu lực
+  - điều chỉnh
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

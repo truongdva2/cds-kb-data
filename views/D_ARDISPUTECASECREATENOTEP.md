@@ -1,6 +1,13 @@
 ---
 name: D_ARDISPUTECASECREATENOTEP
 description: D Ardisputecasecreatenotep
+semantic_en: "Action parameter for creating notes in AR dispute case — NoteContent"
+semantic_vi: "Tham số thao tác để tạo ghi chú trong trường hợp tranh chấp AR — nội dung ghi chú"
+keywords:
+  - tranh chấp
+  - ghi chú
+  - tạo
+  - AR
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

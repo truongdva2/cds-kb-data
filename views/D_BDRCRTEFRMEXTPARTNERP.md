@@ -1,6 +1,13 @@
 ---
 name: D_BDRCRTEFRMEXTPARTNERP
 description: D Bdrcrtefrmextpartnerp
+semantic_en: "Action parameter for creating BDR from external data with partner details — PartnerFunction, Customer, BusinessPartnerAddressUUID, ContactPerson, Personnel, Supplier"
+semantic_vi: "Tham số thao tác để tạo BDR từ dữ liệu bên ngoài với chi tiết đối tác — chức năng đối tác, khách hàng, mã định danh địa chỉ đối tác, người liên hệ, nhân sự, nhà cung cấp"
+keywords:
+  - BDR
+  - đối tác
+  - bên ngoài
+  - tạo
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

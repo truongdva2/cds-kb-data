@@ -1,6 +1,12 @@
 ---
 name: D_BOMCOMPAREBOM1VERSUSBOM2R
 description: D Bomcomparebom 1VERSUSBOM 2R
+semantic_en: "Result of comparing two BOMs — shows component differences, quantities, categories, costs, descriptions, units, and deletion status"
+semantic_vi: "Kết quả so sánh hai BOM — hiển thị sự khác biệt về thành phần, số lượng, danh mục, chi phí, mô tả, đơn vị và trạng thái xóa"
+keywords:
+  - BOM
+  - so sánh
+  - kết quả
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

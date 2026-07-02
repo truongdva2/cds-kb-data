@@ -1,6 +1,13 @@
 ---
 name: /DCO/I_CUSTOMERCOMPANY
 description: Customer Company
+semantic_en: "Customer Company — customer data by company code including accounting clerk and dunning details."
+semantic_vi: "Công ty khách hàng — dữ liệu khách hàng theo mã công ty bao gồm chi tiết nhân viên hạch toán và thúc đôi."
+keywords:
+  - công ty khách hàng
+  - nhân viên hạch toán
+  - thanh toán
+  - thúc đôi
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_CHAR4_T_SCP
 description: Ddcds Type Enumval Char 4 T Scp
+semantic_en: "Enumeration Value Character 4 with Text — four-character enumeration values with translated text labels."
+semantic_vi: "Giá trị liệt kê Ký tự 4 có văn bản — giá trị liệt kê bốn ký tự với nhãn văn bản được dịch."
+keywords:
+  - liệt kê
+  - bản dịch
+  - bốn ký tự
+  - nhãn
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

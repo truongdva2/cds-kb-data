@@ -1,6 +1,12 @@
 ---
 name: D_BLGDCCRTEFRMBILLGDOCREFITMIP
 description: D Blgdccrtefrmbillgdocrefitmip
+semantic_en: "Action parameter for creating billing document from reference billing document item — ReferenceBillingDocumentItem, BillingQuantity, BillingQuantityUnit"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ mục chứng từ lập hóa đơn tham chiếu — mục chứng từ lập hóa đơn tham chiếu, số lượng lập hóa đơn, đơn vị số lượng lập hóa đơn"
+keywords:
+  - lập hóa đơn
+  - tham chiếu
+  - tạo
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_CPWF_CONTEXT_PARAMETER
 description: D Cpwf Context Parameter
+semantic_en: "Workflow Context Parameter — parameter field for storing workflow execution context data."
+semantic_vi: "Tham số Ngữ cảnh Quy trình — tham số lưu dữ liệu ngữ cảnh quy trình."
+keywords:
+  - quy trình
+  - ngữ cảnh
+  - tham số
 app_component: BC-BMT-WFP
 software_component: SAP_BASIS
 release_state: released

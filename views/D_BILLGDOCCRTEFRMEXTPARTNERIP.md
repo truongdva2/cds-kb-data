@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCCRTEFRMEXTPARTNERIP
 description: D Billgdoccrtefrmextpartnerip
+semantic_en: "Action parameter for creating billing document from external data with partner details — PartnerFunction, Customer, BusinessPartnerAddressUUID, ContactPerson, Personnel, Supplier"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ dữ liệu bên ngoài với chi tiết đối tác — chức năng đối tác, khách hàng, mã định danh địa chỉ đối tác, người liên hệ, nhân sự, nhà cung cấp"
+keywords:
+  - lập hóa đơn
+  - đối tác
+  - bên ngoài
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

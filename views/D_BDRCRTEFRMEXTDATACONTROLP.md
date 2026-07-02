@@ -1,6 +1,13 @@
 ---
 name: D_BDRCRTEFRMEXTDATACONTROLP
 description: D Bdrcrtefrmextdatacontrolp
+semantic_en: "Action parameter for controlling validation in BDR creation from external data — BillableDocValidityIsChecked flag"
+semantic_vi: "Tham số thao tác để kiểm soát xác thực trong tạo BDR từ dữ liệu bên ngoài — cờ kiểm tra tính hợp lệ"
+keywords:
+  - BDR
+  - kiểm soát
+  - xác thực
+  - bên ngoài
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

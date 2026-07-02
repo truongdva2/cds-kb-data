@@ -1,6 +1,13 @@
 ---
 name: D_ARDISPUTECASECHANGEATTCHP
 description: D Ardisputecasechangeattchp
+semantic_en: "Action parameter for changing attachments in AR dispute case — CaseAttachmentName, MimeType, UploadFileContentBinary"
+semantic_vi: "Tham số thao tác để thay đổi tệp đính kèm trong trường hợp tranh chấp AR — tên tệp, loại MIME, nội dung tệp nhị phân"
+keywords:
+  - tranh chấp
+  - tệp đính kèm
+  - thay đổi
+  - AR
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

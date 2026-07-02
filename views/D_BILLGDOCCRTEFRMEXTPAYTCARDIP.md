@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCCRTEFRMEXTPAYTCARDIP
 description: D Billgdoccrtefrmextpaytcardip
+semantic_en: "Action parameter for creating billing document from external data with payment card details — payment type, digital payment flags, card validity, holder name, amount, currency, authorization, acquirer, clearing house, preauthorization"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ dữ liệu bên ngoài với chi tiết thẻ thanh toán — loại thanh toán, cờ thanh toán kỹ thuật số, giá trị thẻ, tên chủ sở hữu, số tiền, loại tiền tệ, ủy quyền, người mua lại, nhà giải toán, ủy quyền trước"
+keywords:
+  - lập hóa đơn
+  - thẻ thanh toán
+  - bên ngoài
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_SUPPLIERQUOTATIONDEX
 description: Supplierquotationdex
+semantic_en: "Data Extraction for Supplier Quotation — supplier quotation documents with terms, incoterms, and currency details."
+semantic_vi: "Trích xuất dữ liệu báo giá nhà cung cấp — tài liệu báo giá nhà cung cấp với điều khoản, quy tắc Incoterms và chi tiết đơn vị tiền tệ."
+keywords:
+  - báo giá nhà cung cấp
+  - Incoterms
+  - đơn vị tiền tệ
+  - điều khoản
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

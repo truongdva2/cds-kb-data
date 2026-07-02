@@ -1,6 +1,12 @@
 ---
 name: D_CNSLDTNTSKGROUPGETUNITTASKSP
 description: D Cnsldtntskgroupgetunittasksp
+semantic_en: "Consolidation Task Group Get Unit Tasks Parameter — parameter for retrieving consolidation unit tasks by fiscal period and version."
+semantic_vi: "Tham số Lấy Nhiệm vụ Đơn vị Nhóm Nhiệm vụ Hợp nhất — tham số lấy nhiệm vụ của đơn vị hợp nhất."
+keywords:
+  - hợp nhất
+  - nhiệm vụ
+  - đơn vị
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCCRTEFRMEXTDATAIP
 description: D Billgdoccrtefrmextdataip
+semantic_en: "Action parameter for creating billing document from external data — ReferenceLogicalSystem"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ dữ liệu bên ngoài — hệ thống logic tham chiếu"
+keywords:
+  - lập hóa đơn
+  - bên ngoài
+  - tạo
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

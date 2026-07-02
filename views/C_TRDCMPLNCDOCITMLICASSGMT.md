@@ -1,6 +1,13 @@
 ---
 name: C_TRDCMPLNCDOCITMLICASSGMT
 description: Trdcmplncdocitmlicassgmt
+semantic_en: "Trade Compliance Document Item License Assignment — maps licenses to trade compliance document line items."
+semantic_vi: "Gán giấy phép dòng tài liệu tuân thủ thương mại — ánh xạ giấy phép cho các dòng chi tiết tài liệu tuân thủ thương mại."
+keywords:
+  - tuân thủ thương mại
+  - giấy phép
+  - gán giấy phép
+  - quy định pháp luật
 app_component: FT-ITR-TRC
 software_component: SAPSCORE
 release_state: released

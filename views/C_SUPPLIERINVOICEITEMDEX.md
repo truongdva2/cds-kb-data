@@ -1,6 +1,13 @@
 ---
 name: C_SUPPLIERINVOICEITEMDEX
 description: Supplier InvoiceITEMDEX
+semantic_en: "Data Extraction for Supplier Invoice Item — line items linking supplier invoices to purchase orders and materials."
+semantic_vi: "Trích xuất dữ liệu dòng hóa đơn nhà cung cấp — các dòng chi tiết liên kết hóa đơn nhà cung cấp với đơn hàng mua và vật liệu."
+keywords:
+  - dòng hóa đơn
+  - đơn hàng mua
+  - vật liệu
+  - số lượng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

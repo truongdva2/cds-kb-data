@@ -1,6 +1,13 @@
 ---
 name: D_BDRCRTEFRMEXTPRCGELMNTP
 description: D Bdrcrtefrmextprcgelmntp
+semantic_en: "Action parameter for creating BDR from external data with pricing elements — ConditionType, ConditionRateAmount, ConditionCurrency, ConditionQuantity, ConditionQuantityUnit, ConditionRateRatio, ConditionRateRatioUnit"
+semantic_vi: "Tham số thao tác để tạo BDR từ dữ liệu bên ngoài với yếu tố định giá — loại điều kiện, số tiền tỷ lệ, loại tiền tệ, số lượng, đơn vị số lượng, tỷ lệ điều kiện, đơn vị tỷ lệ"
+keywords:
+  - BDR
+  - định giá
+  - bên ngoài
+  - tạo
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

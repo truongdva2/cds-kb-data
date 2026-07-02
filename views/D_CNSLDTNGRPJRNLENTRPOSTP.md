@@ -1,6 +1,13 @@
 ---
 name: D_CNSLDTNGRPJRNLENTRPOSTP
 description: D Cnsldtngrpjrnlentrpostp
+semantic_en: "Consolidation Group Journal Entry Abstract Entity Parameter — parameter for consolidation group journal entry posting with fiscal and document structure."
+semantic_vi: "Tham số Thực thể Trừu tượng Nhật ký Ghi sổ Nhóm Hợp nhất — tham số ghi sổ nhóm hợp nhất."
+keywords:
+  - hợp nhất
+  - nhật ký ghi sổ
+  - cấu trúc
+  - năm tài chính
 app_component: FIN-CS-JE-2CL
 software_component: SAPSCORE
 release_state: released

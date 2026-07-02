@@ -1,6 +1,12 @@
 ---
 name: D_CABILLGPLNCREATED
 description: D Cabillgplncreated
+semantic_en: "Billing Plan Created — tracks creation of billing plans for contract accounts with plan type information."
+semantic_vi: "Sự kiện tạo Kế hoạch Hóa đơn — ghi nhận tạo kế hoạch hóa đơn cho hợp đồng."
+keywords:
+  - kế hoạch hóa đơn
+  - hợp đồng tài chính
+  - tạo kế hoạch
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

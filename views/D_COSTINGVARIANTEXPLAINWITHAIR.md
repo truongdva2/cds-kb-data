@@ -1,6 +1,12 @@
 ---
 name: D_COSTINGVARIANTEXPLAINWITHAIR
 description: D Costingvariantexplainwithair
+semantic_en: "Costing Variant Explain with AI Result — result of AI explanation providing textual interpretation of costing variant logic."
+semantic_vi: "Kết quả Giải thích Phương án Định giá với AI — kết quả giải thích từ AI."
+keywords:
+  - định giá
+  - giải thích AI
+  - kết quả
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

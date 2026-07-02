@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_CHAR7_SCP
 description: Ddcds Type Enumval Char 7 Scp
+semantic_en: "Enumeration Value Character 7 — domain values for seven-character type enumeration."
+semantic_vi: "Giá trị liệt kê Ký tự 7 — giá trị miền cho liệt kê kiểu bảy ký tự."
+keywords:
+  - liệt kê
+  - kiểu dữ liệu
+  - bảy ký tự
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

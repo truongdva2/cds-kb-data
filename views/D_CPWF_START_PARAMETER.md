@@ -1,6 +1,12 @@
 ---
 name: D_CPWF_START_PARAMETER
 description: D Cpwf Start Parameter
+semantic_en: "Workflow Start Parameter — parameter field for workflow initialization with definition and retention configuration."
+semantic_vi: "Tham số Bắt đầu Quy trình — tham số khởi tạo quy trình làm việc."
+keywords:
+  - quy trình
+  - bắt đầu
+  - khởi tạo
 app_component: BC-BMT-WFP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_BDRCRTEFRMEXTTEXTP
 description: D Bdrcrtefrmexttextp
+semantic_en: "Action parameter for creating BDR from external data with text — LongTextID, Language, LongText"
+semantic_vi: "Tham số thao tác để tạo BDR từ dữ liệu bên ngoài với văn bản — mã định danh văn bản dài, ngôn ngữ, nội dung văn bản dài"
+keywords:
+  - BDR
+  - văn bản
+  - bên ngoài
+  - tạo
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

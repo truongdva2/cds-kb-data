@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCCRTEFRMEXTTXTIP
 description: D Billgdoccrtefrmexttxtip
+semantic_en: "Action parameter for creating billing document from external data with text — LongTextID, Language, LongText"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ dữ liệu bên ngoài với văn bản — mã định danh văn bản dài, ngôn ngữ, nội dung văn bản dài"
+keywords:
+  - lập hóa đơn
+  - văn bản
+  - bên ngoài
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

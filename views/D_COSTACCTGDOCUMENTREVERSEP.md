@@ -1,6 +1,12 @@
 ---
 name: D_COSTACCTGDOCUMENTREVERSEP
 description: D Costacctgdocumentreversep
+semantic_en: "Cost Accounting Document Reverse Parameter — parameter for reversing cost accounting documents with document dating."
+semantic_vi: "Tham số Đảo ngược Tài liệu Kế toán Chi phí — tham số đảo ngược tài liệu kế toán chi phí."
+keywords:
+  - kế toán chi phí
+  - đảo ngược tài liệu
+  - ngày tháng
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

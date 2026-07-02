@@ -1,6 +1,12 @@
 ---
 name: D_CNSLDTNUNITTSKRUNEXECTTASKP
 description: D Cnsldtnunittskrunexecttaskp
+semantic_en: "Consolidation Unit Task Run Execute Parameter — parameter for executing consolidation unit tasks within specified fiscal period."
+semantic_vi: "Tham số Thực hiện Nhiệm vụ Thực hiện Nhiệm vụ Đơn vị Hợp nhất — tham số thực hiện nhiệm vụ."
+keywords:
+  - hợp nhất
+  - nhiệm vụ
+  - thực hiện
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

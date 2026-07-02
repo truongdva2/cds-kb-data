@@ -1,6 +1,12 @@
 ---
 name: /DCO/I_CUSTOMER
 description: Customer
+semantic_en: "Customer — customer master with business purpose completion status."
+semantic_vi: "Khách hàng — dữ liệu chính khách hàng với trạng thái hoàn thành mục đích kinh doanh."
+keywords:
+  - khách hàng
+  - hệ thống logic
+  - mục đích kinh doanh
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_CHGMSTRASSIGNALTVDATEIDP
 description: D Chgmstrassignaltvdateidp
+semantic_en: "Change Master Alternative Date ID Parameter — parameter view for managing alternative date identifiers in change master records."
+semantic_vi: "Tham số ID Ngày Thay thế Gán Chính bản Thay đổi — tham số quản lý ID ngày thay thế."
+keywords:
+  - chính bản thay đổi
+  - ID ngày
+  - thay thế
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

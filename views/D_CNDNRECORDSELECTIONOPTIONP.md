@@ -1,6 +1,12 @@
 ---
 name: D_CNDNRECORDSELECTIONOPTIONP
 description: D Cndnrecordselectionoptionp
+semantic_en: "Pricing Condition Record Selection Options Parameter — parameter for selecting pricing condition records with range criteria."
+semantic_vi: "Tham số Tùy chọn Lựa chọn Bản ghi Điều kiện Giá — tham số lựa chọn bản ghi điều kiện giá."
+keywords:
+  - điều kiện giá
+  - bản ghi
+  - phạm vi lựa chọn
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

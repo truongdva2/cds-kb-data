@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_INT2_SCP
 description: Ddcds Type Enumval Int 2 Scp
+semantic_en: "Enumeration Value INT2 — domain values for two-byte integer type enumeration."
+semantic_vi: "Giá trị liệt kê INT2 — giá trị miền cho liệt kê kiểu số nguyên hai byte."
+keywords:
+  - liệt kê
+  - kiểu số nguyên
+  - INT2
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

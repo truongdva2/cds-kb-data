@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC4_SCP
 description: Ddcds Type Enumval Numc 4 Scp
+semantic_en: "Enumeration Value Numeric 4 — domain values for four-digit numeric type enumeration."
+semantic_vi: "Giá trị liệt kê Số 4 — giá trị miền cho liệt kê kiểu số bốn chữ số."
+keywords:
+  - liệt kê
+  - kiểu số
+  - NUMC4
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

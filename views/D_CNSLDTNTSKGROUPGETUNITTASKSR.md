@@ -1,6 +1,12 @@
 ---
 name: D_CNSLDTNTSKGROUPGETUNITTASKSR
 description: D Cnsldtntskgroupgetunittasksr
+semantic_en: "Consolidation Task Group Get Unit Tasks Result — result returning consolidation tasks with sequencing, blocking, and milestone status."
+semantic_vi: "Kết quả Lấy Nhiệm vụ Đơn vị Nhóm Nhiệm vụ Hợp nhất — kết quả danh sách nhiệm vụ đơn vị hợp nhất."
+keywords:
+  - hợp nhất
+  - nhiệm vụ
+  - trình tự
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

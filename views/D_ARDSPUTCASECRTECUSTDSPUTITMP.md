@@ -1,6 +1,13 @@
 ---
 name: D_ARDSPUTCASECRTECUSTDSPUTITMP
 description: D Ardsputcasecrtecustdsputitmp
+semantic_en: "Action parameter for creating customer disputed items in AR dispute case — CompanyCode, AccountingDocument, FiscalYear, AccountingDocumentItem, LogicalSystem"
+semantic_vi: "Tham số thao tác để tạo các mục tranh chấp của khách hàng trong trường hợp tranh chấp AR — mã công ty, chứng từ kế toán, năm tài chính, mục chứng từ, hệ thống logic"
+keywords:
+  - tranh chấp
+  - khách hàng
+  - mục
+  - AR
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

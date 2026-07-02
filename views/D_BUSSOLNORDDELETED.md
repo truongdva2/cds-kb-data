@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDDELETED
 description: D Bussolnorddeleted
+semantic_en: "Event: Business Solution Order deleted — records order type and description at deletion"
+semantic_vi: "Sự kiện: Đơn hàng Giải pháp Kinh doanh bị xóa — ghi lại loại đơn hàng và mô tả khi xóa"
+keywords:
+  - đơn hàng
+  - xóa
+  - sự kiện
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

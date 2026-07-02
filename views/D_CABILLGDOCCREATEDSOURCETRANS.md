@@ -1,6 +1,12 @@
 ---
 name: D_CABILLGDOCCREATEDSOURCETRANS
 description: D Cabillgdoccreatedsourcetrans
+semantic_en: "Billing Document Created - Source Transaction — records creation of billing documents linked to source transactions and transaction types."
+semantic_vi: "Sự kiện tạo Tài liệu Hóa đơn từ Giao dịch Nguồn — ghi nhận tạo tài liệu hóa đơn từ giao dịch nguyên gốc."
+keywords:
+  - tài liệu hóa đơn
+  - giao dịch nguồn
+  - tạo tài liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

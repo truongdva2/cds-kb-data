@@ -1,6 +1,12 @@
 ---
 name: D_BILLGDOCCRTEFRMEXTPRGELMIP
 description: D Billgdoccrtefrmextprgelmip
+semantic_en: "Action parameter for creating billing document from external data with pricing elements — ConditionType, ConditionRateAmount, ConditionCurrency, ConditionQuantity, ConditionQuantityUnit, ConditionRateRatio, ConditionRateRatioUnit"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ dữ liệu bên ngoài với yếu tố định giá — loại điều kiện, số tiền tỷ lệ, loại tiền tệ, số lượng, đơn vị số lượng, tỷ lệ điều kiện, đơn vị tỷ lệ"
+keywords:
+  - lập hóa đơn
+  - định giá
+  - bên ngoài
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

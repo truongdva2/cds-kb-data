@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_NUMC2_T_SCP
 description: Ddcds Type Enumval Numc 2 T Scp
+semantic_en: "Enumeration Value Numeric 2 with Text — numeric NUMC2 enumeration values with translated text labels."
+semantic_vi: "Giá trị liệt kê Số 2 có văn bản — giá trị liệt kê số NUMC2 với nhãn văn bản được dịch."
+keywords:
+  - liệt kê
+  - bản dịch
+  - NUMC2
+  - nhãn
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

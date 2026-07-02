@@ -1,6 +1,12 @@
 ---
 name: D_BOMCOMPAREBOMCOMPONENTSP
 description: D Bomcomparebomcomponentsp
+semantic_en: "Action parameter for comparing BOM component details — primary and secondary material, plant, variant usage, variant, version, validity date, change numbers"
+semantic_vi: "Tham số thao tác để so sánh chi tiết thành phần BOM — vật liệu chính và phụ, nhà máy, cách sử dụng biến thể, biến thể, phiên bản, ngày hợp lệ, số thay đổi"
+keywords:
+  - BOM
+  - thành phần
+  - so sánh
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

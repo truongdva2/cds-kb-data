@@ -1,6 +1,12 @@
 ---
 name: D_CHARCVALCOMBNDELACTVENTITYP
 description: D Charcvalcombndelactventityp
+semantic_en: "Characteristic Value Combination Delete Active Entity Parameter — parameter for managing deletion of characteristic value combinations."
+semantic_vi: "Tham số Xóa Kết hợp Giá trị Đặc tính Thực thể Hoạt động — tham số xóa kết hợp giá trị đặc tính."
+keywords:
+  - đặc tính giá trị
+  - kết hợp giá trị
+  - xóa
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

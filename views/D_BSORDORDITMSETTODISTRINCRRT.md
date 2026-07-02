@@ -1,6 +1,12 @@
 ---
 name: D_BSORDORDITMSETTODISTRINCRRT
 description: D Bsordorditmsettodistrincrrt
+semantic_en: "Business Solution Order Item Distribution error flag — indicates incorrect distribution of service/customer management object type in order item"
+semantic_vi: "Cờ lỗi phân bổ mục đơn hàng Giải pháp Kinh doanh — chỉ báo phân bổ không chính xác loại đối tượng quản lý dịch vụ/khách hàng trong mục đơn hàng"
+keywords:
+  - đơn hàng
+  - phân bổ
+  - lỗi
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

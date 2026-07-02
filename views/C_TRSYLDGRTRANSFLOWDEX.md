@@ -1,6 +1,13 @@
 ---
 name: C_TRSYLDGRTRANSFLOWDEX
 description: Trsyldgrtransflowdex
+semantic_en: "Treasury Ledger Transaction Flow Data Extraction — treasury transactions with position transfers, quantity and amount changes."
+semantic_vi: "Trích xuất dữ liệu luồng giao dịch sổ cái kho bạc — giao dịch kho bạc với chuyển vị trí, thay đổi số lượng và số tiền."
+keywords:
+  - sổ cái kho bạc
+  - giao dịch kho bạc
+  - chuyển vị trí
+  - luồng giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

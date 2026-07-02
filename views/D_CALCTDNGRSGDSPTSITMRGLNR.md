@@ -1,6 +1,12 @@
 ---
 name: D_CALCTDNGRSGDSPTSITMRGLNR
 description: D Calctdngrsgdsptsitmrglnr
+semantic_en: "Dangerous Goods Points Item Regulation Calculation Result — captures dangerous goods point calculations by item and regulation with transport category and quantity factor."
+semantic_vi: "Kết quả Tính toán Điểm Mục Quy định Hàng nguy hiểm — ghi nhận tính điểm theo quy định vận chuyển."
+keywords:
+  - quy định hàng nguy hiểm
+  - mục hàng
+  - tính điểm
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

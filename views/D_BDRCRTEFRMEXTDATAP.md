@@ -1,6 +1,12 @@
 ---
 name: D_BDRCRTEFRMEXTDATAP
 description: D Bdrcrtefrmextdatap
+semantic_en: "Action parameter for creating BDR from external data — ReferenceLogicalSystem"
+semantic_vi: "Tham số thao tác để tạo BDR từ dữ liệu bên ngoài — hệ thống logic tham chiếu"
+keywords:
+  - BDR
+  - tạo
+  - bên ngoài
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

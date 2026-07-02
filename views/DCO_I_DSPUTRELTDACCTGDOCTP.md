@@ -1,6 +1,13 @@
 ---
 name: /DCO/I_DSPUTRELTDACCTGDOCTP
 description: Dsputreltdacctgdoctp
+semantic_en: "Dispute Related Accounting Document — links disputes to accounting documents with disputed, collected, and written-off amounts."
+semantic_vi: "Tài liệu hạch toán liên quan tranh chấp — liên kết tranh chấp với tài liệu hạch toán với số tiền tranh chấp, đã thu và xóa nợ."
+keywords:
+  - tranh chấp
+  - tài liệu hạch toán
+  - số tiền tranh chấp
+  - quyết định
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

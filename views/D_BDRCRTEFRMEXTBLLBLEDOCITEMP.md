@@ -1,6 +1,13 @@
 ---
 name: D_BDRCRTEFRMEXTBLLBLEDOCITEMP
 description: D Bdrcrtefrmextbllbledocitemp
+semantic_en: "Action parameter for creating BDR item from external billable document — item details, document type, category, text, BDR type, sales org, channel, division, date, sold-to party, currency, tax country, PO, payment terms"
+semantic_vi: "Tham số thao tác để tạo mục BDR từ chứng từ lập hóa đơn bên ngoài — chi tiết mục, loại chứng từ, danh mục, văn bản, loại BDR, tổ chức bán hàng, kênh, bộ phận, ngày, bên mua, loại tiền tệ, nước thuế, PO, điều khoản thanh toán"
+keywords:
+  - BDR
+  - tạo
+  - lập hóa đơn
+  - bên ngoài
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

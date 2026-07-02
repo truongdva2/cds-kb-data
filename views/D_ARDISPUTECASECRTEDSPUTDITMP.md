@@ -1,6 +1,13 @@
 ---
 name: D_ARDISPUTECASECRTEDSPUTDITMP
 description: D Ardisputecasecrtedsputditmp
+semantic_en: "Action parameter for creating disputed items in AR dispute case — CompanyCode, AccountingDocument, FiscalYear, AccountingDocumentItem, LogicalSystem"
+semantic_vi: "Tham số thao tác để tạo các mục được tranh chấp trong trường hợp tranh chấp AR — mã công ty, chứng từ kế toán, năm tài chính, mục chứng từ, hệ thống logic"
+keywords:
+  - tranh chấp
+  - mục
+  - tạo
+  - AR
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

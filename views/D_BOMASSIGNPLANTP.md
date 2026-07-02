@@ -1,6 +1,12 @@
 ---
 name: D_BOMASSIGNPLANTP
 description: D Bomassignplantp
+semantic_en: "Action parameter for assigning BOM to plant — PlantToBeAssigned, BillOfMaterialVariantUsage"
+semantic_vi: "Tham số thao tác để gán BOM cho nhà máy — nhà máy cần gán, cách sử dụng biến thể BOM"
+keywords:
+  - BOM
+  - nhà máy
+  - gán
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

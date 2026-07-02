@@ -1,6 +1,12 @@
 ---
 name: D_BLGDCCRTEFRMBILLGDOCCTRLIP
 description: D Blgdccrtefrmbillgdocctrlip
+semantic_en: "Action parameter for controlling auto-posting to accounting during billing document creation — AutomPostingToAcctgIsDisabled flag"
+semantic_vi: "Tham số thao tác để kiểm soát khiếu nại tự động sang kế toán trong khi tạo chứng từ lập hóa đơn — cờ tắt khiếu nại tự động sang kế toán"
+keywords:
+  - lập hóa đơn
+  - kế toán
+  - kiểm soát
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

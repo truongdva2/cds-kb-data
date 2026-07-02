@@ -1,6 +1,13 @@
 ---
 name: D_ARDISPUTECASECHANGENOTEP
 description: D Ardisputecasechangenotep
+semantic_en: "Action parameter for changing notes in AR dispute case — NoteContent"
+semantic_vi: "Tham số thao tác để thay đổi ghi chú trong trường hợp tranh chấp AR — nội dung ghi chú"
+keywords:
+  - tranh chấp
+  - ghi chú
+  - thay đổi
+  - AR
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

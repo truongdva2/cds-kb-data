@@ -1,6 +1,12 @@
 ---
 name: D_CONTRACTACCOUNTCREATED
 description: D Contractaccountcreated
+semantic_en: "Contract Account Created — tracks creation of contract accounts with category and external reference details."
+semantic_vi: "Sự kiện Tạo Tài khoản Hợp đồng — ghi nhận tạo hợp đồng tài chính mới."
+keywords:
+  - hợp đồng tài chính
+  - tạo tài khoản
+  - danh mục
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_CONTRACCTGINVCGDOCCREATED
 description: D Contracctginvcgdoccreated
+semantic_en: "Contract Accounting Invoicing Document Created — tracks creation of invoicing documents for contract accounts."
+semantic_vi: "Sự kiện Tạo Tài liệu Hóa đơn Kế toán Hợp đồng — ghi nhận tạo tài liệu hóa đơn kế toán."
+keywords:
+  - hợp đồng tài chính
+  - tài liệu hóa đơn
+  - tạo tài liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

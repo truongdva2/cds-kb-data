@@ -1,6 +1,12 @@
 ---
 name: D_CNSLDTNUNITTSKRUNGETTSKSTSP
 description: D Cnsldtnunittskrungettskstsp
+semantic_en: "Consolidation Unit Task Run Get Status Parameter — parameter for retrieving consolidation task execution status by background job reference."
+semantic_vi: "Tham số Lấy Trạng thái Thực hiện Nhiệm vụ Đơn vị Hợp nhất — tham số kiểm tra trạng thái."
+keywords:
+  - hợp nhất
+  - trạng thái nhiệm vụ
+  - tác vụ nền
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

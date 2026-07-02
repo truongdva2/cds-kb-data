@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDITMCREATED
 description: D Bussolnorditmcreated
+semantic_en: "Business Solution Order Item Created — tracks creation of business solution order items with category and description information."
+semantic_vi: "Sự kiện tạo Mục đơn đặt hàng Giải pháp Kinh doanh — ghi nhận tạo mục đơn đặt hàng mới."
+keywords:
+  - tạo mục đơn đặt hàng
+  - danh mục sản phẩm
+  - giải pháp kinh doanh
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

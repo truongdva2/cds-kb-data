@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDERRORRESOLVED
 description: D Bussolnorderrorresolved
+semantic_en: "Event: Business Solution Order error resolved — indicates error resolution with order description"
+semantic_vi: "Sự kiện: Lỗi Đơn hàng Giải pháp Kinh doanh đã được giải quyết — chỉ báo giải quyết lỗi với mô tả đơn hàng"
+keywords:
+  - đơn hàng
+  - lỗi
+  - giải quyết
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

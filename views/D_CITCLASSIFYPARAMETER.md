@@ -1,6 +1,12 @@
 ---
 name: D_CITCLASSIFYPARAMETER
 description: D Citclassifyparameter
+semantic_en: "Corporate Income Tax Classify Action Parameter — parameter for CIT item classification with company and ledger date range filters."
+semantic_vi: "Tham số Hành động Phân loại Thuế thu nhập Doanh nghiệp — tham số phân loại mục CIT."
+keywords:
+  - thuế thu nhập doanh nghiệp
+  - phân loại
+  - sổ cái
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

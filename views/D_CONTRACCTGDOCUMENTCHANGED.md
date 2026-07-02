@@ -1,6 +1,12 @@
 ---
 name: D_CONTRACCTGDOCUMENTCHANGED
 description: D Contracctgdocumentchanged
+semantic_en: "Contract Accounting Document Changed — records modifications to contract accounting documents including document type and posting date."
+semantic_vi: "Sự kiện Thay đổi Tài liệu Kế toán Hợp đồng — ghi nhận thay đổi tài liệu kế toán."
+keywords:
+  - kế toán hợp đồng
+  - thay đổi tài liệu
+  - ngày ghi sổ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_SUPLRINVCWRKFLWEMLDCSNRSN
 description: Suplrinvcwrkflwemldcsnrsn
+semantic_en: "Supplier Invoice Workflow Email Decision — shows workflow task status, description, and assignees for supplier invoice approval workflows."
+semantic_vi: "Email quyết định quy trình làm việc hóa đơn nhà cung cấp — hiển thị trạng thái tác vụ quy trình, mô tả và người chỉ định cho quy trình phê duyệt hóa đơn nhà cung cấp."
+keywords:
+  - quy trình hóa đơn nhà cung cấp
+  - tác vụ phê duyệt
+  - trạng thái công việc
+  - email thông báo
 app_component: MM-IV-INT-WF-2CL
 software_component: SAPSCORE
 release_state: released

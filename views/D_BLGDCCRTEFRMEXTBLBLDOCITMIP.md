@@ -1,6 +1,12 @@
 ---
 name: D_BLGDCCRTEFRMEXTBLBLDOCITMIP
 description: D Blgdccrtefrmextblbldocitmip
+semantic_en: "Action parameter for creating billing document from external data item — document item, document type, category, text, billing doc type, sales org, channel, division, date, sold-to party, currency, tax country, PO, payment terms"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ mục dữ liệu bên ngoài — mục chứng từ, loại chứng từ, danh mục, văn bản, loại chứng từ lập hóa đơn, tổ chức bán hàng, kênh, bộ phận, ngày, bên mua, loại tiền tệ, nước thuế, PO, điều khoản thanh toán"
+keywords:
+  - lập hóa đơn
+  - bên ngoài
+  - mục
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

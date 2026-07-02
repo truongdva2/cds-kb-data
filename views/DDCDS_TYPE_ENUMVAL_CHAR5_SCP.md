@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_CHAR5_SCP
 description: Ddcds Type Enumval Char 5 Scp
+semantic_en: "Enumeration Value Character 5 — domain values for five-character type enumeration."
+semantic_vi: "Giá trị liệt kê Ký tự 5 — giá trị miền cho liệt kê kiểu năm ký tự."
+keywords:
+  - liệt kê
+  - kiểu dữ liệu
+  - năm ký tự
+  - giá trị
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_CITCHECKAUTHORIZATIONR
 description: D Citcheckauthorizationr
+semantic_en: "Corporate Income Tax Check Authorization Function Result — result of authorization validation including hierarchy and company code classification permissions."
+semantic_vi: "Kết quả Hàm Kiểm tra Phép phép Thuế thu nhập Doanh nghiệp — kết quả xác nhận quyền truy cập và phân loại."
+keywords:
+  - thuế thu nhập doanh nghiệp
+  - phép phép
+  - phân loại công ty
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

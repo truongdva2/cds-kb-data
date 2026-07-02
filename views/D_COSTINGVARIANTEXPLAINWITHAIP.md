@@ -1,6 +1,12 @@
 ---
 name: D_COSTINGVARIANTEXPLAINWITHAIP
 description: D Costingvariantexplainwithaip
+semantic_en: "Costing Variant Explain with AI Parameter — parameter for AI-powered explanation of costing variant configurations by plant."
+semantic_vi: "Tham số Giải thích Phương án Định giá với AI — tham số giải thích phương án định giá."
+keywords:
+  - định giá
+  - AI giải thích
+  - phương án
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

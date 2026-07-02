@@ -1,6 +1,12 @@
 ---
 name: D_BUSSOLNORDORDITMSETTODISTRD
 description: D Bussolnordorditmsettodistrd
+semantic_en: "Business Solution Order Item Distributed — tracks distribution of order items to customer management objects."
+semantic_vi: "Sự kiện phân bổ Mục đơn đặt hàng Giải pháp Kinh doanh — ghi nhận phân phối đến các đối tượng quản lý khách hàng."
+keywords:
+  - phân bổ đơn đặt hàng
+  - quản lý khách hàng
+  - phân phối
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_ARDISPUTECASECHANGEP
 description: D Ardisputecasechangep
+semantic_en: "Action parameter for modifying AR dispute case details — case UUID, coordinator, root cause, deadline, amount, currency, contact info, external ref, close date, processors, responsible party, title"
+semantic_vi: "Tham số thao tác để thay đổi chi tiết trường hợp tranh chấp AR — bao gồm mã định danh, người phối hợp, nguyên nhân gốc rễ, hạn chót, số tiền, loại tiền tệ, thông tin liên hệ, tham chiếu bên ngoài, ngày đóng, người xử lý, bên chịu trách nhiệm, tiêu đề"
+keywords:
+  - tranh chấp
+  - thay đổi
+  - AR
+  - hành động
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

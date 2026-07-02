@@ -1,6 +1,12 @@
 ---
 name: D_CRDMMREQITMORDBILLGSTSCHGD
 description: D Crdmmreqitmordbillgstschgd
+semantic_en: "Credit Memo Request Item Order-Related Billing Status Changed — tracks order-to-cash billing status changes for credit memo request items."
+semantic_vi: "Sự kiện Thay đổi Trạng thái Hóa đơn liên quan Đơn đặt hàng Mục Yêu cầu Ghi có — ghi nhận thay đổi trạng thái hóa đơn."
+keywords:
+  - ghi có
+  - trạng thái hóa đơn
+  - mục yêu cầu
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

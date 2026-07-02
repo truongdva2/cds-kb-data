@@ -1,6 +1,12 @@
 ---
 name: D_BILLOFMATERIALORDEXPLODEBOMP
 description: D Bill of MaterialORDEXPLODEBOMP
+semantic_en: "Action parameter for BOM explosion on sales order — order/item details, explosion type, scope, quantity, unit, level, assembly, date, material filters, spare part filters"
+semantic_vi: "Tham số thao tác để khai triển BOM trên đơn hàng bán — chi tiết đơn hàng/mục, loại khai triển, phạm vi, số lượng, đơn vị, cấp độ, lắp ráp, ngày, bộ lọc vật liệu, bộ lọc linh kiện thay thế"
+keywords:
+  - BOM
+  - đơn hàng bán
+  - khai triển
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

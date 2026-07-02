@@ -1,6 +1,12 @@
 ---
 name: D_CITINITIATEPARAMETER
 description: D Citinitiateparameter
+semantic_en: "Corporate Income Tax Initiate Filter Action Parameter — parameter for initiating CIT filter actions with fiscal and document references."
+semantic_vi: "Tham số Hành động Bắt đầu Lọc Thuế thu nhập Doanh nghiệp — tham số khởi tạo lọc CIT."
+keywords:
+  - thuế thu nhập doanh nghiệp
+  - khởi tạo lọc
+  - tài liệu kế toán
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

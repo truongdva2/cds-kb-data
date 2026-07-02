@@ -1,6 +1,13 @@
 ---
 name: DDCDS_TYPE_ENUMVAL_INT2_T_SCP
 description: Ddcds Type Enumval Int 2 T Scp
+semantic_en: "Enumeration Value INT2 with Text — integer INT2 enumeration values with translated text labels."
+semantic_vi: "Giá trị liệt kê INT2 có văn bản — giá trị liệt kê số nguyên INT2 với nhãn văn bản được dịch."
+keywords:
+  - liệt kê
+  - bản dịch
+  - INT2
+  - nhãn
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

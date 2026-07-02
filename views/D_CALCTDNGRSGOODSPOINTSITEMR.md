@@ -1,6 +1,12 @@
 ---
 name: D_CALCTDNGRSGOODSPOINTSITEMR
 description: D Calctdngrsgoodspointsitemr
+semantic_en: "Dangerous Goods Points Item Calculation Result — records dangerous goods point calculations at item level with enclosure quantity and units."
+semantic_vi: "Kết quả Tính toán Điểm Hàng nguy hiểm theo Mục — ghi nhận tính điểm ở mức mục hàng."
+keywords:
+  - mục hàng
+  - điểm hàng nguy hiểm
+  - số lượng đóng gói
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

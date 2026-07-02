@@ -1,6 +1,12 @@
 ---
 name: D_BILLOFMATERIALGETCOMPAREFLDR
 description: D Bill of MaterialGETCOMPAREFLDR
+semantic_en: "BOM comparison: returns comparison field names and object type values for field-level BOM comparison"
+semantic_vi: "So sánh BOM: trả về tên trường so sánh và giá trị loại đối tượng để so sánh BOM mức trường"
+keywords:
+  - BOM
+  - so sánh
+  - trường
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: D_BLGDCCRTEFRMEXTBLLBLEDOCIP
 description: D Blgdccrtefrmextbllbledocip
+semantic_en: "Action parameter for creating billing document from external billable document — reference document"
+semantic_vi: "Tham số thao tác để tạo chứng từ lập hóa đơn từ chứng từ lập hóa đơn bên ngoài — chứng từ tham chiếu"
+keywords:
+  - lập hóa đơn
+  - bên ngoài
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released
