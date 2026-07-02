@@ -1,6 +1,12 @@
 ---
 name: D_CUSTOMERRETURNCREATED
 description: D Customerreturncreated
+semantic_en: "Returns Order Created — event tracking for creation of new customer returns orders by sales organization and distribution channel."
+semantic_vi: "Đơn hàng Trả hàng Đã tạo — theo dõi sự kiện cho việc tạo đơn hàng trả hàng mới."
+keywords:
+  - đơn hàng trả hàng
+  - returns order
+  - tạo mới
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

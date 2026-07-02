@@ -1,6 +1,12 @@
 ---
 name: D_CRDMMREQTOTBLKSTSCHANGED
 description: D Crdmmreqtotblkstschanged
+semantic_en: "Credit Memo Request Total Block Status Change — event tracking for total block status transitions of credit memo requests across organization dimensions."
+semantic_vi: "Thay đổi Trạng thái Khóa Tổng cộng của Yêu cầu Ghi nợ Trả tiền — theo dõi sự kiện cho các chuyển đổi trạng thái khóa tổng cộng của các yêu cầu ghi nợ trả tiền."
+keywords:
+  - yêu cầu ghi nợ trả tiền
+  - trạng thái khóa
+  - block status
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

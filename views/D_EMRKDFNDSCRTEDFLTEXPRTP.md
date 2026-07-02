@@ -1,6 +1,13 @@
 ---
 name: D_EMRKDFNDSCRTEDFLTEXPRTP
 description: D Emrkdfndscrtedfltexprtp
+semantic_en: "Currency — parameter set specifying transaction currency for earmarked funds by company code."
+semantic_vi: "Tiền tệ — tập tham số chỉ định tiền tệ giao dịch cho quỹ dành riêng theo mã công ty."
+keywords:
+  - tiền tệ
+  - currency
+  - quỹ dành riêng
+  - company code
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

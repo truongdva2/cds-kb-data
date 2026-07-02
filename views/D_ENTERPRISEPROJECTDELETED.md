@@ -1,6 +1,12 @@
 ---
 name: D_ENTERPRISEPROJECTDELETED
 description: D Enterpriseprojectdeleted
+semantic_en: "Enterprise Project Deleted — event tracking for deletion of enterprise projects."
+semantic_vi: "Dự án Doanh nghiệp Đã xóa — theo dõi sự kiện cho việc xóa dự án doanh nghiệp."
+keywords:
+  - dự án doanh nghiệp
+  - enterprise project
+  - xóa
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

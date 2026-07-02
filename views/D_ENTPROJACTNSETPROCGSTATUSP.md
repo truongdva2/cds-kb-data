@@ -1,6 +1,12 @@
 ---
 name: D_ENTPROJACTNSETPROCGSTATUSP
 description: D Entprojactnsetprocgstatusp
+semantic_en: "Enterprise Project Action Set Processing Status — parameter set for setting processing status in enterprise project actions."
+semantic_vi: "Đặt Trạng thái Xử lý Hành động Dự án Doanh nghiệp — tập tham số cho đặt trạng thái xử lý trong các hành động dự án doanh nghiệp."
+keywords:
+  - dự án doanh nghiệp
+  - processing status
+  - trạng thái xử lý
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

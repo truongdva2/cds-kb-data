@@ -1,6 +1,12 @@
 ---
 name: D_EMRKDFNDSDOCTYPESGETFORCRTER
 description: D Emrkdfndsdoctypesgetforcrter
+semantic_en: "Parameter Earmarked Funds Document Type — parameter set defining earmarked funds document category classification."
+semantic_vi: "Tham số Loại Tài liệu Quỹ dành riêng — tập tham số xác định phân loại loại tài liệu quỹ dành riêng."
+keywords:
+  - quỹ dành riêng
+  - document type
+  - loại tài liệu
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

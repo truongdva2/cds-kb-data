@@ -1,6 +1,12 @@
 ---
 name: D_ENPRJELMCHGPERDDISTROPTIONP
 description: D Enprjelmchgperddistroptionp
+semantic_en: "Parameter Structure for action ChgPeriodDistributionOption — parameter set for changing period distribution option of enterprise project elements with planned date range."
+semantic_vi: "Cấu trúc Tham số cho hành động ChgPeriodDistributionOption — tập tham số cho thay đổi tùy chọn phân phối kỳ của các phần tử dự án doanh nghiệp."
+keywords:
+  - dự án doanh nghiệp
+  - period distribution
+  - phân phối kỳ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

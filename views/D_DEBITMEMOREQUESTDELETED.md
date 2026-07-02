@@ -1,6 +1,13 @@
 ---
 name: D_DEBITMEMOREQUESTDELETED
 description: D Debitmemorequestdeleted
+semantic_en: "Debit Memo Request Deleted event — records deletion events for debit memo requests by Organization, DistributionChannel, and timestamp"
+semantic_vi: "Sự kiện yêu cầu ghi nợ bị xóa — ghi nhận xóa yêu cầu ghi nợ theo tổ chức và kênh phân phối"
+keywords:
+  - yêu cầu ghi nợ
+  - xóa
+  - sự kiện
+  - bị xóa
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

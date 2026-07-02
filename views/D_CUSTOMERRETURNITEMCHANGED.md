@@ -1,6 +1,12 @@
 ---
 name: D_CUSTOMERRETURNITEMCHANGED
 description: D Customerreturnitemchanged
+semantic_en: "Returns Order Item Changed — event tracking for modifications to individual line items of returns orders by product and return category."
+semantic_vi: "Dòng Đơn hàng Trả hàng Đã thay đổi — theo dõi sự kiện cho các sửa đổi của dòng đơn hàng trả hàng."
+keywords:
+  - dòng đơn hàng trả hàng
+  - returns item
+  - sản phẩm
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

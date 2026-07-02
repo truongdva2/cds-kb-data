@@ -1,6 +1,12 @@
 ---
 name: D_CUSTOMERMATERIALCREATED
 description: D Customermaterialcreated
+semantic_en: "Customer Material Created — event tracking for creation of new customer-specific material assignments with delivery parameters and base unit."
+semantic_vi: "Vật tư Khách hàng Đã tạo — theo dõi sự kiện cho việc tạo gán vật tư cụ thể cho khách hàng mới."
+keywords:
+  - vật tư khách hàng
+  - tạo mới
+  - gán vật tư
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

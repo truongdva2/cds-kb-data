@@ -1,6 +1,12 @@
 ---
 name: D_CREDITMEMOREQUESTDELETED
 description: D Creditmemorequestdeleted
+semantic_en: "Credit Memo Request Deleted — event tracking for deletion of credit memo requests across sales organization and distribution channel."
+semantic_vi: "Yêu cầu Ghi nợ Trả tiền Đã xóa — theo dõi sự kiện cho việc xóa yêu cầu ghi nợ trả tiền."
+keywords:
+  - yêu cầu ghi nợ trả tiền
+  - xóa
+  - event tracking
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

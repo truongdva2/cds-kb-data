@@ -1,6 +1,13 @@
 ---
 name: D_DBTMMREQTOTCRDTCHKSTSCHGD
 description: D Dbtmmreqtotcrdtchkstschgd
+semantic_en: "Debit Memo Request Total Credit Check Status Change event — signature view for credit approval status transitions with SalesOrganization and timestamp"
+semantic_vi: "Sự kiện thay đổi trạng thái kiểm tra tín dụng tổng cộng yêu cầu ghi nợ — ghi nhận chuyển trạng thái phê duyệt tín dụng"
+keywords:
+  - yêu cầu ghi nợ
+  - kiểm tra tín dụng
+  - trạng thái phê duyệt
+  - thay đổi
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

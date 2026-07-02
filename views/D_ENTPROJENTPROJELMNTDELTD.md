@@ -1,6 +1,12 @@
 ---
 name: D_ENTPROJENTPROJELMNTDELTD
 description: D Entprojentprojelmntdeltd
+semantic_en: "Enterprise Project Element Deleted — event tracking for deletion of enterprise project elements."
+semantic_vi: "Phần tử Dự án Doanh nghiệp Đã xóa — theo dõi sự kiện cho việc xóa phần tử dự án doanh nghiệp."
+keywords:
+  - phần tử dự án
+  - project element
+  - xóa
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

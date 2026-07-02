@@ -1,6 +1,12 @@
 ---
 name: D_CREDITMEMOREQORDBILLGSTSCHGD
 description: D Creditmemoreqordbillgstschgd
+semantic_en: "Credit Memo Request Overall Order-Related Billing Status Change — event tracking for billing status transitions tied to order fulfillment of credit memo requests."
+semantic_vi: "Thay đổi Trạng thái Hóa đơn liên quan đến Đơn hàng Tổng thể của Yêu cầu Ghi nợ Trả tiền — theo dõi sự kiện cho các chuyển đổi trạng thái hóa đơn liên quan đến đơn hàng."
+keywords:
+  - yêu cầu ghi nợ trả tiền
+  - trạng thái hóa đơn
+  - billing status
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

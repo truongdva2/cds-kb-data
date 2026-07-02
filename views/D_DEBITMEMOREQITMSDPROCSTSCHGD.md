@@ -1,6 +1,13 @@
 ---
 name: D_DEBITMEMOREQITMSDPROCSTSCHGD
 description: D Debitmemoreqitmsdprocstschgd
+semantic_en: "Debit Memo Request Item SD Process Status Change event — records workflow state changes for line-item processing by Product and SoldToParty"
+semantic_vi: "Sự kiện thay đổi trạng thái quy trình SD cho mục yêu cầu ghi nợ — ghi nhận thay đổi trạng thái quy trình xử lý theo sản phẩm"
+keywords:
+  - mục yêu cầu ghi nợ
+  - trạng thái quy trình
+  - bán hàng
+  - thay đổi
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

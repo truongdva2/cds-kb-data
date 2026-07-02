@@ -1,6 +1,13 @@
 ---
 name: D_CUSTRETITMCRTEWTHREFDOCP
 description: D Custretitmcrtewthrefdocp
+semantic_en: "Action Parameter: Create Returns Order Item with Reference — parameter set for creating return line items from referenced SD documents with return reason and material inspection results."
+semantic_vi: "Tham số Hành động: Tạo Dòng Đơn hàng Trả hàng với Tham chiếu — tập tham số cho việc tạo dòng trả hàng tham chiếu với lý do và kết quả kiểm tra."
+keywords:
+  - returns item parameter
+  - tham chiếu dòng
+  - return reason
+  - lý do trả hàng
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

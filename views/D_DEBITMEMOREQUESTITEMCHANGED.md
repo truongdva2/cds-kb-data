@@ -1,6 +1,13 @@
 ---
 name: D_DEBITMEMOREQUESTITEMCHANGED
 description: D Debitmemorequestitemchanged
+semantic_en: "Debit Memo Request Item Changed event — captures line-item modification events with Product, SoldToParty, and timestamp"
+semantic_vi: "Sự kiện mục yêu cầu ghi nợ bị thay đổi — ghi lại sửa đổi mục hàng với sản phẩm và bên mua"
+keywords:
+  - mục yêu cầu ghi nợ
+  - thay đổi
+  - mục hàng
+  - sự kiện
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

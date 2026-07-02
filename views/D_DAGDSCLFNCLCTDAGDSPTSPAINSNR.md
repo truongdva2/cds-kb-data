@@ -1,6 +1,13 @@
 ---
 name: D_DAGDSCLFNCLCTDAGDSPTSPAINSNR
 description: D Dagdsclfnclctdagdsptspainsnr
+semantic_en: "Calculate Dangerous Goods Points Packing Instruction R — calculation action for dangerous goods points and enclosure quantity by packing instruction and product."
+semantic_vi: "Tính toán Điểm Hàng nguy hiểm - Hướng dẫn đóng gói R — tính toán điểm hàng nguy hiểm và số lượng bao gói theo hướng dẫn đóng gói."
+keywords:
+  - hàng nguy hiểm
+  - dangerous goods
+  - packing instruction
+  - đóng gói
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

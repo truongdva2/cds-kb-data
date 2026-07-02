@@ -1,6 +1,13 @@
 ---
 name: D_CREDITMEMOREQUESTITEMCREATED
 description: D Creditmemorequestitemcreated
+semantic_en: "Credit Memo Request Item Created — event tracking for creation of new line items within credit memo requests."
+semantic_vi: "Dòng Yêu cầu Ghi nợ Trả tiền Đã tạo — theo dõi sự kiện cho việc tạo dòng yêu cầu ghi nợ trả tiền mới."
+keywords:
+  - dòng yêu cầu
+  - ghi nợ trả tiền
+  - tạo mới
+  - event
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

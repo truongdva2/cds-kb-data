@@ -1,6 +1,13 @@
 ---
 name: D_DEBITMEMOREQTOTBLKSTSCHANGED
 description: D Debitmemoreqtotblkstschanged
+semantic_en: "Debit Memo Request Total Block Status Change event — signature view for blocking/freezing state by SalesOrganization and DistributionChannel"
+semantic_vi: "Sự kiện thay đổi trạng thái khóa tổng cộng yêu cầu ghi nợ — ghi nhận chuyển trạng thái khóa/đóng замерз theo tổ chức bán hàng"
+keywords:
+  - yêu cầu ghi nợ
+  - trạng thái khóa
+  - bloque
+  - thay đổi
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

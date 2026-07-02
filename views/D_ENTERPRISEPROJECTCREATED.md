@@ -1,6 +1,12 @@
 ---
 name: D_ENTERPRISEPROJECTCREATED
 description: D Enterpriseprojectcreated
+semantic_en: "Enterprise Project Created — event tracking for creation of new enterprise projects."
+semantic_vi: "Dự án Doanh nghiệp Đã tạo — theo dõi sự kiện cho việc tạo dự án doanh nghiệp mới."
+keywords:
+  - dự án doanh nghiệp
+  - enterprise project
+  - tạo mới
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

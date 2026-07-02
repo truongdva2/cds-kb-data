@@ -1,6 +1,13 @@
 ---
 name: D_DNGRSGDSCLASSFCTNGETDESCSR
 description: D Dngrsgdsclassfctngetdescsr
+semantic_en: "Dangerous Goods Classification Get Description Result — lookup view for DG transport mode description text in specified Language"
+semantic_vi: "Kết quả lấy mô tả phân loại hàng hóa nguy hiểm — tra cứu văn bản mô tả chế độ vận chuyển hàng hóa nguy hiểm theo ngôn ngữ"
+keywords:
+  - hàng hóa nguy hiểm
+  - phân loại
+  - mô tả
+  - vận chuyển
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

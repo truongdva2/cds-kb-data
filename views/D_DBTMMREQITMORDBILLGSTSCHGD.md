@@ -1,6 +1,13 @@
 ---
 name: D_DBTMMREQITMORDBILLGSTSCHGD
 description: D Dbtmmreqitmordbillgstschgd
+semantic_en: "Debit Memo Request Item Order-Related Billing Status Change event — captures state transitions for billing status with SoldToParty, Product, and timestamp"
+semantic_vi: "Sự kiện thay đổi trạng thái hóa đơn liên quan đơn hàng cho mục yêu cầu ghi nợ — ghi lại chuyển trạng thái với bên mua, sản phẩm và thời điểm"
+keywords:
+  - yêu cầu ghi nợ
+  - hóa đơn liên quan đơn hàng
+  - thay đổi trạng thái
+  - mục yêu cầu
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

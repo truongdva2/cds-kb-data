@@ -1,6 +1,12 @@
 ---
 name: D_ENTERPRISEPROJECTCHANGED
 description: D Enterpriseprojectchanged
+semantic_en: "Enterprise Project Changed — event tracking for modifications to enterprise projects."
+semantic_vi: "Dự án Doanh nghiệp Đã thay đổi — theo dõi sự kiện cho các sửa đổi của dự án doanh nghiệp."
+keywords:
+  - dự án doanh nghiệp
+  - enterprise project
+  - thay đổi
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

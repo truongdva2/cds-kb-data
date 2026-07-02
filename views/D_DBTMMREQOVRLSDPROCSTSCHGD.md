@@ -1,6 +1,13 @@
 ---
 name: D_DBTMMREQOVRLSDPROCSTSCHGD
 description: D Dbtmmreqovrlsdprocstschgd
+semantic_en: "Debit Memo Request Overall SD Process Status Change event — tracks SD workflow state transitions by Organization, Distribution Channel, and timestamp"
+semantic_vi: "Sự kiện thay đổi trạng thái quy trình bán hàng toàn bộ yêu cầu ghi nợ — theo dõi chuyển trạng thái quy trình SD theo tổ chức và kênh phân phối"
+keywords:
+  - yêu cầu ghi nợ
+  - trạng thái quy trình bán hàng
+  - toàn bộ
+  - thay đổi
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

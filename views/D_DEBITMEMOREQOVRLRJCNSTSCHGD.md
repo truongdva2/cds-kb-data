@@ -1,6 +1,13 @@
 ---
 name: D_DEBITMEMOREQOVRLRJCNSTSCHGD
 description: D Debitmemoreqovrlrjcnstschgd
+semantic_en: "Debit Memo Request Overall Rejection Status Change event — tracks rejection state transitions for the entire SD document by DistributionChannel and timestamp"
+semantic_vi: "Sự kiện thay đổi trạng thái từ chối toàn bộ yêu cầu ghi nợ — theo dõi chuyển trạng thái từ chối toàn bộ chứng từ bán hàng"
+keywords:
+  - yêu cầu ghi nợ
+  - từ chối
+  - trạng thái
+  - chứng từ bán hàng
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_EMRKDFNDSCRTEDFLTIMPRTP
 description: D Emrkdfndscrtedfltimprtp
+semantic_en: "Action Import Parameter with Create Default Value — parameter set for importing earmarked funds with default values by company code."
+semantic_vi: "Tham số Nhập khẩu Hành động với Tạo Giá trị Mặc định — tập tham số cho nhập khẩu quỹ dành riêng với giá trị mặc định."
+keywords:
+  - quỹ dành riêng
+  - import parameter
+  - company code
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

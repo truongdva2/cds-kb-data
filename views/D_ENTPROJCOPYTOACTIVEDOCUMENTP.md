@@ -1,6 +1,12 @@
 ---
 name: D_ENTPROJCOPYTOACTIVEDOCUMENTP
 description: D Entprojcopytoactivedocumentp
+semantic_en: "Enterprise Project Copy to Active Document — action parameter set for copying enterprise project data including demands, settlement rules, and project master data to active documents."
+semantic_vi: "Sao chép Dự án Doanh nghiệp đến Tài liệu Hoạt động — tập tham số hành động cho việc sao chép dữ liệu dự án doanh nghiệp đến tài liệu hoạt động."
+keywords:
+  - dự án doanh nghiệp
+  - copy document
+  - sao chép
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_ENTPROJENTPROJELMNTCRTED
 description: D Entprojentprojelmntcrted
+semantic_en: "Enterprise Project Element Created — event tracking for creation of new enterprise project elements."
+semantic_vi: "Phần tử Dự án Doanh nghiệp Đã tạo — theo dõi sự kiện cho việc tạo phần tử dự án doanh nghiệp mới."
+keywords:
+  - phần tử dự án
+  - project element
+  - tạo mới
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

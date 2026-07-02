@@ -1,6 +1,12 @@
 ---
 name: D_CUSTOMERRETURNITEMCREATED
 description: D Customerreturnitemcreated
+semantic_en: "Returns Order Item Created — event tracking for creation of new line items within returns orders."
+semantic_vi: "Dòng Đơn hàng Trả hàng Đã tạo — theo dõi sự kiện cho việc tạo dòng đơn hàng trả hàng mới."
+keywords:
+  - dòng đơn hàng trả hàng
+  - returns item
+  - tạo mới
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

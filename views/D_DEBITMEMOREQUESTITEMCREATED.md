@@ -1,6 +1,13 @@
 ---
 name: D_DEBITMEMOREQUESTITEMCREATED
 description: D Debitmemorequestitemcreated
+semantic_en: "Debit Memo Request Item Created event — signature view for new line-item creation within debit memo requests by Product and SoldToParty"
+semantic_vi: "Sự kiện mục yêu cầu ghi nợ được tạo mới — ghi nhận thêm mục hàng mới theo sản phẩm"
+keywords:
+  - mục yêu cầu ghi nợ
+  - tạo mới
+  - mục hàng
+  - sự kiện
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

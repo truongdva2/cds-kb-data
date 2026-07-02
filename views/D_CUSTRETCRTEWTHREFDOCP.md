@@ -1,6 +1,13 @@
 ---
 name: D_CUSTRETCRTEWTHREFDOCP
 description: D Custretcrtewthrefdocp
+semantic_en: "Action Parameter: Create Customer Return with Reference Header — parameter set for creating returns orders referencing header information from existing sales documents."
+semantic_vi: "Tham số Hành động: Tạo Đơn hàng Trả hàng với Tham chiếu Tiêu đề — tập tham số cho việc tạo đơn hàng trả hàng tham chiếu tài liệu bán hàng hiện có."
+keywords:
+  - create returns order
+  - tham số hành động
+  - tham chiếu
+  - reference
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

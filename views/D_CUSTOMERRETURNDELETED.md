@@ -1,6 +1,12 @@
 ---
 name: D_CUSTOMERRETURNDELETED
 description: D Customerreturndeleted
+semantic_en: "Returns Order Deleted — event tracking for deletion of customer returns orders."
+semantic_vi: "Đơn hàng Trả hàng Đã xóa — theo dõi sự kiện cho việc xóa đơn hàng trả hàng."
+keywords:
+  - đơn hàng trả hàng
+  - returns order
+  - xóa
 app_component: SD-SLS-RE-2CL
 software_component: SAPSCORE
 release_state: released

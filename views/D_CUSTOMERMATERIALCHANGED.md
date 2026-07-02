@@ -1,6 +1,12 @@
 ---
 name: D_CUSTOMERMATERIALCHANGED
 description: D Customermaterialchanged
+semantic_en: "Customer Material Changed — event tracking for changes to customer-specific material assignments including delivery priority and minimum quantity per plant."
+semantic_vi: "Vật tư Khách hàng Đã thay đổi — theo dõi sự kiện cho các thay đổi của các gán vật tư cụ thể cho khách hàng."
+keywords:
+  - vật tư khách hàng
+  - tư liệu khách hàng
+  - thay đổi vật tư
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

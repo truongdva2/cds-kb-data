@@ -1,6 +1,13 @@
 ---
 name: D_DEBITMEMOREQORDBILLGSTSCHGD
 description: D Debitmemoreqordbillgstschgd
+semantic_en: "Debit Memo Request Overall Order-Related Billing Status Change event — captures aggregate billing state transitions across all items by Organization and SoldToParty"
+semantic_vi: "Sự kiện thay đổi trạng thái hóa đơn liên quan đơn hàng toàn bộ — ghi lại chuyển trạng thái hóa đơn tổng hợp theo tổ chức và bên mua"
+keywords:
+  - yêu cầu ghi nợ
+  - hóa đơn toàn bộ
+  - đơn hàng
+  - trạng thái
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

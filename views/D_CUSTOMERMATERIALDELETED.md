@@ -1,6 +1,11 @@
 ---
 name: D_CUSTOMERMATERIALDELETED
 description: D Customermaterialdeleted
+semantic_en: "Customer Material Deleted — event tracking for removal of customer-specific material assignments."
+semantic_vi: "Vật tư Khách hàng Đã xóa — theo dõi sự kiện cho việc xóa gán vật tư cụ thể cho khách hàng."
+keywords:
+  - vật tư khách hàng
+  - xóa gán vật tư
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

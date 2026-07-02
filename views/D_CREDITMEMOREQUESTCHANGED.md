@@ -1,6 +1,12 @@
 ---
 name: D_CREDITMEMOREQUESTCHANGED
 description: D Creditmemorequestchanged
+semantic_en: "Credit Memo Request Changed — event tracking for modifications to credit memo requests across sales organization, distribution channel, and sold-to party."
+semantic_vi: "Yêu cầu Ghi nợ Trả tiền Đã thay đổi — theo dõi sự kiện cho các sửa đổi của yêu cầu ghi nợ trả tiền."
+keywords:
+  - yêu cầu ghi nợ trả tiền
+  - thay đổi
+  - event tracking
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

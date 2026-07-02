@@ -1,6 +1,12 @@
 ---
 name: D_ENTPROJENTPROJELMNTCHGD
 description: D Entprojentprojelmntchgd
+semantic_en: "Enterprise Project Element Changed — event tracking for modifications to enterprise project elements by project element identifier."
+semantic_vi: "Phần tử Dự án Doanh nghiệp Đã thay đổi — theo dõi sự kiện cho các sửa đổi của phần tử dự án doanh nghiệp."
+keywords:
+  - phần tử dự án
+  - project element
+  - thay đổi
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released
